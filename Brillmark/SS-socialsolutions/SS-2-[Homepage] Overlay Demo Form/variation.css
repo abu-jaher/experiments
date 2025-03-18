@@ -1,0 +1,224 @@
+@media screen and (min-width: 1080px){
+    
+    html body.fe-ss2 {
+        position: relative;
+    }
+
+    html body .fe_modal {
+        display: none;
+    }
+
+    html body .fe_modal.fe-show {
+        display: block;
+    }
+
+    html body .fe_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,61,80,0.7);
+        z-index: 99999;
+    }
+
+    html body .fe_form_wrapper {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        z-index: 99999;
+        max-width: 990px;
+        width: 100%;
+        display: flex;
+        border-radius: 8px;
+        overflow-x: hidden;
+        max-height: 100%;
+    }
+
+    html body .fe_modal .fe_close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        max-width: 50px;
+        cursor: pointer;
+    }
+
+    html body .fe_modal .fe_form{
+        max-width: 575px;
+        width: 100%;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    html body .fe_modal .fe_desc {
+        max-width: 415px;
+        width: 100%;
+    }
+
+
+    /* *********************************saif**************************************** */
+
+    html body .fe_modal .fe_form h3 {
+        color: #003d4b;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    html body .fe_modal .fe_form p {
+        color: #567f88;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    html body .fe_modal .fe_form_field{
+        max-width: 480px;
+        margin: auto;
+    }
+
+    html body .fe_modal .mktoForm .mktoRequiredField .mktoAsterix, 
+    html body .fe_modal .mktoForm .mktoFormRow label:not(#LbloptIn){
+        display: none;
+    }
+
+    html body .fe_modal #FirstName,
+    html body .fe_modal #LastName,
+    html body .fe_modal #Email,
+    html body .fe_modal #Company,
+    html body .fe_modal #Phone,
+    html body .fe_modal #Country {
+        width: 220px !important;
+        margin-left: 0;
+    }
+
+    html body .fe_modal #LblIndustry{
+        width: 100% !important;
+        margin-left: 10px;
+    }
+
+    html body .fe_modal .mktoForm #State,
+    html body .fe_modal .mktoForm #Industry{
+        margin-left: 0;
+    }
+
+    html body .fe_modal .mktoForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    html body .fe_modal .mktoForm #Industry,
+    html body .fe_modal .mktoForm #industryType{
+        width: 460px !important;
+        margin-left: 0;
+    }
+
+    html body .fe_modal .mktoForm select,
+    html body .fe_modal .mktoForm input{
+        padding-left: 20px !important;
+        width: 460px !important;
+        height: 40px;
+        background-blend-mode: normal;
+    }
+
+    html body .fe_modal select:after {
+        content: "";
+        margin: 0 0.5em;
+        display: inline-block;
+        border: 7px solid transparent;
+        border-top: 8px solid gray;
+        border-bottom: 0 none;
+    }
+
+    html body .fe_modal .fe_desc {
+        background-image: url(https://d27c6j8064skg9.cloudfront.net/FE/SS/02/split_card_bg.png);
+        background-repeat: no-repeat;
+        padding: 45px 0 50px 50px;
+        background-size: cover;
+    }
+
+    html body .fe_modal .fe-para {
+        color: #003d50;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-top: 56px;
+        margin-bottom: 40px;
+    }
+
+    html body .fe_modal .fe-para span {
+        color: #20907f;
+    }
+
+    html body .fe_modal .mktoButtonWrap.mktoPurpleCandy {
+        margin-left: 0 !important;
+    }
+
+    html body .fe_modal .mktoButtonRow {
+        width: 100%;
+        text-align: center;
+    }
+
+    html body .fe_modal .mktoButtonRow button{
+        width: auto !important;
+        font-size: 16px !important;
+        border-radius: 50px !important;
+        padding: 10px 30px !important;
+        font-size: 16px !important;
+        line-height: 1.5em !important;
+        text-decoration: none;
+        cursor: pointer;
+        -webkit-transition: .2s;
+        transition: .2s;
+        font-weight: 400 !important;
+        background-color: #20907F !important;
+        background: #20907F !important;
+        background-image: #20907F !important;
+        display: inline-block;
+        font-family: Graphik,helvetica,sans-serif !important;
+        text-shadow: none !important;
+    }
+
+    html body .mktoForm #LbloptIn{
+        font-size: 13px;
+        width: max-content !important;
+        float: right;
+    }
+
+    html body .mktoForm .mktoLogicalField{
+        width: 0 !important;
+        padding: 0;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    html body .mktoForm .mktoLogicalField input{
+        width: 13px !important;
+        height: auto;
+    }
+
+    html body .fe_modal .fe_reviewer {
+        line-height: 14px;
+        margin: 0;
+    }
+
+    html body .fe_modal .fe_reviewer .fe-name{
+        font-size: 14px;
+        color: #20907f;
+    }
+
+    html body .fe_modal .fe_reviewer .fe-designation{
+        font-size: 12px;
+    }
+
+    html body .fe_modal .mktoForm .mktoRequiredField select:not([aria-invalid="false"]),
+    html body .fe_modal .mktoForm .mktoRequiredField input::placeholder{
+        color: #636364;
+    }
+
+}

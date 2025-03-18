@@ -1,0 +1,111 @@
+::-webkit-input-placeholder{opacity:1}
+::-moz-placeholder{opacity:1}
+:-moz-placeholder{opacity:1}
+:-ms-input-placeholder{opacity:1}
+::placeholder{opacity:1}
+html body{opacity:0;visibility:hidden}
+html body.ss-7{opacity:1;visibility:visible}
+html body.ss-7 .tab-mob-only{display:none}
+html body.ss-7 .hide{display:none!important}
+html body.ss-7 .header-primary-secondary{display:none!important}
+html body.ss-7 #wpfront-notification-bar-table tbody{display:none}
+html body.ss-7 .wp-block-ws-card.card .mktoFormRow label:not(#LbloptIn){display:none}
+html body.ss-7 .desktop-nav{padding:19px 13px}
+html body.ss-7 .desktop-nav .logo svg{width:214px;height:44px}
+html body.ss-7 .card-body .mktoFormRow{max-width:500px;width:100%}
+html body.ss-7 .wp-block-ws-section{padding-top:39px;padding-bottom:0}
+html body.ss-7 .wp-block-ws-section .block-background{top:-200px;height:816px}
+html body.ss-7 .wp-block-ws-section .block-background .block-background-media{background-image:url(https://www.socialsolutions.com/wp-content/uploads/2021/03/Dark_Transition-Small.png)!important;background-position:100% 0!important;background-repeat:no-repeat;-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
+html body.ss-7 .header-scroll-top .desktop-nav,html body.ss-7 .header-scroll-top .desktop-nav{background:transparent!important}  
+html body.ss-7 .header-not-scroll-top .desktop-nav,html body.ss-7 .header-not-scroll-top .desktop-nav{background:#fff!important}
+html body.ss-7 .site-header.header-scroll-top .desktop-nav .logo .cls-1,html body.ss-7 .site-header.header-scroll-top .logo .cls-1{fill:#ffffff!important}
+html body.ss-7 .wp-block-ws-page-title,html body.ss-7 h1.tab-mob-only.title{color:#fff;font-size:36px;font-weight:700;line-height:43px;padding-bottom:10px;border-bottom:1px solid #fff;margin:0 0 20px}
+html body.ss-7 .fe-subheading{color:#fff;font-size:16px;font-weight:400;line-height:18px;margin-bottom:23px;padding-right:10px}
+html body.ss-7 .fe-subheading+.wp-block-separator{display:none}
+.wp-block-ws-section.has-background .wp-block-ws-split-half>p:not(.fe-subheading),html body.ss-7 .fe-request-demo-cta,html body.ss-7 .header-primary-secondary,html body.ss-7 .mobile-nav .hamburger,html body.ss-7 .site-footer .footer-main{display:none!important}
+html body.ss-7 .wp-block-ws-section.has-background .wp-block-ws-split-half>ul{margin:0}
+html body.ss-7 .wp-block-ws-section.has-background .wp-block-ws-split-half>ul li{color:#fff;font-size:16px;font-weight:400;line-height:19px;list-style:none;position:relative;padding-left:31px;margin-bottom:19px}
+html body.ss-7 .wp-block-ws-section.has-background .wp-block-ws-split-half>ul li:before{content:"•";font-size:57px;vertical-align:top;padding-right:7px;position:absolute;left:0;top:-4px}
+html body.ss-7 .card .card-body>:not(.row):not(.wp-block-ws-split):first-child{display:none}
+html body.ss-7 .fe-form-heading{font-size:24px;font-weight:700;text-align:center;color:#003d50;margin-bottom:20px}
+html body.ss-7 .fe-form-heading br{display:none}
+html body.ss-7 .wp-block-ws-card.card .card-body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-shadow:0 1px 4px rgb(0 0 0 / 50%);box-shadow:0 1px 4px rgb(0 0 0 / 50%)}
+html body.ss-7 .wp-block-ws-section.has-background+.fe-circle-content{display:none}
+html body.ss-7 .fe-firstRow-mktfrm,html body.ss-7 .fe-secondRow-mktfrm,html body.ss-7 .fe-thirdRow-mktfrm{display:-webkit-box;display:-ms-flexbox;display:flex}
+html body.ss-7 .fe-firstRow-mktfrm input,html body.ss-7 .fe-secondRow-mktfrm input,html body.ss-7 .fe-thirdRow-mktfrm input,html body.ss-7 .fe-thirdRow-mktfrm select{max-width:200px;width:100%!important}
+html body.ss-7 .mktoForm input[type=date],html body.ss-7 .mktoForm input[type=email],html body.ss-7 .mktoForm input[type=number],html body.ss-7 .mktoForm input[type=tel],html body.ss-7 .mktoForm input[type=text],html body.ss-7 .mktoForm input[type=url],html body.ss-7 .mktoForm select.mktoField,html body.ss-7 .mktoForm textarea.mktoField{font-size:14px;font-weight:500;line-height:18px;height:39.33px;padding:0 10px}
+html body.ss-7 .mktoForm #NumberOfEmployees,html body.ss-7 .mktoForm #State,html body.ss-7 .mktoForm #industryType{max-width:435px;width:100%!important}
+html body.ss-7 .mktoForm .mktoGutter{display:none}
+html body.ss-7 .mktoForm .mktoRequiredField input::-webkit-input-placeholder{color:#003d50}
+html body.ss-7 .mktoForm .mktoRequiredField input::-moz-placeholder{color:#003d50}
+html body.ss-7 .mktoForm .mktoRequiredField input:-ms-input-placeholder{color:#003d50}
+html body.ss-7 .mktoForm .mktoRequiredField input::-ms-input-placeholder{color:#003d50}
+html body.ss-7 .mktoForm .mktoRequiredField input::placeholder{color:#003d50}
+html body.ss-7 .card-body [type=submit]{border-radius:50px!important;width:180px!important;line-height:24px!important}
+html body.ss-7 .wp-block-ws-split-half .wp-block-ws-card.card{border-radius:8px}
+html body.ss-7 .card-body .mktoPurpleCandy{margin-left:0!important}
+html body.ss-7 .wp-block-ws-form .mktoButtonRow{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+html body.ss-7 .mktoForm .fe-wrap .mktoFormRow:last-child{margin-left:13px}
+html body.ss-7 .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover{background-color:#20907f!important;background-image:none!important}
+html body.ss-7 .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton{font-family:Graphik,helvetica,sans-serif;font-size:15px;line-height:19px!important;text-shadow:none;font-weight:600;width:174px!important;border-radius: 4px !important}
+html body.ss-7 .site-header .logo{padding-right:0;padding-left:0}
+html body.ss-7 .mktoForm select{width:100%!important;height:39.33px;margin:0 0;border:1px solid #ddd;border-radius:0;color:#003d50;font-weight:400;background-color:#fff;line-height:1.5em;position:relative;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%23003D50' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M.1 6.9L1.9 5 12 15.3 22.1 5l1.8 1.8L12 19 .1 6.9z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:95% 50%;background-position:calc(100% - 20px) 50%;background-size:16px 16px;padding:20px 41px 20px 20px;padding-right:46px!important}
+html body.ss-7 .fe-auth-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:539px;width:100%;margin-top:30px;-webkit-box-shadow:0 1px 4px rgb(0 0 0 / 50%);box-shadow:0 1px 4px rgb(0 0 0 / 50%)}
+html body.ss-7 .fe-auth-wrapper .auth-img{max-width:204px;width:100%;-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}
+html body.ss-7 .fe-auth-wrapper .content{max-width: 355px;width: 100%;background-image:url(https://www.socialsolutions.com/wp-content/themes/_ws/assets/split_card_bg.png);background-size:170%;padding:0 39.19px;min-height:204px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+html body.ss-7 .fe-auth-wrapper .content p{font-family:Graphik,helvetica,sans-serif;font-size:14px;line-height:18px!important;font-weight:500;color:#003d50;margin:0;text-align:center}
+html body.ss-7 .site-footer{margin-top:200px}
+@media(max-width:1079.98px){
+html body.ss-7 .site-footer{margin-top:126px}   
+html body.ss-7 .tab-mob-only{display:block}
+html body.ss-7 .wp-block-ws-page-title{display:none}
+html body.ss-7 h1.tab-mob-only.title{border-bottom:none;width:80%}
+html body.ss-7 .wp-block-ws-section.has-background .wp-block-ws-split-half>p:not(.fe-subheading):nth-child(2){display:block!important;font-size:18px;line-height:22px;color:#003d50;font-weight:500;margin-bottom:21px}
+html body.ss-7 .wp-block-ws-section .section-inner>:first-child{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
+html body.ss-7 .wp-block-ws-split-half .wp-block-ws-card.card{margin-bottom:38px}
+html body.ss-7 .wp-block-ws-section.has-background .wp-block-ws-split-half .is-layout-flex.wp-block-buttons.mobile_only{display:none!important}
+html body.ss-7 .fe-subheading{color:#003d50;font-size:18px;font-weight:400;line-height:22px}
+html body.ss-7 .wp-block-ws-section.has-background .wp-block-ws-split-half>ul li{color:#003d50;font-size:18px;font-weight:400;line-height:23px;margin-bottom:21.9px}
+html body.ss-7 .fe-firstRow-mktfrm,html body.ss-7 .fe-secondRow-mktfrm,html body.ss-7 .fe-thirdRow-mktfrm{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+html body.ss-7 .mktoForm .fe-wrap .mktoFormRow:last-child{margin-left:0}
+html body.ss-7 .card-body .mktoFormRow{max-width:500px}
+html body.ss-7 .fe-firstRow-mktfrm input,html body.ss-7 .fe-secondRow-mktfrm input,html body.ss-7 .fe-thirdRow-mktfrm input,html body.ss-7 .fe-thirdRow-mktfrm select{max-width:100%}
+html body.ss-7 .mktoForm #NumberOfEmployees,html body.ss-7 .mktoForm #State,html body.ss-7 .mktoForm #industryType,html body.ss-7 .wp-block-ws-card.card .card-body .wp-block-ws-form{max-width:500px;width:100%}
+html body.ss-7 .fe-auth-wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin:30px auto 100px;-webkit-box-shadow:none;box-shadow:none}
+html body.ss-7 .fe-auth-wrapper .auth-img{max-width:299px;border-radius:50%}
+html body.ss-7 .fe-auth-wrapper .content{padding:0 23px;min-height:150px;position:absolute;bottom:110px;max-width:calc(100% - 40px);width:100%;-webkit-box-shadow:0 1px 4px rgb(0 0 0 / 50%);box-shadow:0 1px 4px rgb(0 0 0 / 50%)}
+html body.ss-7 .download-ebook-cta{max-width:256px;width:100%;margin:0 auto;text-align:center;text-decoration:none;padding:0 19px;font-size:16px;line-height:24px!important;text-shadow:none;font-weight:500;background:#20907f;color:#fff;height:46px;border-radius:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+html body.ss-7 .download-ebook-ctan:hover{background-color:#20907f!important;-webkit-box-shadow:inset 0 0 0 2px #dc8a5e;box-shadow:inset 0 0 0 2px #dc8a5e}
+}
+html body.ss-7 .mktoForm .mktoFormRow[input-name=parent-optIn] .mktoFieldWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+html body.ss-7 .mktoForm .mktoCheckboxList{width:auto!important}
+html body.ss-7 .mktoForm .mktoFormRow #optIn{width:20px!important}
+html body.ss-7 .mktoForm .mktoFormRow #LbloptIn{width:100%!important;padding:0;color:#003d50;font-weight:500;font-size:14px;line-height:18px}
+@media(max-width:767.98px){
+html body.ss-7 h1.tab-mob-only.title{font-size:33px;font-weight:700;line-height:38px;text-align:center;width:100%}
+html body.ss-7 .wp-block-ws-section .block-background{height:680px}
+/* html body.ss-7 .fe-auth-wrapper .content p{font-weight:300} */
+html body.ss-7 .fe-auth-wrapper .content p .bold-text{font-weight:600}
+html body.ss-7 .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton{width:192px !important}
+}
+@media(max-width:480px){
+html body.ss-7 .wp-block-ws-section .section-container{padding-right:13px;padding-left:13px}
+html body.ss-7 .wp-block-ws-section .section-inner>:first-child{margin:0}
+html body.ss-7 .wp-block-ws-split>.wp-block-ws-split-half{padding-left:0;padding-right:0}
+html body.ss-7 h1.tab-mob-only.title{font-size:26px}
+html body.ss-7 .wp-block-ws-card.card .card-body{padding:40px 20px 10px}
+html body.ss-7 .wp-block-ws-form form{padding:0}
+html body.ss-7 .mktoForm input[type=date],html body.ss-7 .mktoForm input[type=email],html body.ss-7 .mktoForm input[type=number],html body.ss-7 .mktoForm input[type=tel],html body.ss-7 .mktoForm input[type=text],html body.ss-7 .mktoForm input[type=url],html body.ss-7 .mktoForm select.mktoField,html body.ss-7 .mktoForm textarea.mktoField{margin-bottom:20px}
+html body.ss-7 .wp-block-ws-form .mktoButtonRow{margin:0!important}
+html body.ss-7 .fe-auth-wrapper .content{min-height:175px}
+html body.ss-7 .mktoForm .mktoFormRow[input-name=parent-optIn] .mktoFieldWrap{margin-bottom:15px}
+}
+@media(max-width:374.98px){
+html body.ss-7 .mktoForm input[type=date],html body.ss-7 .mktoForm input[type=email],html body.ss-7 .mktoForm input[type=number],html body.ss-7 .mktoForm input[type=tel],html body.ss-7 .mktoForm input[type=text],html body.ss-7 .mktoForm input[type=url],html body.ss-7 .mktoForm select.mktoField,html body.ss-7 .mktoForm textarea.mktoField{font-size:12px}
+html body.ss-7 .fe-auth-wrapper .auth-img {max-width: 240px}
+html body.ss-7 .fe-auth-wrapper .content {bottom: 80px}
+html body.ss-7 .fe-auth-wrapper .content p{font-size:12px}
+}
+@media(min-width:1080px) and (min-height:820px){
+html body.ss-7 .site-footer{position: absolute;max-width: 1920px;width:100%;bottom: 0}	
+}

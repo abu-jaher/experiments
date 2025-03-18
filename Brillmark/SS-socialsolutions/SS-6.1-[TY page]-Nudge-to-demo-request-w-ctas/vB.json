@@ -1,0 +1,10 @@
+{
+  "files": ["./variationB/variation.css", "./variationB/variation.js"],
+  "urls": [
+    "/thank-you-webinar/",
+    "/thank-you-ebook-create-reports-funders-want-to-see/",
+    "/thank-you-case-study-kahnawake/",
+    "/thank-you/"
+  ],
+  "inject": ""
+}

@@ -1,0 +1,536 @@
+html body .header-primary-secondary{
+    display: none !important;
+}
+html body #wpfront-notification-bar-table tbody{
+    display: none;
+}
+html body .wp-block-ws-card.card .mktoFormRow label{
+    display: none;
+}
+html body .desktop-nav{
+    padding: 19px 13px;
+}
+html body .desktop-nav .logo svg {
+    width: 244px;
+}
+html body .card-body .mktoFormRow {
+    width: 500px;
+}
+
+html body .wp-block-ws-section.has-background .block-background .block-background-media {
+    background-image: url(https://www.socialsolutions.com/wp-content/uploads/2021/03/Dark_Transition-Small.png) !important;
+    transform: scale(1, -1);
+    /* position: relative;  */
+    /* background-image: url(https://d27c6j8064skg9.cloudfront.net/FE/SS/5.1/desktopBackground.png) !important; */
+}
+html body .wp-block-ws-section.has-background {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+html body .wp-block-ws-section.has-background h1.wp-block-ws-page-title{
+    margin: 30px 0 48px;
+}
+html body .wp-block-ws-section.has-background h1.wp-block-ws-page-title br{
+    display: none;
+}
+html body .wp-block-ws-section.has-background .block-background {
+    top: -200px !important;
+}
+html body .wp-block-ws-section.has-background .block-background .block-background-media:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 100%;
+    height: 10px;
+    top: -7px;
+    left: 0px;
+    z-index: 9999999999;
+}
+html body .site-header.header-scroll-top .desktop-nav .logo .cls-1,
+html body .site-header.header-scroll-top .logo .cls-1 {
+    fill: #ffffff !important;
+}
+html body .wp-block-ws-page-title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+html body .fe-subheading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+html body .fe-subheading+.wp-block-separator {
+    display: none;
+}
+html body .mobile-nav .hamburger, html body .site-footer .footer-main, html body .header-primary-secondary, html body .fe-request-demo-cta, .wp-block-ws-section.has-background .wp-block-ws-split-half>p:not(.fe-subheading) {
+    display: none !important;
+}
+html body .wp-block-ws-section.has-background .wp-block-ws-split-half>ul{
+    margin: 0;
+}
+html body .wp-block-ws-section.has-background .wp-block-ws-split-half>ul li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+    padding-top: -2px;
+    position: relative;
+    padding-left: 31px;
+    margin-top: 15px;
+}
+html body .wp-block-ws-section.has-background .wp-block-ws-split-half>ul li:before{
+    content:"•";
+    font-size: 57px;
+    vertical-align:top;
+    padding-right:7px;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+html body .fe-circle-content .fe-circle-img{
+    position: relative;
+    max-width: 117px;
+    width: 100%;
+} 
+html body .fe-circle-content .fe-circle-text{
+    position: absolute;
+    top: 0;
+    color: #20907F;
+    font-size: 36px;
+    top: 54%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    line-height: 40px;
+    font-family: Graphik,helvetica,sans-serif;
+} 
+html body .fe-circle-content, 
+html body .fe-circle-content .fe-circle-up{
+    display: flex;
+    gap: 70px;
+} 
+html body .fe-circle-content{
+    margin-top: 48px;
+}
+html body .fe-circle-content .fe-logo-text{   
+    color: #20907F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+html body .fe-serving-logo-content{
+    margin-top: 105px;
+
+}
+html body .fe-serving-logo-content .fe-servingLogo-headline{
+    text-align: center;
+    color: #003E4F;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+}
+html body .fe-serving-logo-content .fe-servingLogo-headline br{
+    display: none;
+}
+html body .fe-serving-logo-content .fe-serving-logo{
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+    margin: 41px 0 110px;
+}
+
+html body .fe-serving-logo-content .fe-serving-logo .fe-logo-1{
+    width: 138px;
+}
+html body .fe-serving-logo-content .fe-serving-logo .fe-logo-3{
+    width: 174px;
+}
+html body .fe-serving-logo-content .fe-serving-logo .fe-logo-5{
+    width: 211px;
+}
+html body .fe-serving-logo-content .fe-serving-logo .fe-logo-4{
+    width: 250px;
+}
+/* // Form work */
+html body .card .card-body>:not(.row):not(.wp-block-ws-split):first-child{
+    display: none;
+}
+html body .fe-form-heading{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #003d50;
+    margin-bottom: 20px;
+}
+html body .fe-form-heading br{
+    display: none;
+}
+html body .fe-circle-down .fe-circles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html body .fe-circle-content .fe-third-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -16px;
+}
+html body .wp-block-ws-card.card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 50%);
+}
+
+html body .wp-block-ws-section.has-background + .fe-circle-content{
+    display: none;
+}
+html body .fe-firstRow-mktfrm,
+html body .fe-secondRow-mktfrm,
+html body .fe-thirdRow-mktfrm{
+    display: flex;
+}
+html body .fe-firstRow-mktfrm input,
+html body .fe-secondRow-mktfrm input,
+html body .fe-thirdRow-mktfrm input,
+html body .fe-thirdRow-mktfrm select{
+    max-width: 210px;
+    width: 100% !important;
+}
+html body .mktoForm input[type=text],
+html body .mktoForm input[type=url],
+html body .mktoForm input[type=email],
+html body .mktoForm input[type=tel],
+html body .mktoForm input[type=number],
+html body .mktoForm input[type=date], 
+html body .mktoForm textarea.mktoField,
+html body .mktoForm select.mktoField {
+    padding: 10px;
+}
+html body .mktoForm #industryType,
+html body .mktoForm #jobDepartment,
+html body .mktoForm #jobLevel,
+html body .mktoForm #Industry, 
+html body .mktoForm #State{
+    max-width: 435px;
+    width: 100% !important;
+}
+html body .mktoForm .mktoRequiredField input::placeholder{
+    color: #003D50;
+}
+html body .card-body [type='submit']{
+    border-radius: 50px !important;
+    width: 180px !important;
+    line-height: 24px !important;
+}
+html body .wp-block-ws-split-half .wp-block-ws-card.card{
+    border-radius: 8px;
+}
+html body .card-body .mktoPurpleCandy{
+    margin-left: 0 !important;
+}
+html body .wp-block-ws-form .mktoButtonRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover{
+    background-color: #20907F !important;
+    background-image: none !important;
+}
+html body .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton{
+    font-family: Graphik,helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 24px !important;
+    text-shadow: none;
+    font-weight: 400;
+    width: 200px !important;
+}
+html body .site-header .logo {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media(min-width: 1300px){
+    html body .wp-block-ws-split.variant-large-left.split-padding>.wp-block-ws-split-half:nth-child(2) {
+        margin-left: 30px;
+    }
+    html body .wp-block-ws-split.variant-large-left>.wp-block-ws-split-half:nth-child(2) {
+        max-width: 610px;
+        width: 100%;
+    }
+    html body .wp-block-ws-split-half .wp-block-ws-card.card {
+        max-width: 570px;
+        width: 100%;
+    }
+    html body .fe-firstRow-mktfrm input,
+    html body .fe-secondRow-mktfrm input,
+    html body .fe-thirdRow-mktfrm input,
+    html body .fe-thirdRow-mktfrm select{
+        max-width: 230px;
+        width: 100% !important;
+    }
+    html body .mktoForm #industryType,
+    html body .mktoForm #jobDepartment,
+    html body .mktoForm #jobLevel,
+    html body .mktoForm #Industry, 
+    html body .mktoForm #State
+    {
+        max-width: 474px;
+        width: 100% !important;
+    }
+    html body .wp-block-ws-section.has-background h1.wp-block-ws-page-title br{
+        display: block;
+    }
+    html body .site-container .site-header{
+        margin-bottom: 40px;
+    }
+    html body .wp-block-ws-section.has-background .block-background {
+        height: 816px;
+    }
+}
+@media(min-width: 1080px) and (max-width: 1299px){
+    html body .wp-block-ws-split-half .wp-block-ws-card.card{
+        width: 505px;
+    }
+    html body .fe-firstRow-mktfrm input, html body .fe-secondRow-mktfrm input, html body .fe-thirdRow-mktfrm input, html body .fe-thirdRow-mktfrm select {
+        max-width: 200px;
+    }
+    html body .mktoForm #industryType,
+    html body .mktoForm #jobDepartment,
+    html body .mktoForm #jobLevel,
+    html body .mktoForm #Industry,
+    html body .mktoForm #State
+    {
+        width: 413px !important;
+    }
+    html body .fe-circle-content, html body .fe-circle-content .fe-circle-up {
+        gap: 32px;
+    }
+    html body .site-container .site-header {
+        margin-bottom: 40px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo {
+        gap: 35px;
+    }
+    html body .wp-block-ws-section.has-background .block-background {
+        height: 816px;
+    }
+}
+@media screen and (min-width: 767px){
+    html body .wp-block-ws-section.has-background .block-background .block-background-media {
+        background-position: 100% 0% !important;
+        position: relative;
+        top: -30px;
+    }
+    
+}
+@media(max-width: 1079px){
+    html body .wp-block-ws-section.has-background .fe-circle-content{
+        display: none;
+    }
+    html body .wp-block-ws-section.has-background + .fe-circle-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    html body .wp-block-ws-section.has-background + .fe-circle-content .fe-circle-up{
+        gap: 90px;
+    } 
+    html body .wp-block-ws-section.has-background + .fe-circle-content{
+        gap: 0;
+        padding: 0 22px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo {
+        flex-direction: column;
+        align-items: center;
+    }
+    html body .wp-block-ws-section.has-background .wp-block-ws-split-half>ul {
+        margin-bottom: 63px;
+    }
+    html body .fe-firstRow-mktfrm,
+    html body .fe-secondRow-mktfrm,
+    html body .fe-thirdRow-mktfrm{
+        flex-direction: column;
+    }
+    html body .card-body .mktoFormRow{
+        width: 500px;
+    }
+    html body .mktoForm #industryType,
+    html body .mktoForm #jobDepartment,
+    html body .mktoForm #jobLevel,
+    html body .mktoForm #Industry,
+    html body .mktoForm #State{
+        max-width: 500px;
+        width: 100% !important;
+    }
+    html body .fe-firstRow-mktfrm input, html body .fe-secondRow-mktfrm input, html body .fe-thirdRow-mktfrm input, html body .fe-thirdRow-mktfrm select {
+        max-width: 500px;
+        width: 100% !important;
+    }
+    html body .fe-serving-logo-content {
+        margin-top: 55px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo {
+        margin-bottom: 78px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo {
+        gap: 65px;
+    }
+    html body #wpfront-notification-bar-table tbody{
+        display: flex;
+    }
+    html body .wp-block-ws-section.has-background h1.wp-block-ws-page-title {
+        margin: 40px 0;
+        font-size: 40px;
+    }
+    html body .card-body .mktoOffset{
+        width: 0 !important;
+    }
+    html body .wp-block-ws-section.has-background .block-background .block-background-media {
+        position: relative;
+        top: -450px;
+    }
+}
+@media(max-width: 767px){
+    html body .mktoForm #industryType,
+    html body .mktoForm #jobDepartment,
+    html body .mktoForm #jobLevel,
+    html body .mktoForm #Industry,
+    html body .mktoForm #State
+    {
+        max-width: 360px;
+        width: 100% !important;
+    }
+    html body .card-body .mktoFormRow{
+        width: 360px;
+    }
+    html body .fe-firstRow-mktfrm input, html body .fe-secondRow-mktfrm input, html body .fe-thirdRow-mktfrm input, html body .fe-thirdRow-mktfrm select {
+        max-width: 360px;
+        width: 100%;
+    }
+    html body .wp-block-ws-split>.wp-block-ws-split-half {
+        padding: 0;
+    }
+    html body .card-body .wp-block-ws-form form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    html body .fe-serving-logo-content .fe-servingLogo-headline br{
+        display: block;
+    }
+    html body .fe-form-heading br{
+        display: block;
+    }
+    html body .card .card-body{
+        padding: 32px 40px 0;
+    }
+    html body .fe-serving-logo-content .fe-servingLogo-headline {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo .fe-logo-3{
+        order: 1;
+        width: 275px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo .fe-logo-1{
+        order: 2;
+        width: 273px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo .fe-logo-5{
+        order: 3;
+        width: 255px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo .fe-logo-4{
+        order: 4;
+        width: 270px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo .fe-logo-2{
+        order: 5;
+        width: 170px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo {
+        gap: 75px;
+    }
+    html body .fe-serving-logo-content .fe-serving-logo {
+        margin-top: 60px;
+    }
+}
+@media(max-width: 480px){
+    html body .card .card-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    html body .mktoForm .mktoFormRow .mktoField {
+        width: 100% !important;
+        margin-top: 20px;
+        height: 40px;
+        padding: 4px 6px;
+    }
+    html body .fe-form-heading {
+        margin-bottom: 0;
+    }
+    html body .mktoForm .mktoFieldWrap {
+        margin-bottom: 0 !important;
+    }
+    html body .card-body .mktoFormRow {
+        width: 320px;
+    }
+    html body .mktoForm .mktoRequiredField input::placeholder, 
+    html body .mktoForm select#Country, 
+    html body .mktoForm  select#industryType,
+    html body .mktoForm select#jobDepartment,
+    html body .mktoForm select#jobLevel,
+    html body .mktoForm select#State,
+    html body .mktoForm select#Industry,
+    html body .mktoForm input[type=text],
+    html body .mktoForm input[type=email],
+    html body .mktoForm input[type=tel]
+    {
+        font-size: 14px
+    }
+    html body .mktoForm select#jobDepartment{
+        padding-right: 39px;
+    }
+
+}
+@media(max-width: 350px){
+    html body .card-body .mktoFormRow {
+        width: 290px;
+    }
+    html body .mktoForm .mktoRequiredField input::placeholder, 
+    html body .mktoForm select#Country, 
+    html body .mktoForm  select#industryType,
+    html body .mktoForm select#jobDepartment,
+    html body .mktoForm select#jobLevel,
+    html body .mktoForm select#State,
+    html body .mktoForm select#Industry, 
+    html body .mktoForm input[type=text],
+    html body .mktoForm input[type=email],
+    html body .mktoForm input[type=tel]
+    {
+        font-size: 12px
+    }
+    html body .wp-block-ws-section.has-background + .fe-circle-content .fe-circle-up {
+        gap: 40px;
+    }
+    html body .wp-block-ws-section.has-background .wp-block-ws-split-half>ul li {
+        font-size: 14px;
+    }
+    html body .mktoForm select#jobDepartment{
+        padding-right: 43px;
+    }
+}

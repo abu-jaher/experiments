@@ -1,0 +1,212 @@
+@media screen and (min-width:1080px) and (max-width:1299px){
+    section:nth-child(6) .wp-block-ws-split>.wp-block-ws-split-half:first-child {
+        -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+        max-width: 70%;
+    }
+}
+@media screen and (min-width: 1300px){
+    section:nth-child(6) .wp-block-ws-split>.wp-block-ws-split-half:first-child {
+        -ms-flex-preferred-size: 55% !important;
+        flex-basis: 55% !important;
+        max-width: 55% !important;
+    }
+}
+      html body section:nth-child(4) .wp-block-ws-split h2::after {
+        content: "How we can help you grow your impact";
+        font-size: 38px;
+        line-height: 1.3em;
+    }
+
+    html body section:nth-child(4) .wp-block-ws-split h2 {
+        font-size: 0;
+        margin-bottom: 60px;
+    }
+    html body section:nth-child(4) .wp-block-ws-split{
+        display: unset;
+    }
+    html body .wp-block-ws-section:nth-child(2) .wp-block-ws-layout-column:not(.col-6),
+    html body section:nth-child(4) .wp-block-ws-split .wp-block-ws-split-half:last-child {
+        display: none;
+    }
+
+    html body .wp-block-ws-section:nth-child(2) {
+        background-image: url('https://d27c6j8064skg9.cloudfront.net/FE/SS/04/background_image.png');
+        background-position: unset !important;
+    }
+    html body section:nth-child(4) .wp-block-ws-split .wp-block-ws-split-half:first-child{
+        max-width:100% !important;
+        padding-left: 0;
+    }   
+    html body section .wp-block-ws-layout-column h1.has-text-align-center {
+        font-size: 38px;
+        text-align: left !important;
+    }
+
+    html body section .wp-block-ws-layout-column p.has-text-align-center{
+        text-align: left !important;
+        color: #003D50 !important;
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+
+    html body .wp-block-buttons.has-text-align-center{
+        justify-content: unset;
+    }
+    html body section .wp-block-ws-layout-column .has-text-align-center .wp-block-button:not(.is-style-outline) a::after {
+        content:"Get a live demo";
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    html body section .wp-block-ws-layout-column .has-text-align-center .wp-block-button:not(.is-style-outline) a{
+        font-size: 0;
+    }   
+    /* social proof css */
+    html body .fe-social-proof{
+        display: flex;
+        align-items: center;
+        margin-top:30px;
+        gap:20px;
+    }
+    html body .fe-social-proof .social-badge{
+        width: 100%;
+    }
+
+    html body .fe-social-proof .wp-block-quote{
+        margin-bottom: 0;
+        padding-left:14px;
+        line-height: unset !important;
+    }
+    html body .fe-social-proof .wp-block-quote p{
+        font-size: 14px;
+        line-height: 18px;
+        color: #003D50;
+        margin-bottom: 15px;
+    }
+    html body .fe-social-proof .wp-block-quote em{
+        font-size: 16px;
+        line-height: 18px;
+        color: #003D50;
+        font-weight: 600;
+    }
+    html body .fe-social-proof >div:first-of-type{
+        width:100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    /* end social proof css */
+    html body section:nth-child(4) .wp-block-separator{
+        display: none;
+    }
+
+    html body .wp-block-ws-section:nth-child(4) .section-inner .wp-block-ws-layout-row .row {
+        display: block;
+    }
+    html body .wp-block-ws-section:nth-child(4) .section-inner .wp-block-ws-layout-row .row .wp-block-ws-layout-column {
+        max-width: 100%;
+    }
+
+    html body .wp-block-ws-section:nth-child(4) .condense h4{
+        margin-bottom: 10px;
+    }
+    html body section:nth-child(2){
+        padding-top:8vh;
+    }
+    @media (max-width: 575px) {
+        html body section .wp-block-ws-layout-column h1.has-text-align-center,
+        html body section .wp-block-ws-layout-column p.has-text-align-center{
+            text-align: center !important;
+        }
+        html body .wp-block-buttons.has-text-align-center{
+            justify-content: space-around;
+        }
+        html body section:nth-child(4) .wp-block-ws-split h2::after{
+            font-size: 34px;
+        }
+    }
+    @media (min-width:576px) {
+        html body .wp-block-ws-section:nth-child(4) .blue-dot,
+        html body .wp-block-ws-section:nth-child(4) .yellow-dot{
+        position: absolute;
+        }
+        html body .wp-block-ws-section:nth-child(4) .condense h4,
+        html body .wp-block-ws-section:nth-child(4) .condense p{
+        padding-left: 110px;
+        }
+    }
+    @media (min-width:1080px) {
+        html body section:nth-child(2) .row .wp-block-ws-layout-column.col-6{
+            flex-basis: 50% !important;
+            max-width: 50% !important;
+        }
+        html body .wp-block-ws-section:nth-child(4) .section-inner{
+            display: flex;
+            gap: 67px;
+        }
+        html body .wp-block-ws-section:nth-child(3){
+            display: none;
+        }
+        html body section:nth-child(2) .row .wp-block-ws-layout-column.col-6:last-child{
+            padding-top:50px;
+        }
+    }
+    @media screen and (max-width:1299px) and (min-width: 1080px){
+        html body section .wp-block-ws-layout-column p.has-text-align-center br{
+            display: none;
+        }
+    }
+    @media (max-width:1079px) {
+        html body .fe-hero-video{
+            display: none;
+        }
+        html body .fe-social-proof{
+            margin-bottom: 40px;
+        }
+        html body .fe-social-proof >div:first-of-type{
+            width:59%;
+        }
+    }
+
+    @media (max-width:676px) {
+        html body .fe-social-proof{
+            flex-direction: column;
+        }
+        html body .fe-social-proof .social-badge{
+            max-width: 199px;
+        }
+        html body .fe-social-proof .wp-block-quote p{
+            margin-bottom:10px;
+        }
+
+        html body .fe-social-proof >div:first-of-type {
+            width: 76%;
+            gap: 60px;
+            justify-content: center;
+        }
+        html body .fe-social-proof{
+            gap:35px;
+        }
+    }
+    @media (max-width:442px) {
+        html body .wp-block-ws-section:nth-child(2) .wp-block-button a {
+            padding: 10px 15px;
+        }
+        html body .wp-block-ws-section:nth-child(2) .wp-block-buttons .wp-block-button{
+            padding: 0;
+        }
+    }
+    @media (max-width:767px) {
+        html body section .wp-block-ws-layout-column h1.has-text-align-center{
+            font-size:36px;
+        }
+        html body section .wp-block-ws-layout-column p.has-text-align-center br,
+        html body section .wp-block-ws-layout-column h1.has-text-align-center br{
+            display: none;
+        }
+    }
+    @media (min-width:1080px) {
+        html body section .wp-block-ws-layout-column h1.has-text-align-center br{
+            display: none;
+        }
+    }

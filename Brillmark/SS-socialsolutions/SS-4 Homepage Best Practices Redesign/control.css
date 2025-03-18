@@ -1,0 +1,5 @@
+@media (max-width:767px) {
+    html body .home-hero .wp-block-button:nth-child(2){
+        display: none;
+    }
+}

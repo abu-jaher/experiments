@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./Control/variation.css",
+		"./Control/variation.js"
+	],
+	"urls": ["https://www.socialsolutions.com/request-a-demo/"],
+	"inject": ""
+}

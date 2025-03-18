@@ -1,0 +1,91 @@
+::-webkit-input-placeholder{opacity:1}
+::-moz-placeholder{opacity:1}
+:-ms-input-placeholder{opacity:1}
+::-ms-input-placeholder{opacity:1}
+::placeholder{opacity:1}
+html body{opacity:0;visibility:hidden}
+html body.ss-8{opacity:1;visibility:visible}
+html body.ss-8 #main>.spacer-50,html body.ss-8 .section-1 .wp-block-buttons .wp-block-button:nth-child(2),html body.ss-8 .section-10,html body.ss-8 .section-2,html body.ss-8 .section-7,html body.ss-8 .section-8,html body.ss-8 .section-9{display:none}
+html body.ss-8 .section-3 .wp-block-buttons,html body.ss-8 .section-4 .wp-block-buttons,html body.ss-8 .section-5 .wp-block-buttons,html body.ss-8 .section-6 .wp-block-buttons{display:none}
+html body.ss-8 .section-1{padding:80px 0}
+html body.ss-8 .section-1 h1{line-height:normal}
+html body.ss-8 .section-1 .hero-list{margin:0 0 30px 30px}
+@media (min-width:1300px){
+html body.ss-8 .section-1 .wp-block-ws-split{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+html body.ss-8 .section-1 .wp-block-ws-split-half:nth-child(1){-ms-flex-preferred-size:55.5%!important;flex-basis:55.5%!important;max-width:55.5%!important}
+html body.ss-8 .section-1 .wp-block-ws-split-half:nth-child(2){-ms-flex-preferred-size:36%;flex-basis:36%;max-width:36%}
+}
+html body.ss-8 .bottom-price-form{padding:50px 0 80px}
+html body.ss-8 .bottom-price-form .container-wrapper{max-width:1272px;width:100%;margin:0 auto;padding:0 16px}
+html body.ss-8 .bottom-price-form .title{font-size:45px;line-height:59px;text-align:center;margin:0 auto 40px}
+html body.ss-8 .bottom-price-form .sub-title{font-family:Graphik,helvetica,sans-serif;font-size:16px;font-weight:400;line-height:26px;text-align:center;margin:0 auto 52px;max-width:920px;width:100%}
+html body.ss-8 .bottom-price-form .form-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+html body.ss-8 .bottom-price-form .form-wrapper .content{max-width:600px;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-left:3%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+html body.ss-8 .bottom-price-form .form-wrapper .content .list-title{color:#003d50;font-family:Graphik,helvetica,sans-serif;font-size:24px;font-weight:400;line-height:36px;margin:0 0 23px}
+html body.ss-8 .bottom-price-form .form-wrapper .content .list{padding-right:30px;list-style:none;margin:0 auto 40px}
+html body.ss-8 .bottom-price-form .form-wrapper .content .list li{position:relative;font-family:Graphik,helvetica,sans-serif;font-size:16px;font-weight:400;line-height:26px;color:#5d5d5d;margin:0 0 10px}
+html body.ss-8 .bottom-price-form .form-wrapper .content .list li:before{position:absolute;content:'';left:-40px;top:0;background-image:url('https://fe-test-dev.s3.amazonaws.com/ss/ss-8/checkmark.svg');width:30px;height:30px}
+html body.ss-8 .bottom-price-form .form-wrapper .content .logo-wrap{max-width:440px;width:100%}
+html body.ss-8 .bottom-price-form .wp-block-ws-card.card{max-width:570px;width:100%;-webkit-box-shadow:0 1px 4px rgba(0,0,0,.5);box-shadow:0 1px 4px rgba(0,0,0,.5);margin-bottom:0}
+html body.ss-8 .bottom-price-form .wp-block-ws-card.card .card-body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-shadow:0 1px 4px rgb(0 0 0 / 50%);box-shadow:0 1px 4px rgb(0 0 0 / 50%)}
+html body.ss-8 .bottom-price-form .wp-block-ws-card.card .wp-block-ws-form{margin-bottom:0}
+html body.ss-8 .fe-firstRow-mktfrm,html body.ss-8 .fe-secondRow-mktfrm,html body.ss-8 .fe-thirdRow-mktfrm{display:-webkit-box;display:-ms-flexbox;display:flex}
+html body .card-body .mktoFormRow{width:100%}
+html body .card-body .mktoFormRow label{display:none}
+html body.ss-8 .fe-firstRow-mktfrm input,html body.ss-8 .fe-secondRow-mktfrm input,html body.ss-8 .fe-thirdRow-mktfrm input,html body.ss-8 .fe-thirdRow-mktfrm select{max-width:250px;width:100%!important}
+html body.ss-8 .mktoForm input[type=date],html body.ss-8 .mktoForm input[type=email],html body.ss-8 .mktoForm input[type=number],html body.ss-8 .mktoForm input[type=tel],html body.ss-8 .mktoForm input[type=text],html body.ss-8 .mktoForm input[type=url],html body.ss-8 .mktoForm select.mktoField,html body.ss-8 .mktoForm textarea.mktoField{font-size:14px;font-weight:500;line-height:18px;height:39.33px;padding:0 10px}
+html body.ss-8 .mktoForm #NumberOfEmployees,html body.ss-8 .mktoForm #State,html body.ss-8 .mktoForm #industryType{max-width:500px;width:100%!important}
+html body.ss-8 .mktoForm .mktoGutter{display:none}
+html body.ss-8 .mktoForm .mktoRequiredField input::-webkit-input-placeholder{color:#003d50}
+html body.ss-8 .mktoForm .mktoRequiredField input::-moz-placeholder{color:#003d50}
+html body.ss-8 .mktoForm .mktoRequiredField input:-ms-input-placeholder{color:#003d50}
+html body.ss-8 .mktoForm .mktoRequiredField input::-ms-input-placeholder{color:#003d50}
+html body.ss-8 .mktoForm .mktoRequiredField input::placeholder{color:#003d50}
+html body.ss-8 .card-body [type=submit]{border-radius:50px!important;width:180px!important;line-height:24px!important}
+html body.ss-8 .wp-block-ws-split-half .wp-block-ws-card.card{border-radius:8px}
+html body.ss-8 .card-body .mktoPurpleCandy{margin-left:0!important}
+html body.ss-8 .wp-block-ws-form .mktoButtonRow{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+html body.ss-8 .mktoForm .fe-wrap .mktoFormRow:last-child{margin-left:13px}
+html body.ss-8 .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton:hover{background-color:#20907f!important;background-image:none!important}
+html body.ss-8 .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton{font-family:Graphik,helvetica,sans-serif;font-size:15px;line-height:19px!important;text-shadow:none;font-weight:400;width:174px!important}
+html body.ss-8 .mktoForm select{width:100%!important;height:39.33px;margin:0 0;border:1px solid #ddd;border-radius:0;color:#003d50;font-weight:400;background-color:#fff;line-height:1.5em;position:relative;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%23003D50' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M.1 6.9L1.9 5 12 15.3 22.1 5l1.8 1.8L12 19 .1 6.9z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:95% 50%;background-position:calc(100% - 20px) 50%;background-size:16px 16px;padding:20px 41px 20px 20px;padding-right:46px!important}
+html body.ss-8 .mktoForm .mktoFormRow[input-name=parent-optIn] .mktoFieldWrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+html body.ss-8 .mktoForm .mktoCheckboxList{width:auto!important}
+html body.ss-8 .mktoForm .mktoFormRow #optIn{width:20px!important}
+html body.ss-8 .mktoForm .mktoFormRow #LbloptIn{width:100%!important;padding:0;color:#003d50;font-weight:500;font-size:14px;line-height:18px}
+@media(max-width:1299.98px){
+html body.ss-8 .bottom-price-form .container-wrapper{max-width:1050px}
+}
+@media(max-width:1079.98px){
+html body.ss-8 .fe-firstRow-mktfrm,html body.ss-8 .fe-secondRow-mktfrm,html body.ss-8 .fe-thirdRow-mktfrm{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+html body.ss-8 .mktoForm .fe-wrap .mktoFormRow:last-child{margin-left:0}
+html body.ss-8 .card-body .mktoFormRow{max-width:500px}
+html body.ss-8 .fe-firstRow-mktfrm input,html body.ss-8 .fe-secondRow-mktfrm input,html body.ss-8 .fe-thirdRow-mktfrm input,html body.ss-8 .fe-thirdRow-mktfrm select{max-width:100%}
+html body.ss-8 .mktoForm #NumberOfEmployees,html body.ss-8 .mktoForm #State,html body.ss-8 .mktoForm #industryType,html body.ss-8 .wp-block-ws-card.card .card-body .wp-block-ws-form{max-width:500px;width:100%}
+html body.ss-8 .bottom-price-form .container-wrapper{max-width:750px}
+html body.ss-8 .bottom-price-form .form-wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+html body.ss-8 .bottom-price-form .form-wrapper .content{margin-left:0}
+html body.ss-8 .bottom-price-form .form-wrapper .content .list{margin:0 auto 40px}
+html body.ss-8 .bottom-price-form .title{width:80%}
+html body.ss-8 .bottom-price-form .wp-block-ws-card.card{margin-bottom:50px}
+}
+@media(max-width:767.98px){
+html body.ss-8 .mktoForm .mktoButtonWrap.mktoPurpleCandy .mktoButton{width:192px!important}
+html body.ss-8 .bottom-price-form{padding:25px 0 50px}
+html body.ss-8 .bottom-price-form .container-wrapper{max-width:570px;padding:0 30px}
+html body.ss-8 .bottom-price-form .title{width:100%;font-size:35px;line-height:44px}
+}
+@media(max-width:480px){
+html body.ss-8 .wp-block-ws-card.card .card-body{padding:40px 20px 10px}
+html body.ss-8 .wp-block-ws-form form{padding:0}
+html body.ss-8 .mktoForm input[type=date],html body.ss-8 .mktoForm input[type=email],html body.ss-8 .mktoForm input[type=number],html body.ss-8 .mktoForm input[type=tel],html body.ss-8 .mktoForm input[type=text],html body.ss-8 .mktoForm input[type=url],html body.ss-8 .mktoForm select.mktoField,html body.ss-8 .mktoForm textarea.mktoField{margin-bottom:20px}
+html body.ss-8 .wp-block-ws-form .mktoButtonRow{margin:0!important}
+html body.ss-8 .mktoForm .mktoFormRow[input-name=parent-optIn] .mktoFieldWrap{margin-bottom:15px}
+}
+@media(max-width:400px){
+html body.ss-8 .bottom-price-form .form-wrapper .content .list{margin:0 auto 30px 0;padding:0 0 0 30px}
+html body.ss-8 .bottom-price-form .form-wrapper .content .list li:before{left:-37px}
+}
+@media(max-width:374.98px){
+html body.ss-8 .mktoForm input[type=date],html body.ss-8 .mktoForm input[type=email],html body.ss-8 .mktoForm input[type=number],html body.ss-8 .mktoForm input[type=tel],html body.ss-8 .mktoForm input[type=text],html body.ss-8 .mktoForm input[type=url],html body.ss-8 .mktoForm select.mktoField,html body.ss-8 .mktoForm textarea.mktoField{font-size:12px}
+}

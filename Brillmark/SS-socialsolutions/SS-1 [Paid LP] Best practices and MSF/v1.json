@@ -1,0 +1,12 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+    "urls": ["https://www.socialsolutions.com/landing/brand-general-ppc/",
+        "https://www.socialsolutions.com/landing/eto-ppc/",
+        "https://www.socialsolutions.com/landing/hmis-ppc/",
+        "https://www.socialsolutions.com/landing/brand-general-ppc/",
+        "https://www.socialsolutions.com/landing/nonprofit-case-management/"],
+    "inject": ""
+}
