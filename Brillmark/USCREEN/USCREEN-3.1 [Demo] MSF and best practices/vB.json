@@ -1,0 +1,13 @@
+{
+	"files": [
+		"VariantB/variation.css",
+		"VariantB/variation.js",
+		"../VariantC/variation.css",
+		"../VariantC/variation.js"
+	],
+	"urls": [
+		"https://www.uscreen.tv/request-demo/",
+		"https://www.uscreen.tv/on-demand-demo/",
+		"https://www.uscreen.io/admin/registrations/new"
+	]
+}

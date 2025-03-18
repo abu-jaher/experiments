@@ -1,0 +1,4 @@
+html body.fe-uscreen-4 [data-block="hero"] .btn-secondary,
+html body.fe-uscreen-4 .hero-grid .wp-block-button:nth-of-type(2){
+  display: none;
+}

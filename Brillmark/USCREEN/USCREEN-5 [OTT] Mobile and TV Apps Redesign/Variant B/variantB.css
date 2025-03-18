@@ -1,0 +1,995 @@
+.usc-homepage.uscreen2020 {
+    font-size: inherit;
+    line-height: initial
+}
+
+.usc-homepage .wistia-with-browser,
+.usc-homepage .wp-block-columns.logos-listing:not(#fe-main.wp-block-columns.logos-listing),
+.usc-homepage .wp-container-10.wp-block-group,
+.usc-homepage .wp-container-12.wp-block-group,
+.usc-homepage .wp-container-14.wp-block-group,
+.usc-homepage .wp-container-16.wp-block-group,
+.usc-homepage .wp-container-18.wp-block-group,
+.usc-homepage .wp-container-2.wp-block-group.uv2--header-block,
+.usc-homepage .wp-container-20.wp-block-group,
+.usc-homepage .wp-container-22.wp-block-group,
+.usc-homepage .wp-container-25.wp-block-group,
+.usc-homepage .wp-container-28.wp-block-group,
+.usc-homepage .wp-container-4.wp-block-group,
+.usc-homepage .wp-container-4.wp-block-group+p,
+.usc-homepage .wp-container-4.wp-block-group+p+div.padding-3,
+.usc-homepage .wp-container-6.wp-block-group,
+.usc-homepage .wp-container-7.wp-block-group,
+.usc-homepage .wp-container-8.wp-block-group {
+    display: none
+}
+
+.usc-homepage #fe-main .fe-container {
+    max-width: 1215px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+.usc-homepage body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0
+}
+
+.usc-homepage #fe-main .fe-container * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+.usc-homepage.uscreen2020 p:not(#fe-mainp) {
+    margin: 0
+}
+
+.usc-homepage #fe-main img {
+    width: 100%
+}
+
+.usc-homepage #fe-main .main-heading {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1px;
+    background: -webkit-gradient(linear, left top, right top, from(#30cfd0), to(#330867));
+    background: -o-linear-gradient(left, #30cfd0 0, #330867 100%);
+    background: linear-gradient(90deg, #30cfd0 0, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text
+}
+
+.usc-homepage #fe-main .main-sub-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #4d5562
+}
+
+.usc-homepage #fe-main .main-heading-2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -.5px;
+    color: #121826;
+    width: 100%
+}
+
+.usc-homepage #fe-main .demo-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 181px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background: #006aff;
+    border-radius: 91px
+}
+
+.usc-homepage #fe-main .demo-cta:hover {
+    background: #6954fb
+}
+
+.usc-homepage #fe-main .flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+@media (max-width:1230.98px) {
+    .usc-homepage #fe-main .fe-container {
+        width: auto
+    }
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .flex-box {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+}
+
+@media (max-width:767.98px) {
+    .usc-homepage #fe-main .main-heading {
+        font-size: 40px;
+        line-height: 45px
+    }
+
+    .usc-homepage #fe-main .main-sub-heading {
+        font-size: 25px;
+        line-height: 30px
+    }
+
+    .usc-homepage #fe-main .main-heading-2 {
+        font-size: 40px
+    }
+}
+
+.usc-homepage #fe-main .fe-hero-section {
+    padding: 120px 0 72px
+}
+
+.usc-homepage #fe-main .fe-hero-section .main-heading {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto 16px
+}
+
+.usc-homepage #fe-main .fe-hero-section .main-sub-heading {
+    max-width: 592px;
+    width: 100%;
+    margin: 0 auto 48px
+}
+
+.usc-homepage #fe-main .fe-hero-section .demo-cta {
+    margin: 0 auto 52px
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer {
+    padding: 12px 13px
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block figure {
+    margin: 0
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block img:first-of-type {
+    max-height: 222px;
+    width: auto;
+    margin: 0 auto
+}
+
+.usc-homepage.appleOS #fe-main .fe-hero-section .hero-footer .flex-box .img-block img:first-of-type,
+.usc-homepage.appleOS #fe-main .fe-hero-section .hero-footer .flex-box .img-block img:last-child {
+    width: auto
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block img:last-child {
+    width: auto;
+    display: block;
+    margin: 25px auto 0;
+    height: 20px
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block:nth-child(5) img:first-child {
+    position: relative;
+    top: 8px
+}
+
+.usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block:nth-child(5) img:last-child {
+    height: 38.5px;
+    margin: 25px auto 0
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .fe-hero-section {
+        padding: 80px 0 65px
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer {
+        width: 100%;
+        max-width: 740px;
+        margin: 0 auto
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer .img-block {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto 23px
+    }
+}
+
+@media (max-width:767.98px) {
+    .usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box {
+        -ms-flex-wrap: inherit;
+        flex-wrap: inherit
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block img:first-of-type {
+        height: 145px
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block img:last-child {
+        height: 14px
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer .flex-box .img-block:nth-child(5) img:last-child {
+        height: 20px
+    }
+}
+
+@media (max-width:425.98px) {
+    .usc-homepage #fe-main .fe-hero-section {
+        padding: 80px 0 38px
+    }
+
+    .usc-homepage #fe-main .fe-hero-section .hero-footer {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto
+    }
+}
+
+.usc-homepage #fe-main .fe-standout-section {
+    padding: 36px 0
+}
+
+.usc-homepage #fe-main .fe-standout-section .main-heading-2 {
+    max-width: 800px;
+    margin: 0 auto 127px
+}
+
+.usc-homepage #fe-main .fe-standout-section .info-wraper .info-block h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.25px;
+    color: #121826
+}
+
+.usc-homepage #fe-main .fe-standout-section .info-wraper .info-block p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4d5562
+}
+
+.usc-homepage #fe-main .fe-standout-section .flex-box .flex-left {
+    max-width: 592px;
+    width: 100%;
+    margin-top: 60px
+}
+
+.usc-homepage #fe-main .fe-standout-section .flex-box .flex-right {
+    max-width: 488px;
+    width: 100%
+}
+
+.usc-homepage #fe-main .fe-standout-section .flex-box .info-block {
+    margin-bottom: 24px
+}
+
+.usc-homepage #fe-main .fe-standout-section .flex-box .flex-right .info-block h4 {
+    margin-bottom: 8px
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .fe-standout-section .flex-box {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto 25px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .usc-homepage #fe-main .fe-standout-section .flex-box .flex-right {
+        max-width: 100%;
+        width: 100%
+    }
+
+    .usc-homepage #fe-main .fe-standout-section .flex-box .flex-right .info-wraper {
+        max-width: 75%;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .usc-homepage #fe-main .fe-standout-section .main-heading-2 {
+        max-width: 800px;
+        margin: 0 auto 40px
+    }
+
+    .usc-homepage #fe-main .fe-standout-section .flex-box .flex-left .img-block {
+        max-width: 75%;
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+@media (max-width:767.98px) {
+    .usc-homepage #fe-main .fe-standout-section .flex-box {
+        margin: 0 auto
+    }
+
+    .usc-homepage #fe-main .fe-standout-section .flex-box .flex-left .img-block {
+        max-width: 100%
+    }
+
+    .usc-homepage #fe-main .fe-standout-section .flex-box .flex-right .info-wraper {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers {
+    padding: 125px 0 39px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f1f7ff));
+    background: -o-linear-gradient(top, #fff 0, #f1f7ff 100%);
+    background: linear-gradient(180deg, #fff 0, #f1f7ff 100%)
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .main-heading-2 {
+    margin-bottom: 81px
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .number-card {
+    max-width: calc(33.33% - 22px);
+    width: 100%;
+    padding: 0 5px
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .trusted {
+    max-width: 1110px;
+    margin: 0 auto
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .flex-box {
+    margin-bottom: 79px;
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .trusted .flex-box .img-card {
+    text-align: center
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .trusted .flex-box .img-card img {
+    height: 80px;
+    max-width: 80px;
+    margin: 0 auto
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .number-card h6 {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -.25px;
+    color: #1259b0;
+    margin-bottom: 12px
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .number-card .card-num {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 112px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -1px;
+    background: -o-linear-gradient(349.79deg, #006aff 3.26%, #2e436c 102.01%);
+    background: linear-gradient(100.21deg, #006aff 3.26%, #2e436c 102.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 12px
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .number-card .card-info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #121826
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .trusted h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #121826;
+    margin-bottom: 48px
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .trusted .img-card p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #121826;
+    font-style: normal
+}
+
+.usc-homepage #fe-main .fe-section-app-numbers .trusted .img-card .trust-info {
+    font-weight: 700
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .fe-section-app-numbers {
+        padding: 60px 0 39px
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .main-heading-2 {
+        margin-bottom: 55px
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card,
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card:nth-child(1) {
+        padding: 0;
+        max-width: calc(33.33% - 10px)
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .trusted .flex-box {
+        max-width: 580px;
+        margin: 0 auto
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card h6 {
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card .card-num {
+        font-size: 80px
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card .card-info {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .trusted .flex-box .img-card {
+        max-width: 165px;
+        width: 100%;
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767.98px) {
+    .usc-homepage #fe-main .fe-section-app-numbers .flex-box {
+        margin-bottom: 55px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card,
+    .usc-homepage #fe-main .fe-section-app-numbers .number-card:nth-child(1) {
+        max-width: 350px;
+        margin-bottom: 40px
+    }
+
+    .usc-homepage #fe-main .fe-section-app-numbers .trusted .flex-box {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+.usc-homepage #fe-main .fe-section-everything {
+    padding: 97px 0
+}
+
+.usc-homepage #fe-main .fe-section-everything .flex-box {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.usc-homepage #fe-main .fe-section-everything .flex-box .flex-left,
+.usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(2) .flex-right {
+    max-width: 608px;
+    width: 100%
+}
+
+.usc-homepage #fe-main .fe-section-everything .flex-box .flex-right,
+.usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(2) .flex-left {
+    max-width: 490px;
+    width: 100%
+}
+
+.usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(1),
+.usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(2) {
+    margin-bottom: 82px
+}
+
+.usc-homepage #fe-main .fe-section-everything .info-wraper h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -.25px;
+    color: #121826;
+    margin-bottom: 20px
+}
+
+.usc-homepage #fe-main .fe-section-everything .info-wraper p {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4d5562;
+    margin-bottom: 36px
+}
+
+.usc-homepage #fe-main .fe-section-everything .info-wraper a.example-cta {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #006aff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.usc-homepage #fe-main .fe-section-everything .info-wraper a.example-cta:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: #6954fb
+}
+
+.usc-homepage #fe-main .fe-section-everything .info-wraper a.example-cta:hover span svg path {
+    fill: #6954FB
+}
+
+.usc-homepage #fe-main .fe-section-everything .info-wraper a.example-cta span {
+    margin-left: 10px;
+    height: 20px
+}
+
+@media (max-width:1024.98px) {
+
+    .usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(1),
+    .usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(2) {
+        margin-bottom: 100px
+    }
+
+    .usc-homepage #fe-main .fe-section-everything .flex-box .flex-left,
+    .usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(2) .flex-right {
+        margin-bottom: 25px
+    }
+
+    .usc-homepage #fe-main .fe-section-everything .flex-box {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(1) {
+        margin-bottom: 90px
+    }
+
+    .usc-homepage #fe-main .fe-section-everything .flex-box:nth-child(2) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse
+    }
+
+    .usc-homepage #fe-main .fe-section-everything .flex-box .flex-left,
+    .usc-homepage #fe-main .fe-section-everything .flex-box .flex-right {
+        max-width: 600px !important;
+        width: 100%
+    }
+}
+
+.usc-homepage #fe-main .fe-section-why img {
+    width: auto
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group {
+    margin-bottom: 0;
+    padding: 80px 0 90px
+}
+
+.usc-homepage #fe-main .fe-section-why #h-why-uscreen-for-apps {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -.5px;
+    color: #121826;
+    margin-bottom: 16px
+}
+
+.usc-homepage #fe-main .fe-section-why #h-why-uscreen-for-apps+.has-text-align-center {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #4d5562;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto 47px !important
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .wp-block-group__inner-container {
+    padding: 0 113px
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .wp-block-columns>.wp-block-column:first-child:nth-last-child(3),
+.wp-block-columns>.wp-block-column:first-child:nth-last-child(3)~div {
+    -ms-flex-preferred-size: calc(33.3333333% - 20px);
+    flex-basis: calc(33.3333333% - 20px)
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .uscreen2020 .uscreen-boxes .wp-block-column {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px 0 70px 0
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .uscreen-boxes .wp-block-column {
+    border-radius: 16px;
+    padding: 40px 0 70px 0
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .uscreen-boxes h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -.25px;
+    color: #121826
+}
+
+.usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .uscreen-boxes p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #4d5562;
+    padding: 0 30px
+}
+
+.usc-homepage #fe-main .fe-section-why .uscreen-boxes {
+    max-width: 1215px;
+    width: 100%
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .wp-block-group__inner-container {
+        padding: 0 15px
+    }
+}
+
+@media (max-width:767.98px) {
+    .usc-homepage #fe-main .fe-section-why .wp-container-21.wp-block-group .uscreen-boxes p {
+        padding: 0 15px
+    }
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group {
+    margin-bottom: 0;
+    padding: 143px 0 127px
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group.has-twilight-blue-background-color {
+    background: #1259b0
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -.5px;
+    color: #fff
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-group__inner-container {
+    padding: 0;
+    max-width: 1086px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -.5px;
+    color: #fff
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #f5f5f7;
+    margin-bottom: 176px
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-group__inner-container ul {
+    margin-top: 12px
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-group__inner-container ul li {
+    padding-left: 1.6rem;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-group__inner-container .wp-block-column.column-6 {
+    max-width: 550px !important;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%
+}
+
+.usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-button__link.has-branded-blue-background-color:hover {
+    background: #6954fb
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group {
+        padding: 100px 0 100px
+    }
+
+    .usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-group__inner-container {
+        padding: 0 40px
+    }
+
+    .usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group p {
+        margin-bottom: 40px
+    }
+}
+
+@media (max-width:1024.98px) {
+    .usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group .wp-block-group__inner-container {
+        padding: 0 16px
+    }
+
+    .usc-homepage #fe-main .fe-section-convinced .wp-container-24.wp-block-group {
+        padding: 90px 0 70px
+    }
+}
+
+.usc-homepage #fe-main .fe-footer {
+    background: #12406e;
+    padding: 80px 0
+}
+
+.usc-homepage #fe-main .fe-footer .footer-wraper {
+    max-width: 592px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.usc-homepage #fe-main .fe-footer h2.main-heading-2 {
+    color: #fff;
+    margin-bottom: 24px
+}
+
+.usc-homepage #fe-main .fe-footer p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px
+}
+
+.usc-homepage #fe-main .fe-footer .demo-cta {
+    background: #eff6ff;
+    margin: 0 auto;
+    color: #006aff
+}
+
+.usc-homepage #fe-main .fe-footer .demo-cta:hover {
+    background: #dbeafe;
+    color: #6954fb
+}
+
+.usc-homepage #fe-main .customer-showcase-slider {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    padding: 53px 35px 48px
+}
+
+.usc-homepage #fe-main .customer-showcase-slider .main-heading-2 {
+    margin-bottom: 15px
+}
+
+.usc-homepage #fe-main .customer-showcase-slider .main-sub-heading {
+    max-width: 592px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.usc-homepage #fe-main .customer-showcase-slider .main-image img {
+    height: 100% !important;
+    max-height: auto;
+    width: 100%;
+    -webkit-filter: none;
+    filter: none;
+    padding-top: 50px
+}
+
+.usc-homepage #fe-main .customer-showcase-slider .main-image img:not(#tns1-item5.main-imageimg):not([alt=SarahBethYoga]) {
+    width: 78%
+}
+
+.usc-homepage #fe-main .customer-showcase-slider .customer-showcase-slider--description img {
+    width: 80px
+}
+
+.usc-homepage #fe-main .customer-showcase-slider--init {
+    overflow: hidden
+}
+
+.usc-homepage #fe-main .fe-section-FQA {
+    background: #fafafb
+}
+
+.usc-homepage #fe-main .customer-showcase-slider .customer-showcase-slider--description h4 {
+    line-height: 28px
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about.small-faq>.container {
+    padding: 79px 15px 90px 15px;
+    max-width: 1066px;
+    background: 0 0
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about.small-faq>.container .well-what-about__question h3 {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-font-feature-settings: 'ss01' on;
+    font-feature-settings: 'ss01' on;
+    color: #121826;
+    margin: 0 0 16px
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about.small-faq>.container .well-what-about__question p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6c727f
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about.small-faq {
+    margin-bottom: 0
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -.5px;
+    color: #121826
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about__questionv h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-font-feature-settings: 'ss01' on;
+    font-feature-settings: 'ss01' on;
+    color: #121826
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about__questionv p span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6c727f
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about--link a {
+    background: #eff6ff;
+    border-radius: 91px
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about--link a:hover {
+    background: #dbeafe
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about--link a:hover span {
+    color: #6954fb
+}
+
+.usc-homepage #fe-main .fe-section-FQA .well-what-about--link .ui-arrow-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #006aff;
+    background: 0 0;
+    padding: 0;
+    text-align: center
+}

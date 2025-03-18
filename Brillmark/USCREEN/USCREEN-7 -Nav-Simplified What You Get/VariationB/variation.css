@@ -1,0 +1,117 @@
+html
+  body.fe-uscreen7
+  header
+  .main-nav-item:first-child
+  .main-nav-dropdown
+  > .container {
+  display: none;
+}
+html body.fe-uscreen7 header .main-nav-item:last-child {
+  display: none; /* about nav item */
+}
+
+html body.fe-uscreen7 header .main-nav-item:first-child .main-nav-dropdown {
+  height: auto !important;
+}
+
+html
+  body.fe-uscreen7
+  header
+  .main-nav-item:first-child
+  .main-nav-dropdown
+  .fe-container-uscreen-7
+  .container {
+  flex-direction: column;
+  gap: 20px;
+}
+html
+  body.fe-uscreen7
+  header
+  .main-nav-item:first-child
+  .main-nav-dropdown
+  .fe-container-uscreen-7
+  .fe-dropdown-blocks {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+html
+  body.fe-uscreen7
+  header
+  .main-nav-item:first-child
+  .fe-main-nav-dropdown-bottom
+  .fe-learn-item-img-container {
+  max-width: 380px;
+  min-height: 145px;
+  display: block;
+  padding: 10px;
+}
+html
+  body.fe-uscreen7
+  header
+  .main-nav-item:first-child
+  .fe-main-nav-dropdown-bottom
+  .fe-learn-item-img-container
+  img {
+  width: 100%;
+}
+@media (max-width: 667px) {
+  html
+    body.fe-uscreen7
+    header
+    .main-nav-item:first-child
+    .main-nav-dropdown
+    .fe-container-uscreen-7
+    .dropdown-block-description {
+    display: none;
+  }
+  html
+    body.fe-uscreen7
+    header
+    .main-nav-item:first-child
+    .main-nav-dropdown
+    .fe-container-uscreen-7
+    .fe-dropdown-blocks {
+    flex-direction: column;
+  }
+}
+@media (min-width: 668px) {
+  html
+    body.fe-uscreen7
+    header
+    .main-nav-item:first-child
+    .fe-main-nav-dropdown-bottom {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  html
+    body.fe-uscreen7
+    header
+    .main-nav-item:first-child
+    .main-nav-dropdown
+    .fe-container-uscreen-7
+    .container {
+    gap: 40px;
+    margin-top: 34px;
+  }
+}
+@media (min-width: 991px) {
+  html
+    body.fe-uscreen7
+    header
+    .main-nav-item:first-child
+    .main-nav-dropdown
+    .fe-container-uscreen-7
+    .dropdown-block {
+    max-width: 33%;
+  }
+}
+/* @media (min-width: 1024px) {
+  html body.fe-uscreen7 header .main-nav-item-link {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 0 7px;
+  }
+} */

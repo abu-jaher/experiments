@@ -1,0 +1,238 @@
+.uc006 .uc006__hide {
+    display: none
+}
+
+.uc006 .pricing-columns {
+    -webkit-box-align: normal;
+    -ms-flex-align: normal;
+    align-items: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.uc006 .pricing-columns .pricing_header {
+    font-weight: 400
+}
+
+.uc006 .pricing-columns .wp-block-column:first-child {
+    display: none
+}
+
+.uc006 .pricing-columns .wp-block-column:nth-child(2) {
+    margin-right: 30px;
+    margin-left: auto !important;
+    background-color: #fff
+}
+
+@media screen and (max-width: 992px) {
+    .uc006 .pricing-columns .wp-block-column:nth-child(2) {
+        margin-top: 60px;
+        margin-right: 0
+    }
+}
+
+.uc006 .pricing-columns .wp-block-column:nth-child(2).highlight {
+    -ms-flex-preferred-size: calc(25.3% - 30px);
+    flex-basis: calc(25.3% - 30px);
+    border: none;
+    border-radius: 0
+}
+
+.uc006 .pricing-columns .wp-block-column:nth-child(2).highlight .has-branded-blue-background-color {
+    width: 100%;
+    max-width: 233px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    background-color: #1b2733
+}
+
+.uc006 .pricing-columns .wp-block-column:nth-child(2).highlight .wp-block-group__inner-container {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto
+}
+
+.uc006 .pricing-columns .wp-block-column:last-child {
+    position: relative;
+    margin-top: -37px;
+    margin-right: auto;
+    padding-top: 82px;
+    background-color: #fff !important;
+    border-radius: 8px;
+    -webkit-box-shadow: -5px 4px 40px rgba(0, 0, 0, .08);
+    box-shadow: -5px 4px 40px rgba(0, 0, 0, .08)
+}
+
+@media screen and (max-width: 992px) {
+    .uc006 .pricing-columns .wp-block-column:last-child {
+        margin-top: 0;
+        padding-top: 45px
+    }
+}
+
+.uc006 .pricing-columns .wp-block-column:last-child .wp-block-group__inner-container {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto
+}
+
+.uc006 .pricing-columns .wp-block-column:last-child .has-black-background-color {
+    width: 100%;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    background-color: #006aff !important
+}
+
+.uc006 .pricing-columns .uc006__growthHeadline {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center
+}
+
+.uc006 .pricing-columns .uc006__featurecontainer {
+    padding-left: 10px
+}
+
+.uc006 .pricing-columns .uc006__featurecontainer hr {
+    margin: 30px 0
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2) {
+    grid-template-columns: 1fr 1fr
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) {
+    width: 100%;
+    max-width: 345px;
+    margin-left: auto
+}
+
+@media screen and (max-width: 1024px) {
+    .uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) {
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: 0
+    }
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) [data-test=growth-plan] {
+    padding-right: 3.2rem;
+    padding-left: 3.2rem
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) .button {
+    background-color: #000 !important
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) hr+div {
+    display: none
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) ul {
+    padding-left: .5rem
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(2) .uc006__growthHeadline {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(3) {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: calc(4rem + 8px)
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(3)>div:nth-child(1) {
+    width: 100%;
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(3)>div:nth-child(2) {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>div {
+    font-weight: 600
+}
+
+.uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(3)>div:nth-child(2) ul {
+    padding-left: .5rem
+}
+
+@media screen and (max-width: 1024px) {
+    .uc006 #pricing_plans>div>div:nth-child(2)>div:nth-child(3) {
+        max-width: 100%
+    }
+}
+
+.uc006 #pricing_plans [data-test=basic-plan] {
+    display: none
+}
+
+.uc006 .pricing-table-v2--header {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 1024px) {
+    .uc006 .pricing-table-v2--header {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+}
+
+.uc006 .pricing-table-v2--header>div:nth-child(2) {
+    display: none
+}
+
+.uc006 .pricing-table-v2--table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    width: calc(100% - 233px);
+    margin: 0 auto
+}
+
+.uc006 .pricing-table-v2--table>div {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 1024px) {
+    .uc006 .pricing-table-v2--table>div {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+}
+
+.uc006 .pricing-table-v2--table>div div:nth-child(2) {
+    display: none
+}
+
+.uc006 .uc006__growthBullet {
+    white-space: nowrap
+}
