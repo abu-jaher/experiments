@@ -1,0 +1,4 @@
+#pricing-plan-2 .pricing-package[data-pricing-api-id] .pricing-package--price b,
+#pricing-plan-1 .pricing-package[data-pricing-api-id] .pricing-package--price b {
+  opacity: 0;
+}

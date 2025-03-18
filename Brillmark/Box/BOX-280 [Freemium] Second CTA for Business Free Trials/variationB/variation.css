@@ -1,0 +1,32 @@
+html body .fe_second_cta{
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+html body .fe_second_cta span{
+  position: relative;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+html body .fe_second_cta span::after{
+  content: "";
+  height: 0.125rem;
+  width: 0;
+  background-color: #fff;
+  position: absolute;
+  display: block;
+  bottom: -0.375rem;
+  left: 0;
+  will-change: width,background-color;
+  transition: width,background-color;
+  transition-timing-function: ease-out;
+  transition-duration: 300ms;
+}
+
+html body .fe_second_cta:hover span::after{
+  width: 100%;
+  transition-timing-function: ease-in;
+}
