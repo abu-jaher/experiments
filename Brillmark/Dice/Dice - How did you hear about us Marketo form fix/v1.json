@@ -1,0 +1,9 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.dice.com/hiring/new/post-jobs",
+			"https://www.dice.com/hiring/new/contact-us"],
+	"inject": ""
+}

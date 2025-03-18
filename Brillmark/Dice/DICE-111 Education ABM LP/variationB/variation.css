@@ -1,0 +1,1319 @@
+html body{
+    opacity: 0;
+}
+@media (min-width:576px) {
+    .fe-education .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .fe-education .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .fe-education .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .fe-education .container {
+        max-width: 1470px
+    }
+}
+
+.layout-main-content-wrapper {
+    background-color: #e9f1f2;
+    background-image: url(https://fe-test-dev.s3.amazonaws.com/Dice/dice-109/mob-bg.svg);
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+@media screen and (min-width:800px) {
+    .layout-main-content-wrapper {
+        background-image: url(https://fe-test-dev.s3.amazonaws.com/Dice/dice-109/desk-bg.svg)
+    }
+}
+
+.fe-education .desktop-hide {
+    display: block
+}
+
+@media screen and (min-width:800px) {
+    .fe-education .desktop-hide {
+        display: none
+    }
+}
+
+.fe-education .desktop-show,
+.fe-education .usabilla_live_button_container {
+    display: none
+}
+
+@media screen and (min-width:800px) {
+    .fe-education .desktop-show {
+        display: block
+    }
+}
+
+.fe-education__section {
+    padding-top: 56px;
+    padding-bottom: 32px
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__section {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+}
+
+.fe-education__section dhi-seds-typography-display,
+.fe-education__section dhi-seds-typography-heading {
+    color: #2b2927
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__section dhi-seds-container {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__section dhi-seds-container {
+        max-width: 100%
+    }
+}
+
+/* .fe-education dhi-seds-row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+} */
+
+.fe-education dhi-seds-row.md-col-rev {
+    grid-gap: 32px;
+    gap: 32px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media screen and (min-width:800px) {
+    .fe-education dhi-seds-row.md-col-rev {
+        grid-gap: 64px;
+        gap: 64px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education dhi-seds-row.md-col-rev {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        grid-gap: 0;
+        gap: 0;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+@media screen and (min-width:800px) {
+    .fe-education dhi-seds-row.md-col-rev>dhi-seds-column:first-child {
+        padding-right: 0;
+        padding-left: 32px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education dhi-seds-row.md-col-rev>dhi-seds-column:first-child {
+        padding-right: 70px
+    }
+}
+
+.fe-education dhi-seds-row .flex-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-gap: 24px;
+    gap: 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media screen and (min-width:800px) {
+    .fe-education dhi-seds-row .flex-wrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        grid-gap: 0;
+        gap: 0
+    }
+}
+
+.fe-education img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education img.section-img {
+        margin-right: auto;
+        margin-left: 0
+    }
+}
+
+.fe-education__sectiontitle {
+    margin-bottom: 40px;
+    text-align: center
+}
+
+.fe-education__getstartsection {
+    padding: 48px 0;
+    background-color: #f5f9f9;
+    -webkit-box-shadow: 0 0 0 100vmax #f5f9f9;
+    box-shadow: 0 0 0 100vmax #f5f9f9;
+    -webkit-clip-path: inset(0 -100vmax);
+    clip-path: inset(0 -100vmax)
+}
+
+.fe-education__getstartsection .note-text {
+    text-align: left;
+    margin: 24px 0;
+    padding-top: 40px;
+    width: 100%
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__getstartsection {
+        padding: 80px 0
+    }
+
+    .fe-education__getstartsection .note-text {
+        text-align: center;
+        padding-top: 72px;
+        margin: 24px auto
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__getstartsection .note-text {
+        text-align: left;
+        margin: 24px 0
+    }
+
+    .fe-education__getstartsection img {
+        margin-right: 0 !important;
+        margin-left: auto !important
+    }
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__getstartsection dhi-seds-container {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__getstartsection dhi-seds-container {
+        max-width: 100%
+    }
+}
+
+.fe-education__getstartsection dhi-seds-typography-display {
+    color: #000
+}
+
+.fe-education__getstartsection dhi-seds-typography-heading {
+    text-align: center
+}
+
+.fe-education__getstartsection dhi-seds-typography-heading.sub-title {
+    margin-bottom: 32px
+}
+
+.fe-education__getstartsection dhi-seds-core-button {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media screen and (min-width:360px) {
+    .fe-education__getstartsection dhi-seds-core-button {
+        width: -moz-max-content;
+        width: -webkit-max-content;
+        width: max-content
+    }
+}
+
+.fe-education__getstartsection dhi-seds-link {
+    text-decoration: none
+}
+
+.fe-education__solutionssection {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0 100vmax #fff;
+    box-shadow: 0 0 0 100vmax #fff;
+    -webkit-clip-path: inset(0 -100vmax);
+    clip-path: inset(0 -100vmax);
+    padding-top: 48px;
+    padding-bottom: 48px
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__solutionssection {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__solutionssection {
+        padding-bottom: 80px
+    }
+}
+
+.fe-education__solutionssection .add-frame iframe {
+    width: 100%;
+    border: none;
+    aspect-ratio: 3/2
+}
+
+.fe-education__solutionssection .bullet-points:not(:last-child) {
+    margin-bottom: 64px
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__solutionssection .bullet-points:not(:last-child) {
+        margin-bottom: 40px
+    }
+}
+
+.fe-education__solutionssection .bullet-points>dhi-seds-row:first-of-type {
+    margin-bottom: 8px
+}
+
+.fe-education__solutionssection .bullet-points>dhi-seds-row dhi-seds-typography-heading>span {
+    padding-right: 7px;
+    display: inline-block;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px)
+}
+
+.fe-education__ourfinancesection .section-cta {
+    margin-top: 7px
+}
+
+.fe-education__ourfinancesection.fe-education__section {
+    padding-top: 0;
+    padding-bottom: 48px
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__ourfinancesection.fe-education__section {
+        padding-top: 0;
+        padding-bottom: 80px
+    }
+}
+
+.fe-education__ourfinancesection .row-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-gap: 0;
+    gap: 0
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__ourfinancesection .row-wrapper {
+        grid-gap: 34px;
+        gap: 34px
+    }
+}
+
+.fe-education__ourfinancesection .row-wrapper .getStarted-image {
+    margin-bottom: 20px
+}
+
+.fe-education__ourfinancesection .row-wrapper .getStarted-image img {
+    margin: 0 auto 0 0
+}
+
+.fe-education__ourfinancesection .row-wrapper::after {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: -15px;
+    z-index: -1;
+    display: none;
+    width: 300px;
+    height: calc(100% + 30px);
+    background-color: #e9f1f2;
+    -webkit-transform: translateY(-49%);
+    -ms-transform: translateY(-49%);
+    transform: translateY(-49%);
+    content: ""
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__ourfinancesection .row-wrapper::after {
+        display: block;
+        width: 334px
+    }
+}
+
+.fe-education__ourfinancesection dhi-seds-typography-heading {
+    position: relative;
+    margin-bottom: 8px
+}
+
+.fe-education__ourfinancesection dhi-seds-typography-heading span {
+    position: absolute;
+    left: -45px
+}
+
+.fe-education__ourfinancesection .bullet-points {
+    padding-left: 35px;
+    margin-bottom: 32px
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__ourfinancesection .bullet-points {
+        margin-bottom: 24px
+    }
+}
+
+.fe-education__ourfinancesection .applicants-per-job,
+.fe-education__ourfinancesection .apply-rate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 32px 0
+}
+
+.fe-education__ourfinancesection .count {
+    text-align: center;
+    color: #be3432;
+    padding: 0;
+    margin-bottom: 16px
+}
+
+.fe-education__ourfinancesection .text {
+    text-align: center
+}
+
+.fe-education__ourfinancesection .divider {
+    width: 131px;
+    background: #a5a199;
+    height: 1px;
+    margin: 0 auto
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__ourfinancesection .bullet-points dhi-seds-typography-heading {
+        width: 85%
+    }
+}
+
+.fe-education__revsection {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0 100vmax #fff;
+    box-shadow: 0 0 0 100vmax #fff;
+    -webkit-clip-path: inset(0 -100vmax);
+    clip-path: inset(0 -100vmax);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 64px 0;
+    color: #be3432;
+    text-align: center;
+    max-width: 1030px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.fe-education__revsection .heart-logo {
+    max-width: 64px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__revsection {
+        padding: 80px 23px
+    }
+
+    .fe-education__revsection .heart-logo {
+        margin-bottom: 56px
+    }
+}
+
+.fe-education__revsection dhi-seds-typography-heading {
+    color: #be3432
+}
+
+.fe-education__revsection dhi-seds-typography-heading.sub-title {
+    color: #585450;
+    margin-top: 24px
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__revsection dhi-seds-typography-heading.sub-title {
+        margin-top: 56px
+    }
+}
+
+.fe-education__whychoosesection {
+    background-color: #f5f9f9;
+    -webkit-box-shadow: 0 0 0 100vmax #f5f9f9;
+    box-shadow: 0 0 0 100vmax #f5f9f9;
+    -webkit-clip-path: inset(0 -100vmax);
+    clip-path: inset(0 -100vmax);
+    padding: 48px 0
+}
+
+.fe-education__whychoosesection .tech-img {
+    max-width: 300px;
+    width: 100%;
+    height: 205px;
+    margin-bottom: 24px
+}
+
+.fe-education__whychoosesection .tech-content {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto
+}
+
+.fe-education__whychoosesection .content-wrap dhi-seds-column {
+    margin-bottom: 64px;
+    padding: 0
+}
+
+.fe-education__whychoosesection .content-wrap dhi-seds-column:last-child {
+    margin: 0 auto 48px
+}
+
+.fe-education__whychoosesection .tech-content dhi-seds-typography-heading[level=h3] {
+    margin-bottom: 16px
+}
+
+.fe-education__whychoosesection .btn-wrap {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__whychoosesection dhi-seds-row.content-wrap {
+        max-width: 1150px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .fe-education__whychoosesection .tech-img {
+        max-width: 380px;
+        width: 100%;
+        height: 260px;
+        margin-bottom: 24px
+    }
+
+    .fe-education__whychoosesection .tech-content {
+        max-width: 480px
+    }
+
+    .fe-education__whychoosesection .content-wrap dhi-seds-column {
+        margin-bottom: 120px;
+        padding: 0 .75rem
+    }
+
+    .fe-education__whychoosesection .content-wrap dhi-seds-column:last-child {
+        margin: 0 auto 90px
+    }
+
+    .fe-education__whychoosesection .content-wrap dhi-seds-column:nth-child(2) dhi-seds-typography-heading[size="125"] {
+        min-height: 90px
+    }
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__whychoosesection {
+        padding: 80px 0
+    }
+}
+
+dhi-seds-nav-footer-employer,
+dhi-seds-nav-header-employer {
+    display: none
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__footersection .copy-right {
+        text-align: center;
+        margin-bottom: 24px
+    }
+
+    .fe-education__footersection .list .list-item {
+        text-align: center
+    }
+
+    .fe-education__footersection .list {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__footersection .copy-right {
+        text-align: left;
+        margin-bottom: 0
+    }
+
+    .fe-education__footersection .list .list-item {
+        text-align: left
+    }
+
+    .fe-education__footersection .list {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+
+.fe-education__footersection {
+    padding-top: 32px;
+    padding-bottom: 80px;
+    background: #2b2927;
+    -webkit-box-shadow: 0 0 0 100vmax #2b2927;
+    box-shadow: 0 0 0 100vmax #2b2927;
+    -webkit-clip-path: inset(0 -100vmax);
+    clip-path: inset(0 -100vmax)
+}
+
+.fe-education__footersection .sc-dhi-seds-container-h {
+    padding: 0
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__footersection .sc-dhi-seds-container-h {
+        padding: 0 1.5rem
+    }
+}
+
+.fe-education__footersection .copy-right {
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 24px
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__footersection .copy-right {
+        margin-bottom: 0
+    }
+}
+
+.fe-education__footersection .list .list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff
+}
+
+.fe-education__footersection .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0
+}
+
+.fe-education__footersection .list .list-item:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .5rem;
+    content: "|"
+}
+
+.fe-education__herosection {
+    padding-top: 37px;
+    padding-bottom: 48px
+}
+
+.fe-education__herosection dhi-seds-typography-display[level=h1] {
+    padding: 0;
+    margin-bottom: 24px
+}
+
+.fe-education__herosection dhi-seds-typography-heading {
+    margin-bottom: 48px
+}
+
+.fe-education__herosection .header-wrap {
+    margin-bottom: 26px
+}
+
+.fe-education__herosection .header-wrap .section-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.fe-education__herosection .header-wrap .section-secondary-cta {
+    max-width: 164px;
+    width: 100%;
+    padding: 0
+}
+
+.fe-education__herosection .hero-wrap .logo-title {
+    text-align: center;
+    margin-bottom: 26px
+}
+
+.fe-education__herosection .hero-wrap .logo-wrap {
+    max-width: 325px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    row-gap: 31px;
+    margin: 0 auto 48px
+}
+
+.fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-1 {
+    max-width: 143px;
+    width: 100%
+}
+
+.fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-2 {
+    max-width: 121px;
+    width: 100%
+}
+
+.fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-3 {
+    max-width: 90px;
+    width: 100%;
+    margin: 0 20px
+}
+
+.fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-4 {
+    max-width: 103px;
+    width: 100%;
+    margin: 0 20px
+}
+
+.fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-5 {
+    max-width: 229px;
+    width: 100%;
+    margin: 0 auto
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__herosection dhi-seds-typography-display[level=h1] {
+        width: 80%
+    }
+
+    .fe-education__herosection dhi-seds-typography-heading.sub-title {
+        width: 90%
+    }
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__herosection {
+        padding-top: 53px;
+        padding-bottom: 80px
+    }
+
+    .fe-education__herosection .header-wrap {
+        margin-bottom: 48px
+    }
+
+    .fe-education__herosection .hero-wrap .logo-title {
+        text-align: left
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap {
+        max-width: 549px;
+        row-gap: 26px;
+        margin: 0 0 46px;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-1 {
+        max-width: 175px;
+        width: 100%
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-2 {
+        max-width: 175px;
+        width: 100%;
+        margin: 0 40px
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-3 {
+        max-width: 119px;
+        margin: 0
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-4 {
+        margin: 0 40px
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-5 {
+        margin: 0
+    }
+}
+
+@media screen and (min-width:992px) {
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-4 {
+        margin: 0
+    }
+
+    .fe-education__herosection .hero-wrap .logo-wrap .logo-item.item-5 {
+        margin: 0 40px
+    }
+}
+
+@media screen and (max-width:410px) {
+    .fe-education__whychoosesection .tech-content dhi-seds-typography-heading[level=h3] br {
+        display: none;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .fe-education__herosection .hero-wrap .logo-wrap {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+.fe-education__herosection .hero-wrap .form-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #2b2927;
+    margin-bottom: 24px
+}
+
+.fe-education__herosection .hero-wrap .step-wrap {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #4d7880;
+    margin-bottom: 24px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm {
+    display: block !important;
+    background: #fff;
+    border: 1px solid #d4d2ce;
+    -webkit-box-shadow: 0 2px 6px rgba(27, 25, 24, .1);
+    box-shadow: 0 2px 6px rgba(27, 25, 24, .1);
+    border-radius: 8px;
+    width: 100% !important;
+    margin: 0 0 0 auto;
+    padding: 24px
+}
+
+.fe-education__herosection .hero-wrap .hero-form {
+    visibility: hidden
+}
+
+.fe-education__herosection .hero-wrap .hero-form.load {
+    visibility: visible
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormRow {
+    display: none
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormRow.fe_show {
+    display: block
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoLabel {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2b2927;
+    padding: 0;
+    margin-bottom: 4px;
+    width: auto !important;
+    outline: 0
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField {
+    width: 100% !important;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #837e77;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #585450;
+    padding: 0 16px;
+    outline: 0
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField[aria-describedby^=ValidMsg],
+.fe-education__herosection .hero-wrap .mktoForm div[id^=nb-field-].nb-error .mktoField {
+    outline-color: #952827;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -1px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField.mktoValid {
+    outline-color: #2a6437;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -1px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField:hover {
+    outline-color: #837e77;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -1px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField:focus {
+    outline-color: #7a9cb6;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -1px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField.mktoInvalid[aria-describedby^=ValidMsg]:focus {
+    outline-color: #952827;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -1px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoField:active {
+    outline-color: #195581;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: -1px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormCol {
+    width: 100%;
+    margin-bottom: 24px !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormCol .mktoFieldWrap {
+    width: 100%
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoGutter,
+.fe-education__herosection .hero-wrap .mktoForm .mktoOffset {
+    display: none
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoButtonRow {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoButtonWrap {
+    margin: 0 !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoButton,
+.fe-education__herosection .hero-wrap .mktoForm .mktoButtonWrap .fe-button,
+.fe-education__herosection .hero-wrap .mktoForm .multi-step-step1-btn {
+    max-width: 220px !important;
+    width: 100%;
+    height: 48px;
+    background: #ce2129 !important;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 150%;
+    text-align: center;
+    color: #fff !important;
+    outline: 0;
+    border: none !important;
+    -webkit-box-shadow: inset 0 0 0 #ce2129;
+    box-shadow: inset 0 0 0 #ce2129;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto !important;
+    cursor: pointer
+}
+
+.fe-education__herosection .hero-wrap .mktoForm>div:last-of-type {
+    padding: 16px 0 0
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .multi-step-step1-btn.FE-Form-Validator__hide {
+    display: none
+}
+
+.FE-Form-Validator .FE-Form-Validator__newform .fe-form-step1 button[type=submit]:not(.d-none)+[id*=tempStep2Btn] {
+    display: none !important
+}
+
+.FE-Form-Validator .FE-Form-Validator__newform .fe-form-step2 button[type=submit]:not(.d-none)+[id*=tempStep2Btn] {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormRow.fe_show {
+    margin-bottom: 24px !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .disclaimer,
+.fe-education__herosection .hero-wrap .multi-step-bm-form-heading {
+    display: none !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .fe-button,
+.fe-education__herosection .hero-wrap .mktoForm.fe-form-step2 .mktoButton {
+    display: none !important
+}
+
+.FE-Form-Validator .FE-Form-Validator__newform .fe-form-step2 #FE-Form-Validator__tempStep2Btn {
+    display: block
+}
+
+.fe-education__herosection .iti__flag-container {
+    height: 48px
+}
+
+.fe-education__herosection .iti--allow-dropdown input,
+.fe-education__herosection .iti--allow-dropdown input[type=tel],
+.fe-education__herosection .iti--allow-dropdown input[type=text],
+.fe-education__herosection .iti--separate-dial-code input,
+.fe-education__herosection .iti--separate-dial-code input[type=tel],
+.fe-education__herosection .iti--separate-dial-code input[type=text] {
+    padding-right: 16px !important;
+    padding-left: 52px !important
+}
+
+.fe-education__herosection .FE-Form-Validator__phone-status {
+    position: relative;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #952827;
+    padding: 0 0 0 25px;
+    text-shadow: none
+}
+
+.fe-education__herosection .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 21px;
+    height: 21px;
+    background: url(https://fe-test-dev.s3.amazonaws.com/Dice/dice-109/error.svg) no-repeat center
+}
+
+.fe-education__herosection .FE-Form-Validator__phone-status.FE-Form-Validator__phone-valid {
+    color: #2a6437
+}
+
+.fe-education__herosection .FE-Form-Validator__phone-status.FE-Form-Validator__phone-valid::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 21px;
+    height: 21px;
+    background: url(https://fe-test-dev.s3.amazonaws.com/Dice/dice-109/correct.svg) no-repeat center
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormRow .iti--show-flags {
+    width: 100%
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormRow .iti__country-list {
+    z-index: 100
+}
+
+.fe-education.FE-Form-Validator-1 .dice-base-container .marketo-form form .mktoFormRow.form-row .FE-Form-Validator__err,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder .dice-base-container .marketo-form form .mktoFormRow.form-row .FE-Form-Validator__err,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder form .fe_Phone_field .FE-Form-Validator__err,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder form .mktoFieldWrap .FE-Form-Validator__err,
+.fe-education.FE-Form-Validator-1 form .fe_Phone_field .FE-Form-Validator__err,
+.fe-education.FE-Form-Validator-1 form .mktoFieldWrap .FE-Form-Validator__err {
+    border: 2px solid #952827 !important;
+    outline-offset: -1px !important;
+    outline-color: #952827 !important;
+    outline-style: solid !important;
+    outline-width: 1px !important
+}
+
+.fe-education.FE-Form-Validator-1 .dice-base-container .marketo-form form .mktoFormRow.form-row .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder .dice-base-container .marketo-form form .mktoFormRow.form-row .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder form .fe_Phone_field .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder form .mktoFieldWrap .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before,
+.fe-education.FE-Form-Validator-1 form .fe_Phone_field .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before,
+.fe-education.FE-Form-Validator-1 form .mktoFieldWrap .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err::before {
+    position: absolute !important;
+    content: '' !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 21px !important;
+    height: 21px !important;
+    background: url(https://fe-test-dev.s3.amazonaws.com/Dice/dice-109/error.svg) no-repeat center !important;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit
+}
+
+.fe-education.FE-Form-Validator-1 .dice-base-container .marketo-form form .mktoFormRow.form-row .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder .dice-base-container .marketo-form form .mktoFormRow.form-row .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder form .fe_Phone_field .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err,
+.fe-education.FE-Form-Validator-1 .sales-form-wrapper .sales-form-holder form .mktoFieldWrap .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err,
+.fe-education.FE-Form-Validator-1 form .fe_Phone_field .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err,
+.fe-education.FE-Form-Validator-1 form .mktoFieldWrap .FE-Form-Validator__phone-status.FE-Form-Validator__phone-err {
+    position: relative;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #952827;
+    padding: 0 0 0 25px;
+    text-shadow: none;
+    box-shadow: none !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm.fe-form-step1 .fe-back-button,
+.fe-education__herosection .hero-wrap .mktoForm.fe-form-step1 .mktoButton,
+.fe-education__herosection .hero-wrap .mktoForm.fe-form-step2 .fe-button {
+    display: none
+}
+
+.fe-education__herosection .hero-wrap .mktoForm.fe-form-step2 .fe-back-button,
+.fe-education__herosection .hero-wrap .mktoForm.fe-form-step2 .mktoButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoButton:hover,
+.fe-education__herosection .hero-wrap .mktoForm .mktoButtonWrap .fe-button:hover,
+.fe-education__herosection .hero-wrap .mktoForm .multi-step-step1-btn:hover {
+    opacity: .8
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoFormRow div[id^=nb-field-] div.nb-feedback {
+    position: absolute !important;
+    top: 70px !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%) !important;
+    -ms-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .fe-back-button {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 36px 0 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #195581;
+    cursor: pointer
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .fe-back-button:hover {
+    opacity: .8
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .fe-back-button img {
+    width: 16px;
+    height: 16px;
+    margin: 0 4px 0 0;
+    padding: 0
+}
+
+@media screen and (min-width:1200px) {
+    .fe-education__herosection .hero-wrap {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start
+    }
+}
+
+@media screen and (min-width:800px) {
+    .fe-education__herosection .hero-wrap .mktoForm {
+        padding: 48px
+    }
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoRequiredField .mktoAsterix {
+    float: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #952827
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoError {
+    color: #952827;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    right: inherit !important;
+    padding: 0 !important;
+    position: relative;
+    bottom: -2px !important
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoError .mktoErrorArrowWrap {
+    display: none
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoError .mktoErrorMsg {
+    position: relative;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #952827;
+    padding: 0 0 0 25px;
+    text-shadow: none
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoError .mktoErrorMsg .mktoErrorDetail {
+    padding-left: 4px
+}
+
+.fe-education__herosection .hero-wrap .mktoForm .mktoError .mktoErrorMsg:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 21px;
+    height: 21px;
+    background: url('https://fe-test-dev.s3.amazonaws.com/Dice/dice-109/error.svg') no-repeat center
+}
+
+@media(max-width:425px) {
+    .fe-education__herosection .hero-wrap .mktoForm .mktoError .mktoErrorMsg {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .fe-education__herosection .hero-wrap .mktoForm .mktoError .mktoErrorMsg .mktoErrorDetail {
+        padding-left: 0
+    }
+}

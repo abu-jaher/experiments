@@ -1,0 +1,11 @@
+html body .mktoFormRow.fe_about_field label{
+  font-weight: bold;
+}
+
+html body .mktoFormRow.fe_about_field .mktoAsterix{
+  display: block;
+}
+
+html body .mktoFormRow.fe_about_field .fe_errorMsg{
+  bottom: -35px
+}

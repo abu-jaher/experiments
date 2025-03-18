@@ -1,0 +1,235 @@
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'landing',
+        'landing_page': 'true'
+    });
+</script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WLPMJGK');</script>
+<script type="text/javascript" src="//cdn-4.convertexperiments.com/js/10042981-10044140.js"></script>
+<script>
+(() => {
+    try {
+        const setup = () => {
+            Intercom('shutdown');
+        };
+
+        const pollerLite = (conditions, callback, maxTime) => {
+            if (maxTime === void 0) { maxTime = 20000; }
+            const POLLING_INTERVAL = 500;
+            const startTime = Date.now();
+            const interval = setInterval(() => {
+                const allConditionsMet = conditions.every((condition) => {
+                    if (typeof condition === 'function') {
+                        return condition();
+                    }
+                    return !!document.querySelector(condition);
+                });
+                if (allConditionsMet) {
+                    clearInterval(interval);
+                    callback();
+                }
+                else if (Date.now() - startTime >= maxTime) {
+                    clearInterval(interval);
+                    console.log('Polling exceeded maximum time limit');
+                }
+            }, POLLING_INTERVAL);
+        };
+
+        pollerLite([() => typeof window.Intercom === 'function'], setup);
+
+    } catch (error) {
+        console.log(`${error}`);
+    }
+})();
+</script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    .logo img {
+        max-width: 64px;
+    }
+
+    #__fe-subheading {
+        max-width: 920px;
+        margin: auto;
+    }
+
+    #__fe-testim .mj-column-per-50 {
+        max-width: 350px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 24px
+    }
+
+    #__fe-testim .mj-column-per-50 > div{
+        box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1) !important;
+    }
+
+    #__fe-tile-title span {
+        padding: 0.5rem 0.75rem;
+        font-weight: 600;
+        border-radius: 0.5rem;
+    }
+
+    #__fe-testim #__fe-button-1 a,
+    #__fe-testim #__fe-button a{
+        border-radius: 100px;
+    }
+
+    #__fe-testim #__fe-button-1 a span,
+    #__fe-testim #__fe-button a span{
+        padding: 12px 32px;
+        border-radius: 100px
+    }
+
+    #__fe-testim #__fe-button-1 a:hover span,
+    #__fe-testim #__fe-button a:hover span{
+        background: rgb(22, 78, 99) !important;
+    }
+
+    #__fe-subcopy-1 p,
+    #__fe-subcopy p{
+        font-weight: 500;
+    }
+
+    #__fe-testim-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #__fe-testim-1>div {
+        display: flex;
+        gap: 25px;
+    }
+
+    #__fe-testim-1 [class*="mj-column-per-33"],
+    #__fe-testim-1 [class*="mj-column-per-33"]>div {
+        height: 100%;
+        position: relative;
+        max-width: 310px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #__fe-testim-1 [class*="mj-column-per-33"] .img-container {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+        #__fe-testim-1 #__fe-author {
+            position: absolute;
+            bottom: 15px;
+            height: 65px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: max-content;
+            padding: 0px 10px;
+        }
+
+        #__fe-testim-1 [class*="mj-column-per-33"],
+        #__fe-testim-1 [class*="mj-column-per-33"]>div {
+            padding-bottom: 50px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        #__fe-testim-1 {
+            display: block !important;
+        }
+
+        #__fe-testim-1>div {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        #__fe-testim-1 [class*="mj-column-per-33"],
+        #__fe-testim-1 [class*="mj-column-per-33"]>div {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        #__fe-testim-1>div {
+            flex-wrap: wrap;
+        }
+
+        #__fe-testim-1 [class*="mj-column-per-33"],
+        #__fe-testim-1 [class*="mj-column-per-33"]>div {
+            height: max-content;
+        }
+    }
+
+    /* footer css */
+    .footer_header .container {
+        display: flex;
+        column-gap: 0.5rem;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer_header nav {
+        margin-left: auto;
+    }
+
+    .footer_header nav ul {
+        display: flex !important;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer_header nav ul a:hover img:not(.hover),
+    img.hover {
+        display: none;
+    }
+
+    .footer_header nav ul a:hover img.hover{
+        display: block;
+    }
+
+    .FE-get-app {
+        display: flex;
+        gap: 16px;
+        padding: 0 0.75rem;
+    }
+
+    #__fe-app-1 [background],
+    #__fe-app [background]{
+        background-position-x: 1.5rem !important;
+    }
+
+    #__fe-footer-links a:hover{
+        text-decoration: underline !important;
+    }
+
+    @media (min-width: 1200px) {
+        #__fe-app-1 [background],
+        #__fe-app [background] {
+            background-position-x: 107px !important;
+        }
+    }
+
+    @media screen and (max-width: 579px) {
+        .FE-get-app {
+            padding-left: 45px;
+        }
+    }
+
+</style>

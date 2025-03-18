@@ -1,0 +1,1501 @@
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+    'event': 'landing',
+    'landing_page': 'true'
+    });
+</script>
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-WLPMJGK');</script>
+<!-- End Google Tag Manager -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    .marketo-form form .mktoFormRow.multi-step-step2{
+        margin-bottom: 24px !important;
+    }
+
+    .nb-feedback + .mktoError,
+    [aria-describedby="ValidMsgEmail"] .mktoError{
+        display: none !important;
+    }
+
+    .mktoForm .mktoRequiredField{
+        position: relative;
+    }
+
+    /*<![CDATA[*/
+    #__fe-header-nav .mj-column-per-50 {
+        width: 50% !important;
+    }
+
+    #__fe-trust-logos-1 img {
+        height: 32px;
+        width: 90px;
+    }
+
+    #__fe-testim {
+        display: flex;
+    }
+
+    #__fe-testim>div {
+        display: flex;
+        gap: 25px;
+    }
+
+    #__fe-testim [class*="mj-column-per-25"],
+    #__fe-testim [class*="mj-column-per-25"]>div {
+        height: 100%;
+        position: relative;
+    }
+
+    #__fe-testim [class*="mj-column-per-25"] .img-container {
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .header {
+        background: #000;
+        padding: 1.5rem 0;
+    }
+
+    footer .header .container {
+        display: flex;
+        column-gap: 0.5rem;
+        align-items: center;
+        max-width: 1352px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+
+    footer .header nav {
+        margin-left: auto;
+    }
+
+    footer .header nav ul {
+        display: flex !important;
+        gap: 0.5rem;
+        font-size: 32px;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    footer .header nav ul li a:hover path,
+    footer .header nav ul li a:focus path {
+        fill: #8fb5bc;
+    }
+
+    footer .legal {
+        color: #ffffff
+    }
+
+    footer .legal .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    
+    footer .legal p {
+        font: 400 0.75rem/1.5 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+        margin: 0px;
+    }
+
+    footer .legal a {
+        color: #f2f2ec !important;
+        text-decoration: underline !important;
+    }
+    footer .legal ul {
+        font-size: 0.75rem !important;
+        gap: 0 !important;
+    }
+
+    footer .legal li:not(:last-child)::after{
+        display: inline-block;
+        margin: 0px 0.5rem;
+        content: "|";
+    }
+
+    footer .legal .column {
+        margin: 1.5rem 0px;
+    }
+
+    footer .legal .column:first-child {
+        margin-bottom: 0px;
+    }
+
+    footer .legal .column.size-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    footer .legal li {
+        display: inline-block;
+        font-family: 'IBM Plex Sans';
+    }
+
+    @media (min-width: 1200px) {
+        footer .legal .column.size-12,
+        footer .column.size-lg-auto {
+            flex: 1 0 0%;
+        }
+
+        footer .legal .column {
+            margin-bottom: 1.5rem;
+        }
+
+        footer .legal ul {
+            justify-content: end;
+        } 
+    }
+
+    /*styles for the 1st step*/
+    /*styles for the 1st step form question*/
+
+    .marketo-form {
+        width: 100%;
+    }
+
+    .multi-step-step1 fieldset {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .form-question {
+        padding-bottom: 24px;
+        padding-top: 8px;
+    }
+
+    .form-question h3 {
+        color: #111827;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        margin: 0;
+        font-family: 'IBM Plex Sans';
+    }
+
+    .form-question .requiredAsterisk {
+        color: #991B1B;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    }
+
+    /*styles for the 1st step form answers*/
+    .form-answers {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form-answers input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+    }
+
+    .form-answers label {
+        display: flex;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid var(--Colors-zinc-300, #D4D4D8);
+        background: var(--Colors-base-white, #FFF);
+        margin-bottom: 16px;
+        font-size: 16px;
+        -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        -o-transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        font-family: 'IBM Plex Sans';
+    }
+
+    .form-answers input[type="radio"]:checked+label {
+        background-color: #CFFAFE;
+        border-color: #0891B2;
+        color: #111827;
+    }
+
+    .form-answers input[type="radio"]:hover+label {
+        background-color: #CFFAFE;
+        border-color: #0891B2;
+        color: #111827;
+    }
+
+    .form-answers input[type="radio"]+label.roleError {
+        border: 1px solid #CC0000;
+    }
+
+    /*if the user doesn't select an answer we show an error*/
+    .marketo-form .step1error {
+        color: #991B1B;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    @media (min-width: 768px) {
+        #__fe-testim #__fe-author {
+            position: absolute;
+            bottom: 15px;
+            height: 65px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: max-content;
+            padding: 0px 10px;
+        }
+
+        .form-question h3 {
+            font-size: 20px;
+        }
+
+        .form-question .requiredAsterisk {
+            font-size: 20px;
+        }
+
+        .form-answers {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        .form-answers label {
+            padding: 12px 24px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        #__fe-testim {
+            display: block !important;
+        }
+
+        #__fe-testim>div {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        #__fe-testim [class*="mj-column-per-25"],
+        #__fe-testim [class*="mj-column-per-25"]>div {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+    }
+
+    /*]]>*/
+</style>
+<style>
+    /*<![CDATA[*/
+    h1{
+        padding: 10px 25px 10px 25px;
+        font-family: degular, Helvetica;
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: #fff;
+        margin: 0;
+    }
+
+    #__find-programmer h2,
+    #__dice-candidates h2,
+    #__dice-candidates-1 h2{
+        padding: 10px 25px 10px 25px;
+        font-family: Helvetica, Helvetica, Calibri, sans-serif;
+        font-size: 32px;
+        color: #000000;
+        line-height: 1.2;
+        margin: 0;
+        text-align: center;
+    }
+
+    #__fe-testimonial h2{
+        font-family: degular, Helvetica;
+        padding: 20px 10px 50px 10px;
+        text-align: center;
+        font-size: 38px;
+        line-height: 1;
+        font-weight: bold;
+        color: #000;
+        margin: 0;
+    }
+
+    #__fe-hero h2{
+        color: #fff !important;
+    }
+
+    #__fe-hero h2,
+    #__make-finding h2{
+        font-family: degular, Helvetica;
+        padding: 25px;
+        text-align: left;
+        font-size: 38px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: #000;
+        margin: 0;
+    }
+
+    #__next-programmer h2{
+        font-family: degular, Helvetica;
+        padding: 15px;
+        text-align: center;
+        font-size: 38px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: #000;
+        margin: 0;
+    }
+
+    #__find-programmer h2{
+        padding: 60px 10px 60px 10px;
+    }
+
+    /*overall form formatting*/
+    form[id*="mktoForm"] {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    form[id*="mktoForm"] input {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0.6em !important;
+        border-radius: 8px;
+        border: 1px solid #71717A;
+        background: #FFFFFF;
+        font-weight: normal !important;
+        color: #2B2927 !important;
+        height: 40px !important;
+        font-family: 'IBM Plex Sans' !important;
+        font-size: 16px !important;
+    }
+
+    .form-background {
+        background-color: #FFFFFF;
+        display: flex;
+        padding: 32px 24px 0 24px;
+        flex-direction: column;
+        align-items: center;
+        max-width: 440px;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+
+    .backButton {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: left;
+    }
+
+    .breadcrumb-back {
+        display: inline-flex;
+        color: #0E7490;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        position: relative;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    .breadcrumb-back::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: #fff;
+        border-color: #000;
+        border-left: 2px solid;
+        border-top: 2px solid;
+        transform: rotate(-45deg);
+        top: 4px;
+        position: absolute;
+        left: 8px;
+    }
+
+    .breadcrumb-back ion-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .breadcrumb-back:hover {
+        color: #164E63;
+        text-decoration: underline;
+    }
+
+    .text-link-underline a,
+    a.text-link-underline {
+        text-decoration: none;
+    }
+
+    .mktoForm .mktoError .mktoErrorMsg {
+        position: relative;
+        top: -15px !important;
+    }
+
+    .mktoForm .mktoError .mktoErrorArrowWrap {
+        position: relative;
+        top: -15px !important;
+    }
+
+    .multi-step-marketo-intro h3 {
+        color: #18181B;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        margin: 0 0 0.5rem;
+        font-family: 'IBM Plex Sans';
+    }
+
+    .multi-step-show {
+        display: block;
+    }
+
+    .multi-step-hide {
+        display: none !important;
+    }
+
+    .multi-step-marketo-intro p {
+        color: #111827;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 0;
+        font-family: 'IBM Plex Sans';
+        display: none;
+    }
+
+    form[id*="mktoForm"] .mktoLabel {
+        padding-bottom: 8px;
+        font-size: 16px;
+        font-family: 'IBM Plex Sans';
+    }
+
+    .dice-base-container .marketo-form form .mktoFormRow.multi-step-form-row.multi-step-show {
+        display: block;
+    }
+
+    .marketo-form .g-recaptcha {
+        visibility: hidden;
+    }
+
+    form.mktoForm .mktoButtonWrap {
+        display: flex;
+        text-align: center;
+    }
+
+    form.mktoForm .mktoButtonWrap .multi-step-btn {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 700;
+        margin: auto;
+        background-color: #0E7490 !important;
+        /* background-color: #CE2129 !important; */
+        border-radius: 50px !important;
+        -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        -o-transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        text-align: center;
+        text-shadow: none;
+        width: 262px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-family: 'IBM Plex Sans';
+        border: none;
+    }
+
+    form.mktoForm .mktoButtonWrap p.multi-step-btn:hover {
+        color: #FFFFFF;
+        /* background-color: #B51B0E !important; */
+        background-color: #164E63 !important;
+        border-color: #B51B0E !important;
+    }
+
+    .marketo-form .form-row {
+        position: relative;
+    }
+
+    .marketo-form .mktoForm .g-recaptcha {
+        visibility: visible;
+    }
+
+    .marketo-form .form-control.form-control {
+        padding-left: 1rem;
+    }
+
+    .marketo-form .form-control.form-control:not(.btn) {
+        border: solid 1px #4a4a4a;
+    }
+
+    .g-recaptcha.mktoInvalid {
+        border: 5px solid red;
+        transition: background-color 400ms ease-in;
+    }
+
+    .marketo-form [id*="disclaimer"] {
+        font-size: 12px;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #757575;
+        margin-top: 1.5rem;
+    }
+
+    .marketo-form [id*="disclaimer"] p {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .marketo-form [id*="disclaimer"] a {
+        color: #069 !important;
+    }
+
+    .marketo-form form .mktoFormRow.form-row.multi-step-show {
+        margin: 0 0 16px;
+    }
+
+    .marketo-form .offramp {
+        margin-top: 24px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+
+    .marketo-form .offramp a {
+        color: #0E7490 !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        -o-transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out !important;
+        font-family: 'IBM Plex Sans';
+    }
+
+    .marketo-form .offramp a:hover {
+        color: #164E63 !important;
+    }
+
+    @media(min-width: 768px) {
+        form.mktoForm .mktoButtonWrap {
+            margin-top: 0;
+        }
+
+        .form-background {
+            border-radius: 8px;
+        }
+
+        .form-background.boxShade {
+            outline: 1px solid #F3F4F6;
+            outline-offset: -1px;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
+        }
+    }
+
+    @media(min-width: 992px) {
+        #__fe-hero>div>div {
+            position: relative;
+        }
+
+        .form-background {
+            height: max-content;
+            z-index: 1;
+            /* position: absolute; */
+            right: 50px;
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        #__hero-subtitle, #__hero-list {
+            display: flex;
+            justify-content: center;
+        }
+        #__fe-testimonial h2,
+        #__find-programmer h2,
+        #__dice-candidates h2,
+        #__dice-candidates-1 h2,
+        h1{
+            font-size: 24px;
+            text-align: center;
+        }
+
+        #__fe-hero h2{
+            padding: 5px;
+            font-size: 20px;
+            text-align: center;
+            max-width: 240px;
+            margin: auto;
+        }
+
+        #__next-programmer h2,
+        #__make-finding h2{
+            padding: 5px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        #__find-programmer h2{
+            padding: 40px 10px 60px 10px;
+        }
+
+        #__fe-testim>div {
+            flex-wrap: wrap;
+        }
+
+        #__fe-testim [class*="mj-column-per-25"],
+        #__fe-testim [class*="mj-column-per-25"]>div {
+            height: max-content;
+        }
+    }
+
+    /*]]>*/
+</style>
+<style>
+    /*<![CDATA[*/
+
+    .newProgressBar {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .newProgressBar .stepdisplay {
+        color: #18181B;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        padding-top: 8px;
+        text-align: center;
+        font-family: 'IBM Plex Sans';
+    }
+
+    .progress {
+        height: 18px;
+        background-color: #ecfeff;
+        border-radius: 5px;
+        overflow: hidden;
+        border-radius: 24px;
+        border: 1px solid #0e7490;
+    }
+
+    .progress-bar {
+        background-color: #0891B2;
+        width: 33%;
+        height: 100%;
+        transition: width 0.4s ease-in-out;
+    }
+
+
+    /*]]>*/
+</style>
+<script type="text/javascript" src="//cdn-4.convertexperiments.com/js/10042981-10044140.js"></script>
+<script src="//app-sjg.marketo.com/js/forms2/js/forms2.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>
+    var dhi = dhi || {};
+    dhi.marketo3 = (function () {
+        'use strict';
+
+        let step1BtnText;
+        let step2BtnText;
+        let step3BtnText;
+        let step2FieldString;
+        let step3FieldString;
+        let step2FieldList;
+        let step3FieldList;
+        let redirectUrl;
+        let formId;
+        let subscriptionId;
+        let step = 1;
+        let atLeast1InvalidField;
+        let timeoutId;
+        let waitForNB = true;
+
+        function removeMarketoStyling() {
+            var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+            // removing inline styles we can't override
+            $form.removeAttr('style');
+            $form.find('[style]').removeAttr('style');
+            // other classes that appear to interfere with layout
+            $form.find('.mktoFieldWrap').removeClass('mktoFieldWrap');
+            $form.find('.mktoFormCol').removeClass('mktoFormCol');
+            $form.find('.mktoButtonRow').removeClass('mktoButtonRow');
+            $form.append()
+        }
+        function selectCompanyType(radioBtnId) {
+            var radiotBtn = document.getElementById(radioBtnId).children;
+            radiotBtn[0].checked = true;
+        }
+        function getClassForField(id) {
+            //it's faster to interrogate the string rather than looping through the list of fields
+
+            if (step2FieldString.includes(id)) {
+                if (step === 2) {
+                    return "multi-step-step2 multi-step-show";
+                } else {
+                    return "multi-step-step2 multi-step-hide";
+                }
+            }
+
+            if (step3FieldString.includes(id)) {
+                if (step === 3) {
+                    return "multi-step-step3 multi-step-show";
+                } else {
+                    return "multi-step-step3 multi-step-hide";
+                }
+            }
+            return "";
+        }
+
+        function addThemeKitStyling() {
+            var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+            // hide labels
+            $form.find('label').each(function () {// copy labels as input placeholders
+                $('.marketo-form #' + $(this).attr('for') + ', .marketo-form-inline #' + $(this).attr('for'))
+                    .attr('placeholder', '');
+            });
+            // selects: make first option the label
+            $form.find('select option:first').each(function () {
+                $(this).text($(this).parent().attr('placeholder')).prop('disabled', true).attr('selected', true);
+            });
+
+            // force display full-width
+            $form.find('input:visible, select:visible').addClass('form-control');
+            $form.find('input:visible, select:visible').each(function () {
+                var currentStepFieldClass = getClassForField(this.id);
+                $(this).closest('.mktoFormRow').addClass(currentStepFieldClass);
+            });
+
+            jQuery('.marketo-form .mktoFormRow:visible').addClass('form-row');
+            $form.find('button').removeClass('mktoButton').addClass('btn').addClass('btn-primary');
+            $form.find('.mktoForm').removeClass('mktoForm');
+            // jQuery('.marketo-form .mktoFieldDescriptor:visible, .marketo-form button')
+            //     .addClass('form-group');
+
+            // re-enable browser pre-validation:
+            $form.find('input.mktoRequired').prop('required', true);
+            $form.find('[novalidate]').removeAttr('novalidate');
+            document.getElementById('LblEmail').innerHTML = '<div class="mktoAsterix">*</div>Email Address:';
+            document.getElementById('LblPhone').innerHTML = '<div class="mktoAsterix">*</div>Phone Number:';
+            var disclaimerElem = document.querySelector("#disclaimer_" + formId);
+            if (disclaimerElem) {
+                disclaimerElem.classList.add("multi-step-hide");
+            }
+        }
+
+        function createStepButton(btnText) {
+            let temp = document.createElement('div');
+            btnText = btnText.trim(); // Never return a space text node as a result
+            temp.innerHTML = btnText;
+            return temp.firstChild;
+        }
+        function createStepButtons() {
+            var btn = document.querySelector("form button[type='submit']");
+            btn.classList.add('multi-step-hide'); //don't show form submit button in step1
+            btn.classList.add('multi-step-btn'); //don't show form submit button in step1
+            btn.setAttribute('id', 'formSubmitBtn');
+            var tempStep1ButtonHtml = '<p id="tempStep1Btn" tabindex="0" class="multi-step-btn">' + step1BtnText + '</p>';
+            let tempStep1Button = createStepButton(tempStep1ButtonHtml);
+            btn.parentNode.append(tempStep1Button);
+            var tempStep2ButtonHtml = '<p id="tempStep2Btn" tabindex="0" class="multi-step-btn multi-step-hide">' + step1BtnText + '</p>';
+            let tempStep2Button = createStepButton(tempStep2ButtonHtml);
+            btn.parentNode.append(tempStep2Button);
+
+        }
+        function setButtonText() {
+            var btn = document.querySelector("form button[type='submit']");
+            if (step === 1) {
+                // btn.classList.add('d-none'); //don't show form submit button in step1
+                btn.classList.add('multi-step-hide'); //don't show form submit button in step1
+                btn.setAttribute('id', 'formSubmitBtn');
+                document.getElementById('tempStep1Btn').classList.remove("multi-step-hide"); //hide submit button
+                document.getElementById('tempStep2Btn').classList.add("multi-step-hide"); //hide step1 button
+            } else if (step === 2) {
+                // btn.classList.add('d-none'); //don't show form submit button in step1
+                btn.classList.add('multi-step-hide'); //don't show form submit button in step1
+                btn.setAttribute('id', 'formSubmitBtn');
+                document.getElementById('tempStep1Btn').classList.add("multi-step-hide"); //remove step1 button
+                document.getElementById('tempStep2Btn').classList.remove("multi-step-hide"); //remove step1 button
+            } else {
+                document.getElementById('tempStep1Btn').classList.add("multi-step-hide"); //remove step1 button
+                document.getElementById('tempStep2Btn').classList.add("multi-step-hide"); //remove step1 button
+                btn.classList.remove('multi-step-hide'); //now show form submit button
+                btn.textContent = step3BtnText;
+                btn.setAttribute("tabindex", "0");
+
+            }
+        }
+
+        function removeError(formRow) {
+            setTimeout(() => {
+                for (var i = 0; i < formRow.length; i++) {
+                    if (formRow[i].querySelector(".mktoError") != null) {
+                        formRow[i].querySelector(".mktoError").remove();
+                        formRow[i].querySelector("input").blur();
+                    }
+                }
+            }, 20);
+        }
+
+        function showSecondStep(formLabel) {
+
+            var step1Wrapper = document.getElementsByClassName('multi-step-step1')[0]
+            step1Wrapper.classList.remove("multi-step-show");
+            step1Wrapper.classList.add("multi-step-hide");
+
+            for (var i = 0; i < formLabel.length; i++) {
+                var field = formLabel[i].closest(".mktoFormRow");
+                if (field.classList.contains("multi-step-step3")) {
+                    field.classList.remove("multi-step-show");
+                    field.classList.add("multi-step-hide");
+                } else {
+                    field.classList.remove("multi-step-hide");
+                    field.classList.add("multi-step-show");
+                }
+            }
+
+            jQuery('.marketo-form .mktoFormRow:visible').addClass('form-row');
+            document.querySelector("#backButton_" + formId).classList.remove("multi-step-hide");
+            document.querySelector("#backButton_" + formId).addEventListener('click', backButtonHandler);
+            document.querySelector("#backButtonSpan_" + formId).addEventListener("keypress", function () {
+                // triggering multistep
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    backButtonHandler();
+                }
+            });
+
+            var offrampElem = document.querySelector("#offramp_" + formId);
+            if (offrampElem) { //not all form usaes display the disclaimer
+                offrampElem.style.display = "none";
+            }
+        }
+
+        function showThirdStep(formLabel) {
+            // document.getElementsByClassName('multi-step-step2-complete')[0].classList.remove('multi-step-hide');
+            for (var i = 0; i < formLabel.length; i++) {
+                var field = formLabel[i].closest(".mktoFormRow");
+                if (field.classList.contains("multi-step-step2")) {
+                    field.classList.remove("multi-step-show");
+                    field.classList.add("multi-step-hide");
+                } else {
+                    field.classList.remove("multi-step-hide");
+                    field.classList.add("multi-step-show");
+                }
+            }
+
+            jQuery('.marketo-form .mktoFormRow:visible').addClass('form-row');
+            document.querySelector("#backButton_" + formId).classList.remove("multi-step-hide");
+            document.querySelector("#backButton_" + formId).addEventListener('click', backButtonHandler);
+            document.querySelector("#backButtonSpan_" + formId).addEventListener("keypress", function () {
+                // triggering multistep
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    backButtonHandler();
+                }
+            });
+            var disclaimerElem = document.querySelector("#disclaimer_" + formId);
+            if (disclaimerElem) { //not all form usaes display the disclaimer
+                disclaimerElem.classList.remove("multi-step-hide");
+            }
+        }
+
+        function triggerNextStep(steps, formRow, formLabel, formId) {
+            setTimeout(function () {
+                if (!atLeast1InvalidField && !waitForNB) {
+                    if (step === 1) {
+                        TrackGAEvent("form_interaction", "Contact Sales", "click", "Step_1_complete");
+                        removeError(formRow);
+                        showSecondStep(formLabel);
+                        step++;
+                        setButtonText();
+                        updateProgress();
+                    } else if (step === 2) {
+                        TrackGAEvent("form_interaction", "Contact Sales", "click", "Step_2_complete");
+                        removeError(formRow);
+                        showThirdStep(formLabel);
+                        step++;
+                        setButtonText();
+                        updateProgress();
+                    }
+                }
+            }, 50);
+
+        }
+        function setStep1FieldValidationStatus(form) {
+            var role1 = document.getElementById("radio-role1");
+            var role2 = document.getElementById("radio-role2");
+            if (!role1.checked && !role2.checked) {
+                atLeast1InvalidField = true;
+            }
+        }
+        function addFieldToForm() {
+            var fldValueToAdd;
+            var role1 = document.getElementById("radio-role1");
+            var role2 = document.getElementById("radio-role2");
+            if (role1.checked) {
+                fldValueToAdd = role1.value;
+            } else if (role2.checked) {
+                fldValueToAdd = role2.value;
+            }
+            var checkHidden = document.getElementsByName('formTypeofCompany');
+            if (checkHidden != null && checkHidden[0] != null) {
+                checkHidden[0].value = fldValueToAdd;
+            }
+            else {
+                var hiddenInput = document.createElement('input');
+                hiddenInput.setAttribute('name', 'formTypeofCompany');
+                hiddenInput.setAttribute('type', 'hidden');
+                hiddenInput.setAttribute('value', fldValueToAdd);
+                // Append this element to the form
+                var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+                $form.append(hiddenInput);
+            }
+        }
+
+        function displayStep1Error() {
+            var step1ErrorElem = document.getElementById("step1Error_" + formId);
+            if (step1ErrorElem) {
+                step1ErrorElem.classList.remove('multi-step-hide');
+            }
+            var role1Elem = document.getElementById("role1LabelId_" + formId);
+            if (role1Elem) {
+                role1Elem.classList.add('roleError');
+            }
+            var role2Elem = document.getElementById("role2LabelId_" + formId);
+            if (role2Elem) {
+                role2Elem.classList.add('roleError');
+            }
+        }
+        function hideStep1Error() {
+            var step1ErrorElem = document.getElementById("step1Error_" + formId);
+            if (step1ErrorElem) {
+                step1ErrorElem.classList.add('multi-step-hide');
+            }
+            var role1Elem = document.getElementById("role1LabelId_" + formId);
+            if (role1Elem) {
+                role1Elem.classList.remove('roleError');
+            }
+            var role2Elem = document.getElementById("role2LabelId_" + formId);
+            if (role2Elem) {
+                role2Elem.classList.remove('roleError');
+            }
+        }
+
+        function setFieldValidationStatus(form, fieldList) {
+            for (var i = 0; i < fieldList.length; i++) {
+                var field1ElementName = fieldList[i].trim();
+                var formVal = document.getElementById(field1ElementName).value;
+                if (formVal == "") {
+                    var formElem = form.getFormElem().find("#" + field1ElementName);
+                    form.showErrorMessage("This is a required field", formElem);
+                    atLeast1InvalidField = true;
+                }
+                if (field1ElementName.includes('email') || field1ElementName.includes('Email')) {
+                    var errorField = document.querySelector('.nb-icon-cancel');
+                    if (errorField) {
+                        var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+                        var dataNbId = "nb-field-" + $form.attr('data-nb-form');
+                        var emailErrContainer = form.getFormElem().find("#" + dataNbId);
+                        form.showErrorMessage("Must be valid work email. example@yourdomain.com", emailErrContainer);
+                        atLeast1InvalidField = true;
+                    }
+                }
+                if (field1ElementName.includes('name') || field1ElementName.includes('Name')) {
+                    if (formVal.length < 2) {
+                        var nameElem = form.getFormElem().find("#" + field1ElementName);
+                        form.showErrorMessage("2 character minimum", nameElem);
+                        atLeast1InvalidField = true;
+                    }
+                }
+            }
+
+
+        }
+        function checkphoneviaTwilio(form, evt, phoneInputField, phone) {
+            // console.log("in checkphoneviaTwilio");
+            var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+            var url = "https://eeeuvxeafk.execute-api.us-east-1.amazonaws.com/phone-number-lookup?phone="+phone;
+            // console.log("twilio base url: " + url);
+            var xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function () { // Call a function when the state changes.
+                if (xhr.readyState === 4) {
+                    if (this.status === 200) {
+                        atLeast1InvalidField = false;
+                        // console.log('phone number ok');
+                        setTimeout(() => {
+                            document.getElementById("Company").focus();
+                        }, 0);
+                    } else {
+                        atLeast1InvalidField = true;
+                        // console.log("phone number check status: " + this.status + "   atLeast1InvalidField: " + atLeast1InvalidField);
+                        handlePhoneErrorMessasge(form, phoneInputField, "invalid phone number");
+                        evt.preventDefault();
+                        return false;
+                    }
+                }
+            }
+            xhr.open("GET", url);
+            xhr.send();
+        }
+
+        function handlePhoneErrorMessasge(form, phoneInputField, ErrMsg) {
+            phoneInputField.classList.remove('valid-green');
+            phoneInputField.classList.add('err');
+            var formElem = form.getFormElem().find("#Phone");
+            form.showErrorMessage(ErrMsg, formElem);
+        }
+
+        function setupMarketo(formIdentifier, subscription, redirect, secondStepBtnText, step2Fields, submitBtnText, step3Fields) {
+
+            $(document).ready(function () {
+                MktoForms2.loadForm("//app-sjg.marketo.com", subscription, formIdentifier, function (form) {
+
+                    step1BtnText = secondStepBtnText;
+                    step2BtnText = secondStepBtnText;
+                    step3BtnText = submitBtnText;
+                    step2FieldString = step2Fields;
+                    step3FieldString = step3Fields;
+                    step2FieldList = step2Fields.split(',');
+                    step3FieldList = step3Fields.split(',');
+                    redirectUrl = redirect;
+                    formId = formIdentifier;
+                    subscriptionId = subscription;
+                    var formElem = form.getFormElem();
+                    var recaptchaElem = document.querySelector('.g-recaptcha');
+                    var successElem = document.querySelector('#formSuccess_' + formId);
+                    var disclaimerElem = document.querySelector("#disclaimer_" + formId);
+
+                    if (recaptchaElem !== null) {
+                        form.submittable(false);
+                        recaptchaElem.querySelector('IFRAME').setAttribute('height', '140');
+                        $(recaptchaElem)
+                            .detach()
+                            .insertBefore('.mktoButtonRow')
+                            .wrap("<div class='mktoFormRow'></div>");
+                    }
+
+                    form.onSuccess(function (values, followupUrl) {
+                        TrackGAEvent("form_interaction", "Contact Sales", "click", "Step_2_complete");
+                        formElem.hide();
+
+                        if (redirectUrl != null && redirectUrl.trim()) {
+                            location.href = redirectUrl; //sends user to thank you page
+                        } else {
+                            $(successElem).toggleClass("multi-step-hide");
+                            if (disclaimerElem) {
+                                $(disclaimerElem).toggleClass("multi-step-hide");
+                            }
+                        }
+                        return false;
+                    });
+
+                    removeMarketoStyling();
+                    addThemeKitStyling();
+                    createStepButtons();
+                    setButtonText();
+
+                    var formLabel = document.querySelectorAll("form[id*='mktoForm'] .mktoFormRow label");
+                    var steps = document.querySelectorAll("form[id*='mktoForm'] .mktoFormRow.multi-step-show");
+                    // form field
+                    var formRow = document.querySelectorAll("form[id*='mktoForm'] .mktoFormRow");
+
+                    //STEP 1 Listeners Start
+                    //remove the error and error border on step 1
+                    document.querySelector("input[id='radio-role1']").addEventListener("click", function () {
+                        hideStep1Error();
+                    });
+                    document.querySelector("input[id='radio-role2']").addEventListener("click", function () {
+                        hideStep1Error();
+                    });
+
+                    //add listeners for Step 1 and Step 2 buttons
+                    document.querySelector("form[id*='mktoForm'] p[id='tempStep1Btn']").addEventListener("click", function () {
+                        // triggering multistep
+                        atLeast1InvalidField = false;
+                        setStep1FieldValidationStatus(form);
+                        if (!atLeast1InvalidField) {
+                            hideStep1Error();
+                            addFieldToForm();
+                        }
+                        else {
+                            displayStep1Error();
+                        }
+                        waitForNB = false;
+                        triggerNextStep(steps, formRow, formLabel, formId);
+                        setTimeout(() => {
+                            document.getElementById("FirstName").focus();
+                        }, 0);
+
+                    });
+                    document.querySelector("form[id*='mktoForm'] p[id='tempStep1Btn']").addEventListener("keypress", function () {
+                        // triggering multistep
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("tempStep1Btn").click();
+                        }
+                    });
+                    //STEP 1 Listeners End
+
+                    //STEP 2 Listener Start
+                    document.querySelector("form[id*='mktoForm'] p[id='tempStep2Btn']").addEventListener("click", function () {
+                        // triggering multistep
+                        atLeast1InvalidField = false;
+                        setFieldValidationStatus(form, step2FieldList);
+                        triggerNextStep(steps, formRow, formLabel, formId);
+                        setTimeout(() => {
+                            document.getElementById("Phone").focus();
+                        }, 0);
+
+                    });
+                    document.querySelector("form[id*='mktoForm'] p[id='tempStep2Btn']").addEventListener("keypress", function () {
+                        // triggering multistep
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("tempStep2Btn").click();
+                        }
+                    });
+
+                    // email validation
+                    var field = document.querySelector('input[type="email"]');
+                    window._nb.fields.registerListener(field, true);
+                    let emailField = document.querySelector('input[type="email"]');
+                    emailField.addEventListener("nb:result", function (e) {
+                        waitForNB = false;
+                        emailValidationHandler(e);
+                    });
+                    emailField.addEventListener("nb:clear", function (e) {
+                        waitForNB = false;
+                        emailValidationHandler(e);
+                    });
+                    emailField.addEventListener("nb:loading", function (e) {
+                        waitForNB = true;
+                        setTimeout(() => {
+                        }, 1000);
+                    });
+                    //STEP 2 Listener End
+
+                    var phoneInputField = document.querySelector('input[type="tel"]');
+                    const phoneInput = window.intlTelInput(phoneInputField, {
+                        utilsScript:
+                            "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js",
+                    });
+                    document.querySelector("form button[type='submit']").addEventListener("click", function (e) {
+                        // console.log('submit button event listener');
+                        setTimeout(() => {
+                            var phoneNumber = phoneInputField.value;
+                            atLeast1InvalidField = false;
+                            checkphoneviaTwilio(form, e, phoneInputField, phoneNumber);
+                        }, 1000);
+                    });
+                    let timer;
+                    phoneInputField.addEventListener('keyup', function (e) {
+                        // Clears any outstanding timer
+                        clearTimeout(timer);
+                        // Sets new timer that may or may not get cleared
+                        timer = setTimeout(() => {
+                            var phoneNumber = phoneInputField.value;
+                            atLeast1InvalidField = false;
+                            checkphoneviaTwilio(form, e, phoneInputField, phoneNumber);
+                        }, 1000);
+                    });
+                });
+            });
+        }
+        function extractDomainFromEmail(email) {
+            var regexPattern = /@([A-Za-z0-9-]+\.[A-Za-z0-9-.]+)/;
+            var match = email.match(regexPattern);
+
+            if (match && match.length > 1) {
+                var domain = match[1];
+                var domainWithoutExtension = domain.split('.')[0]; //Remove everything after the first dot
+                return domainWithoutExtension;
+            }
+
+            return null;
+        }
+        function emailValidationHandler(evt) {
+            const { type, target } = evt;
+
+            const domainName = extractDomainFromEmail(target.value);
+
+            const excludeEmails = [
+                'gmail',
+                'yahoo',
+                'hotmail',
+                'aol',
+                'me',
+                'icloud',
+                'comcast',
+                'msn',
+                'att',
+                'ios',
+                'outlook',
+                'inbox',
+                'mail',
+                'hotmail',
+                'live',
+                'verizon',
+                'bellsouth',
+                'charter',
+                'earthlink',
+                'mac',
+                'cox',
+                'email',
+                'cloudassociates',
+                'ril',
+                'work',
+                'w',
+                'gmai',
+                'microsoft',
+                'ail',
+                'suddenlink',
+                'ymail',
+                'asdasd',
+                'abc',
+                'ya',
+                'yah',
+                'ccb',
+                'aa',
+                'aim'
+            ];
+
+            const isInCustomExclusionList = excludeEmails.includes(domainName);
+
+            if (type === 'nb:result') {
+                //console.log(evt.detail.result);
+                //if email is allowed overwrite to positive message
+                const { response } = evt.detail.result;
+                const isAllowed = response.allow_entry && !response.flags.includes('free_email_host');
+
+                var emailMsgContainer = document.querySelector('#Email + .nb-feedback .nb-result');
+                if (isAllowed && emailMsgContainer && !isInCustomExclusionList) {
+                    const validMsg = '<i class="nb-icon-ok"></i>&nbsp;Valid email';
+                    emailMsgContainer.classList.add('isValidEmail');
+                    emailMsgContainer.innerHTML = validMsg;
+                    waitForNB = false;
+                } else if (isInCustomExclusionList) {
+                    const validMsg = '<i class="nb-icon-cancel"></i>&nbsp;Invalid email';
+                    emailMsgContainer.classList.add('isInvalidEmail');
+                    emailMsgContainer.innerHTML = validMsg;
+                }
+            } else if (type === 'nb:clear') {
+                // const status = e.detail.result && e.detail.result.isError();
+                //console.log('nb:clear');
+            } else if (type === 'nb:loading') {
+                //console.log('nb:loading');
+            }
+        };
+        function TrackGAEvent(eventName, category, action, label) {
+            var eventDataString = '{"event": "' + eventName
+                + '" , "eventCategory": "' + category
+                + '" , "eventAction":"' + action
+                + '", "eventLabel":"' + label + '"}';
+            var eventData = JSON.parse(eventDataString);
+
+            dataLayer.push(eventData);
+        }
+        function goBackToStep1() {
+            var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+            $form.find('.multi-step-step3').removeClass('multi-step-show').removeClass('form-row').addClass('multi-step-hide');
+            $form.find('.multi-step-step2').removeClass('multi-step-show').removeClass('form-row').addClass('multi-step-hide');
+            document.getElementsByClassName('multi-step-step1')[0].classList.remove('multi-step-hide');
+
+            var tempBtn1 = document.getElementById('tempStep1Btn');
+            tempBtn1.classList.remove('multi-step-hide');
+            var tempBtn = document.getElementById('tempStep2Btn');
+            tempBtn.classList.add('multi-step-hide');
+            var submitBtn = document.getElementById('formSubmitBtn');
+            submitBtn.classList.add('multi-step-hide');
+            document.getElementById("backButton_" + formId).classList.add('multi-step-hide');
+            var disclaimerElem = document.getElementById("disclaimer_" + formId);
+            if (disclaimerElem) {
+                disclaimerElem.classList.add('multi-step-hide');
+            }
+            var offrampElem = document.querySelector("#offramp_" + formId);
+            if (offrampElem) { //not all form usaes display the disclaimer
+                offrampElem.style.display = "block";
+            }
+        }
+
+        function goBackToStep2() {
+            var $form = jQuery('.marketo-form form, .marketo-form-inline form');
+            $form.find('.multi-step-step3').removeClass('multi-step-show').removeClass('form-row').addClass('multi-step-hide');
+            $form.find('.multi-step-step2').removeClass('multi-step-hide').addClass('multi-step-show').addClass('form-row');
+            var tempBtn1 = document.getElementById('tempStep1Btn');
+            tempBtn1.classList.add('multi-step-hide');
+            var tempBtn = document.getElementById('tempStep2Btn');
+            tempBtn.classList.remove('multi-step-hide');
+            var submitBtn = document.getElementById('formSubmitBtn');
+            submitBtn.classList.add('multi-step-hide');
+
+            var disclaimerElem = document.getElementById("disclaimer_" + formId);
+            if (disclaimerElem) {
+                disclaimerElem.classList.add('multi-step-hide');
+            }
+        }
+
+        function backButtonHandler() {
+            step--;
+            if (step == 1) {
+                goBackToStep1();
+                updateProgress();
+            } else {
+                goBackToStep2();
+                prevStep();
+            }
+
+
+        }
+        function updateProgress() {
+            const progressListItems = document.querySelectorAll("#progressbar li");
+            var progressBar = document.getElementById("barWithColor");
+            var stepDisplay = document.getElementById("stepDisplay");
+
+            if (step == 3) {
+                progressBar.style.width = "100%";
+                stepDisplay.innerHTML = "Step 3 of 3";
+            }
+            else if (step == 2) {
+                progressBar.style.width = "66%";
+                stepDisplay.innerHTML = "Step 2 of 3";
+            }
+            else {
+                progressBar.style.width = "33%";
+                stepDisplay.innerHTML = "Step 1 of 3";
+            }
+
+            progressListItems.forEach((item, index) => {
+                if (index === step - 1) {
+                    item.classList.add("active");
+                } else {
+                    item.classList.remove("active");
+                }
+            });
+        }
+
+        function showStep(stepIndex) {
+            const steps =
+                document.querySelectorAll(".step-container fieldset");
+            steps.forEach((step, index) => {
+                if (index === stepIndex) {
+                    step.style.display = "block";
+                } else {
+                    step.style.display = "none";
+                }
+            });
+        }
+
+        function prevStep() {
+            if (step > 0) {
+                updateProgress();
+            }
+        }
+
+        return {
+            init: setupMarketo
+        };
+    }());
+</script>
+
+<script>
+    const activate = () => {
+        observeDOM('.multi-step-step1', () => {
+            const step1 = document.querySelector('.multi-step-step1');
+            if (step1.classList.contains('multi-step-hide')) {
+                makeEmailFirstField();
+            }
+        })
+    };
+
+    const makeEmailFirstField = () => {
+        const emailField = document.querySelector('#Email').closest('.mktoFormRow');
+        document.querySelector('#FirstName').closest('.mktoFormRow').insertAdjacentElement('beforebegin', emailField);
+    }
+
+    const observeDOM = (targetSelectorString, callbackFunction) => {
+        const target = document.querySelector(`${targetSelectorString}`);
+
+        if (!target) return;
+
+        const config = {
+            childList: true,
+            subtree: true,
+            attributes: true,
+            characterData: true,
+            characterDataOldValue: true
+        };
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                observer.disconnect();
+
+                callbackFunction(mutation);
+                observer.observe(target, config);
+            });
+        });
+
+        observer.observe(target, config);
+    };
+
+
+    const pollerLite = (conditions, callback, maxTime = 20000) => {
+        const POLLING_INTERVAL = 500;
+        const startTime = Date.now();
+        const interval = setInterval(() => {
+            const allConditionsMet = conditions.every(condition =>
+                typeof condition === 'function' ? condition() : !!document.querySelector(condition)
+            );
+
+            if (allConditionsMet) {
+                clearInterval(interval);
+                callback();
+            } else if (Date.now() - startTime >= maxTime) {
+                clearInterval(interval);
+                console.log('Polling exceeded maximum time limit');
+            }
+        }, POLLING_INTERVAL);
+    };
+
+    pollerLite(['#tempStep1Btn'], activate);
+</script>

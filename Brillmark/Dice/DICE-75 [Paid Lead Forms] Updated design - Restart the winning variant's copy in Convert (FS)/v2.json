@@ -1,0 +1,13 @@
+{
+	"files": [
+		"./variation2/variation.css",
+		"./variation2/variation.js"
+	],
+	"inject": "",
+	"urls": [
+		"https://techhub.dice.com/Dice-Contact-Us---RcrPkg_2020v2.html",
+		"https://techhub.dice.com/Dice-Contact-Us---RcrPkg_2020v3",
+		"https://techhub.dice.com/Dice-Contact-Us-Products_2020.html",
+		"https://techhub.dice.com/Dice-Contact-Us-SoCon_2020.html"
+	]
+}

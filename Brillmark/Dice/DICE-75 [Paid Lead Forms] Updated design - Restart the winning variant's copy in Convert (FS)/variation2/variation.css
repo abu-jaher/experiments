@@ -1,0 +1,109 @@
+html body .fe-static-page-content {
+    padding: 17px 48px;
+    padding-top: 60px;
+}
+
+html body .fe-static-page-content>h4 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    text-shadow: 0 0 4px #ffffff;
+    margin-bottom: 1rem;
+}
+
+html body .fe-static-page-content p:last-of-type {
+    font-size: 16px;
+    line-height: 1.33;
+    color: #333333;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    letter-spacing: normal;
+    margin-top: 8rem;
+    word-spacing: 2px;
+    max-width: 465px;
+    margin-bottom: 20px;
+}
+
+html body .fe-static-page-content p:first-of-type::after {
+    content: "";
+    height: 5px;
+    background-color: #cc0000;
+    width: 25%;
+    position: absolute;
+    left: 0;
+    border-radius: 20px;
+    bottom: 0;
+}
+
+html body .fe-static-page-content p:first-of-type::before {
+    content: "";
+    height: 5px;
+    background-color: #cc0000;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    border-radius: 20px;
+    bottom: -10px;
+}
+
+html body .fe-static-page-content p:first-of-type {
+    position: relative;
+    padding-bottom: 8px;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    max-width: 525px;
+}
+
+html body .fe-static-page-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 4.5rem;
+}
+
+html body .fe-static-page-content li {
+    padding-bottom: 10px;
+    padding-left: 22px;
+    position: relative;
+}
+
+html body .fe-static-page-content li::before {
+    content: "";
+    height: 13px;
+    width: 13px;
+    background-color: #cc0000;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    top: 4px;
+}
+
+html body .sales-form-wrapper .sales-form-title {
+    text-align: left;
+    width: 56%;
+    background-color: #f8f9fa;
+    max-width: 800px;
+    padding: 0 15px;
+    margin: auto auto 0 auto;
+}
+
+html body .sales-form-wrapper .sales-form-inner{
+    max-width: 1340px;
+}
+
+@media screen and (max-width: 1023px) {
+    html body .fe-static-page-content {
+        padding: 17px 17px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    html body .sales-form-wrapper .sales-form-title {
+        width: 100%;
+        padding: 0;
+    }
+
+    html body .fe-static-page-content p:last-of-type{
+        margin-top: 4rem;
+    }
+}
