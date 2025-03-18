@@ -1,0 +1,312 @@
+/* Hero section */
+@media screen and (min-width:1024px) {
+    html body .hero-resource .hero__bg img {
+        display: none;
+    }
+
+    html body .section-filter,
+    html body .hero-resource {
+        background: #fff !important;
+    }
+
+    html body .hero-resource .hero__head h1 {
+        color: #04293A;
+        margin-bottom: 1.56em;
+    }
+
+    html body .hero__body .resource {
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        width: 100%;
+        background: #04293A;
+        border: 3px solid #04293a;
+    }
+
+    html body .hero__body .resource__image.image-fit.js-image-fit {
+        width: 100%;
+    }
+
+    html body .hero__body .resource .resource__body {
+        width: 100% !important;
+        padding: 20px 25px 25px !important;
+    }
+
+    html body .hero__body .resource__title h3 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    html body .hero__body .resource__image.image-fit img {
+        max-height: 192px;
+        height: 100%;
+    }
+
+    html body .resource--large .resource__image {
+        padding-bottom: 24% !important;
+    }
+
+    html body .hero__body .resource .resource__tags ul li a {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        border-radius: 17px;
+        background: #25aceb;
+        border: none;
+        padding: 6px 18px;
+    }
+
+    html body .hero-resource .hero__body .resource__body .resource__actions a,
+    html body .bm-latest-res .bm-latest-inr .resource__actions a {
+        padding: 17px 60px;
+    }
+
+    html body .bm-latest-res .bm-fundraiser .section__actions a {
+        padding: 17px 50px;
+    }
+
+
+    html body .bm-latest-res .bm-fundraiser .section__actions .btn:before {
+        z-index: 1 !important;
+    }
+
+
+    /* New trending resources section */
+    html body .hero-resource .hero__body {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    html body .bm-trending-res {
+        width: 45%;
+    }
+
+    html body .bm-trending-res .bm-trending-inr {
+        padding: 40px 30px;
+        width: 100%;
+        height: 100%;
+        color: #04293A;
+        border-radius: 20px;
+        border: 1px solid #04293a;
+    }
+
+    html body .bm-trending-res .bm-trend-res {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    html body .bm-trending-res .bm-trending-inr .bm-trendings-subhead {
+        font-size: 16px;
+        /* font-weight: 400; */
+        font-weight: 700;
+        line-height: 19px;
+        border-bottom: 1px solid #25aceb;
+        padding-bottom: 5px;
+        margin-bottom: 10px !important;
+    }
+
+    html body .bm-trending-res .bm-trending-inr .bm-trendings a {
+        text-decoration: none;
+        color: #04293a;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        /* padding-top: 10px; */
+    }
+
+    /* More resources section */
+    html body .resources--secondary .resources__item {
+        width: 33.33% !important;
+    }
+
+    html body .section-filter:nth-of-type(2) .section__head .section__title {
+        text-align: left;
+    }
+
+    html body .section-filter:nth-of-type(1) .section__head .section__title h3,
+    html body .section-filter:nth-of-type(2) .section__head .section__title h3 {
+        color: #04293a;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    html body .section-filter:nth-of-type(2) .section__filter .list-selects {
+        margin: 0 !important;
+    }
+
+    html body .section-filter:nth-of-type(1) .section__filter .list-filters li,
+    html body .section-filter:nth-of-type(2) .section__filter .list-selects li .select,
+    html body .section-filter:nth-of-type(2) .section__filter .list-selects li .search-topic {
+        color: #04293a !important;
+    }
+
+    html body .section-filter:nth-of-type(2) .section__filter .list-selects li:nth-of-type(1) {
+        padding-left: 0px !important;
+    }
+
+    html body .select .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+        /* background: url("https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G-19/noun-dropdown-svg-icon.svg") no-repeat 50% !important; */
+        filter: invert(0.8);
+    }
+
+    .select .select2-container--default .select2-selection--single .select2-selection__arrow.js-cross-active:before {
+        color: #000;
+        filter: invert(0);
+        margin-top: -3px;
+    }
+
+    html body .search-topic .search-form:after {
+        /* background: url("https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G-19/noun-search-icon.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important; */
+        filter: invert(0.8)
+    }
+
+    /* Latest Resources section */
+    html body .bm-latest-res .section__title h3 {
+        color: #04293A;
+        font-size: 26px;
+        line-height: 42px;
+        font-weight: 700;
+        /* line-height: 31px; */
+        /* font-weight: 400; */
+        text-align: left;
+    }
+
+    html body .bm-latest-res .bm-latest-inr {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        /* max-width: 800px; */
+        width: 100%;
+        border-bottom: 1px solid #6d7075;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card {
+        background: #1e8abb;
+        width: 50%;
+        padding: 24px;
+        border-radius: 24px;
+        position: relative;
+        margin-bottom: 100px;
+        /* height: fit-content; */
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card .resource__tags {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 17px;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 1.2;
+        text-decoration: none;
+        border: 1px solid currentColor;
+        -webkit-transition: all .4s, border .4s;
+        -o-transition: all .4s, border .4s;
+        transition: all .4s, border .4s;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card .resource__tags a {
+        text-decoration: none;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card .resource__tags:hover {
+        background: #25aceb;
+        border: 1px solid #25aceb;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card .resource__title {
+        margin: 24px auto;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card .resource__title h6 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-latest .bm-latest-card .resource__actions {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 24px;
+        margin-top: 18px;
+    }
+
+    /* Fundraiser section */
+    html body .section-demo .shell {
+        display: none;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-fundraiser {
+        border-radius: 20px;
+        border: 1px solid #04293a;
+        padding: 24px;
+        width: 45%;
+        color: #04293a;
+        background: url("https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G-19/background-img-2.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top right;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-fundraiser .bm-fundraiser__title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    html body .bm-latest-res .bm-latest-inr .bm-fundraiser .bm-fundraiser__desc {
+        margin: 24px auto 40px;
+    }
+
+    /* Hiding existing Trending section */
+    html body .section-filter.section-filter--tabs .section__head,
+    html body .section-filter.section-filter--tabs .section__filter,
+    html body .section-filter.section-filter--tabs .section__body {
+        display: none;
+    }
+
+    /* ordering explore items */
+    html body .resources--secondary .resources__item {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:1023px) {
+
+    html body .bm-trending-res,
+    html body .bm-latest-res {
+        display: none;
+    }
+
+}
+
+html body .main .section__foot a.btn-transparent {
+    padding: 17px 60px;
+}
+
+html body .main .section-content {
+    display: none;
+}
+
+html body .main .section-demo {
+    margin: 30px 112px !important;
+}
+
+html body .section__foot .btn-transparent.js-load-entries span {
+    text-transform: capitalize;
+}

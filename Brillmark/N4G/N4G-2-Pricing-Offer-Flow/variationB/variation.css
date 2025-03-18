@@ -1,0 +1,712 @@
+/* CSS styling for All Features Section */
+
+html body .section-callout{
+  display: none;
+}
+
+html body .section-list{
+  position: relative;
+  padding: 84px 0 118px;
+  margin: 50px !important;
+}
+
+html body .features_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+html body .section-list .section__head{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+html body .fe-features__row{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 20px;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html body .fe-features__content {
+  margin-bottom: 5px;
+}
+
+html body .section__head h3 {
+  font-weight: 700 !important;
+  margin-bottom: 10px;
+}
+
+html body .section-list .fe-features h3 {
+  background: #25aceb;
+  padding: 10px 30px 10px 20px;
+  margin-bottom: 0 !important;
+  cursor: pointer;
+  position: relative;
+}
+
+
+html body .open ul{ 
+  height: max-content;
+  border: 1px solid #25aceb;
+  border-top: none;
+  padding-top: 20px;
+}
+
+html body .close ul{
+  height: 0;
+  overflow: hidden;
+}
+
+html body .open h3::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f106";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 35px;
+  position: absolute;
+  right: 20px;
+  top: 3px;
+  color: #fff;
+}
+
+html body .close h3::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 35px;
+  position: absolute;
+  right: 20px;
+  top: 3px;
+  color: #fff;
+}
+
+html body .section-list .fe-features h3 a{
+  color: #fff !important;
+}
+
+html body .section-list ul li {
+  margin-left: 20px;
+  color: #25aceb !important;
+}
+
+html body .section-list ul li a{
+  color: #25aceb !important;
+}
+
+html body .section-list ul li::before {
+  content: "•"; 
+  color: #25aceb;
+}
+html body .footer_link{
+  text-align: center;
+  margin-bottom: 20px;
+}
+html body .learn_feature{
+  color: #25aceb;
+  font-size: 25px;
+}
+
+@media only screen and (max-width:1023px) {
+  
+  html body .fe-features__row{
+    grid-template-columns: repeat(1,1fr);
+  }
+  html body .social_proof--quote {
+    width: 70%;
+  }
+  html body .fe_tobco_looking .fe_content {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  html body .fe_tobco_looking .fe_allPlans,
+  html body .fe_tobco_looking .fe_looking_row{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 620px;
+  }
+  html body .fe_tobco_looking .fe_allPlans img{
+    display: none;
+  }
+  html body .fe_tobco_looking .fe_allPlans .allPlans__content {
+    margin: auto;
+    max-width: 323px;
+    width: 100%;
+  }
+  html body .fe_tobco_looking .fe_allPlans{
+    background: url("https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/2/All_plans_Include_image.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 102px 0px;
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(2),
+  html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(3),
+  html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(4),
+  html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(5),
+  html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(6){
+    width :100% !important;
+    margin-bottom: 15px;
+  }
+  html body .fe-guarantee{
+    align-items: baseline !important;
+  }
+  html body .fe_tobco_looking .fe_content{
+    margin-top: 40px;
+  }
+  
+  html body .fe-bottom-button{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .fe_tobco_looking .blue_title{
+    font-size: 20px;
+  }
+  html body .fe_tobco_looking .box_sub_title{
+    font-size: 16px;
+  }
+  html body .fe-features__row{
+    width: 100%;
+  }
+  html body .section-list .fe-features h3{
+    font-size: 15px;
+  }
+
+  html body .open h3::after {
+    font-size: 25px;
+  }
+  
+  html body .close h3::after {
+    font-size: 25px;
+  }
+  html body .social_proof {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 35px 24px;
+    width: calc(100% - 40px);
+}
+
+html body .social_proof--quote {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+html body .social_proof--img {
+    margin-top: 0px;
+}
+html body .main .section-pricing{
+  padding-bottom: 0px;
+}
+html body .section-list .fe-features h3 a{
+  text-align: left;
+  display: block;
+}
+html body .features_bg {
+  width: 167px;
+  height: 167px;
+}
+html body .section-list ul li {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+html body .footer_link a {
+  font-size: 21px;
+  font-weight: 500;
+}
+html body .main .section-list {
+  margin: 0px !important;
+  padding-bottom: 40px !important;
+}
+html body .main .section-pricing .shell {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+html body .fe_tobco_looking .fe_allPlans{
+  padding: 80px 20px;
+  background-size: cover;
+}
+html body .fe_looking_header .fe_heading,
+html body .fe_tobco_looking .fe_looking_row{
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+}
+
+
+
+
+
+/* MSF CSS STYLING */
+
+/* All Planss Include css */
+
+html body .fe_allPlans{
+  position: relative;
+  width: 50%;
+}
+
+html body .plans_bg{
+  position: absolute;
+  top: 0;
+  left: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+html body .allPlans__content {
+  position: relative;
+  text-align: initial;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+html body .allPlans__content h3{
+  font-weight: 700;
+  margin-left: 34px;
+}
+
+html body .allPlans__content ul li{
+  list-style: none;
+  font-size: 18px;
+  line-height: 40px;
+  position: relative;
+  padding-left: 24px;
+}
+
+html body .allPlans__content ul li::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+
+
+
+/*-------MSF looking css---------*/
+
+  .mktoForm .mktoFormRow:nth-child(even) {
+      float: left !important;
+      clear: inherit !important;
+      width: 48% !important;
+  }
+  .mktoForm .mktoFormRow:nth-child(odd) {
+    float: right !important;
+    clear: inherit !important;
+    width: 48% !important;
+  }
+
+  .mktoForm .mktoFormRow:nth-child(7){
+    float: left !important;
+  }
+
+  .mktoForm .mktoFormRow:nth-child(17),
+  .mktoForm .mktoFormRow:nth-child(9),
+  .mktoForm .mktoFormRow:nth-child(8),
+  .mktoForm .mktoFormRow:nth-child(4) {  
+    width: 100% !important;
+  }
+
+  #mktoForm_1076 input,
+  #mktoForm_1076 select{
+    border-radius: 0px !important;
+  }
+  
+  .mktoForm .mktoFormRow:nth-child(2) .mktoFieldWrap,
+  .mktoForm .mktoFormRow:nth-child(3) .mktoFieldWrap,
+  .mktoForm .mktoFormRow:nth-child(4) .mktoFieldWrap,
+  .mktoForm .mktoFormRow:nth-child(5) .mktoFieldWrap,
+  .mktoForm .mktoFormRow:nth-child(6) .mktoFieldWrap{
+    position: relative;
+  }
+  .mktoForm .mktoFormRow:nth-child(2) .mktoFieldWrap:focus-within label,
+  .mktoForm .mktoFormRow:nth-child(3) .mktoFieldWrap:focus-within label,
+  .mktoForm .mktoFormRow:nth-child(4) .mktoFieldWrap:focus-within label,
+  .mktoForm .mktoFormRow:nth-child(5) .mktoFieldWrap:focus-within label,
+  .mktoForm .mktoFormRow:nth-child(6) .mktoFieldWrap:focus-within label,
+  .mktoForm .mktoFormRow:nth-child(2) .mktoFieldWrap label,
+  .mktoForm .mktoFormRow:nth-child(3) .mktoFieldWrap label,
+  .mktoForm .mktoFormRow:nth-child(4) .mktoFieldWrap label,
+  .mktoForm .mktoFormRow:nth-child(5) .mktoFieldWrap label,
+  .mktoForm .mktoFormRow:nth-child(6) .mktoFieldWrap label,
+  .mktoForm .mktoFormRow:nth-child(2) .mktoFieldWrap label .mktoAsterix,
+  .mktoForm .mktoFormRow:nth-child(3) .mktoFieldWrap label .mktoAsterix,
+  .mktoForm .mktoFormRow:nth-child(4) .mktoFieldWrap label .mktoAsterix,
+  .mktoForm .mktoFormRow:nth-child(5) .mktoFieldWrap label .mktoAsterix,
+  .mktoForm .mktoFormRow:nth-child(6) .mktoFieldWrap label .mktoAsterix{
+    display: none !important;
+  }
+
+  html body .mktoForm .mktoButtonRow{
+    text-align: right !important;
+  }
+
+  html body .fe_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  html body .fe_looking_row {
+    text-align: left;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.fe-bottom-button {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+  margin-bottom: 20px;
+}
+
+.fe-guarantee {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.money_icon {
+  margin-right: 20px;
+}
+.money_icon img {
+  width: 100px;
+}
+
+.fe-guarantee__text p {
+  font-size: 18px;
+}
+.fe-guarantee__text span {
+  font-style: italic;
+}
+
+/* SOCIAL PROOF SECTIOn */
+.social_proof{
+  max-width: 1024px;
+  margin: auto;
+  box-shadow: 0px 0px 5px 3px #eddfdf;
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content: space-between;
+}
+.social_proof--img{
+  width: 70px;
+  height: 70px;
+  background: url("https://www.networkforgood.com/wp-content/uploads/2021/04/img-1705_orig.jpg");
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.social_proof--quote {
+  text-align: initial;
+  margin: 15px 60px 10px 15px;
+  width: 80%;
+}
+
+.social_proof--quote p span{
+  font-weight: 700;
+}
+
+
+.fe_heading {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* looking css */
+  .fe_tobco_looking .fe_looking_inner {
+    padding: 0px;
+  }
+  
+  .fe_tobco_looking .fe_heading p {
+    margin-bottom: 20px;
+  }
+
+  .fe_tobco_looking .fe_looking_box {
+    padding: 25px;
+    background: #0f4760;
+    border-radius: 10px;
+  }
+
+ 
+  .fe_tobco_looking .blue_title {
+    color: #eddfdf;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+
+  .fe_tobco_looking .box_sub_title {
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .fe_tobco_looking .box_sub_title span{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    text-transform: none;
+  }
+  .fe_tobco_looking .box_btn {
+    text-align: right;
+  }
+  
+  .fe_tobco_looking .box_btn a[fe-data="Button1Data"] {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.8rem 1rem;
+    font-weight: 500;
+    color: #fff;
+    background: #05ab05;
+    font-family: "Gotham Ssm A", "Gotham Ssm B", Verdana, Geneva, sans-serif;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .fe-next-step {
+    background: #fff;
+    padding: 25px;
+  }
+
+  
+  .fe_looking_row_inner.fe-step2 .fe_looking_box {
+    display: none;
+  }
+  
+ 
+  
+ 
+  /* HIDE STEP */
+  .fe-next-step {
+    display: none;
+  }
+  .fe-next-step.fe-show {
+    display: block;
+  }
+  .fe_looking_row_inner.fe-hide {
+    display: none;
+  }
+  
+  /* Step-2 */
+
+  .fe-msf-hide {
+    display: none;
+  }
+  
+  /*-------looking css---------*/
+  
+ 
+
+
+  .fe_tobco_looking .fe_step {
+    display: none;
+  }
+  
+  .fe_tobco_looking .box_btn a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.8rem 1rem;
+    font-weight: 500;
+    color: #fff;
+    background: #05ab05;
+    font-family: "Gotham Ssm A", "Gotham Ssm B", Verdana, Geneva, sans-serif;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+  }
+  .fe_tobco_looking .box_btn a:hover {
+    background: green;
+  }
+
+
+  .fe-next-step.fe-step2 .fe-bottom-button button.fe-active a,
+  .fe-bottom-button button.fe-active a{
+    background: #25aceb;
+    color: #fff;
+  }
+  
+  .fe-bottom-button a {
+    font-weight: bold !important;
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #186a90;
+    background: #fff;
+    font-family: "Gotham Ssm A", "Gotham Ssm B", Verdana, Geneva, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fe-next-step.fe-step2 .fe-bottom-button a {
+    height: 70px;
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #186a90;
+    background: #fff;
+    font-family: "Gotham Ssm A", "Gotham Ssm B", Verdana, Geneva, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fe_looking_row_inner.fe-step2 .fe_looking_box {
+    display: none;
+  }
+    
+  .fe-bottom-button a:hover {
+    background: #fff;
+  }
+  
+  /* HIDE STEP */
+ 
+
+  
+  html body .fe-next-step.fe-step2 {
+      background: transparent;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding: 0px;
+  }
+  
+  .fe-next-step.fe-step2 .fe-new-inner-box {
+      padding: 25px;
+      background:#0f4760;
+      border-radius: 10px;
+  }
+  
+  html body .fe_tobco_looking .fe-next-step.fe-step2 .fe-new-inner-box {
+      width: 100%;   
+  }
+  
+
+  
+  html body .fe_tobco_looking .fe-next-step.fe-step3.fe-show {
+      background: #0f4760;
+      border-radius: 10px;
+  }
+  
+
+  /* @media screen and (max-width:768px){	
+    html body .fe_tobco_looking{	
+         display: none;	
+     }	
+  } */
+
+  html body .fe_form .box_btn button, 
+  html body .fe_form .fe-bottom-button button {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(8) .mktoLabel,
+html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(9) .mktoLabel,
+html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(17) .mktoLabel,
+html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(7) .mktoHtmlText {
+    color: #fff !important;
+    
+}
+
+
+html body .fe_tobco_looking .mktoForm .mktoFormRow:nth-child(7) {
+    width: 100% !important;
+}
+html body .fe_tobco_looking .mktoForm .mktoFormCol {
+  margin-bottom: 8px !important;
+}
+
+@media screen and (min-width:1200px) {
+  html body .fe_allPlans img {
+    width: calc(100% - 99px);
+    margin-left: 17px;
+    margin-top: -16px;
+  }
+}
+html body .mktoFormRow input::placeholder{
+  color: #70787c;
+}
+
+html body .fe-bottom-section .mktoForm .mktoError .mktoErrorArrowWrap {
+  display: block !important;
+}
+
+html body .fe-bottom-section .mktoForm .mktoError .mktoErrorMsg {
+  background-color: #e51b00 !important;
+  background-image: -webkit-linear-gradient(#e51b00 43%, #ba1600 100%) !important;
+  background-image: -moz-linear-gradient(#e51b00 43%, #ba1600 100%) !important;
+  background-image: linear-gradient(#e51b00 43%, #ba1600 100%) !important;
+  background-image: -ms-linear-gradient(#e51b00 43%, #ba1600 100%) !important;
+  border: 1px solid #9f1300 !important;
+  -webkit-border-radius: 6px !important;
+  border-radius: 6px !important;
+  -webkit-box-shadow: rgb(0 0 0 / 65%) 0 2px 7px, inset #ff3c3c 0 1px 0px !important;
+  box-shadow: rgb(0 0 0 / 65%) 0 2px 7px, inset #ff3c3c 0 1px 0px !important;
+  color: #f3f3f3 !important;
+  font-size: 13px !important;
+  line-height: 1.2em !important;
+  max-width: 16em !important;
+  padding: 0.4em 0.6em !important;
+  text-shadow: #901100 0 -1px 0 !important;
+  display: inline-block !important;
+width: auto !important;
+}

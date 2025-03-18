@@ -1,0 +1,12 @@
+html body .resourceMarketoForm [data-step],
+html body .resourceMarketoForm .stepPaginationContainer{
+    display: none;
+}
+html body .resourceMarketoForm .formTitle,
+html body .resourceMarketoForm .marketoForm[data-step]{
+    display: block ;
+}
+
+html body .resourceMarketoForm div.mktoFormRow.show_field{
+    display: inline-block !important;
+}

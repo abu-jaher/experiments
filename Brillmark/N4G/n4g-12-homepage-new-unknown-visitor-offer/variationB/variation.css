@@ -1,0 +1,68 @@
+.wistia_responsive_padding.bm-video {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+    opacity: 0;
+}
+html body .organization .organization__actions {
+    display: none;
+}
+html body .organization .section__actions {
+    display: flex;
+}
+html body .organization .section__actions .btn {
+    width: 45%;
+    margin: auto;
+    padding: 16px 0;
+}
+html body .bm-CTA-container {
+    display: inline-block;
+    width: 55%;
+    margin: auto;
+}
+html body .bm-CTA-container button {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 0;
+    margin-left: 16px;
+    width: 100%;
+    color: #59bf22;
+    border: 1px solid #59bf22;
+    border-radius: 5px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: padding .3s;
+}
+html body .bm-CTA-container button:hover {
+    padding: 16px 0;
+    transition: padding .3s;
+}
+@media screen and (max-width: 1100px) {
+    html body .organization .section__actions {
+        display: unset;
+    }
+    html body .organization .section__actions .btn {
+        width: unset;
+        margin: unset;
+        padding: 16px 36px;
+    }
+    html body .bm-CTA-container {
+        display: inline-block;
+        width: unset;
+        margin: 4px 0 0 0;
+    }
+    html body .bm-CTA-container button {
+        width: unset;
+        margin-left: 0;
+        padding: 12px 36px;
+    }
+    html body .bm-CTA-container button:hover {
+        padding: 16px 36px;
+        transition: padding .3s;
+    }
+}

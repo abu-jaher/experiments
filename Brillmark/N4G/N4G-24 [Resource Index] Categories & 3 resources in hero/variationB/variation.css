@@ -1,0 +1,274 @@
+@media screen and (min-width: 1200px) {
+    html body .hero__body .fe_right_cards_bellow img{
+        object-fit: cover !important;
+    }
+    html body .hero-resource .hero__head {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ffffff;
+        padding-bottom: 12px;
+        text-align: left;
+    }
+    html body .hero-resource .hero__head h1{
+      font-weight: 700;
+    }
+    html body ul.fe_btnMain {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        list-style: none;
+        margin-bottom: 70px;
+    }
+    html body .fe_innerbtn {
+        max-width: 1145px;
+    }
+    html body .fe_btnMain {
+        width: 100%;
+    }
+    html body li.fe_btnList {
+        max-width: 205px;
+        width: 100%;
+        width: 205px;
+        height: 42px;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        position: relative;
+        cursor: pointer;
+        padding: 8px 0px 8px 20px;
+    }
+    .fe_btnMain a {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+    html body .fe_btnMain a:hover {
+        background-color: #25aceb;
+        border-radius: 5px;
+    }
+    html body .hero__body .fe_container * {
+        margin: 0;
+        padding: 0;
+    }
+    html body .hero__body .fe_container .fe_right_content {
+        width: 449px;
+        max-width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    html body .hero__body .fe_container .fe_right_content .fe_right_cards {
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    html body .hero__body .fe_container .fe_right_content .fe_right_cards .fe_right_content_mid {
+        margin-left: 33px;
+    }
+    html body .hero__body .fe_container .fe_right_content .fe_right_cards .fe_right_content_mid .fe_right_featured_button {
+        border-radius: 17px;
+        border: 1px dashed #25aceb;
+        background: #fff;
+        padding: 5px 18px;
+        color: #25aceb;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+        margin: 18px 0 14px 0;
+    }
+    html body .hero__body .fe_container .fe_right_content .fe_right_cards .fe_right_content_mid h1 {
+        color: #04293a;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    html body .hero__body .fe_container .fe_right_content .fe_right_cards .fe_right_content_bottom .fe_right_read_more_button {
+        margin: 14px 0 21px 33px;
+        color: #25aceb;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: underline;
+        display: inline-block;
+    }
+    html body .hero__body .fe_right_cards_up img {
+        width: 100%;
+        max-height: 129px;
+    }
+  
+    html body .hero__body .fe_right_cards_bellow  img{
+        object-fit: fill;
+    }
+    html body .hero__body .fe_left_content_top img {
+        width: 100%;
+    }
+    html body .hero__body .fe_right_cards_up .resource__image {
+        padding-bottom: 129px;
+    }
+    html body .hero__body .fe_right_cards_up .resource .resource__body {
+        margin: 0;
+        padding: 24px 24px 21px 30px;
+    }
+    html body .hero__body .fe_right_cards_up .resource .resource__actions:not(.resource__actions--default) {
+        position: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    html body .hero__body .fe_right_cards_up .resource__title {
+        padding: 0;
+        margin: 0;
+    }
+    html body .hero__body .fe_right_cards_up .resource__tags {
+        padding: 0;
+        margin: 0;
+    }
+    html body .hero__body .fe_right_cards_up .resource .resource__tags ul li a {
+        border-radius: 17px;
+        border: 1px solid #25aceb;
+        background: #fff;
+        padding: 6px 12px;
+        color: #25aceb;
+        font-size: 10px;
+        font-weight: 800;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    html body .hero__body .fe_right_cards_up .resource__title h3 {
+        color: #04293a;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.56;
+        margin: 14px 0;
+    }
+    html body .hero__body .fe_right_cards_up .resource__actions a {
+        color: #25aceb;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: underline;
+        display: inline-block;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    html body .hero__body .fe_right_cards_up .resource__actions a:hover {
+        color: #1E8ABB;
+    }
+    html body .hero__body .fe_right_cards_up .btn-transparent:before {
+        background-color: transparent;
+        border: none;
+    }
+    html body .hero__body .fe_right_cards_up>.resource {
+        background-color: #fff;
+    }
+    html body .hero__body .fe_right_cards_bellow .resource__body {
+        margin: 16px 0 15px 33px;
+    }
+    html body .hero__body .fe_right_cards_up {
+        min-height: calc(50% - 15px);
+    }
+    html body .hero__body .fe_right_cards_up>.resource {
+        height: 100%;
+    }
+    html body .hero__body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 30px;
+    }
+    html body .hero__body .resource--large {
+        display: inherit !important;
+    }
+    html body .hero__body>.resource {
+        width: 735px;
+        max-width: 100%;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    html body .hero__body>.resource>.resource__image {
+        width: 100%;
+    }
+  
+    html body .hero__body>.resource>.resource__image img{
+        object-position: 0% 36%;
+    }
+  
+    html body .hero__body .resource__tags {
+        color: #25aceb;
+    }
+    html body .hero__body>.resource .resource__title {
+        margin-bottom: 20px;
+    }
+    html body .hero__body>.resource .resource__title h3 {
+        color: #04293a;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+    }
+  
+    html body .hero__body>.resource .resource__title + p{
+        color: #000;
+        margin: 0;
+    }
+  
+    html body .hero__body>.resource .resource__tags {
+        margin-bottom: 21px;
+    }
+    html body .hero__body .resource .resource__tags ul li a {
+        color: #25aceb;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+    html body .hero__body>.resource>.resource__image {
+        padding-bottom: 221px;
+        padding-top: 0;
+    }
+    html body .hero__body>.resource>.resource__body {
+        width: 100%;
+        padding: 28px 50px 31px 41px;
+    }
+    html body .hero__body>.resource>.resource__body>.resource__tags ul li a:hover {
+        background-color: #25aceb;
+        border-color: #25aceb;
+        color: #fff !important;
+    }
+    html body .fe_right_cards_up>.resource>.resource__body>.resource__tags ul li a:hover {
+        background-color: #25aceb;
+        border-color: #25aceb;
+        color: #fff !important;
+    }
+    html body .hero__body>.resource .resource__actions--default {
+        margin-top: 20px;
+    }
+    html body .hero__body .fe_right_read_more {
+        width: 203px;
+    }
+    html body .hero__body .fe_right_read_more:hover::before {
+        background-color: #2695c9;
+    }
+    html body .hero__body .fe_right_read_more:before {
+        background-color: #25aceb;
+        color: white;
+    }
+    html body .hero__body .resource__actions.resource__actions--default span {
+        color: white;
+    }
+  }
+  
+  @media (max-width: 1500px) and (min-width:1200px){
+      html body .hero__bg.hero__bg--right img,
+      html body .hero__bg.hero__bg--left img{
+          max-width: 200px;
+      }
+  }
+  

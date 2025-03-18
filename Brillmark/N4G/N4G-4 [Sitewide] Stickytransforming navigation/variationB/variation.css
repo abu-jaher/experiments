@@ -1,0 +1,215 @@
+@media screen and (min-width: 1200px) {
+  html body.fe-tooltip-show .fe-Overlay-N4G4 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #ffffffd1;
+    z-index: 93;
+  }
+
+  html body.fe-tooltip-show {
+    position: relative;
+  }
+
+  html body.fe-tooltip-show header.header {
+    overflow: visible;
+  }
+  body.fe-tooltip-show {
+    overflow: hidden;
+  }
+  html body header.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    overflow: hidden;
+    height: 92px;
+  }
+  .fe-tooltip .fe-tooltip-img {
+    z-index: 999;
+    position: relative;
+  }
+  html body .main {
+    margin-top: 92px;
+  }
+  html body .header.header .shell .header__inner {
+    height: 56px;
+  }
+  /* swap nav */
+  html body .fe-nav-alt .header__content {
+    margin-top: -350px;
+  }
+
+  html body .nav .sub-menu {
+    position: fixed !important;
+    top: 92px;
+    right: auto;
+    left: auto;
+    margin-left: 60px;
+  }
+  html body .fe-nav-alt .fe-nav {
+    margin-top: -55px;
+  }
+  html body .fe-nav {
+    transition: all 0.5s ease-in-out;
+    /* z-index: 100; */
+    position: relative;
+    margin-top: 20px;
+  }
+
+  html body .header.header .shell .header__content {
+    transition: all 0.5s ease-in-out;
+  }
+  html body .fe-nav-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    height: 56px;
+    position: relative;
+  }
+  html body .fe-nav-content p {
+    margin: 0;
+    margin-right: 40px;
+    color: #000;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  html body .fe-nav-content a {
+    font-size: 15px;
+  }
+
+  html body .fe-nav-content .fe-tooltip {
+    width: 45px;
+    position: absolute;
+    top: -8px;
+    left: 80%;
+    cursor: pointer;
+    z-index: 400;
+  }
+  html body.fe-tooltip-show .fe-nav-content .fe-tooltip .fe-show-txt {
+    display: block;
+  }
+  html body .fe-nav-content .fe-tooltip .fe-show-txt {
+    background: #fff;
+    border: 1px solid #70787c;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 10px 22px;
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 210px;
+    z-index: 300;
+    display: none;
+  }
+  html body .fe-nav-content .fe-tooltip span p {
+    text-align: left;
+    color: #04293a;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 0px;
+    line-height: 1.3;
+  }
+  html body .fe-nav-content .fe-tooltip span a {
+    color: #25aceb;
+    text-decoration: underline;
+    font-size: 12px;
+    /* pointer-events: none; */
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  html body header.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0px;
+  }
+  header .fe-nav-btn,
+  html body .fe-nav {
+    position: fixed;
+    top: 15px;
+    right: 100px;
+  }
+
+  html body .fe-nav-content p {
+    display: none;
+  }
+  html body.has-active-nav .header .header__content {
+    z-index: 1;
+  }
+
+  html body .main {
+    margin-top: 90px;
+  }
+  /* Hide tooltip */
+  html body .fe-nav-content .fe-tooltip {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo,
+  .header .header__logo {
+    width: 150px;
+  }
+  header .fe-nav-btn,
+  html body .fe-nav {
+    right: 65px;
+    top: 18px;
+  }
+
+  html body .fe-nav-content a {
+    padding: 14px 16px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .logo,
+  .header .header__logo {
+    width: 125px;
+  }
+  html body header.header {
+    padding: 6px 0;
+  }
+  header .fe-nav-btn,
+  html body .fe-nav {
+    right: 65px;
+    top: 8px;
+  }
+  html body .fe-nav-content a {
+    padding: 12px 14px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .nav-trigger {
+    width: 30px !important;
+    height: 20px !important;
+  }
+  .nav-trigger span:nth-child(2) {
+    top: 8px;
+  }
+  .nav-trigger span:nth-child(3) {
+    top: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo,
+  .header .header__logo {
+    width: 110px;
+  }
+  header .fe-nav-btn,
+  html body .fe-nav {
+    right: 60px;
+    top: 6px;
+  }
+  html body header.header {
+    padding: 6px 0;
+  }
+}

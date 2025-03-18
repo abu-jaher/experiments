@@ -1,0 +1,224 @@
+html body .fe_looking_row .fe_form + .fe-guarantee {
+  display: none;
+}
+
+html body .marketoFormWidget .fe_content .fe_guaranty_section {
+  background: #d5f0d4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px 19px !important;
+}
+
+html body .fe_guaranty_section .fe-guarantee {
+  margin-top: 0 !important;
+}
+
+html
+  body
+  .marketoFormWidget
+  .fe_content
+  .fe_guaranty_section
+  .fe-guarantee
+  .fe-guarantee__text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+html
+  body
+  .marketoFormWidget
+  .fe_content
+  .fe_guaranty_section
+  .fe-guarantee
+  .money_icon {
+  width: 66px;
+}
+
+html body .fe_sponseredSection img {
+  display: block !important;
+  width: 100% !important;
+}
+html body .fe_sponseredSection {
+  position: relative;
+  margin-top: 70px;
+  text-align: left;
+}
+
+html body .fe_sponseredSection .list-partners {
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  margin: 0;
+  margin-left: 55px;
+}
+html body .fe_sponseredSection .section__title {
+  margin: 0 0 25px 0;
+}
+html body .fe_sponseredSection .section__title h6{
+  width: max-content;
+  margin-left: 80px;
+  line-height: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+html body .mktoFormRow.termsSection {
+  font-family: 'Open Sans', sans-serif!important;
+}
+html body .marketoFormWidget .fe_tobco_looking .bm-next-button button,
+html body .mktoForm .mktoButtonWrap.mktoShadow .mktoButton{
+  font-family: 'Open Sans',sans-serif !important;
+}
+
+html body .fe_sponseredSection .list-partners li {
+  padding: 0 11px 0 0;
+  max-width: 98px;
+}
+
+html body .marketoFormWidget .fe-guarantee__text a {
+  font-style: normal;
+  font-weight: 500;
+}
+
+html body.fe-tooltip-show .fe-Overlay-N4G6 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #ffffff70;
+  z-index: 9995;
+}
+
+html body .fe-tooltip-N4G6{
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+html body .fe-tooltip-N4G6 .fe-tooltip-img {
+  z-index: 999;
+  position: relative;
+  max-width: 18px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+html body .marketoFormWidget .fe_tobco_looking .marketoForm .title {
+  font-family: 'Open Sans', sans-serif!important;
+}
+html body .fe-tooltip-N4G6 .fe-show-txt {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 8px 10px !important;
+  position: absolute;
+  bottom: 0px;
+  left: -6px;
+  z-index: 200;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 13px;
+  display: none;
+}
+html body .fe-tooltip-N4G6 #fe-show-email{
+  margin: 10px 15px;
+  width: 155px;
+}
+html body .fe-tooltip-N4G6 #fe-show-phone{
+  margin: 10px 22px;
+  width: 182px;
+}
+
+html body.fe-tooltip-show .fe-show .fe-tooltip-N4G6 .fe-show-txt {
+  z-index: 9999;
+}
+html body.fe-tooltip-show .fe-show .fe-tooltip-N4G6 .fe-tooltip-img{
+  z-index: 99999;
+}
+
+html body .fe-tooltip-N4G6 .fe-show-txt p{
+  color: #000;
+  line-height: 18px;
+}
+html body.fe-tooltip-show .fe-show .fe-show-txt{
+  display: block;
+}
+html body p.fe-privacy {
+  margin-bottom: 5px !important;
+  color: #fff;
+  padding-left: 22px !important;
+  font-size: 12px;
+}
+
+html body p.fe-privacy svg {
+  max-width: 18px;
+  max-height: 18px;
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (min-width:1200px) {
+  .marketoFormWidget .fe_content .fe_allPlans img{
+    width: calc(100% - 95px);
+    margin-left: 35px !important;
+  }
+}
+@media screen and (max-width: 1023px) {
+
+  html body.fe-tooltip-show .fe-show .fe-tooltip-N4G6 .fe-show-txt{
+    right: 100%;
+    transform: translateX(-100%);
+  }
+  html body .marketoFormWidget .fe_content .fe_looking_row{
+    margin-left: 0;
+  }
+  html body .fe_sponseredSection{
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+  html body .marketoFormWidget .fe_content{
+    margin-bottom: 0;
+  }
+
+  html body .fe_sponseredSection .list-partners{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: max-content;
+  }
+
+  html body .fe_sponseredSection .section__title h6{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+@media screen and (max-width:480px) {
+  html body .mktoMobileShow .mktoForm, .mktoForm *{
+    padding: 0 !important;
+  }
+  html body .fe-tooltip-N4G6{
+    bottom: 10px;
+    right: 20px;
+  }
+  html body .mktoForm .mktoFieldWrap{
+    padding-right: 10px !important;
+  }
+  html body .mktoForm .mktoButtonRow{
+    margin-right: 10px;
+  }
+  html body .fe_sponseredSection{
+    margin-top: 40px;
+  }
+  html body .mktoForm .mktoButtonRow{
+    width: 70% !important;
+  }
+  html body .mktoForm .mktoButtonWrap.mktoShadow .mktoButton{
+    padding: 16px 16px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html body .fe_sponseredSection .list-partners li{
+    max-width: 80px;
+  }
+}

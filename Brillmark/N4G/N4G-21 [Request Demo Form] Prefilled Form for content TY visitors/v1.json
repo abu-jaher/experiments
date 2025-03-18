@@ -1,0 +1,9 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.networkforgood.com/demo-request/",
+		"https://www.networkforgood.com/resource/key-changes-in-donor-behavior/"],
+	"inject": ""
+}

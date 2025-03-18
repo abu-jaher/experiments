@@ -1,0 +1,120 @@
+html body .organizations .organization__image-bg{
+    background-image: none !important;
+}
+html body .fe_30_guaranty_section{
+    background: #DDF1FD;
+    border-radius: 50px;
+    margin-top: 25px;
+    padding: 8px 20px 8px 30px;
+    color:  #04293A;
+    font-size: 14px;
+}
+html body .fe_30_guaranty_section .fe-30-guarantee{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+html body .fe_30_guaranty_section .fe-30-bold{
+    font-weight: 700;
+}
+html body .organization__image-figure--secondary{
+    width: 100% !important;
+    padding-right: 25px;
+}
+html body .section-organizations{
+    margin: 0;
+}
+html body .main {
+    margin-top: 40px !important;
+}
+html body .section-organizations .wistia_click_to_play >div{
+    border-radius: 8px;
+}
+html body .organization .organization__image {
+    width: 52%;
+    padding-left: 0;
+}
+html body .organization .organization__image-figure--secondary {
+    border-radius: 8px;
+}
+html body .fe_30_guaranty_section img{
+    width: 45px !important;
+    max-width: 45px;
+}
+html body .organization__content h1{
+    margin-top: -10px;
+}
+html body .organizations__item .organization{
+    align-items: flex-start;
+}
+
+html body.has-active-nav .fe_nav_mobile,
+html body .fe-30-hide{
+    display: none;
+}
+
+html body .fe_30_guaranty_section .fe-30-terms{
+    display: inline-block;
+}
+
+@media(min-width: 1290px){
+
+    /* left arrow design */
+    html body .section-organizations [id*="big_play_button_background"]{
+        width: 86px !important;
+        left: 260px !important;
+        height: 63px !important;
+        top: 144px !important;
+    }
+    html body .section-organizations .wistia_mouseover [id*="big_play_button_background"]{
+        width: inherit !important;
+        left: inherit !important;
+        height: inherit !important;
+        top: inherit !important;
+    }
+    html body .section-organizations [id*="big_play_button_graphic"]{
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP4AAACiCAYAAABh2nDdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAulJREFUeNrs3d1tGlEQBtAlSgEpgXSAO8AdxB2QDuwONhWQDpxUAB14OyAdmA5IB+SOvDdCSHnLn/WdI91XP4z1aYY77DIMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAvnc/nQzsrlYCs4JdTOxvVgKzgd7t23qkKZAW/PLezVhnICn43qg7kBb88tbNUJcgKfr/4+6BSkBX8buviD/KCf7bzh8zgd/cqB3nBt/OH0OD3i7+1KkJW8O38ITj4/eJvqaKQFXw7fwgNfvfo4i/PQgleV/D/0J8+tnO3WCy+qXKGN0pAU5/3D3b+Oj5ZHf/SNHf/7yqu45Nj3Y7n/AWfQHXZV4/5bpXCqE/GqH+tLvw+uvjT8cmymrv/Ril0fHI6/qX93P1d/Ak+QcEvx8HO36hPnOXwsvMflULHJ6fjX5oGO38dnzjr4WXn72EfwSdM7fx3XvBp1Cdn1L9m56/jE6jv/D3so+MT1PEv2fnr+ASqC7+Dh30EnzzLefQflcKoT8aof60u/Grnf/Sf1PHJsZpHfzt/wSfMz52/Ugg+WWrk/6oMgk+OL+3c+oLPv/dWCfgLapdfO/29Uuj4ZJjauRF6wSfHpxb4Wys8oz4ZjvNoPymFjk+G/TzaC73gE6Au8B5a4L2Rx6hPCM/h6/iE+dwCfyP0Oj45o73dvOATZBq8XdeoT5S+mxd6HZ8Ax8Ev6Oj4ROm7eaEXfAL0Czyf5436hPCqLB2fMH03L/Q6PiGj/Z3v2ev45Kiwvxd6wSfHg908/KfOv1+97nqlspAT/Ec/aw05wT/5UQvICn6N9kuVhJzgjyoIOcE/+alqyAr+zgUe5AS/uvy9ikFO8O3mISz4W6M95ATfbh7Cgv9kNw9ZwR9VBXKC/+wCD7KCbzcPYcHfqAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvE4/BBgAB9Vp0xXzB8AAAAAASUVORK5CYII=) 0px 0px / 100px 50px no-repeat transparent !important;
+        top: 150px !important;
+        left: 254px !important;
+    }  
+    html body .section-organizations [id*="big_play_button_bottom_text"]{
+        left: 8px !important;
+    }
+}
+
+@media(max-width: 767px){
+    html body .fe_30_guaranty_section {
+        padding: 10px 20px 10px 15px;
+    }
+    html body .section-organizations .organization {
+        display: flex;
+        gap: 33px;
+    }
+
+    html body .organization__image{
+        margin-bottom: 0 !important;
+    }
+    html body .organization__image-figure--secondary{
+        padding-right: 0;
+    }
+    html body .organization .organization__image {
+        width: 100%;
+        margin-left: 0;
+    }
+    html body .fe_30_guaranty_section .fe-30-guarantee {
+        gap: 15px;
+        font-size: 13px;
+    }
+    html body .fe-30-guarantee__text p{
+        line-height: 16px;
+    }
+    html body .organization__content h1{
+        margin-top: inherit;
+    }
+}
+
+@media screen and (max-width: 363px){
+    html body .fe_30_guaranty_section .fe-30-guarantee{
+        font-size: 12px;
+    }
+}

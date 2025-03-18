@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/n4gTest20.js"
+	],
+	"urls": ["https://www.networkforgood.com/network-for-good-request-a-demo/"],
+	"inject": ""
+}

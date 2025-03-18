@@ -1,0 +1,212 @@
+! function() {
+    var e = this;
+
+    function t(e) {
+        const t = new URL(e.Calendly.eventURL);
+
+        function o(e) {
+            const t = {
+                email: "Email",
+                name: e => e.FirstName + " " + e.LastName,
+                customAnswers: {
+                    a1: "Company",
+                    a2: e => e.Phone.replace(/[\s+\-()]/g, "").replace(/^1?/, "1")
+                }
+            };
+            let o = {};
+            return Object.entries(t).forEach((([t, n]) => {
+                if ("customAnswers" === t) return o[t] = {}, void Object.entries(n).forEach((([n, a]) => {
+                    "string" == typeof a ? o[t][n] = e[a] : "function" == typeof a && (o[t][n] = a(e))
+                }));
+                "string" == typeof n ? o[t] = e[n] : "function" == typeof n && (o[t] = n(e))
+            })), o
+        }
+
+        function n(e) {
+            let t = new URL(e),
+                o = new URLSearchParams(t.search),
+                n = {};
+            return ["Campaign", "Source", "Medium", "Content", "Term"].forEach((e => {
+                let t;
+                (t = o.get("utm_" + e.toLowerCase())) && (n["utm" + e] = t)
+            })), n
+        }
+        MktoForms2.loadForm("//lp.networkforgood.com", "270-SZK-418", 1076), MktoForms2.whenReady((function(a) {
+            let s = a.getFormElem()[0];
+            if (1076 !== a.getId()) return;
+            let r = !1;
+            a.onSuccess((function(a, i) {
+                s.innerHTML = e.Marketo.formReplacementHTML, Calendly.initPopupWidget({
+                    url: t.href,
+                    prefill: o(a),
+                    utm: n(document.location.href)
+                });
+                ! function(e) {
+                    const t = new MutationObserver(o);
+
+                    function o(t, o) {
+                        for (const n of t)
+                            if ("childList" === n.type) {
+                                Array.from(n.removedNodes).some((e => e.classList && e.classList.contains("calendly-overlay"))) && e && e(o)
+                            }
+                    }
+                    t.observe(document.body, {
+                        childList: !0,
+                        subtree: !0
+                    })
+                }((function(e) {
+                    e.disconnect();
+                    let t = new URL(i);
+                    t.search += (t.search ? "&" : "") + "booked=" + r, document.location.href = t.href
+                }));
+                var c;
+                return c = function(t) {
+                    r = !0;
+                    let o = {};
+                    o[e.Marketo.lastCalendlyEventURIField] = t, MktoForms2.loadForm(e.Marketo.instanceURL, e.Marketo.munchkinId, 1076, (function(e) {
+                        e.addHiddenFields(o), e.onSuccess((function(e, t) {
+                            return !1
+                        })), e.submit()
+                    }))
+                }, window.addEventListener("message", (function(e) {
+                    (function(e) {
+                        return e.origin === t.origin && e.data.event && 0 === e.data.event.indexOf("calendly.")
+                    })(e) && "calendly.event_scheduled" === e.data.event && c && c(e.data.payload.event.uri)
+                })), !1
+            }))
+        }))
+    }
+    e.Connect = {
+        Title: "Connect",
+        Heading: "",
+        Subheading: "I want to Connect seamlessly any application, device or data source\t",
+        Button1: "Step 2 of 3",
+        Button2: "Step 3 of 3",
+        Button1SubHeading: "What do you use to manage your donors?",
+        Button2SubHeading: "What's the best way to reach you?"
+    }, e.headData = {
+        Step1: {
+            Heading: "Flexible Plans That Grow With You",
+            subHeading: "We'd love to prepare a customized proposal for you! We just need a few details to create the best plan for your nonprofit startup or growing fundraising team. Simply fill out the details below and we'll be in touch shortly."
+        },
+        Step2: {
+            Heading: "Flexible Plans That Grow With You",
+            subHeading: "We'd love to prepare a customized proposal for you! We just need a few details to create the best plan for your nonprofit startup or growing fundraising team. Simply fill out the details below and we'll be in touch shortly."
+        },
+        Step3: {
+            Heading: "Flexible Plans That Grow With You",
+            subHeading: "We'd love to prepare a customized proposal for you! We just need a few details to create the best plan for your nonprofit startup or growing fundraising team. Simply fill out the details below and we'll be in touch shortly."
+        }
+    }, e.doWhenElementLoaded = function(e, t) {
+        var o = setInterval((function() {
+            document && document.querySelectorAll && document.querySelectorAll(e).length > 0 && window.newSection && (clearInterval(o), t())
+        }), 500);
+        setTimeout((function() {
+            clearInterval(o)
+        }), 1e4)
+    }, e.onLoadMktoForms2 = function(e, t, o) {
+        var n = setInterval((function() {
+            void 0 !== window.MktoForms2 && (clearInterval(n), e())
+        }), t);
+        setTimeout((function() {
+            clearInterval(n)
+        }), o)
+    }, e.onLoadCalendly = function(e) {
+        var t = setInterval((function() {
+            "undefined" != typeof Calendly && (clearInterval(t), e())
+        }), 50);
+        setTimeout((function() {
+            clearInterval(t)
+        }), 15e3)
+    }, e.live = function(e, t, o, n) {
+        var a;
+        this && this.Element && ((a = Element.prototype).matches = a.matches || a.matchesSelector || a.webkitMatchesSelector || a.msMatchesSelector || function(e) {
+                for (var t = this, o = (t.parentNode || t.document).querySelectorAll(e), n = -1; o[++n] && o[n] != t;);
+                return !!o[n]
+            }),
+            function(e, t, o, n) {
+                var a, s, r;
+                a = n || document, s = t, r = function(t) {
+                    for (var a, s = t.target || t.srcElement; s && s.matches && s !== n && !(a = s.matches(e));) s = s.parentElement;
+                    a && o.call(s, t)
+                }, a.attachEvent ? a.attachEvent("on" + s, r) : a.addEventListener(s, r)
+            }(e, t, o, n)
+    }, e.showNextStep = function(e) {
+        e.classList.remove("fe-show"), e.nextElementSibling.classList.add("fe-show")
+    }, e.removeClass = function(e, t) {
+        for (var o = document.querySelectorAll(e), n = 0; n < o.length; n++) o[n].classList ? o[n].classList.remove(t) : o[n].className = o[n].className.replace(new RegExp("\\b" + t + "\\b", "g"), "")
+    }, e.createInnerSection = function(e) {
+        return '  <div class="fe-box">      <h3 class="box_title blue_title">' + e.Button2 + '</h3>      <p class="box_sub_title">' + e.Button2SubHeading + " </p>  </div>"
+    }, e.createNextStep = function(e) {
+        return '<div class="fe-box">  <div class="fe-new-inner-box">      <h3 class="box_title blue_title">' + e.Button1 + '</h3>      <p class="box_sub_title">' + e.Button1SubHeading + '</p>                         <div class="fe-bottom-button">                               <button><a>Excel/Google Docs</a></button>                               <button><a>Blackbaud Raiser\'s Edge</a></button>                               <button><a>Bloomerang</a></button>                               <button><a>DonorPerfect</a></button>                               <button><a>Little Green Light</a></button>                               <button><a>NeonCRM</a></button>                               <button><a>Salsa</a></button>                               <button><a>Other</a></button>                         </div>      <div class="box_btn"><button id="bm-next-two" fe-data-key="Step3" class="fe-disable"><a fe-key="' + e.Title + '" fe-data="Button1Data">NEXT</a></button> </div>  </div></div>'
+    }, e.updateHeadline = function(t) {
+        var o = e.headData[t];
+        document.querySelector(".fe_looking_header .fe_heading p").innerHTML = o.subHeading
+    }, e.init = function() {
+        var o;
+        document.querySelector(".organization .section__actions a").setAttribute("href", "#fe_msf_section"), document.querySelector(".organization .section__actions a span").innerHTML = "Request Pricing", "/all-in-one-platform/events-auctions/" === window.location.pathname ? document.querySelector(".organization .section__actions").insertAdjacentHTML("afterend", '<div class="organization__actions"><a href="https://www.networkforgood.com/free-trial-request/" class="btn-arrow"><span>Try for Free</span></a></div>') : document.querySelector(".organization .organization__actions a").innerHTML = "<span>Try for Free</span>", e.live(".organization--secondary .section__actions a", "click", (function() {
+            var e = document.getElementById("fe_msf_section").getBoundingClientRect().top + window.pageYOffset - 45;
+            window.scrollTo({
+                top: e,
+                behavior: "smooth"
+            })
+        })), document.querySelector("body").classList.add("fe-n4g-18"), document.querySelector(".section-testimonials").insertAdjacentHTML("afterend", window.feLooking), document.querySelector(".section-organizations").insertAdjacentHTML("afterend", window.newSection), e.live(".fe-step1 .fe-bottom-button button", "click", (function() {
+            e.removeClass(".fe-step1 .fe-bottom-button button", "fe-active"), this.classList.add("fe-active"), e.removeClass(".fe-step1 .box_btn button", "fe-disable")
+        })), e.live(".fe-step1 .box_btn #bm-next-one", "click", (function(t) {
+            if (document.querySelectorAll(".fe-step1 .fe-bottom-button button.fe-active").length) {
+                t.preventDefault(), t.stopPropagation();
+                var n = e.createNextStep(e.Connect);
+                document.querySelector(".fe-next-step.fe-step2").innerHTML = n, e.showNextStep(this.closest(".fe-step1")), this.closest(".fe_looking_row_inner").classList.add("fe-hide"), document.querySelector(".fe_step_box .fe_step_2").classList.add("active"), document.querySelector(".fe_step_box .fe_step_2").classList.remove("fe-disable"), document.querySelector(".fe_step_box .fe_step_1").classList.remove("active");
+                var a = this.getAttribute("fe-data-key");
+                e.updateHeadline(a), o = document.querySelector(".fe-step1 .fe-bottom-button .fe-active a").getAttribute("for"), "ga" in window && ga.getAll()[0].send("event", {
+                    eventCategory: "N4G-18_step1_click",
+                    eventAction: "GA_Clicks",
+                    eventLabel: "Pricing form 1st step completed"
+                });
+                var s = document.querySelector(".mktoHtmlText").closest(".mktoFormRow");
+                document.querySelector(".mktoForm .mktoButtonRow").insertAdjacentElement("beforebegin", s)
+            }
+        })), e.live(".fe-step2 .fe-bottom-button button", "click", (function() {
+            e.removeClass(".fe-step2 .fe-bottom-button button", "fe-active"), this.classList.add("fe-active"), e.removeClass(".fe-step2 .box_btn button", "fe-disable")
+        })), e.live(".fe-step2 .box_btn #bm-next-two", "click", (function(t) {
+            if (document.querySelectorAll(".fe-step2 .fe-bottom-button button.fe-active").length) {
+                t.preventDefault(), t.stopPropagation();
+                var n = e.createInnerSection(e.Connect);
+                e.showNextStep(this.closest(".fe-step2")), document.querySelector(".fe-next-step.fe-step3 .fe-inr-step").innerHTML = n, document.querySelector(".fe_step_box .fe_step_3").classList.add("active"), document.querySelector(".fe_step_box .fe_step_1").classList.remove("active"), document.querySelector(".fe_step_box .fe_step_2").classList.remove("active"), document.querySelector(".fe_step_box .fe_step_3").classList.remove("fe-disable");
+                var a = this.getAttribute("fe-data-key");
+                e.updateHeadline(a), document.querySelectorAll("#Number_of_Donors__c option").forEach((function(e) {
+                    e.value === o && (e.selected = "selected")
+                })), document.querySelector("#Number_of_Donors__c").closest(".mktoFormRow").style.display = "none", document.querySelector("#Email").setAttribute("placeholder", "Work Email:"), document.querySelector("#Phone").setAttribute("placeholder", "Work Phone Number:"), document.querySelector("#Company").setAttribute("placeholder", "Organization Name:"), document.querySelector("#LastName").setAttribute("placeholder", "Last Name:"), document.querySelector("#FirstName").setAttribute("placeholder", "First Name:")
+            }
+        })), e.onLoadMktoForms2((function() {
+            e.onLoadCalendly((function() {
+                t({
+                    Calendly: {
+                        eventURL: "https://calendly.com/bonterra-network-for-good"
+                    },
+                    Marketo: {
+                        munchkinId: "270-SZK-418",
+                        instanceURL: "//learn.networkforgood.com",
+                        supplementaryFormId: 3094,
+                        lastCalendlyEventURIField: "lastCalendlyEventURI",
+                        formReplacementHTML: "Thank you!"
+                    }
+                })
+            })), e.doWhenElementLoaded("#Reason_for_Demo_Request__c", (function() {
+                document.querySelector("#Reason_for_Demo_Request__c").value = "product demonstration", document.querySelector("#Reason_for_Demo_Request__c").closest(".mktoFormRow").style.display = "none"
+            }))
+        }), 50, 1e4)
+    }, e.addScript = function(e, t) {
+        var o;
+        t ? ((o = document.createElement("link")).rel = "stylesheet", o.href = e) : (o = document.createElement("script")).src = e;
+        document.getElementsByTagName("head")[0].appendChild(o)
+    }, e.addScript("https://calendly.com/assets/external/widget.js"), e.addScript("https://calendly.com/assets/external/widget.css", !0), e.addScript("https://lp.networkforgood.com/js/forms2/js/forms2.min.js"), e.init2 = function() {
+        document.querySelector("body").insertAdjacentHTML("beforeend", '<div class="fe-Overlay-N4G-18"></div>'), e.doWhenElementLoaded(".mktoForm input[type=email]", (function() {
+            document.querySelector(".mktoForm input[type=email]").parentElement.insertAdjacentHTML("afterbegin", '  <div class="fe-tooltip-N4G-18">      <img class="fe-tooltip-img-18" src="https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/6/Tooltip.png">      <span class="fe-show-txt" id="fe-show-email">          <p>We\'ll send you pricing information.</p>      </span>  </div>'), document.querySelector('.mktoForm input[type="tel"]').parentElement.insertAdjacentHTML("afterbegin", '  <div class="fe-tooltip-N4G-18">      <img class="fe-tooltip-img-18" src="https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/6/Tooltip.png">      <span class="fe-show-txt" id="fe-show-phone">          <p>In case we need to contact you about pricing.</p>      </span>  </div>'), document.querySelector(".fe_looking_row .mktoForm .mktoHtmlText").insertAdjacentHTML("beforebegin", '  <p class="fe-privacy"><svg height="100px" width="100px" fill="#fff" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"          version="1.1" x="0px" y="0px" viewBox="-949 951 100 100" style="enable-background:new -949 951 100 100;" xml:space="preserve"><g><g i:extraneous="self"><g><path d="M-899,953l-38.7,12.2v23.7c0,20.6,10.1,40,27,51.9l11.7,8.2l11.7-8.2c16.9-11.8,27-31.2,27-51.9v-23.7L-899,953z      M-865.7,988.9c0,18.9-9.2,36.6-24.7,47.4l-8.6,6l-8.6-6c-15.5-10.8-24.7-28.6-24.7-47.4v-19.8l33.3-10.5l33.3,10.5V988.9z"></path><path d="M-910.3,983.6v5.4h-4.2v25.1h31V989h-4.2v-5.4c0-6.2-5.1-11.3-11.3-11.3S-910.3,977.4-910.3,983.6z M-896.4,1008h-5.2     l0.9-6.7c-0.9-0.6-1.5-1.6-1.5-2.7c0-1.8,1.4-3.2,3.2-3.2c1.8,0,3.2,1.4,3.2,3.2c0,1.1-0.6,2.1-1.5,2.7L-896.4,1008z      M-905.6,983.6c0-3.7,3-6.6,6.6-6.6c3.7,0,6.6,3,6.6,6.6v5.4h-13.2V983.6z"></path></g></g></g></svg>We  respect your privacy</p>')
+        }), 50, 15e3), e.live(".fe-tooltip-N4G-18", "click", (function() {
+            document.querySelector(".fe-Tshow") && document.querySelector(".fe-Tshow").classList.remove("fe-Tshow"), document.querySelector("body").classList.toggle("fe-tooltip-bm_show"), this.parentElement.classList.toggle("fe-Tshow")
+        })), e.live(".fe-Overlay-N4G-18", "click", (function() {
+            document.querySelector("body").classList.remove("fe-tooltip-bm_show")
+        }))
+    }, e.doWhenElementLoaded(".section-testimonials", e.init), e.doWhenElementLoaded(".fe_allPlans .allPlans__content", e.init2)
+}();

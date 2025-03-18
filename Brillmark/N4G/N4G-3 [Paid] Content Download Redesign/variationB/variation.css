@@ -1,0 +1,64 @@
+html body .fe-tooltip-N4G4-paid {
+  position: relative;
+}
+
+html body .fe-tooltip-N4G4-paid .fe-show-txt {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin: 10px 22px;
+  position: absolute;
+  bottom: 0px;
+  left: -6px;
+  width: 182px;
+  z-index: 200;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 13px;
+  display: none;
+}
+
+html body .fe-tooltip-N4G4-paid .fe-tooltip-img {
+  position: relative;
+  max-width: 15px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+html body.fe-tooltip-paid-show .fe-Overlay-N4G4-paid {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #00000036;
+  z-index: 111;
+}
+
+html body.fe-tooltip-paid-show .fe-N4G-paidshow .fe-tooltip-N4G4-paid .fe-show-txt {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  html body.fe-tooltip-paid-show .fe-N4G-paidshow .fe-tooltip-N4G4-paid .fe-show-txt {
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+html body.fe-tooltip-paid-show .fe-N4G-paidshow .fe-tooltip-N4G4-paid .fe-tooltip-img {
+  z-index: 999;
+}
+
+html body form .mktoFieldWrap label {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+/*# sourceMappingURL=variation.css.map */

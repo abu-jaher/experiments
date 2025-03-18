@@ -1,0 +1,11 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/global.js",
+		"./variationB/variation.js"
+	],
+	"inject": "",
+	"urls": [
+		"https://www.googleoptimize.com/opt_set_cookie?uiv2&id=OPT-KZVN73C&gtm_auth=72q0TTvjQwdRT3h-sdYMuQ&gtm_debug&gtm_experiment=OPT-KZVN73C_OPT-TQKHX%242&gtm_preview=opt_preview-slim&redirect=https%3A%2F%2Fwww.google-analytics.com%2Fgtm%2Fset_cookie%3Fuiv2%26id%3DOPT-KZVN73C%26gtm_auth%3D72q0TTvjQwdRT3h-sdYMuQ%26gtm_debug%26gtm_experiment%3DOPT-KZVN73C_OPT-TQKHX%25242%26gtm_preview%3Dopt_preview-slim%26redirect%3Dhttps%253A%252F%252Foptimize.google.com%252Foptimize%252Fsharepreview%253Fid%253DOPT-KZVN73C%2526gtm_experiment%253DOPT-KZVN73C_OPT-TQKHX%2525242%2526url%253Dhttps%25253A%25252F%25252Flearn.networkforgood.com%25252Fdemo-request.html%2526opt_experiment_name%253DN4G-1%252520%25255BRequest%252520Demo%252520Form%25255D%252520Multi%252520Step%252520Redesign%252520(2)%2526opt_variation_name%253DControl%2526slim%253Dtrue%2526container_name%253DNetwork%252520for%252520Good%252520Website%26optimize_editor&optimize_editor"
+	]
+}

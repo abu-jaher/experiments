@@ -1,0 +1,71 @@
+html body .bm-CTA-container25 a {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  padding: 11px 15px;
+  margin-left: 16px;
+  width: 100%;
+  color: #59bf22;
+  border: 1px solid #59bf22;
+  border-radius: 5px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 11%);
+}
+
+html body .bm-CTA-container25 a:hover {
+  padding: 15px;
+  transition: padding 0.3s;
+}
+
+@media (max-width: 1190px) {
+  html body .bm-CTA-container25 a {
+    margin-left: 0px;
+    width: auto;
+    min-width: 195px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html
+    body
+    .header__inner
+    .header__content
+    .nav-access
+    > ul
+    > li:nth-child(2)
+    a {
+    min-width: 165px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  html body .header .header__aside {
+    max-width: 430px;
+  }
+
+  html body .header .header__nav {
+    padding-right: 20px;
+    width: calc(100% - 400px);
+  }
+  @media screen and (min-width: 1200px) {
+    html body .header .header__nav {
+      padding-right: 30px;
+    }
+  }
+  html body .header__inner .header__content .nav-access>ul li:nth-child(2) {
+    padding: 0 15px;
+  }
+  html body .bm-CTA-container25 {
+    margin-right: 10px;
+
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html body .header .menu li[data-mega-page-id] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

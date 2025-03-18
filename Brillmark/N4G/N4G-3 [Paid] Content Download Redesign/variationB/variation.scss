@@ -1,0 +1,66 @@
+
+    .fe-tooltip-N4G4-paid{
+       position: relative;
+       .fe-show-txt{
+        background: #fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 5px;
+        padding: 8px 10px;
+        margin: 10px 22px;
+        position: absolute;
+        bottom: 0px;
+        left: -6px;
+        width: 182px;
+        z-index: 200;
+          font-weight: 400;
+        text-transform: none;
+        font-size: 13px;
+        display: none;
+      }
+      .fe-tooltip-img {
+        position: relative;
+        max-width: 15px;
+        margin-left: 8px;
+        cursor: pointer;
+     }
+    }
+    .fe-Overlay-N4G4-paid {
+        display: none;
+    }
+    &.fe-tooltip-paid-show{
+        .fe-Overlay-N4G4-paid {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background: #00000036;
+            z-index: 111;
+            display: block;
+        }
+        .fe-N4G-paidshow{
+            .fe-tooltip-N4G4-paid{
+                .fe-show-txt{
+                    display: block;
+                    @media screen and (max-width:767px) {
+                        display: block;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .fe-tooltip-img{
+                    z-index: 999;
+                }
+            }
+        }
+    }
+    form{
+        .mktoFieldWrap{
+            label{
+              display: flex !important; 
+              align-items: center !important;
+            }
+        }
+    }
+
+

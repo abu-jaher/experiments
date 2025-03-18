@@ -1,0 +1,10 @@
+{
+	"files": [
+		"./variationB/htmlString.js",
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.networkforgood.com/all-in-one-platform/online-fundraising/",
+			"https://www.networkforgood.com/all-in-one-platform/events-auctions/"],
+	"inject": ""
+}

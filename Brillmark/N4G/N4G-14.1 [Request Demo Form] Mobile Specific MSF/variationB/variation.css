@@ -1,0 +1,354 @@
+@media screen and (min-width: 768px) {
+  html body .shell.headerTop .sectionContent,
+  html body .fe_step3_heading,
+  html body .fe_mobile_heading,
+  html body .fe_steps_btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  html body .resourceMarketoForm .section__form .stepField .inputbox{
+    margin-right: 0px !important;
+    display: flex;
+    align-items: center;
+  }
+  html body .resourceMarketoForm .section__form .stepField .inputbox input{
+    margin-right: 10px;
+  }
+  html body .resourceMarketoForm .sectionRight form > *{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  html body .resourceMarketoForm .bm-next-button{
+      text-align: center;
+  }  
+  html body .resourceMarketoForm .section-mob-heading {
+    margin-bottom: 15px;
+  }
+  html body .wrapper__inner .section-partners {
+    padding: 38px 0 58px;
+    position: relative;
+  }
+  html body .wrapper__inner .section-partners::before{
+    content: "";
+    background: url(https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/14/All_features_circles.png);
+    background-size: cover;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: calc(100% - 40px);
+  }
+  html body .resourceMarketoForm.lighter_guide {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  html body .resourceMarketoForm.lighter_guide .sectionLeft .sectionContent ul {
+    display: none;
+  }
+  html body .shell.headerTop .sectionContent {
+    margin-left: -20px;
+  }
+  html body .shell.headerTop .sectionContent ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    list-style: none;
+    font-weight: 600;
+  }
+
+  html body .shell.headerTop .sectionContent ul li::before {
+    content: "";
+    background: url(https://www.networkforgood.com/wp-content/uploads/NFG-home-features-1_checkmark_green-01-1-150x1501-1.png);
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 28px;
+    width: 28px;
+    display: block;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+  }
+  html body #bm-form-question {
+    display: none;
+  }
+
+  html body .fe_mobile_heading {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+
+  html body .fe_step3_heading {
+    font-weight: normal;
+    padding: 0 8px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #151f26;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: Open Sans,sans-serif;
+  }
+
+  html body .section__form.fe_step3 .fe_step3_heading {
+    display: block;
+  }
+
+  html body .stepPaginationContainer {
+    text-align: center !important;
+  }
+  html body .resourceMarketoForm .stepPaginationContainer {
+    margin-bottom: 10px;
+  }
+  html
+    body
+    .resourceMarketoForm
+    .stepPaginationContainer
+    .stepPagination
+    > *:last-child {
+    width: 32px;
+  }
+
+  html
+    body
+    .resourceMarketoForm
+    .stepPaginationContainer
+    .stepNum:last-of-type::after {
+    display: none;
+  }
+
+  
+  html body .fe_steps_btn button:hover {
+    background-color: #039803 !important;
+  }
+
+  html body .fe-tooltip-N4G4-paid {
+    position: absolute;
+    bottom: 0;
+    right: 22px;
+    z-index: 99999999;
+  }
+  html body .fe-tooltip-N4G4-paid .fe-tooltip-img {
+    padding: 0px;
+    max-width: 15px !important;
+  }
+  html
+    body
+    .resourceMarketoForm
+    .section__form
+    .mktoForm
+    .sectionButton
+    .mktoButtonRow {
+    text-align: center !important;
+    margin-top: 25px !important;
+  }
+  html
+    body.fe-tooltip-paid-show
+    .fe-N4G-paidshow
+    .fe-tooltip-N4G4-paid
+    .fe-show-txt {
+    left: 100% !important;
+    transform: translateX(-100%) !important;
+  }
+  html body .resourceMarketoForm .mktoForm .mktoButton{
+    color: #fff !important;
+    background-color: #59bf22 !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    font-family: Open Sans,sans-serif;
+  }
+  
+
+  html body .list-partners li {
+    width: 50% !important;
+  }
+
+  /* error msg */
+  html body .fe_error_msg {
+    color: red !important;
+    font-size: 10px !important;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: max-content;
+    position: absolute !important;
+    right: 30px !important;
+    bottom: 10px;
+    display: none;
+  }
+
+  html body .fe_error_msg.fe_show {
+    display: block;
+  }
+
+  html body .resourceMarketoForm .mktoForm select.mktoField {
+    height: 46px;
+    background: #fff
+      url(https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/14/noun-arrow-down-136308.svg)
+      center right no-repeat;
+    background-size: 30px;
+    border-radius: 0px !important;
+  }
+
+  html body #Number_of_Donors__c + .mktoError,
+  html body #Registered_501_c_3__c + .mktoError {
+    display: none !important;
+  }
+
+  html body .resourceMarketoForm .section__form .mktoForm .mktoFormRow input {
+    height: 46px !important;
+    border-radius: 0px !important;
+    margin-top: 10px;
+  }
+
+  html body .resourceMarketoForm .mktoForm .mktoRequiredField label.mktoLabel {
+    margin-top: 0;
+  }
+
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField
+    label[for="FirstName"],
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField
+    label[for="LastName"],
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField
+    label[for="Company"],
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField
+    label[for="Email"],
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField
+    label[for="Phone"] {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: #61636a;
+  }
+
+  html body .resourceMarketoForm .mktoForm .mktoRequiredField.fe_opacity label,
+  html body .resourceMarketoForm .mktoForm .mktoRequiredField.fe_opacity label,
+  html body .resourceMarketoForm .mktoForm .mktoRequiredField.fe_opacity label,
+  html body .resourceMarketoForm .mktoForm .mktoRequiredField.fe_opacity label,
+  html body .resourceMarketoForm .mktoForm .mktoRequiredField.fe_opacity label {
+    opacity: 0;
+  }
+
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField.fe_opacity_one
+    label,
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField.fe_opacity_one
+    label,
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField.fe_opacity_one
+    label,
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField.fe_opacity_one
+    label,
+  html
+    body
+    .resourceMarketoForm
+    .mktoForm
+    .mktoRequiredField.fe_opacity_one
+    label {
+    opacity: 1;
+  }
+
+  .resourceMarketoForm .stepPaginationContainer .stepNum.fe_step_complete {
+    color: #25aceb;
+    cursor: pointer;
+  }
+
+  .resourceMarketoForm .stepPaginationContainer .stepNum.fe_step_complete > i {
+    display: inline-block;
+  }
+  .resourceMarketoForm .stepPaginationContainer .stepNum.fe_step_complete span {
+    display: none;
+  }
+  .resourceMarketoForm
+    .stepPaginationContainer
+    .stepNum.fe_step_complete:after {
+    background: #25aceb;
+  }
+
+  html body .resourceMarketoForm .guide-muilt-step {
+    min-height: 0;
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+  html body .footer {
+    margin-top: 0;
+  }
+  html body .section-testimonials,
+  html body .footer > .shell,
+  html body .resourceMarketoForm.lighter_guide .sectionLeft {
+    display: none;
+  }
+
+  html body .section__content .list-partners{
+    display: flex;
+  }
+  html body .section__content .list-partners li:nth-child(2){
+    order: 2;
+  }
+  html body .header .header__content {z-index:9;}
+
+}
+@media screen and (max-width: 374px) {
+  html body .fe_steps_btn {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html body .resourceMarketoForm .sectionRight .section__form {
+    padding: 20px 15px !important;
+  }
+  html body .resourceMarketoForm .section-mob-heading ,
+  html body .resourceMarketoForm h2.title,
+  html body .fe_step3_heading{
+    font-size: 16px !important;
+    line-height: 1.5;
+  }
+  .resourceMarketoForm .mktoForm .mktoRequiredField label.mktoLabel,
+  html body .shell.headerTop .sectionContent ul li {
+    font-size: 12px !important;
+  }
+}

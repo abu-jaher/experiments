@@ -1,0 +1,101 @@
+html body .main .section-organizations{
+    margin: 0;
+}
+html body .main .section-organizations .organization__image .organization__image-bg{
+    display: none;
+}
+html body .main .section-organizations .organization{
+    padding: 20px 0px 10px !important;
+    justify-content: space-around;
+}
+html body .main .section-organizations .organization .organization__image-figure--secondary{
+    display: none;
+}
+html body .main .organization .organization__image{
+    width: 40%;
+    margin-right: 0;
+}
+html body .main .section-offers .section__head{
+    margin-bottom: 20px;
+}
+html body .main .section-offers .section__head>h2{
+    font-size: 32px;
+}
+html body .main .section-offers{
+    padding-top: 10px;
+}
+html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: -16px;  
+    list-style: none;
+}
+html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners li {
+    padding: 30px;
+    max-width: 150px;
+}
+html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners li:nth-child(3){
+    max-width: 180px;
+}
+@media (min-width:1024px) {
+    html body .main .section-offers .section__bg{
+        height: 109%;
+        width: 88%;
+    }
+}
+@media (max-width:768px) {
+    html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners li {
+        padding: 20px;
+    }
+    html body .main .section-offers .shell .fe-reviews-badges{
+        padding: 30px 0;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 575px){
+    html body .main .section-offers .section__head h2{
+        font-size: 24px;
+    }
+    html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners li {
+        max-width: 120px;
+    }
+    html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners li:nth-child(3){
+        max-width: 147px;
+    }
+    html body .main .section-offers .shell .fe-reviews-badges .fe-list-partners li {
+        padding: 15px;
+    }
+}
+@media (max-width:812px) {
+    html body .main .organization .organization__image {
+        width: 50%;
+        margin: auto;
+    }
+    html body .main .section-organizations .organization__image .fe-hero-image img{
+        display: block;
+        margin: auto;
+    }
+}
+ @media (min-width:1368px) and (max-width:1536px) {
+    html body .main .section-organizations .organization{
+        padding: 20px 0px 75px;
+    }
+}
+@media screen and (min-height: 767px )
+{
+    html body .main .section-organizations .organization{
+        padding: 40px 0px 100px;
+    }
+    html body .main .organization .organization__image{
+        width: 45%;
+    }
+}

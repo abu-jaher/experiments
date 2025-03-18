@@ -1,0 +1,174 @@
+html body #menu-main-menu > li:nth-child(2) > a +ul.sub-menu{
+    display: none;
+}
+html body .fe-sebmenu{
+    display: none;
+}
+html body #menu-main-menu > li:nth-child(2):hover .fe-sebmenu{
+    display: block;
+}
+html body .fe-feature {
+    width: 70%;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+html body .fe-overview {
+    width: 30%;
+    padding: 20px 10px;
+    border-right: 1px solid #1F8ABC;
+}
+html body .fe-overview li {
+    padding: 10px;
+}
+html body .fe-overview li:hover {
+    background-color: rgba(31,138,188,0.36);
+}
+html body .fe-sebmenu{
+    position: absolute;
+    top: 92px;
+    transform: translate(-20%, 0%);
+    width: 800px;
+    border: 2px solid #1F8ABC;
+    border-radius: 5px;
+    background-color: #fff;
+}
+html body.fe-test-ng10  .fe-sebmenu{
+    position: fixed;
+    width: 800px;
+}
+html body .fe-topcontent{
+    display: flex;
+    padding: 15px 0;
+    padding-bottom: 26px;
+}
+html body .fe-heading {
+    color: #04293A;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+html body .fe-feature .fe-heading {
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+html body .fe-main-sec a {
+    color: #26AAE6;
+    font-size: 14px;
+    display: flex;
+}
+html body .fe-feature-option {
+    padding-left: 15px;
+}
+html body .fe-subcontent {
+    color: #04293A;
+    font-size: 12px;
+    font-weight: 600;
+}
+html body .fe-feature-content {
+    display: flex;
+}
+html body .fe-feature-content ul {
+    width: 50%;
+    margin-bottom: 0;
+}
+html body .fe-feature-content ul li {
+    padding: 10px;
+}
+html body .fe-feature-content ul li:hover{
+    background-color: rgba(31,138,188,0.36);
+} 
+html body .fe-feature-content li:hover .fe-feature-option span,
+html body .fe-overview li:hover a {
+    color: #04293A;
+}
+html body .fe-feature-content ul li:hover.fe-main-sec a {
+    color: #04293A !important;
+}
+html body .fe-feature-icon {
+    display: inline-block;
+    max-width: 40px;
+    width: 25%;
+}
+html body .fe-feature-icon.Events-Auctions,
+html body .fe-feature-icon.Online-Fundraising {
+    max-width: 34px;
+}
+html body .fe-bottomcontent {             /* bottom section*/
+    background-color: #1F8ABC;
+    color: #fff;
+}
+html body .fe-content {
+    max-width: 510px;
+    margin: 0 auto;
+    display: flex;
+    padding: 28px 0;
+}
+html body .fe-bottomicon {
+    width: 100px;
+}
+html body .fe-bottom-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+html body .fe-bottom-title span {
+    font-weight: 600;
+}
+html body .fe-text-content {
+    padding-left: 10px;
+}
+html body .fe-freedemo {
+    font-size: 16px;
+    font-weight: 600;
+}
+html body .fe-freedemo:after {
+    width: 30px;
+    content: "";
+    background-image: url(https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/10/arrowr.png);
+    display: inline-block;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#menu-main-menu > li:nth-child(2) > a:after,
+#menu-main-menu > li:nth-child(4) > a:after {         /* menu dropdown icon*/
+    content: "";
+    background-image: url(https://bm-test-dev.s3.us-east-2.amazonaws.com/FE/N4G/10/dropdown-icon2.png);
+    width: 14px;
+    height: 9px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 14px;
+    margin: 0 auto;
+}
+html body .nav > ul > li:nth-child(2):hover > a:after,
+html body .nav > ul > li:nth-child(4):hover > a:after {
+    transform: rotate(180deg);
+}
+html body .fe-termsconditions a {
+    text-decoration: underline;
+    font-weight: normal;
+    font-style: italic;
+}
+html body #menu-main-menu > li:nth-child(2){
+    padding-left: 48px;
+    padding-right: 48px;
+}
+html body #menu-main-menu > li:nth-child(1){
+    padding-right: 0px;
+    padding-left: 0px;
+}
+html body #menu-main-menu > li:nth-child(3){
+    padding-left: 0px;
+}
+html body .header__content .menu {
+    padding-top: 12px;
+    justify-content: space-evenly;
+}
+html body .header .header__nav {
+    padding-right: 42px;
+}

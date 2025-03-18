@@ -1,0 +1,159 @@
+.section-organizations .organization{
+    margin-top: -20px;
+}
+html body .main .organization__content h1{
+    margin-bottom: 25px;
+}
+html body .main .fe-list img {
+    max-width: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+html body .main .fe-list {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 0px;
+}
+
+html body .main .fe-list:last-child {
+    margin-bottom: 60px;
+}
+
+html body .main .fe-list-details + p{
+    display: none;
+}
+html body .main .fe-logo-section .section__head{
+    margin-bottom: 20px;
+}
+html body .main .fe-logo-section .section__head>h2{
+    font-size: 33px;
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+}
+html body .main .fe-logo-section{
+    background: #ffffff;
+    margin-top: -134px;
+    position: relative;
+    padding: 40px 0px 20px 0px !important;
+}
+html body .main .fe-logo-section .shell .fe-reviews-badges .fe-list-partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none;
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width:1024px) {
+    html body .main .fe-logo-section .section__bg{
+        height: 109%;
+        width: 88%;
+    }
+    /* html body .main .organization .organization__body {
+        padding-right: 110px !important;
+    } */
+}
+@media (max-width:768px) {
+    html body .main .fe-logo-section h2{
+        font-size: 29px;
+        margin-bottom: 0px !important;
+    }
+    html body .main .fe-logo-section .shell .fe-reviews-badges{
+        padding: 30px 0;
+        margin-bottom: 40px;
+    }
+    
+    html body .fe-list-partners .logo-1 {
+        width: 245px;
+        height: 42px;
+}
+
+html body .fe-list-partners .logo-2 {
+    width: 157px;
+    height: 28px;
+}
+
+html body .fe-list-partners .logo-3 {
+    width: 80px;
+    height: 54px;
+}
+html body .main .fe-logo-section .fe-list-partners li {
+    margin: 10px 20px;
+}
+html body .main .fe-logo-section{
+    margin-top: -70px !important;
+}
+}
+@media screen and (max-width:575px) {
+    html body .main .fe-logo-section h2 {
+        max-width: 300px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media screen and (max-width:455px) {
+    html body .main .fe-list:nth-child(1) {
+        max-width: 365px;
+    }
+    
+    html body .main .fe-list:nth-child(4) {
+        max-width: 297px;
+    }
+}
+@media (max-width: 360px){
+html body .main .fe-logo-section .shell .fe-list-partners li {
+    margin: 7px 10px;
+}
+html body .main .fe-logo-section h2 {
+    font-size: 27px;
+    line-height: 1.1;
+}
+}
+.fe-list-partners .logo-1 {
+    width: 214px;
+    height: 36px;
+}
+
+.fe-list-partners .logo-2 {
+    width: 210px;
+    height: 40px;
+}
+
+.fe-list-partners .logo-3 {
+    width: 135px;
+    height: auto;
+}
+
+.fe-list-partners .logo-4 {
+    width: 80px;
+    height: auto;
+}
+
+.fe-list-partners .logo-5 {
+    width: 146px;
+    height: auto;
+}
+
+.fe-logo-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 33px;
+    line-height: 1.2;
+}
+.fe-logo-section h2 .fe-blue {
+    color: #33a2e8;
+}
+html body .fe-list-partners li {
+    margin: 15px 25px;
+}

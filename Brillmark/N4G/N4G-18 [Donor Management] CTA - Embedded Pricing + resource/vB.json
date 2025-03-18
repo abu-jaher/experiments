@@ -1,0 +1,12 @@
+{
+	"files": [
+		"./variationB/htmlstring.js",
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+		
+	],
+	"inject": "",
+	"urls": [
+		"https://www.networkforgood.com/all-in-one-platform/donor-management/"
+	]
+}

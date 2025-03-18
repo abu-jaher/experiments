@@ -1,0 +1,11 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/global.js",
+		"./variationB/variation.js"
+	],
+	"urls": [
+		"https://learn.networkforgood.com/demo-request.html?utm_medium=web&utm_source=webmenu&utm_campaign=cta__demo__general-demo"
+	],
+	"inject": ""
+}
