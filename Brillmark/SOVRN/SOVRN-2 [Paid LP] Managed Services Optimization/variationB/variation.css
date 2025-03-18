@@ -1,0 +1,226 @@
+html body div.site nav.navbar{
+    border: none !important;
+}
+html body .navbar-nav li#signin_nav_parent>a{
+    font-weight: 700;
+}
+html body #hero  header.entry-content  h3.h1 {
+    display: none;
+}
+html body #hero div.container div.row div.col-lg-6 header.entry-content h1.h3{
+    font-size: 42px!important;
+    letter-spacing: 0!important;
+    line-height: 52px!important;
+    border: none !important;
+    text-transform: none !important;
+}
+html body #hero div.container div.row div.col-lg-6 .entry-content .content p.fe-subheading-text{
+    font-size: 18px;
+    margin-bottom: 0px !important;
+    padding-bottom: 15px !important;
+    padding-top: 10px;
+    line-height: 27px !important;
+    color: #6B6B6B;
+}
+html body a.fe-cta {
+    padding: 21px !important;
+    margin-bottom:20px;
+}
+html body div.container > div.row > div.col-lg-6 span,.fe-help-section span {
+    border-bottom: 5px solid #ffd42b;
+    background: none;
+}
+html body .fe-sovrn-managed h3.fe-sovrn-heading::after{
+    display: none !important;
+}
+html body .fe-right-content .paid-total {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: #FFD52B;
+    position: absolute;
+    top: -50px;
+    right: -76px;
+    padding: 0px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+html body .fe-right-content .banner-image {
+    max-width: 221px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    top: 60px;
+}
+.paid-total p:first-of-type {
+    text-align: center;
+    font-size: 30px;
+    color: #282828 !important;
+    line-height: 36px !important;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: none;
+}
+.paid-total p:last-of-type{
+    font-size: 12px;
+    line-height: 15px !important;
+    color: #6B6B6B !important;
+    margin-bottom: 0px;
+}
+html body.page-template  #block-1 .image-side + div.content-side{
+    padding-top: 0 !important;
+}
+html body div.container .content-side .fe-sovrn-managed h3{
+    font-size: 36px;
+    line-height: 46px!important;
+    color: #313131;
+}
+.fe-sovrn-managed ul.fe-bullet-points{
+    padding-left: 25px;
+}
+.fe-sovrn-managed ul.fe-bullet-points>li {
+    line-height: 19px !important;
+    font-size: 20px;
+    font-weight: 200;
+    color: #6B6B6B;
+    margin-bottom: 10px;
+    /* max-width: 450px; */
+}
+html body #full-width-page-wrapper #hero {
+    background: none !important;
+    padding-bottom: 2em !important;
+    margin-bottom: 1.5em;
+    min-height: auto !important;
+}
+.site-main .fe-help-section {
+    padding: 2em 0;
+    text-align: center;
+}
+.site-main .fe-help-section p{
+    font-size: 28px;
+    line-height: 42px !important;
+    color: #333333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 4px;
+
+}
+
+#block-1 > div.blocks_two_col_flex > div.container > div.row > div.col-lg-6.content-side {
+    padding-right: 0;
+}
+#sovrn_footer_links .d-none.d-md-block.d-lg-none,
+#block-7 .blocks_columns.left-side,
+#block-8 .blocks_call_to_action,
+#sovrn_footer_links .container .d-none.d-lg-block,
+#sovrn_pre_footer > div.container > div.row:first-of-type,
+div.container #social_row,#sovrn_pre_footer{
+    display: none !important;
+}
+html body #menu-mobile-navigation > li:nth-child(4) {
+    margin-top: 0px !important;
+    padding-top: 16px !important;
+}
+
+html body #block-2 .blocks_testimonial {
+    margin: 2em 0 5em 0;
+}
+html body.page-template-advertisers-template .blocks_columns, body.page-template-product-page-template-alt .blocks_columns{
+   padding-top: 3em;
+}
+
+html body #sovrn_footer_links .container .d-block.d-md-none,
+html body #menu-mobile-navigation > li:nth-child(1), 
+html body #menu-mobile-navigation > li:nth-child(2), 
+html body #menu-mobile-navigation > li:nth-child(3),
+html body .navbar-nav li#publishers_nav_parent,
+.navbar-nav li#advertisers_nav_parent,
+.navbar-nav li#company_nav_parent{
+    display: none !important;
+}
+
+@media (max-width:991px){
+    html body #full-width-page-wrapper #hero .container .row .col-lg-6 .entry-content{
+        width: 100%;
+        top: 10% !important;
+    }
+
+}
+@media screen and (max-width:767px) {
+    html body #block-1 div.col-lg-6.image-side img{
+        display: none;
+    }
+    html body .content-side .fe-sovrn-managed .demo-cta>a {
+        width: auto;
+        max-width: max-content;
+    }
+}
+@media screen and (min-width:768px) {
+    #block-1 .blocks_two_col_flex{
+        background: none !important;
+    }    
+    .fe-help-section .fe-cta{
+        padding: 21px 18px !important;
+        width: 100%;
+        max-width: 255px;
+    }
+    html body .entry-content .fe-cta.btn.waves-light {
+        padding: 21px 18px !important;
+        width: 100%;
+        max-width: 229px;
+    }
+    
+    .content-side .fe-sovrn-managed .demo-cta>a {
+        padding: 21px 18px !important;
+        margin-top: 20px;
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #block-1 .blocks_two_col_flex > .container > .row {
+        flex-direction: column-reverse;
+    }
+    #block-1 > div.blocks_two_col_flex > div.container > div.row > div.col-lg-6.content-side{
+        width: 100% !important;
+    }
+}
+@media (min-width:992px) {
+    html body #hero div.container > div.row > div.col-lg-6:nth-child(1) {
+        max-width: 55% !important;
+        flex: 0 0 55%;
+    }
+    html body #hero div.container > div.row > div.col-lg-6:nth-child(2){
+        max-width: 45% !important;
+        flex: 0 0 45%;
+    }
+    html body #block-1 > div.blocks_two_col_flex > div.container > div.row > div.col-lg-6.image-side{
+        padding-top: 10px;
+    }
+    html body #block-1 > div.blocks_two_col_flex > div.container > div.row > div.col-lg-6.content-side {
+        padding-bottom: 25px;
+    }
+}
+@media (max-width:430px) {
+    .fe-right-content .paid-total{
+        right: -47px;
+        top: -62px;
+    }
+    html body a.fe-cta{
+        padding:12px !important
+    }
+    .content-side .fe-sovrn-managed .demo-cta>a{
+        padding: 12px 18px !important;
+    }
+}
+
+html body #navbarNavDropdown {
+    display: none;
+}

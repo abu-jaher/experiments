@@ -1,0 +1,164 @@
+@media screen and (min-width: 768px) {
+  html body #wrapper-navbar {
+    z-index: 99999 !important;
+  }
+  .navbar-nav li#publishers_nav_parent,
+  .navbar-nav li#advertisers_nav_parent {
+    display: none !important;
+  }
+  .menu-item > li.nav-item a {
+    cursor: unset !important;
+  }
+  nav.navbar.navbar-dark .navbar-nav li.nav-item .nav-link {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #282828;
+    letter-spacing: 0.15em;
+  }
+  ul.dropdown-list {
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    position: relative;
+    z-index: 10;
+    padding: 0px;
+    margin-left: -104px;
+  }
+  ul.dropdown-list::before {
+    content: "";
+    background: url(https://1g3v9y2l2llh2lksnu1v316y-wpengine.netdna-ssl.com/wp-content/themes/sovrn-2019/img/nav_pointer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    margin-left: -8px;
+    z-index: 20;
+  }
+  div.submenu {
+    position: absolute;
+    display: none;
+    min-width: 150px;
+    margin-left: 20px;
+  }
+  html body #company_nav_parent div.dropdownmenu {
+    min-width: 250px;
+    margin-left: 37px;
+  }
+  html body #company_nav_parent div.dropdownmenu ul.dropdown-list{
+    max-width: 100%;
+  }
+ 
+  .navbar-nav
+    li#Advertising_nav_parent:hover
+    .navbar-nav
+    #Advertising_dropdown.submenu {
+    display: block;
+  }
+  ul.dropdown-list li {
+    background: #fff;
+    z-index: 10;
+    list-style: none;
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+  }
+  ul.dropdown-list li:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+ #company_nav_parent div.dropdownmenu ul.menu li a {
+    padding-top: 8px;
+    font-weight: 400 !important;
+    font-size: 18px;
+    font-family: inherit!important;
+    font-style: unset;
+}
+  ul.dropdown-list li a {
+    display: inline-block;
+    width: 92%;
+    padding-left: 20px;
+    color: rgba(40, 40, 40, 0.87);
+    font-size: 18px !important;
+    line-height: 27px !important;
+    letter-spacing: 0.15px;
+    padding: 20px 15px;
+    font-weight: 400 !important;
+    margin: 8px 10px;
+  }
+  ul.dropdown-list li a:hover {
+    background-color: #3c4cfc;
+    color: white !important;
+    border-radius: 4px;
+  }
+  #main-menu li:hover .submenu {
+    display: block;
+  }
+  html body #mobile_nav ul.sub-menu li > a {
+    padding: 0 0 0 28px !important;
+    color: rgba(40, 40, 40, 0.87);
+  }
+  html body #mobile_nav ul.menu > li > a {
+    padding-left: 16px !important;
+  }
+  html body #mobile_nav ul.menu > li.display > a:before {
+    left: -10px;
+  }
+
+  #company_nav_parent #company_dropdown ul li a{
+    margin: 8px 10px 2px;
+  }
+  
+  #company_nav_parent div.dropdownmenu li:hover a {
+    color: white;
+  }
+  #company_dropdown ul li {
+    z-index: 10;
+    list-style: none;
+    position: relative;
+  }
+  #company_nav_parent div.dropdownmenu .menu-company-top-container {
+    border-radius: 0px;
+}
+#company_nav_parent div.dropdownmenu ul.menu li:last-of-type::after{
+  display: none;
+}
+#company_dropdown ul li:last-of-type {
+  margin-bottom: 0;
+}
+  #company_nav_parent div.dropdownmenu ul.menu li:hover a , 
+  #company_nav_parent div.dropdownmenu ul.menu li:hover span {
+    background-color: #3c4cfc;
+  }
+  #company_nav_parent div.dropdownmenu ul.menu li span.description{
+    left: 10px;
+    width: 92%;
+    margin-top: -1px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  .menu-company-top-container{
+    overflow: hidden;
+  }
+}
+#mobile_nav ul.sub-menu li>a {
+  padding-left: 26px!important;
+  color: rgba(40, 40, 40, 0.87);
+}
+#menu-mobile-navigation > li >ul.sub-menu >li>span{
+  display: none !important;
+}
+#mobile_nav ul.menu>li>a{
+  margin: 0 24px 0 30px !important;
+}
+#mobile_nav ul.menu>li>a::after{
+  margin-right: 48px;
+}
+#mobile_nav ul.menu>li.display>a:before{
+  left: -22px;
+}
