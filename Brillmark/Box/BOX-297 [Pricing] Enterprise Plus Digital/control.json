@@ -1,0 +1,5 @@
+{
+  "files": ["./control/control.css", "./control/control.js"],
+  "urls": ["https://www.box.com/pricing/business"],
+  "inject": ""
+}

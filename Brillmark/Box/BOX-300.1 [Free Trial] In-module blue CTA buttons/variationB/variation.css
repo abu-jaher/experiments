@@ -1,0 +1,18 @@
+body .leftRight--copy .cta-wrapper a{
+    background: #2486FC;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-right: 0 !important;
+    border: none;
+    transition: background 100ms ease,border-color 100ms ease;
+}
+
+body .leftRight--copy .cta-wrapper a span{
+    text-decoration: none;
+}
+
+body .leftRight--copy .cta-wrapper a:hover{
+    background: #0061d5;
+}

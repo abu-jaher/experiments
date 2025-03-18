@@ -1,0 +1,262 @@
+body{
+    opacity: 0;
+}
+body.fe-292{
+    opacity: 1;
+}
+
+html body.fe-292 input#tab-1:not(:checked) ~ .pricing-navigation .pricing-navigation--button[name=tab-1],
+html body.fe-292 input#tab-2:not(:checked) ~ .pricing-navigation .pricing-navigation--button[name=tab-2]{
+    background: #FBFBFB;
+    border-radius: 100px;
+    color: #6F6F6F;
+}
+
+html body.fe-292 [data-tabs="2"] .pricing-navigation--tabs::before{
+    width: 200px;
+}
+
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--tabs::before{
+    transform: translateX(9%);
+}
+
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--tabs::before{
+    transform: translateX(117%);
+}
+
+html body.fe-292 .pricing-navigation--tabs{
+    gap: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+html body.fe-292 .pricing-navigation--button{
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    justify-content: center;
+    max-width: 200px;
+}
+
+html body.fe-292 .pricing-navigation--button img{
+    max-width: 14px;
+    margin-right: 6px;
+}
+
+html body.fe-292 .pricing-navigation--new .pricing-navigation--selector,
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-2] img.inactive,
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-1] img.inactive,
+html body.fe-292 .pricing-navigation .pricing-navigation--button[name=tab-2] img.active,
+html body.fe-292 .pricing-navigation .pricing-navigation--button[name=tab-1] img.active{
+    display: none;
+}
+
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-2] img.active,
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-1] img.active{
+    display: block;
+}
+
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-1],
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-2]{
+    background-color: #0061d5;
+    border-radius: 2.5rem;
+}
+
+
+html body.fe-292 input#teamSize::-webkit-inner-spin-button,
+html body.fe-292 input#teamSize::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html body.fe-292 .fe_interactive-field {
+    max-width: 288px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 6px 6px 6px 12px;
+    border-radius: 8px;
+    background: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    margin: auto;
+}
+
+html body.fe-292 .fe_interactive-field-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html body.fe-292 input#teamSize {
+    width: 56px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #909090;
+    box-shadow: 0px 2px 4px 0px #0000001A inset;
+    padding: 0;
+    text-align: center;
+    -moz-appearance: textfield; /* Firefox */
+}
+
+html body.fe-292 .fe_interactive-field p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    display: none;
+    color: #6F6F6F;
+}
+
+html body.fe-292 .fe_interactive-field p a{
+    cursor: pointer;
+}
+
+html body.fe-292 .fe_interactive-field.error p{
+    display: block;
+}
+
+html body.fe-292 .fe_interactive-field label{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    color: #222222;
+}
+
+html body.fe-292 input#tab-1:checked  ~ .fe_interactive-field{
+    display: none;
+}
+
+html body.fe-292 #pricing-plan-2 .pricing-package--price .annual-price--old,
+html body.fe-292 #pricing-plan-2 .pricing-package--price .minimum-users-info,
+html body.fe-292 #pricing-plan-2 .pricing-package--price i .annual-price-info{
+    display: none;
+}
+
+html body.fe-292 .fe_pricing-text span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+html body.fe-292 .fe_pricing-text span.fe_annual-price span{
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #6F6F6F;
+}
+
+html body.fe-292 .pricing-plans-group:not(.toggled) .fe_pricing-text span.fe_annual-price,
+html body.fe-292 .pricing-plans-group.toggled .fe_pricing-text span.fe_monthly-price{
+    display: none;
+}
+
+
+html body.fe-292 .pricing-navigation{
+    position: relative;
+}
+
+html body.fe-292 .pricing-toggle {
+    background: #F4F4F4;
+    border: #E8E8E8;
+    border-radius: 68px;
+    max-width: 234px;
+    display: flex !important;
+    width: 100%;
+    justify-content: center !important;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html body.fe-292 input#tab-2:checked.toggle-present ~ .pricing-navigation .pricing-toggle{
+    position: absolute;
+    bottom: -6rem;
+    right: 0;
+}
+
+html body.fe-292 .pricing-plans-group .pricing-plans-row {
+    margin-top: 24px;
+}
+
+html body.fe-292 button.pricing-toggle-button {
+    padding: 6px 12px;
+}
+
+html body.fe-292 .pricing-toggle .pricing-toggle-discount{
+    position: static;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.003em;
+    color: #1E9B67;
+    padding: 2px 6px;
+    background: #E9F8F2;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+html body.fe-292 .pricing-toggle-label[for=pricing-toggle-checkbox]{
+    display: none;
+}
+
+html body.fe-292 button.pricing-toggle-button.pricing-toggle-button__after{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    color:  #6F6F6F !important;
+}
+
+html body.fe-292 #pricing-toggle-checkbox:not(:checked) ~ .pricing-toggle-button__before,
+html body.fe-292 #pricing-toggle-checkbox:checked ~ .pricing-toggle-button__after{
+    background: #FFFFFF;
+    border-radius: 56px;
+    border: 1px solid #E8E8E8;
+}
+
+html body.fe-292 button.pricing-toggle-button.pricing-toggle-button__before{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    color: #222222 !important;
+}
+
+html body.fe-292 #pricing-toggle-checkbox:checked ~ .pricing-toggle-button__after{
+    color: #222222 !important;
+}
+html body.fe-292 #pricing-toggle-checkbox:checked ~ .pricing-toggle-button__before{
+    color:  #6F6F6F !important;
+}
+
+@media screen and (min-width: 72em){
+    html body.fe-292 #pricing-plan-2 .pricing-package--price{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 89.9375em) and (min-width: 64em){
+    html body.fe-292 input#tab-2:checked.toggle-present ~ .pricing-navigation .pricing-toggle{
+        bottom: -9rem;
+        right: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 63.9375em){
+    html body.fe-292 .pricing-navigation{
+        margin-bottom: 24px;
+    }
+    html body.fe-292 input#tab-2:checked.toggle-present ~ .pricing-navigation .pricing-toggle{
+        position: inherit;
+        margin-bottom: 0;
+    }
+}

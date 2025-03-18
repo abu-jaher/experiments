@@ -1,0 +1,454 @@
+<style >
+body{
+    opacity: 0;
+}
+body.fe-292{
+    opacity: 1;
+}
+
+html body.fe-292 input#tab-1:not(:checked) ~ .pricing-navigation .pricing-navigation--button[name=tab-1],
+html body.fe-292 input#tab-2:not(:checked) ~ .pricing-navigation .pricing-navigation--button[name=tab-2]{
+    background: #FBFBFB;
+    border-radius: 100px;
+    color: #6F6F6F;
+}
+
+html body.fe-292 [data-tabs="2"] .pricing-navigation--tabs::before{
+    width: 200px;
+}
+
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--tabs::before{
+    transform: translateX(9%);
+}
+
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--tabs::before{
+    transform: translateX(117%);
+}
+
+html body.fe-292 .pricing-navigation--tabs{
+    gap: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+html body.fe-292 .pricing-navigation--button{
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    justify-content: center;
+    max-width: 200px;
+}
+
+html body.fe-292 .pricing-navigation--button img{
+    max-width: 14px;
+    margin-right: 6px;
+}
+
+html body.fe-292 .pricing-navigation--new .pricing-navigation--selector,
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-2] img.inactive,
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-1] img.inactive,
+html body.fe-292 .pricing-navigation .pricing-navigation--button[name=tab-2] img.active,
+html body.fe-292 .pricing-navigation .pricing-navigation--button[name=tab-1] img.active{
+    display: none;
+}
+
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-2] img.active,
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-1] img.active{
+    display: block;
+}
+
+html body.fe-292 input#tab-1:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-1],
+html body.fe-292 input#tab-2:checked ~ .pricing-navigation .pricing-navigation--button[name=tab-2]{
+    background-color: #0061d5;
+    border-radius: 2.5rem;
+}
+
+
+html body.fe-292 input#teamSize::-webkit-inner-spin-button,
+html body.fe-292 input#teamSize::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html body.fe-292 .fe_interactive-field {
+    max-width: 288px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 6px 6px 6px 12px;
+    border-radius: 8px;
+    background: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    margin: auto;
+}
+
+html body.fe-292 .fe_interactive-field-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html body.fe-292 input#teamSize {
+    width: 56px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #909090;
+    box-shadow: 0px 2px 4px 0px #0000001A inset;
+    padding: 0;
+    text-align: center;
+    -moz-appearance: textfield; /* Firefox */
+}
+
+html body.fe-292 .fe_interactive-field p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    display: none;
+    color: #6F6F6F;
+}
+
+html body.fe-292 .fe_interactive-field p a{
+    cursor: pointer;
+}
+
+html body.fe-292 .fe_interactive-field.error p{
+    display: block;
+}
+
+html body.fe-292 .fe_interactive-field label{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    color: #222222;
+}
+
+html body.fe-292 input#tab-1:checked  ~ .fe_interactive-field{
+    display: none;
+}
+
+html body.fe-292 #pricing-plan-2 .pricing-package--price .annual-price--old,
+html body.fe-292 #pricing-plan-2 .pricing-package--price .minimum-users-info,
+html body.fe-292 #pricing-plan-2 .pricing-package--price i .annual-price-info{
+    display: none;
+}
+
+html body.fe-292 .fe_pricing-text span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+html body.fe-292 .fe_pricing-text span.fe_annual-price span{
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #6F6F6F;
+}
+
+html body.fe-292 .pricing-plans-group:not(.toggled) .fe_pricing-text span.fe_annual-price,
+html body.fe-292 .pricing-plans-group.toggled .fe_pricing-text span.fe_monthly-price{
+    display: none;
+}
+
+
+html body.fe-292 .pricing-navigation{
+    position: relative;
+}
+
+html body.fe-292 .pricing-toggle {
+    background: #F4F4F4;
+    border: #E8E8E8;
+    border-radius: 68px;
+    max-width: 234px;
+    display: flex !important;
+    width: 100%;
+    justify-content: center !important;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html body.fe-292 input#tab-2:checked.toggle-present ~ .pricing-navigation .pricing-toggle{
+    position: absolute;
+    bottom: -6rem;
+    right: 0;
+}
+
+html body.fe-292 .pricing-plans-group .pricing-plans-row {
+    margin-top: 24px;
+}
+
+html body.fe-292 button.pricing-toggle-button {
+    padding: 6px 12px;
+}
+
+html body.fe-292 .pricing-toggle .pricing-toggle-discount{
+    position: static;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.003em;
+    color: #1E9B67;
+    padding: 2px 6px;
+    background: #E9F8F2;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+html body.fe-292 .pricing-toggle-label[for=pricing-toggle-checkbox]{
+    display: none;
+}
+
+html body.fe-292 button.pricing-toggle-button.pricing-toggle-button__after{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    color:  #6F6F6F !important;
+}
+
+html body.fe-292 #pricing-toggle-checkbox:not(:checked) ~ .pricing-toggle-button__before,
+html body.fe-292 #pricing-toggle-checkbox:checked ~ .pricing-toggle-button__after{
+    background: #FFFFFF;
+    border-radius: 56px;
+    border: 1px solid #E8E8E8;
+}
+
+html body.fe-292 button.pricing-toggle-button.pricing-toggle-button__before{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    color: #222222 !important;
+}
+
+html body.fe-292 #pricing-toggle-checkbox:checked ~ .pricing-toggle-button__after{
+    color: #222222 !important;
+}
+html body.fe-292 #pricing-toggle-checkbox:checked ~ .pricing-toggle-button__before{
+    color:  #6F6F6F !important;
+}
+
+@media screen and (min-width: 72em){
+    html body.fe-292 #pricing-plan-2 .pricing-package--price{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 89.9375em) and (min-width: 64em){
+    html body.fe-292 input#tab-2:checked.toggle-present ~ .pricing-navigation .pricing-toggle{
+        bottom: -9rem;
+        right: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 63.9375em){
+    html body.fe-292 .pricing-navigation{
+        margin-bottom: 24px;
+    }
+    html body.fe-292 input#tab-2:checked.toggle-present ~ .pricing-navigation .pricing-toggle{
+        position: inherit;
+        margin-bottom: 0;
+    }
+}</style>
+<script >
+(() => {
+
+	const shared = {
+		ID: "fe",
+		VARIATION: "292",
+		CLIENT: "Funnelenvy"
+	};
+
+	const ID = shared.ID;
+	const VARIATION = shared.VARIATION;
+
+	const setup = () => {
+		document.body.classList.add(ID + "-" + VARIATION);
+	};
+
+	const setTracking = () => {
+		window.s = window.s_Obj || window.s_c_il[1];
+		if (s.linkTrackVars) {
+			s.linkTrackVars = "eVar85";
+			s.eVar85 = "Clicks in the input field";
+			s.events = "event47";
+			s.linkTrackEvents = "event47";
+			s && s.tl && s.tl(true, "o", "Clicks in the input field");
+		}
+	}
+
+	let userCount = 3
+
+	const interactiveField =
+		`<div class="fe_interactive-field">	
+		<div class="fe_interactive-field-wrap">
+			<label for="teamSize">How many users on your team?</label>
+			<input type="number" id="teamSize" name="teamSize" min="3" max="100" value="3">
+		</div>
+		<p></p>
+	</div>
+	`;
+
+	const activate = () => {
+		setup();
+		document.querySelector('.pricing-navigation--button:nth-child(2)').insertAdjacentHTML('afterbegin', '<img class="inactive" src="https://cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-05/avatar.png?itok=A30HM-W8"><img class="active" src="https://cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-05/avatar-active_0.png?itok=DMDcT078">');
+		document.querySelector('.pricing-navigation--button:nth-child(3)').innerHTML = 'Businesses';
+		document.querySelector('.pricing-navigation--new .pricing-navigation--selector [value="tab-2"]').innerHTML = 'Businesses';
+		document.querySelector('.pricing-navigation--button:nth-child(3)').insertAdjacentHTML('afterbegin', '<img class="active" src="https://cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-05/buildings.png?itok=OSRjm7v5"><img class="inactive" src="https://cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-05/buildings_inactive.png?itok=nJGaDCiL">');
+		document.querySelector('.pricing-navigation').insertAdjacentHTML('afterend', interactiveField);
+
+		document.querySelector('.fe_interactive-field #teamSize').addEventListener('keyup', handleInput);
+
+		pricingFunc(userCount);
+
+		document.querySelector(".pricing-toggle-button .pricing-toggle-discount").innerHTML = "Save 25%";
+
+		document.addEventListener('click', (event) => {
+			if (event.target.closest('.pricing-navigation--button') || event.target.closest('.pricing-toggle')) {
+				setTimeout(function () {
+					const inputField = document.querySelector('.fe_interactive-field #teamSize');
+					const value = parseInt(inputField.value, 10);
+					addParam(value);
+					document.querySelector(".pricing-toggle-button .pricing-toggle-discount").innerHTML = "Save 25%";
+				}, 500)
+			}
+
+			if (event.target.closest('.fe_interactive-field p a')) {
+				document.querySelector('[href*="https://www.box.com/quote"]').click();
+			}
+
+			if(event.target.closest('input#teamSize')){
+				setTracking();
+			}
+		})
+
+		const interval = setInterval(() => {
+			addParam(userCount);
+		}, 20);
+
+		setTimeout(() => {
+			clearInterval(interval);
+		}, 3000)
+	};
+
+	const debounce = (func, delay) => {
+		let debounceTimer;
+		return function () {
+			const context = this;
+			const args = arguments;
+			clearTimeout(debounceTimer);
+			debounceTimer = setTimeout(() => func.apply(context, args), delay);
+		};
+	}
+
+	const handleInput = debounce(function () {
+		const inputField = document.querySelector('.fe_interactive-field #teamSize');
+		const value = parseInt(inputField.value, 10);
+		if (value < 3 || inputField.value == '') {
+			inputField.value = 3;
+			inputField.closest('.fe_interactive-field').classList.add('error');
+			document.querySelector('.fe_interactive-field p').innerHTML = "User count must be at least 3";
+			pricingFunc(3);
+			addParam(3)
+		} else if (value > 100) {
+			inputField.value = 100;
+			inputField.closest('.fe_interactive-field').classList.add('error');
+			document.querySelector('.fe_interactive-field p').innerHTML = "For user accounts of over 100 seats, <a>contact sales</a> for volume discounts.";
+			pricingFunc(100);
+			addParam(100);
+		} else {
+			inputField.closest('.fe_interactive-field').classList.remove('error');
+			pricingFunc(value);
+			addParam(value)
+		}
+	}, 1500);
+
+	const pricingFunc = (userCount) => {
+		const pricingPackage = document.querySelectorAll("#pricing-plan-2 .pricing-package[data-pricing-api-id]");
+		for (let i = 0; i < pricingPackage.length; i++) {
+			const planId = pricingPackage[i].getAttribute("data-pricing-api-id");
+			widgetPrice(planId, userCount);
+		}
+	}
+
+	const widgetPrice = (planId, userCount) => {
+		const getAnnualPrice = document.querySelector('[data-pricing-api-id="' + planId + '"] .annual-price').getAttribute('data-pricing-value');
+		const getMonthlyPrice = document.querySelector('[data-pricing-api-id="' + planId + '"] .annual-price--old').getAttribute('data-pricing-value');
+
+		const monthlyPriceCalc = ((getMonthlyPrice * userCount) * 12).toLocaleString();
+		const annualPriceCalc = ((getAnnualPrice * userCount) * 12).toLocaleString();
+
+		const addPrice = '' +
+			'<span class="fe_monthly-price">$' + (getMonthlyPrice * userCount).toLocaleString() + ' monthly for ' + userCount + ' users</span>' +
+			'<span class="fe_annual-price"><span>$' + monthlyPriceCalc + '</span> $' + annualPriceCalc + ' annually for ' + userCount + ' users</span>' +
+			'';
+
+		const pricingText = '' +
+			'<div class="fe_pricing-text"> '
+			+ addPrice +
+			'</div>';
+
+		if (document.querySelector('[data-pricing-api-id="' + planId + '"] .fe_pricing-text')) {
+			document.querySelector('[data-pricing-api-id="' + planId + '"] .fe_pricing-text').innerHTML = addPrice;
+		} else {
+			document.querySelector('[data-pricing-api-id="' + planId + '"] .minimum-users-info').insertAdjacentHTML('afterend', pricingText);
+		}
+	}
+
+	const addParam = (userCount) => {
+		const cta = document.querySelectorAll("#pricing-plan-2 .pricing-package .pricing-package__buttons-wrapper a:not([href*='https://www.box.com/']), .pricing-features--plan-buttons a:not([href*='https://www.box.com/']):not([href*='starter'])");
+		for (let i = 0; i < cta.length; i++) {
+			const url = cta[i].href;
+			if (url.indexOf('annual') > -1 || url.indexOf('monthly') > -1) {
+				const baseURL = removeQueryParam(url.replace('/n','').replace('businessplus','business-plus'), 'qty');
+				cta[i].setAttribute("href", baseURL + '&qty=' + userCount);
+			}
+		}
+	}
+
+	const removeQueryParam = (url, param) => {
+		const urlObject = new URL(url);
+		urlObject.searchParams.delete(param);
+		return urlObject.toString();
+	}
+
+	const pollerLite = (conditions, callback, maxTime) => {
+		if (maxTime === void 0) { maxTime = 20000; }
+		const POLLING_INTERVAL = 500;
+		const startTime = Date.now();
+		const interval = setInterval(() => {
+			const allConditionsMet = conditions.every((condition) => {
+				if (typeof condition === 'function') {
+					return condition();
+				}
+				return !!document.querySelector(condition);
+			});
+			if (allConditionsMet) {
+				clearInterval(interval);
+				callback();
+			}
+			else if (Date.now() - startTime >= maxTime) {
+				clearInterval(interval);
+				console.log('Polling exceeded maximum time limit');
+			}
+		}, POLLING_INTERVAL);
+	};
+
+	pollerLite(['#pricing-plan-2 .pricing-package--price .minimum-users-info'], activate);
+	pollerLite(['body'], () => {
+		setTimeout(() => {
+			document.body.style.opacity = 1;
+		}, 2000)
+	});
+})();</script>

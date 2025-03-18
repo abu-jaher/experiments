@@ -1,0 +1,158 @@
+body {
+    opacity: 0;
+}
+
+body.fe-292-1 {
+    opacity: 1;
+}
+
+html body.fe-292-1 .fe_interactive-field {
+    max-width: 288px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 6px 6px 6px 12px;
+    border-radius: 8px;
+    position: relative;
+}
+
+html body.fe-292-1 input#tab-1:checked.toggle-present~.pricing-navigation .fe_interactive-field{
+    display: none;
+}
+
+html body.fe-292-1 .fe_interactive-field-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+html body.fe-292-1 input#teamSize::-webkit-inner-spin-button,
+html body.fe-292-1 input#teamSize::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html body .pricing-plans-group .pricing-package--price__monthly-inactive .fe_annual-price span,
+html body.fe-292-1 .pricing-plans-group:not(.toggled) .pricing-package--price__monthly-inactive .fe_pricing-text{
+    display: none;
+}
+
+html body.fe-292-1 input#teamSize {
+    width: 56px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #909090;
+    box-shadow: 0px 2px 4px 0px #0000001A inset;
+    padding: 12px 10px;
+    text-align: left;
+    -moz-appearance: textfield;/* Firefox */
+}
+
+html body.fe-292-1 input#teamSize:focus {
+    border-color: #2486FC;
+}
+
+html body.fe-292-1 .fe_interactive-field p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    display: none;
+    color: #6F6F6F;
+    position: absolute;
+    top: 46px;
+}
+
+html body.fe-292-1 .fe_interactive-field p a {
+    cursor: pointer;
+}
+
+html body.fe-292-1 .fe_interactive-field.error p {
+    display: block;
+}
+
+html body.fe-292-1 .fe_interactive-field label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.30000001192092896px;
+    color: #222222;
+}
+
+html body.fe-292-1 #pricing-plan-2 .pricing-package--price .annual-price--old,
+html body.fe-292-1 #pricing-plan-2 .pricing-package--price .minimum-users-info,
+html body.fe-292-1 #pricing-plan-2 .pricing-package--price i .annual-price-info {
+    display: none;
+}
+
+html body.fe-292-1 .fe_pricing-text span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+html body.fe-292-1 .fe_pricing-text span.fe_annual-price span {
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #6F6F6F;
+}
+
+html body.fe-292-1 .pricing-plans-group:not(.toggled) .fe_pricing-text span.fe_annual-price,
+html body.fe-292-1 .pricing-plans-group.toggled .fe_pricing-text span.fe_monthly-price {
+    display: none;
+}
+
+@media screen and (min-width: 91em) {
+    html body.fe-292-1 .fe_interactive-field{
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 89.9375em) {
+    html body.fe-292-1 input#tab-2:checked.toggle-present~.pricing-navigation{
+        margin-bottom: 3rem;
+    }
+
+    html body.fe-292-1 input#tab-2:checked.toggle-present~.pricing-navigation .pricing-toggle {
+        margin-bottom: 20px;
+    }
+
+    html body.fe-292-1 .fe_interactive-field{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 89.9375em) and (min-width: 48em){
+    html body.fe-292-1 input#tab-2:checked~.pricing-navigation .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    html body.fe-292-1 input#tab-2:checked~.pricing-navigation .pricing-navigation--tabs{
+        left: 0;
+        transform: none;
+        grid-column: 1 / 3;
+    }
+
+    html body.fe-292-1 input#tab-2:checked~.pricing-navigation .pricing-toggle{
+        grid-column: 2;
+        grid-row: 2;
+        width: max-content;
+        margin-left: 50px;
+    }
+
+    html body.fe-292-1 .pricing-navigation .pricing-navigation--tabs{
+		margin-bottom: 15px;
+	}
+
+    html body.fe-292-1 input#tab-2:checked~.pricing-navigation .fe_interactive-field{
+        grid-column: 1;
+        grid-row: 2;
+        margin-right: -20px;
+    }
+}
+

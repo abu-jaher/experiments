@@ -1,0 +1,70 @@
+html body.FE-298 .contact-form-description>div>p:nth-child(4),
+html body.FE-298 .contact-form-description .checkList {
+  display: none;
+}
+
+html body.FE-298 .fe-point .icon-check-2 {
+  color: #26c281;
+  margin-right: 5px;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+}
+
+html body.FE-298 .contact-form .fe-bullet {
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px;
+  margin-top: 0.5em;
+}
+
+html body.FE-298 .contact-form .fe-bullet > p {
+  margin-bottom: 20px;
+}
+
+html body.FE-298 .contact-form .fe-bullet > div {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+html body.FE-298 .contact-form .fe-bullet > div p:nth-child(odd) {
+  padding-right: 15px;
+}
+
+html body.FE-298 .contact-form .fe-bullet > div p {
+  list-style: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 22px;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #767676;
+  width: 50%;
+}
+
+html body.FE-298 .contact-form .fe-bullet > div p span{
+  display: inline-block;
+}
+
+@media screen and (max-width: 47.9375em) {
+  html body.FE-298 .contact-form-description {
+    padding: 3.75rem calc(10px + 6.33333%) 2.5rem;
+  }
+
+  html body.FE-298 .contact-form .fe-bullet {
+    margin-bottom: 30px;
+  }
+
+  html body.FE-298 .contact-form .fe-bullet > div p{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 23.125em) {
+  html body.FE-298 .contact-form .fe-bullet > div p:nth-of-type(1) span{
+    display: inline;
+  }
+}
