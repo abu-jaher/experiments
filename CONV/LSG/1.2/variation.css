@@ -1,0 +1,283 @@
+.p-home .cv-1-2__benefits-desk,
+.p-home .cv-1-2__benefits-tab{
+    display: none;
+}
+
+.p-home .cv-1-2__hassle-sticker{
+    background: rgba(232, 46, 128, 1);
+    padding: 24px 0;
+}
+
+.p-home .cv-1-2__hassle-container {
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.p-home .cv-1-2__hassle-title{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);    
+    margin: 0;
+}
+
+.p-home .cv-1-2__hassle-title span{
+    font-family: Alkaline;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+    color: rgba(249, 184, 48, 1);
+}
+
+.p-home .cv-1-2__hassle-benefits p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: max-content;
+}
+
+.p-home .cv-1-2__benefits-tab > div{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+@media screen and (min-width: 768px){
+    .p-home .cv-1-2__hassle-sticker{
+        padding: 16px 0;
+    }
+    .p-home .cv-1-2__benefits-tab{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .p-home .cv-1-2__benefits-mobile{
+        display: none;
+    }
+
+    .p-home .cv-1-2__hassle-container{
+        display: flex;
+        max-width: 768px;
+        padding: 0 24px;
+    }
+
+    .p-home .cv-1-2__hassle-benefits p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1090px){
+    .p-home .cv-1-2__benefits-desk{
+        display: flex;
+        gap: 16px;
+    }
+
+    .p-home .cv-1-2__benefits-tab{
+        display: none;
+    }
+
+    .p-home .cv-1-2__hassle-container{
+        max-width: 1088px;
+        padding: 0 12px;
+    }
+}
+
+/* ticker slider */
+.p-home .cv-1-2__benefits-mobile .tickerList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.p-home .cv-1-2__benefits-mobile .tickerAnimate {
+    animation: ticker 25s linear infinite;
+}
+
+.p-home .cv-1-2__benefits-mobile .tickerSlide:after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.p-home .cv-1-2__benefits-mobile .tickerSlide {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+@keyframes ticker {
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+/* ticker slider end */
+
+.cv-1-2__self-drive .cv-1-2__hassle-sticker{
+    display: none !important;
+}
+
+section.l-banner .cv-1-2__hassle-sticker {
+    position: absolute;
+    right: 50%;
+    bottom: 16px;
+    transform: translateX(50%);
+    background-color: rgba(232, 46, 128, 1);
+    z-index: 9;
+    padding: 8px 8px 16px;
+    max-width: 340px;
+    width: 100%;
+    border-radius: 6px 24px;
+}
+
+section.l-banner .cv-1-2__hassle-title {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+section.l-banner .cv-1-2__hassle-title{
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;    
+    color: rgba(255, 255, 255, 1);
+    margin: 0 0 8px;
+}
+
+section.l-banner .cv-1-2__hassle-title span{
+    font-family: Alkaline;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: center;       
+    color: rgba(249, 184, 48, 1);
+}
+
+section.l-banner .cv-1-2__benefits-desk{
+    display: none;
+}
+
+section.l-banner .cv-1-2__benefits-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 324px;
+    justify-content: center;
+    row-gap: 8px;
+}
+
+section.l-banner .cv-1-2__benefits-desk > div:first-of-type{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.l-banner .cv-1-2__hassle-benefits p{
+    font-family: Mulish;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+section.l-banner .cv-1-2__hassle-benefits p span{
+    margin: 0 8px;
+}
+
+section.l-banner .l-container .cv-1-2__hassle-sticker{
+    display: none;
+}
+
+@media screen and (min-width: 700px){
+    section.l-banner .cv-1-2__hassle-sticker {
+        right: 5px;
+        bottom: 0;
+        transform: none;
+        background: url('https://d1mgcpums0qvsa.cloudfront.net/LSG/1.2/hassle-free-bg.png') no-repeat center;
+        background-size: contain;
+        padding: 32px 26px;
+        border-radius: 0;
+        max-width: 270px;
+    }
+
+    section.l-banner .cv-1-2__benefits-desk{
+        display: block;
+    }
+
+    section.l-banner .cv-1-2__benefits-mobile{
+        display: none;
+    }
+
+    section.l-banner .cv-1-2__hassle-title{
+        font-size: 16px;
+    }
+
+    section.l-banner .cv-1-2__hassle-title span{
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    section.l-banner .cv-1-2__hassle-benefits p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    section.l-banner .cv-1-2__hassle-sticker {
+        right: 63px;
+        bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1570px){
+    section.l-banner > .cv-1-2__hassle-sticker {
+        display: none;
+    }
+
+    section.l-banner .l-container .cv-1-2__hassle-sticker{
+        display: block;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 699px){
+    section.l-banner{
+        height: 274px;
+    }
+
+    section.l-banner .l-banner__line{
+        height: 74px;
+    }
+
+    section.l-banner .l-banner__lineCurve{
+        bottom: 72px;
+    }
+}

@@ -1,0 +1,110 @@
+.p-home .cv-4-0__section{
+    background: #FEEED0;
+}
+
+.cv-4-0 .cv-4-0__section{
+    padding: 24px 0;
+}
+
+.p-about-us .cv-4-0__section{
+    padding-top: 14px;
+    padding-bottom: 0;
+}
+
+.p-all-types-intro.p-static-intro + .cv-4-0__section{
+    padding-top: 10px;
+}
+
+.cv-4-0 .cv-4-0__widget-list.cv-4-0__desktop{
+    display: none;
+}
+
+.cv-4-0__self-drive .cv-4-0__widget-list.cv-4-0__desktop .cv-4-0__widget-tile:last-of-type{
+    display: none;
+}
+
+.cv-4-0 .cv-4-0__widget-tile:has(img[src*="deposit"]){
+    display: none;
+}
+
+.cv-4-0__self-drive .cv-4-0__widget-tile:has(img[src*="deposit"]){
+    display: block;
+}
+
+.cv-4-0 .cv-4-0__widget-list.cv-4-0__mobile{
+    max-width: 312px;
+    margin: auto;
+}
+
+.cv-4-0 .cv-4-0__widget-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-4-0 .cv-4-0__widget-tile img{
+    width: 87px;
+    height: 87px;
+}
+
+.cv-4-0 .cv-4-0__widget-logos {
+    max-width: 312px;
+    margin: auto;
+}
+
+@media screen and (min-width: 992px){
+    .cv-4-0 .cv-4-0__widget-tile img{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cv-4-0 .cv-4-0__section{
+        padding: 16px 0;
+    }
+
+    .p-results .c-tour-card + .cv-4-0__section,
+    .p-all-types-intro.p-static-intro + .cv-4-0__section,
+    .p-all-destinations #all-destinations .cv-4-0__section{
+        padding: 50px 0;
+    }
+
+    .p-about-us .cv-4-0__section{
+        padding-bottom: 40px;
+        padding-top: 46px;
+    }
+
+    .cv-4-0 .cv-4-0__widget-logos {
+        max-width: 1062px;
+    }
+
+    .cv-4-0.p-home .cv-4-0__widget-logos{
+        max-width: 1080px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .p-results .c-tour-card + .cv-4-0__section{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait){
+    .cv-4-0 .cv-4-0__widget-list.cv-4-0__desktop{
+        display: flex;
+    }
+
+    .cv-4-0 .cv-4-0__widget-list.cv-4-0__mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (orientation: landscape){
+    .cv-4-0 .cv-4-0__widget-list.cv-4-0__desktop{
+        display: flex;
+    }
+
+    .cv-4-0 .cv-4-0__widget-list.cv-4-0__mobile{
+        display: none;
+    }
+}

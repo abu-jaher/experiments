@@ -1,0 +1,398 @@
+.cv-0-4 #itinerary .cAccordian.p-tour-SYHAP {
+    display: none;
+}
+
+.cv-0-4 #itinerary .cAccordianGroup>.cAccordian.accordianIsActive {
+    margin-bottom: 50px;
+}
+
+.cv-0-4 .p-tourAccommodation__area--intro p {
+    margin-bottom: 24px;
+}
+
+.cv-0-4 #accommodation .c-card__item.c-card__item--content {
+    padding: 40px;
+}
+
+.cv-0-4 #accommodation .c-card__item.c-card__item--content.hotel-facilities::after,
+.cv-0-4 #accommodation .c-card__item.c-card__item--content.hotel::after {
+    position: absolute;
+    content: "";
+    width: calc(100% - 80px);
+    bottom: 0;
+    left: 40px;
+    border-top: var(--accordianHrWidth) var(--accordianHrStyle) var(--accordianHrColor);
+}
+
+.cv-0-4 #accommodation .cAccordian::after {
+    display: none;
+}
+
+.cv-0-4 .cAccordian__wrap.p-tourItinerary__day {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cv-0-4 .p-tourItinerary__button {
+    padding-bottom: 8px;
+}
+
+.p-tourItinerary .cAccordian:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.cv-0-4 .on-the-fly-behavior {
+    background-image: url(https://leger.imgix.net/Destinations/Italy_D5/Rome_P2/saint-peters-square-vatican-18535.jpg?w=640&h=360&auto=compress,enhance,format&q=30&fit=crop&crop=focal);
+}
+
+@media (min-width: 1200px) {
+    .cv-0-4 .on-the-fly-behavior {
+        background-image: url(https://leger.imgix.net/Destinations/Italy_D5/Rome_P2/saint-peters-square-vatican-18535.jpg?w=1920&h=1080&auto=compress,enhance,format&q=30&fit=crop&crop=focal);
+    }
+}
+
+@media (min-width: 768px) {
+    .cv-0-4 .on-the-fly-behavior {
+        background-image: url(https://leger.imgix.net/Destinations/Italy_D5/Rome_P2/saint-peters-square-vatican-18535.jpg?w=1200&h=720&auto=compress,enhance,format&q=30&fit=crop&crop=focal);
+    }
+}
+
+/* PDP Pop Up modal */
+.cv-0-4__request-interest {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #2F2A8566;
+    display: none;
+}
+
+body.cv-0-4__modal-show {
+    overflow: hidden;
+}
+
+.cv-0-4__modal-show .cv-0-4__request-interest {
+    display: block;
+}
+
+.cv-0-4__modal-body {
+    z-index: 9999999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    min-height: 100%;
+    max-width: 621px;
+}
+
+.cv-0-4__form-card {
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cv-0-4__form-card .cv-0-4__close-button {
+    position: absolute;
+    top: 36px;
+    right: 24px;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.cv-0-4__form-card>h3 {
+    color: #2F2A85;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.cv-0-4__form-card p {
+    color: #2F2A85;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-bottom: 24px;
+}
+
+.cv-0-4__form-card.cv-0-4__success p {
+    font-size: 13px;
+}
+
+.cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab>div {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab a {
+    flex: 1;
+}
+
+.cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab p {
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+    background: #FEB800;
+    border-radius: 24px;
+    margin: 0;
+}
+
+.cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab p:hover {
+    background: #E82E80;
+}
+
+.cv-0-4__form-card .cv-0-4__form-row {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.cv-0-4__form-card .cv-0-4__form-control {
+    flex: 1;
+}
+
+.cv-0-4__form-card input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 24px;
+    border: 1px solid transparent;
+    background-color: #F8F0FB;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    vertical-align: middle;
+    cursor: text;
+}
+
+.cv-0-4__form-card input[type="email"] {
+    margin-bottom: 12px;
+}
+
+.cv-0-4__form-card input::placeholder {
+    color: #6d6d9c;
+}
+
+.cv-0-4__form-card .cv-0-4__optIn {
+    font-size: 14px;
+    color: #3a3c82;
+    margin-bottom: 25px;
+}
+
+.cv-0-4__form-card .cv-0-4__postcode-section h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #2F2A85;
+    margin-bottom: 8px;
+}
+
+.cv-0-4__form-card .cv-0-4__postcode-input {
+    max-width: 246px;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-section {
+    margin-top: 24px;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-section h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #2F2A85;
+    margin-bottom: 8px;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-section>p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2F2A85;
+    margin-bottom: 30px;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-option {
+    flex: 1;
+    background-color: #F8F0FB;
+    border-radius: 32px;
+    padding: 24px 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    max-width: 161px;
+    width: 100%;
+    border: 2px solid transparent;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-option.selected {
+    background-color: #6CC183;
+    border: 2px solid #2F2A85;
+}
+
+.cv-0-4__form-card .ticket-price {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2F2A85;
+}
+
+.cv-0-4__form-card .ticket-type {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2F2A85;
+    margin-bottom: 6px;
+}
+
+.cv-0-4__form-card .dotted-line {
+    border-top: 3px dotted #2F2A85;
+    margin: 6px auto;
+    width: 100%;
+}
+
+.cv-0-4__form-card .ticket-details {
+    color: #2F2A85;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.cv-0-4__form-card .check-icon {
+    position: absolute;
+    top: -6px;
+    right: 6px;
+    display: none;
+}
+
+.cv-0-4__form-card .cv-0-4__ticket-option.selected .check-icon {
+    display: block;
+}
+
+.cv-0-4__form-card .cv-0-4__register-button {
+    width: 100%;
+    background-color: #E82E80;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.cv-0-4__form-card .cv-0-4__register-button:hover {
+    background-color: #d02771;
+}
+
+@media (max-width: 600px) {
+    .cv-0-4__form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .cv-0-4__form-card>h3 {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+
+    .cv-0-4__form-card p {
+        font-size: 13px;
+    }
+
+    .cv-0-4__form-card .cv-0-4__close-button svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .cv-0-4__form-card .cv-0-4__form-row {
+        gap: 10px;
+    }
+
+    .cv-0-4__form-card .cv-0-4__postcode-section h3 {
+        font-size: 14px;
+    }
+
+    .cv-0-4__form-card .cv-0-4__postcode-input {
+        max-width: 100%;
+    }
+
+    .cv-0-4__form-card .cv-0-4__ticket-section h3 {
+        font-size: 16px;
+    }
+
+    .cv-0-4__form-card .cv-0-4__ticket-section>p {
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .cv-0-4__form-card .cv-0-4__ticket-options {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cv-0-4__form-card .cv-0-4__ticket-option {
+        flex: auto;
+        padding: 16px;
+        max-width: 135px;
+    }
+
+    .cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab>div {
+        flex-direction: column;
+    }
+
+    .cv-0-4__form-card .ticket-price {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .cv-0-4__form-card .ticket-type {
+        font-size: 12px;
+    }
+
+    .cv-0-4__form-card.cv-0-4__success p {
+        margin-bottom: 12px;
+    }
+
+    .cv-0-4__form-card.cv-0-4__success .cv-0-4__links-tab {
+        gap: 14px;
+    }
+}

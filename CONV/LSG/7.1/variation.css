@@ -1,0 +1,141 @@
+.cv-7-1__filter {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    --col-width: 100%;
+}
+
+.cv-7-1__monthFilter {
+    min-height: 30px;
+    --col-grow-shrink: 0 0;
+    --col-width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-bottom: 20px;
+}
+
+.cv-7-1__monthFilter::-webkit-scrollbar {
+    display: none;
+}
+
+.cv-7-1 .cv-7-1__title p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16.48px;
+    letter-spacing: -0.64px;
+    vertical-align: middle;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.cv-7-1__monthFilter .cv-7-1__availableMonths>div {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+}
+
+.cv-7-1__monthFilter .cv-7-1__availableMonths span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15.68px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border: 1px solid #2F2A85;
+    background: #F8F0FB;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.cv-7-1__monthFilter .cv-7-1__availableMonths span:last-of-type {
+    margin-right: 13px;
+}
+
+.cv-7-1__monthFilter .cv-7-1__availableMonths span.selected {
+    background: #2F2A85;
+    color: #F9B92F;
+}
+
+body.cv-7-1__filterClicked {
+    overflow: auto !important;
+}
+
+.cv-7-1__filterClicked .cModal__overlay {
+    display: none;
+}
+
+.cv-7-1__filterApplied .cv-7-1__clearFilter {
+    display: flex;
+}
+
+.cv-7-1__clearFilter {
+    display: none;
+    align-items: center;
+}
+
+.cv-7-1__clearFilter p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15.68px;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.cv-7-1__clearFilter.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .cv-7-1__clearFilter.desktop {
+        display: none;
+    }
+
+    .cv-7-1__filterApplied .cv-7-1__clearFilter.mobile {
+        display: block;
+        margin-bottom: 13px;
+    }
+
+    .cv-7-1__monthFilter {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cv-7-1__filter {
+        padding: 0;
+        padding-right: 13px;
+    }
+
+    .cv-7-1__filter>div {
+        padding: 0 13px;
+    }
+
+    .cv-7-1__filter::before,
+    .cv-7-1__filter::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 16px;
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 2.22%, rgba(255, 255, 255, 0.9) 47.2%, #FFFFFF 102.22%);
+    }
+
+    .cv-7-1__filterApplied .cv-7-1__filter::before,
+    .cv-7-1__filterApplied .cv-7-1__filter::after{
+        bottom: 45px;
+    }
+
+    .cv-7-1__filter::before {
+        right: auto;
+        left: 0px;
+        width: 18px;
+        transform: rotate(180deg);
+        z-index: 1;
+    }
+}

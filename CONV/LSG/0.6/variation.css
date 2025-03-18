@@ -1,0 +1,47 @@
+.cv-0-6 .cv-0-6__hidden {
+    display: none;
+}
+
+.cv-0-6 .cv-0-6__visible .cv-0-6__hidden {
+    display: block;
+}
+
+.cv-0-6 .cv-0-6__more-dates {
+    margin-top: 20px;
+}
+
+.cv-0-6 .cv-0-6__visible .cv-0-6__more-dates {
+    margin-bottom: 30px;
+}
+
+.cv-0-6 .cv-0-6__more-dates>div {
+    cursor: pointer;
+    position: relative;
+}
+
+.cv-0-6 .cv-0-6__more-dates span.text {
+    color: #2F2A85;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.cv-0-6 .cv-0-6__visible .cv-0-6__more-dates svg {
+    --accordianSvgRotate: 180deg;
+}
+
+@media screen and (max-width: 991px){
+    .cv-0-6 .cv-0-6__more-dates {
+        margin-top: 4px;
+    }
+
+    .cv-0-6 .cv-0-6__visible .cv-0-6__more-dates {
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .cv-0-6 .cv-0-6__more-dates {
+        margin-bottom: 14px;
+    }
+}

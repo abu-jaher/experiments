@@ -1,0 +1,127 @@
+.p-home .l-conf-strip {
+    display: none;
+}
+
+.cv-0-2__benefits {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-0-2__benefits-wrapper {
+    display: flex;
+    gap: 8px;
+    max-width: 1171px;
+    margin: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+}
+
+.cv-0-2__benefits-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.cv-0-2__benefits-item {
+    background: rgba(0, 102, 160, 1);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    gap: 24px;
+    min-width: 278px;
+}
+
+.cv-0-2__benefits-title {
+    min-width: 112px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-0-2__benefits-title img {
+    margin-bottom: 5px;
+}
+
+#cv-0-2__hassle-free img{
+    max-width: 30px;
+}
+
+#cv-0-2__flexible-payment img{
+    max-width: 18px;
+}
+
+#cv-0-2__price-policy img{
+    max-width: 21px;
+}
+
+#cv-0-2__comfort-travel img{
+    max-width: 39px;
+}
+
+.cv-0-2__benefits-title::after {
+    content: '';
+    width: 0;
+    height: 64px;
+    border-right: 1px dashed rgba(255, 255, 255, 1);
+    position: absolute;
+    right: -14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cv-0-2__benefits-title .cv-0-2__title-text.cv-0-2__white {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin: 0;
+}
+
+.cv-0-2__benefits-title .cv-0-2__title-text.cv-0-2__italic {
+    font-family: Alkaline;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: rgba(249, 185, 47, 1);
+}
+
+.cv-0-2__benefits-text p {
+    font-family: Mulish;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.cv-0-2__benefits-text {
+    width: max-content;
+}
+
+@media screen and (max-width: 767px) {
+    .cv-0-2__benefits-wrapper{
+        gap: 13px;
+    }
+
+    .cv-0-2__benefits-item {
+        min-width: 136px;
+        padding: 10px 0px;
+    }
+
+    .cv-0-2__benefits-text {
+        display: none;
+    }
+
+    .cv-0-2__benefits-title::after {
+        display: none;
+    }
+}
