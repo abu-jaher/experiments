@@ -1,0 +1,14 @@
+body .hero--copy .buttons-wrapper [href="/fr-fr/quote"], 
+body [data-region-position*="CTA Module"] .buttons-wrapper [href="/fr-fr/quote"],
+body .hero--copy .buttons-wrapper [href="/fr-fr/about-us/contact-us"],
+body [data-region-position*="CTA Module"] .buttons-wrapper [href="/fr-fr/about-us/contact-us"]{
+    font-size: 0;
+}
+
+body .hero--copy .buttons-wrapper [href="/fr-fr/quote"]::after, 
+body [data-region-position*="CTA Module"] .buttons-wrapper [href="/fr-fr/quote"]::after,
+body .hero--copy .buttons-wrapper [href="/fr-fr/about-us/contact-us"]::after,
+body [data-region-position*="CTA Module"] .buttons-wrapper [href="/fr-fr/about-us/contact-us"]::after{
+    content: 'Planifier une démo';
+    font-size: 1rem;
+}

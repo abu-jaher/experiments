@@ -1,0 +1,20 @@
+html body .hero--copy .modal-video,
+html body .cta-module .button-primary.modal-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html body .cta-container .button-primary[href*="player"]{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html body .hero--copy .button-secondary.modal-video svg path{
+    fill: rgb(36, 134, 252);;
+}
+
+html body .hero--copy .button-secondary.modal-video:hover svg path{
+    fill: #fff;
+}

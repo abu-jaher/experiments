@@ -1,0 +1,484 @@
+<style >
+.info-notice__top .container {
+    display: none;
+}
+  
+  [class*="FE__background"].hover{
+    animation-play-state: paused !important;
+}
+
+
+.info-notice{
+    background: linear-gradient(90deg, #D500BC 0%, #7D0CB1 100%);
+}
+
+.FE__slider-background li {
+    list-style: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.FE__slider-background .FE__slider-background-0{
+    background: linear-gradient(90deg, #D500BC 0%, #7D0CB1 100%);
+    opacity: 0;
+    transition: 0.75s;
+}
+
+.FE__slider-background .FE__slider-background-1{
+    background: linear-gradient(90deg, #2486FC 0%, #9217CA 100%);;
+    opacity: 0;
+    transition: 0.75s;
+}
+
+.FE__slider-background .FE__slider-background-2{
+    background: linear-gradient(90deg, #1ED9CF 0%, #9217CA 100%);
+    opacity: 0;
+    transition: 0.75s;
+}
+
+.info-notice.FE__background-0 .FE__slider-background-0,
+.info-notice.FE__background-1 .FE__slider-background-1,
+.info-notice.FE__background-2 .FE__slider-background-2{
+    opacity: 1;
+    transition: 0.75s;
+}
+.info-notice__top{
+    height: 58px;
+}
+
+html body{
+    padding-top: 58px;
+}
+
+.FE__slider-banner{
+    padding: 14px 115px;
+    position: relative;
+}
+
+.FE__slider-content li {
+    list-style: none;
+}
+
+.FE__slider-content {
+    position: relative;
+    overflow: hidden;
+    height: 30px;
+}
+
+.FE__slider-content li {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    animation-play-state: running;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FE__slider-content .FE__slider-pill {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 14px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    height: max-content;
+    margin-right: 14px;
+    white-space: nowrap;
+    display: none;
+}
+
+.FE__slider-content li p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+.FE__slider-content li p a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: underline;
+    color: #fff;
+    display: inline-block;
+}
+
+.FE__slider-content li.active {
+    animation: slideUpLoop 4.3s ease-in-out infinite;
+}
+
+.FE__slider-content:hover li.hover{
+    bottom: 0;
+    animation-play-state: paused;
+}
+
+.FE__slider-content li.mouseout{
+    animation: onMouseOut 4.4s ease-in-out infinite;
+}
+
+.FE__slider-banner .FE__arrow{
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.FE__slider-banner .FE__right-arrow{
+    right: 58px;
+}
+
+.FE__slider-banner .FE__left-arrow{
+    right: 86px;
+    transform: rotate(180deg);
+}
+
+.FE__slider-banner .info-notice-close{
+    top: 22px !important;
+    padding: 0 !important;
+    right: 24px !important;
+    padding: 0 !important;
+}
+
+.FE__slider-banner .info-notice-close::before{
+    font-size: 13px !important;
+}
+
+
+/* Keyframes for always sliding up */
+@keyframes slideUpLoop {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+    }
+
+    15% {
+        bottom: 0;
+        opacity: 1;
+    }
+
+    85% {
+        bottom: 0;
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes onMouseOut{
+    0% {
+        bottom: 0;
+        opacity: 1;
+    }
+
+    85% {
+        bottom: 0;
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 100%;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1044px){
+    .FE__slider-content{
+        height: 50px;
+    }
+
+    .info-notice__top{
+        height: 78px;
+    }
+    
+    html body{
+        padding-top: 78px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .FE__slider-banner{
+        padding: 7px 38px 12px;;
+    }
+
+    .FE__slider-content{
+        height: 65px;
+    }
+
+    .info-notice__top{
+        height: 84px;
+    }
+    
+    html body{
+        padding-top: 84px;
+    }
+
+    .FE__slider-content li{
+        flex-direction: column;
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .FE__slider-content .FE__slider-pill{
+        font-size: 9px;
+        padding: 3px 10px;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+
+    .FE__slider-content li p a,
+    .FE__slider-content li p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .FE__slider-banner .FE__arrow{
+        bottom: 12px;
+        top: inherit;
+    }
+
+    .FE__slider-banner .FE__left-arrow{
+        left: 11px;
+    }
+
+    .FE__slider-banner .FE__right-arrow{
+        right: 11px;
+    }
+
+    .FE__slider-banner .info-notice-close{
+        right: 16px !important;
+    }
+}
+
+@media screen and (max-width: 451px){
+    .FE__slider-content li p a{
+        display: block;
+    }
+
+    .FE__slider-content{
+        height: 80px;
+    }
+
+    .info-notice__top{
+        height: 99px;
+    }
+    
+    html body{
+        padding-top: 99px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .FE__slider-content li:not(:nth-of-type(3)) p a{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 387px){
+    .FE__slider-content li p a{
+        display: inline-block;
+    }
+}</style>
+<script >
+(() => {
+    try {
+        const shared = {
+            ID: "FE",
+            VARIATION: "309",
+            CLIENT: "Funnelenvy"
+        };
+
+        const ID = shared.ID;
+        const VARIATION = shared.VARIATION;
+
+        let arrowIconClicked = false;
+
+        const setup = () => {
+            document.body.classList.add(ID + "-" + VARIATION);
+        };
+
+        const arrowSvgRight = ''+
+        '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">'+
+        '    <circle cx="11.6" cy="11.6" r="11.6" transform="matrix(-1 0 0 1 23.4 0)" fill="white" fill-opacity="0.2"/>'+
+        '    <path d="M10.6051 16.6656L15.3231 12.0006L10.6051 7.33438" stroke="white" stroke-width="1.58988" stroke-linecap="round" stroke-linejoin="round"/>'+
+        '</svg>';
+
+        const sliderContent = ''+
+        '<div class="FE__slider-banner">'+
+                          '    <div class="FE__slider-background">' +
+            '        <li class="FE__slider-background-0"></li>' +
+            '        <li class="FE__slider-background-1"></li>' +
+            '        <li class="FE__slider-background-2"></li>' +
+            '    </div>' +
+        '    <div class="FE__slider-content">'+
+        '        <li class="FE__slider-list active">'+
+        '            <span class="FE__slider-pill">Event</span>'+
+        '            <p>Accelerate mission-critical business processes with intelligent content workflows in Box. <a href="/workflow" target="_blank">Learn more</a></p>'+
+        '        </li>'+
+        '        <li class="FE__slider-list">'+
+        '            <span class="FE__slider-pill">TEI study</span>'+
+        '            <p>The future is Intelligent Content Management: Watch <a href="https://boxworks.box.com/boxworks" target="_blank">BoxWorks keynotes</a> and see our <a href="https://blog.box.com/intelligent-content-management-innovations-boxworks-2024"> groundbreaking announcements.</a></p>'+
+        '        </li>'+
+        '        <li class="FE__slider-list">'+
+        '            <span class="FE__slider-pill">Product</span>'+
+        '            <p>Incremental profit gains with Box: Learn more in the Forrester Total Economic Impact™ study. <a href="/resources/forrester-tei-of-box-study" target="_blank">Read now</a></p>'+
+        '        </li>'+
+        '    </div>'+
+        '    <button class="FE__left-arrow FE__arrow">'+arrowSvgRight+'</button>'+
+        '    <button class="FE__right-arrow FE__arrow">'+arrowSvgRight+'</button>'+
+        '    <button class="info-notice-close js-info-notice-close icon-close"></button>'+           
+        '</div>';    
+        
+
+        const activate = () => {
+            setup();
+            document.querySelector('.info-notice').insertAdjacentHTML('beforeend', sliderContent);
+
+
+            let currentIndex = 0;
+            const sliderContainer = document.querySelector(`.FE__slider-content`);
+            const slides = sliderContainer.querySelectorAll(`.FE__slider-list`);
+            const totalSlides = slides.length;
+
+                       function rotateSlider() {
+                slides[currentIndex].classList.remove('active');
+                slides[currentIndex].classList.remove('mouseout');                document.querySelector('.info-notice').classList.remove('FE__background-' + currentIndex);
+                currentIndex = (currentIndex + 1) % totalSlides;
+                slides[currentIndex].classList.add('active');
+                document.querySelector('.info-notice').classList.add('FE__background-' + currentIndex);
+            }
+            let sliderInterval = setInterval(rotateSlider, 4300);
+
+            sliderContainer.addEventListener('mouseover', () => {
+                if(arrowIconClicked == false){
+                    clearInterval(sliderInterval);
+                    slides[currentIndex].classList.remove('mouseout');
+                    slides[currentIndex].classList.add('hover');
+                }
+            });
+
+            sliderContainer.addEventListener('mouseout', () => {
+                if(arrowIconClicked == false){
+                    slides[currentIndex].classList.remove('hover');
+                    slides[currentIndex].classList.add('mouseout');
+                    slides[currentIndex].classList.remove('active');
+                    sliderInterval = setInterval(rotateSlider, 4300);
+                }
+            });
+
+
+            adjustPadding();
+
+            window.addEventListener('resize',()=>{
+                adjustPadding();
+            })
+
+            window.addEventListener('scroll',()=>{
+                if(arrowIconClicked == true){
+                    slides[currentIndex].style.animationPlayState = 'running';
+                    rotateSlider();
+                    sliderInterval = setInterval(rotateSlider, 4300);
+                    arrowIconClicked = false;
+                }
+            })
+
+            let arrowDisable = false;
+
+            document.addEventListener('click', (e) => {
+                const elem = e.target;
+                if (elem.closest(`.FE__right-arrow`)) {
+                    if(arrowDisable == true) return;
+                    arrowDisable = true;
+                    slides[currentIndex].style.animationPlayState = 'running';
+                    clearInterval(sliderInterval);
+                    rotateSlider();
+                    // sliderInterval = setInterval(rotateSlider, 4300);
+                    arrowIconClicked = true
+                    setTimeout(()=>{
+                        slides[currentIndex].style.animationPlayState = 'paused';
+                        arrowDisable = false;
+                    },750)
+                }
+                if (elem.closest(`.FE__left-arrow`)) {
+                    if(arrowDisable == true) return;
+                    arrowDisable = true;
+                    clearInterval(sliderInterval);
+                    slides[currentIndex].style.animationPlayState = 'running';
+                    slides[currentIndex].classList.remove('active');
+                    slides[currentIndex].classList.remove('mouseout');
+                    if (currentIndex == 0) {
+                        currentIndex = 2;
+                    } else {
+                        currentIndex = (currentIndex - 1) % totalSlides;
+                    }
+                    slides[currentIndex].classList.add('active');
+                    
+                    arrowIconClicked = true
+                    setTimeout(()=>{
+                        slides[currentIndex].style.animationPlayState = 'paused';
+                        arrowDisable = false;
+                    },750)
+
+                    // sliderInterval = setInterval(rotateSlider, 4300);
+                }
+
+                if (elem.closest(`.FE__slider-banner .info-notice-close`)) {
+                    document.querySelector('.info-notice-content .info-notice-close').click();
+                }
+
+            })
+
+        };
+
+        const adjustPadding = ()=>{
+            const sliderHeight = document.querySelector('.FE__slider-banner').getBoundingClientRect().height;
+            document.body.style.paddingTop = sliderHeight+'px';
+            document.querySelector('#site-header').style.top = sliderHeight+'px';
+        }
+
+        const pollerLite = (conditions, callback, maxTime) => {
+            if (maxTime === void 0) { maxTime = 20000; }
+            const POLLING_INTERVAL = 500;
+            const startTime = Date.now();
+            const interval = setInterval(() => {
+                const allConditionsMet = conditions.every((condition) => {
+                    if (typeof condition === 'function') {
+                        return condition();
+                    }
+                    return !!document.querySelector(condition);
+                });
+                if (allConditionsMet) {
+                    clearInterval(interval);
+                    callback();
+                }
+                else if (Date.now() - startTime >= maxTime) {
+                    clearInterval(interval);
+                    console.log('Polling exceeded maximum time limit');
+                }
+            }, POLLING_INTERVAL);
+        };
+
+        pollerLite(['.info-notice-content'], activate);
+
+    } catch (e) {
+        console.log(e, 'Error in Box-309 v1')
+    }
+})();</script>

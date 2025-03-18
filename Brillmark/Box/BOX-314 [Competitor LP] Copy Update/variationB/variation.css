@@ -1,0 +1,20 @@
+/* html body .hero--copy h3 {
+    font-size: 0;
+}
+
+html body .hero--copy h3::after {
+    content: 'Start your 14 days free trial';
+    font-size: clamp(1.35rem, 405cqw / var(--count), 1.75rem);
+}
+
+@media (min-width: 48em) {
+    html body .hero--copy h3::after {
+        font-size: clamp(1.75rem, 370cqw / var(--count), 2.25rem);
+    }
+}
+
+@media (min-width: 64em) {
+    html body .hero--copy h3::after {
+        font-size: clamp(1.75rem, 500cqw / var(--count), 2.25rem);
+    }
+} */

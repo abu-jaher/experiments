@@ -1,0 +1,19 @@
+html body .button, 
+html body .button-outline--light, 
+html body .button-outline--dark, 
+html body .button-outline, 
+html body .button-link, 
+html body .button-link--light, 
+html body .button-link--dark, 
+html body .button-google, 
+html body .pricing_v4_button-google, 
+html body .button-secondary, 
+html body .button-primary--dark, 
+html body .button-primary--light, 
+html body .button-primary, 
+html body .eu-cookie .btn-secondary,
+html body #site-header .user-nav--item,
+html body .contact-form input[type=submit], 
+html body .contact-form .mktoButton{
+    border-radius: 6.25rem;
+}

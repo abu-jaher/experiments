@@ -1,0 +1,7 @@
+html body .hero--copy .button-primary[href*="demo"],
+html body .hero--copy .button-primary[href*="youtube"],
+html body .cta-module .button-primary[href*="demo"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

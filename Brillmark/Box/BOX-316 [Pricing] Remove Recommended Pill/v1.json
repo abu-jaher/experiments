@@ -1,0 +1,7 @@
+{
+	"files": [
+		"./variationB/variation.css"
+	],
+	"urls": ["https://www.box.com/pricing"],
+	"inject": ""
+}

@@ -1,0 +1,11 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.box.com/security/it-admin-controls",
+			"https://www.box.com/collaboration/relay-workflow",
+			"https://www.box.com/collaboration",
+			"https://www.box.com/security-compliance"],
+	"inject": ""
+}

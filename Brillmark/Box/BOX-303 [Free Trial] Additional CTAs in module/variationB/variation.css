@@ -1,0 +1,4 @@
+.leftRight--copy .cta-wrapper:not(.FE-303) [class^=button-]{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

@@ -1,0 +1,98 @@
+(() => {
+    try {
+        const shared = {
+            ID: "FE",
+            VARIATION: "311",
+            CLIENT: "Funnelenvy"
+        };
+
+        const ID = shared.ID;
+        const VARIATION = shared.VARIATION;
+
+        const setup = () => {
+            document.body.classList.add(ID + "-" + VARIATION);
+        };
+
+        const brandLogos =
+            `
+        <div class="FE__brand-logos">
+            <div class="FE__logo-item">
+                <div class="FE__logo-wrapper">
+                    <picture>
+                        <source srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-09/7-logo-broadcom.png?itok=lggBFygI 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2021-09/7-logo-broadcom.png?itok=_bwU_Tuk 2x" media="(min-width: 0em)" type="image/png" data-srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-09/7-logo-broadcom.png?itok=lggBFygI 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2021-09/7-logo-broadcom.png?itok=_bwU_Tuk 2x" sizes="140px">
+                        <img loading="eager" src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-09/7-logo-broadcom.png?itok=lggBFygI" width="200" height="114" alt="broadcom" data-src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-09/7-logo-broadcom.png?itok=lggBFygI" class="lazyautosizes ls-is-cached lazyload" data-sizes="auto" sizes="140px">
+                    </picture>
+                </div>
+            </div>
+            <div class="FE__logo-item">
+                <div class="FE__logo-wrapper">
+                    <picture>
+                        <source srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-morgan-stanley.png?itok=qgVviSk4 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2021-12/8-logo-morgan-stanley.png?itok=6RYzcsYV 2x" media="(min-width: 0em)" type="image/png" data-srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-morgan-stanley.png?itok=qgVviSk4 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2021-12/8-logo-morgan-stanley.png?itok=6RYzcsYV 2x" sizes="120px">
+                        <img loading="eager" src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-morgan-stanley.png?itok=qgVviSk4" width="200" height="133" alt="Morgan Stanley" data-src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-morgan-stanley.png?itok=qgVviSk4" class="lazyautosizes lazyload" data-sizes="auto" sizes="120px">
+                    </picture>
+                </div>
+            </div>
+            <div class="FE__logo-item">
+                <div class="FE__logo-wrapper">
+                    <picture>
+                        <source srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_us_airforce.png?itok=exHYi4Cu 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-09/2-logo_us_airforce.png?itok=aueqpSzx 2x" media="(min-width: 0em)" type="image/png" data-srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_us_airforce.png?itok=exHYi4Cu 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-09/2-logo_us_airforce.png?itok=aueqpSzx 2x" sizes="60px">
+                        <img loading="eager" src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_us_airforce.png?itok=exHYi4Cu" width="120" height="160" alt="US Airforce" data-src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_us_airforce.png?itok=exHYi4Cu" class="lazyautosizes lazyload" data-sizes="auto" sizes="60px">
+                    </picture>
+                </div>
+            </div>
+            <div class="FE__logo-item">
+                <div class="FE__logo-wrapper">
+                    <picture>
+                        <source srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_airbnb.png?itok=ewJmby02 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-09/2-logo_airbnb.png?itok=Eari-0cE 2x" media="(min-width: 0em)" type="image/png" data-srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_airbnb.png?itok=ewJmby02 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2024-09/2-logo_airbnb.png?itok=Eari-0cE 2x" sizes="100px">
+                        <img loading="eager" src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_airbnb.png?itok=ewJmby02" width="200" height="160" alt="airbnb" data-src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2024-09/2-logo_airbnb.png?itok=ewJmby02" class="lazyautosizes lazyload" data-sizes="auto" sizes="100px">
+                    </picture>
+                </div>
+            </div>
+            <div class="FE__logo-item">
+                <div class="FE__logo-wrapper">
+                    <picture>
+                        <source srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2022-04/2-logo_astrazeneca_140x80.png?itok=8-df7DJw 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2022-04/2-logo_astrazeneca_140x80.png?itok=wnF17E6J 2x" media="(min-width: 0em)" type="image/png" data-srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2022-04/2-logo_astrazeneca_140x80.png?itok=8-df7DJw 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2022-04/2-logo_astrazeneca_140x80.png?itok=wnF17E6J 2x" sizes="140px">
+                        <img loading="eager" src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2022-04/2-logo_astrazeneca_140x80.png?itok=8-df7DJw" width="200" height="114" alt="AstraZeneca" data-src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2022-04/2-logo_astrazeneca_140x80.png?itok=8-df7DJw" class="lazyautosizes lazyload" data-sizes="auto" sizes="140px">
+                    </picture>
+                </div>
+            </div>
+            <div class="FE__logo-item">
+                <div class="FE__logo-wrapper">
+                    <picture>
+                        <source srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-jll.png?itok=ioprovZe 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2021-12/8-logo-jll.png?itok=jZGE_IR9 2x" media="(min-width: 0em)" type="image/png" data-srcset="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-jll.png?itok=ioprovZe 1x, //cdn03.boxcdn.net/sites/default/files/styles/400xauto/public/2021-12/8-logo-jll.png?itok=jZGE_IR9 2x" sizes="60px">
+                        <img loading="eager" src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-jll.png?itok=ioprovZe" width="120" height="160" alt="JLL" data-src="//cdn03.boxcdn.net/sites/default/files/styles/200xauto/public/2021-12/8-logo-jll.png?itok=ioprovZe" class="lazyautosizes lazyload" sizes="60px">
+                    </picture>
+                </div>
+            </div>
+        </div>`;
+
+        const activate = () => {
+            setup();
+            document.querySelector('.contact-form-description').insertAdjacentHTML('beforeend', brandLogos);
+        };
+
+        const observeElement = (selector, callback) => {
+            const targetNode = document.querySelector(selector);
+            if (targetNode) {
+                callback();
+                return;
+            }
+
+            const observer = new MutationObserver((mutations, obs) => {
+                if (document.querySelector(selector)) {
+                    callback();
+                    obs.disconnect();
+                }
+            });
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true,
+            });
+        };
+
+        observeElement('.contact-form-description', activate);
+
+    } catch (e) {
+        console.log(e, 'Error in Box-311 v1')
+    }
+})();

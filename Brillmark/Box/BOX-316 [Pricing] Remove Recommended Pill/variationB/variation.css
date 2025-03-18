@@ -1,0 +1,6 @@
+html body [data-pricing-api-id="box_enterprise"] .pricing-package--label__wrapper,
+html body .pricing-features__chart-wrapper .pricing-features__row--header .pricing-features__column:nth-child(4) .pricing-features--plan-label--element,
+html body .pricing-features--sticky .pricing-features__column:nth-child(4) .pricing-features--plan-label--element
+{
+    display: none;
+}

@@ -1,0 +1,8 @@
+html body .button-link span, 
+html body .button-link--light span, 
+html body .button-link--dark span{
+    text-decoration: underline;
+    -webkit-text-decoration: underline 0.125rem solid;
+    text-decoration: underline 0.125rem solid;
+    text-decoration-color: unset;
+}

@@ -1,0 +1,7 @@
+{
+	"files": [
+		"./variationC/variation.js"
+	],
+	"urls": ["https://www.box.com/free-trial/ccr"],
+	"inject": ""
+}

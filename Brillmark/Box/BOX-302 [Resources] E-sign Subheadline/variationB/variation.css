@@ -1,0 +1,15 @@
+html body .contact-form h3{
+    font-size: 0;
+    line-height: 2.1rem;
+}
+
+html body .contact-form h3::before{
+    content:'Download the free solution brief';
+    font-size: 1.75rem;
+}
+
+@media screen and (min-width: 48em){
+    html body .contact-form h3::before{
+        font-size: 2.25rem;
+    }
+}
