@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://go.bonterratech.com/nonprofit-case-management.html"],
+	"inject": ""
+}

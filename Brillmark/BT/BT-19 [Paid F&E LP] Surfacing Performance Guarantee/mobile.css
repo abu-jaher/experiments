@@ -1,0 +1,9 @@
+html body .compare-table .compare-table__wrapper {
+    overflow-y: hidden;
+    padding: 0 1px;
+    scrollbar-width: none;
+}
+
+html body .compare-table .compare-table__wrapper::-webkit-scrollbar {
+    display: none;
+}

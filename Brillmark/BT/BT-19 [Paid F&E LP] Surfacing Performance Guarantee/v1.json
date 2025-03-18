@@ -1,0 +1,19 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": [
+		"https://learn.bonterratech.com/charity-fundraising.html",
+		"https://learn.bonterratech.com/compare-blackbaud.html",
+		"https://learn.bonterratech.com/Compare-DonorPerfect.html",
+		"https://learn.bonterratech.com/compare-etapestry.html",
+		"https://learn.bonterratech.com/compare-flipcause.html",
+		"https://learn.bonterratech.com/compare-kindful.html",
+		"https://learn.bonterratech.com/fundraising.html",
+		"https://learn.bonterratech.com/fundraising-solutions.html",
+		"https://learn.bonterratech.com/network-for-good.html",
+		"https://learn.bonterratech.com/pricing-fundraising-engagement.html"
+	],
+	"inject": ""
+}

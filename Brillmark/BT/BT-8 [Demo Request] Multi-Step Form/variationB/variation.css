@@ -1,0 +1,146 @@
+html body .multi-step-show {
+    display: block !important;
+}
+
+html body .form-include .section-title,
+html body .mktoForm.mktoLayoutAbove .mktoRequiredField .mktoAsterix,
+html body .multi-step-hide {
+    display: none !important;
+}
+
+html body .form-include .fe-section-title{
+    font-family: "Recent Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.07;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #381360;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 31px !important;
+    padding-bottom: 0;
+}
+
+html body .form-include .fe-step-display {
+    color: #7583ff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+html body .mktoForm .mktoButtonWrap.mktoSimple .mktoButton,
+html body #tempStep1Btn, 
+html body #tempStep2Btn {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #381360;
+    transition: all 0.5s;
+    padding: 14px 0;
+    background: #99A7FF;
+    text-align: center;
+    cursor: pointer;
+    width: 160px;
+    margin-top: 32px !important;
+    margin: auto;
+}
+
+html body #tempStep1Btn:hover{
+    border: 1px solid #447f19;
+}
+
+html body .mktoButtonRow .mktoButtonWrap{
+    margin: auto !important;
+}
+
+html body form.mktoForm .mktoFormRow{
+    display: flex;
+    column-gap: 32px;
+}
+
+html body .mktoForm .mktoFormCol{
+    flex: 1;
+    margin-bottom: 30px !important;
+}
+
+html body .mktoForm .mktoClear{
+    display: none;
+}
+
+.FE-multi-step-form__step-2 #fe-interactive-step,
+.FE-multi-step-form__step-1 .mktoForm{
+    display: none;
+}
+
+html body #fe-interactive-step .fe-interactive-heading h3{
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: inherit;
+}
+
+html body #fe-interactive-step .fe-answer-btn {
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+html body #fe-interactive-step .fe-answer-btn input{
+    display: none;
+}
+
+html body #fe-interactive-step .fe-answer-btn label{
+    border: 1px solid #7583ff;
+    background: #e9edff;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    color: #381360;
+}
+
+html body #fe-interactive-step .fe-answer-btn input:checked + label{
+    background: #c7d0ff;
+    font-weight: 600;
+}
+
+html body #fe-interactive-step .step1ErrorMessage {
+    color: #991B1B;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: none;
+}
+
+html body #fe-interactive-step.step1-error .step1ErrorMessage{
+    display: block;
+}
+
+.FE-multi-step-form .paragraph--type--featured-single-quote .featured-single-quote--headlines{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 500px){
+    html body form.mktoForm .mktoFormRow{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    html body .mktoForm .mktoFormRow .mktoField{
+        height: 48px;
+    }
+}

@@ -1,0 +1,297 @@
+html body .sticky-menu-message .field__item>p {
+    padding-right: 32px;
+    color: #381360;
+}
+
+html body .FE__desktop-copy>span {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+html body .FE__mobile-copy {
+    display: none;
+    text-align: left;
+}
+
+html body .fe-tooltip {
+    position: absolute;
+    top: 22px;
+    right: 168px;
+    cursor: pointer;
+    z-index: 400;
+}
+
+html body #block-stickymenumessage .fe-tooltip svg{
+    width: 20px;
+    height: 20px;
+}
+
+html body #block-stickymenumessage .fe-tooltip circle{
+    fill: #381360;
+    stroke: #381360;
+}
+
+html body .fe-tooltip .fe-tooltip-img {
+    z-index: 999;
+    position: relative;
+}
+
+html body .fe-tooltip .fe-show-txt {
+    background: #fff;
+    border: 1px solid #70787c;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 4px 8px;
+    position: absolute;
+    top: 13px;
+    left: 2px;
+    width: 196px;
+    z-index: 300;
+    display: none;
+    text-align: left;
+}
+
+html body .fe-tooltip .fe-show-txt p {
+    font-size: 14px !important;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+html body .fe-tooltip .fe-show-txt a {
+    color: #0071b3;
+    text-decoration: underline;
+    border: none;
+}
+
+html body .fe-tooltip.fe-tooltip-show .fe-show-txt {
+    display: block;
+}
+
+html body .hero--high-level-page-hero .text-content {
+    margin-top: 60px;
+}
+
+html body .FE__guarantee {
+    position: absolute;
+    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    top: -60px;
+    left: 0;
+    background: #d5f0d4;
+    padding: 0 16px;
+}
+
+html body .FE__guarantee .fe-tooltip{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    right: inherit;
+}
+
+html body .FE__guarantee .fe-tooltip .fe-show-txt{
+    margin: 0px 4px;
+}
+
+html body .FE__guarantee>div {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 13px 0;
+    padding-left: 74px;
+}
+
+html body .FE__guarantee .money_bill_icon {
+    min-width: 57px;
+}
+
+html body .FE__guarantee>div span {
+    color: #04293a !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+html body #header.stuck .sticky-menu-message {
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    html body .hero--high-level-page-hero figure {
+        min-height: 510px;
+    }
+
+    html body .hero--high-level-page-hero figure img {
+        object-fit: cover;
+        min-height: 510px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    html body .sticky-menu-message .field__item>p{
+        padding-right: 0;
+    }
+
+    html body #header.stuck #block-requestademomenu {
+        display: block;
+    }
+
+    html body #header.stuck {
+        position: sticky;
+        top: -1px;
+        z-index: 1000;
+        min-height: 80px;
+    }
+
+    html body #header.stuck .sticky-menu-message {
+        display: block;
+        text-align: right;
+        margin: 0;
+    }
+
+    html body #header.stuck.showmenu #block-requestademomenu,
+    html body #header.stuck.showmenu #block-stickymenumessage {
+        display: none;
+    }
+
+    html body #header #block-bonterra-site-branding,
+    html body #header #block-mobiletopmenu {
+        transition: all 0.5s;
+    }
+
+    html body #header.stuck #block-bonterra-site-branding,
+    html body #header.stuck #block-mobiletopmenu {
+        transform: translate3d(0, -200%, 0);
+        visibility: hidden;
+        z-index: -1;
+        position: absolute;
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+
+    html body #header.stuck.showmenu #block-bonterra-site-branding,
+    html body #header.stuck.showmenu #block-mobiletopmenu {
+        transform: none;
+        visibility: visible;
+        z-index: auto;
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        padding: revert !important;
+        margin: revert !important;
+        overflow: visible !important;
+        clip: auto !important;
+        white-space: normal !important;
+        border: 0 !important;
+    }
+
+    html body .FE__desktop-copy {
+        display: none;
+    }
+
+    html body .FE__mobile-copy {
+        display: block;
+    }
+
+    html body .fe-tooltip {
+        right: auto;
+        left: 118px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    html body .FE__mobile-copy>br {
+        display: none;
+    }
+
+    html body .fe-tooltip {
+        left: 260px;
+        top: 28px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    html body .FE__guarantee>div span > br{
+        display: none;
+    }
+
+    html body .FE__guarantee .fe-tooltip .fe-show-txt{
+        left: -212px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    html body .hero--high-level-page-hero .text-content {
+        margin-top: 0;
+        padding-top: 130px;
+    }
+
+    html body .FE__guarantee {
+        top: 30px;
+        max-width: 100%;
+    }
+
+    html body .FE__guarantee>div {
+        justify-content: flex-start;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    html body .section-body iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html body .pricing-table #header-sticky.sticky-top{
+        top: 79px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body .fe-tooltip {
+        top: 20px;
+    }
+
+    html body .fe-tooltip.fe-tooltip-show .fe-show-txt{
+        width: 182px;
+    }
+
+    html body .fe-tooltip .fe-show-txt p{
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html body .FE__guarantee>div span > br{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 540px) {
+    html body .FE__guarantee .fe-tooltip .fe-show-txt{
+        left: -196px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    html body .FE__guarantee .fe-tooltip .fe-show-txt{
+        left: -196px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    html body .FE__mobile-copy .fe-tooltip .fe-show-txt{
+        left: -20px;
+    }
+}

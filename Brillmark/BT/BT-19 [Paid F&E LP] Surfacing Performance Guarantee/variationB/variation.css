@@ -1,0 +1,362 @@
+html body.FE-BT-19 {
+    padding-top: 70px;
+}
+
+html body.FE-BT-19 header#HEAD {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    height: 70px;
+}
+
+html body.FE-BT-19 header#HEAD>.container,
+html body.FE-BT-19 header#HEAD>.container>.row {
+    height: 100%;
+}
+
+html body.FE-BT-19 header#HEAD #HEAD-Snippet {
+    align-items: center;
+}
+
+html body.FE-BT-19 section#HERO {
+    z-index: 9;
+}
+
+html body.FE-BT-19 #HEAD-Snippet .header--right button,
+html body.FE-BT-19 #HEAD-Snippet .header--right .header--link {
+    transition: all 0.5s ease-in-out;
+}
+
+html body.FE-BT-19 #HEAD-Snippet.fe-nav-alt .header--right button,
+html body.FE-BT-19 #HEAD-Snippet.fe-nav-alt .header--right .header--link {
+    margin-top: -140px;
+}
+
+html body.FE-BT-19 .FE-sticky-nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    right: 44px;
+    top: 70px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+html body.FE-BT-19 .FE-sticky-nav .btn {
+    color: #381360;
+    background: #85EAA0;
+    text-decoration: none !important;
+    font-size: 14px;
+    border-radius: 1.5rem !important;
+    margin-left: 50px;
+    display: none;
+}
+
+html body.FE-BT-19 .global-header-container:has(.sticky) {
+    height: 80px;
+}
+
+html body.FE-BT-19 .fe-nav-alt+.FE-sticky-nav {
+    opacity: 1;
+    top: 10px;
+}
+
+/* tooltip css */
+html body.FE-BT-19 .sticky-menu-message {
+    color: #381360;
+    font-size: 16px;
+    position: relative;
+}
+
+html body.FE-BT-19 .FE__desktop-copy>span {
+    text-decoration: underline;
+    text-decoration-color: #ffc0cb;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    font-weight: 400;
+}
+
+html body.FE-BT-19 .FE__desktop-copy>br {
+    display: none;
+}
+
+html body.FE-BT-19 .FE__mobile-copy {
+    display: none;
+    text-align: left;
+}
+
+html body.FE-BT-19 .fe-tooltip {
+    position: absolute;
+    top: -10px;
+    right: -28px;
+    cursor: pointer;
+    z-index: 400;
+}
+
+html body.FE-BT-19 .fe-tooltip svg {
+    width: 20px;
+    height: 20px;
+}
+
+html body.FE-BT-19 .fe-tooltip circle {
+    fill: #381360;
+    stroke: #381360;
+}
+
+html body.FE-BT-19 .fe-tooltip .fe-tooltip-img {
+    z-index: 999;
+    position: relative;
+}
+
+html body.FE-BT-19 .fe-tooltip .fe-show-txt {
+    background: #fff;
+    border: 1px solid #70787c;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 4px 8px;
+    position: absolute;
+    top: 13px;
+    right: 2px;
+    width: 205px;
+    z-index: 300;
+    display: none;
+    text-align: left;
+}
+
+html body.FE-BT-19 .FE__guarantee .fe-tooltip .fe-show-txt {
+    left: 2px;
+    right: auto;
+}
+
+html body.FE-BT-19 .fe-tooltip .fe-show-txt p {
+    font-size: 14px !important;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+html body.FE-BT-19 .fe-tooltip .fe-show-txt a {
+    color: #0071b3;
+    text-decoration: underline;
+    border: none;
+}
+
+html body.FE-BT-19 .fe-tooltip.fe-tooltip-show .fe-show-txt {
+    display: block;
+}
+
+/* Banner css */
+html body.FE-BT-19 #hero-1 {
+    margin-top: 40px !important;
+}
+
+html body.FE-BT-19 .FE__guarantee {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    max-width: 524px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html body.FE-BT-19 .FE__guarantee>svg {
+    width: 100%;
+}
+
+html body.FE-BT-19 .FE__guarantee>div {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 10px 0;
+    padding-left: 45px;
+    position: absolute;
+    top: 0;
+}
+
+html body.FE-BT-19 .FE__guarantee>div span {
+    color: #381360;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+html body.FE-BT-19 .FE__guarantee .fe-tooltip {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 5px;
+}
+
+html body.FE-BT-19 .fe-tooltip .fe-tooltip-img {
+    z-index: 999;
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+html body.FE-BT-19 .FE__guarantee .fe-tooltip .fe-show-txt {
+    margin: 0px 4px;
+}
+
+html body.FE-BT-19 .fe-tooltip .fe-show-txt p {
+    font-size: 14px !important;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    color: #04293a;
+}
+
+html body.FE-BT-19 #SEC2,
+html body.FE-BT-19 #SEC1 {
+    z-index: 0;
+}
+
+html body.FE-BT-19 #HERO-Block3-Bottom {
+    display: none !important;
+}
+
+@media screen and (min-width: 992px) {
+    html body.FE-BT-19 header#HEAD {
+        border-left: 50px solid #fff;
+    }
+
+    html body.FE-BT-19 header#HEAD>.container {
+        max-width: 1400px;
+        border-left: 50px;
+        padding-left: 30px;
+    }
+
+    html body.FE-BT-19 .FE-sticky-nav .btn {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html body.FE-BT-19 .FE__guarantee {
+        max-width: 616px;
+    }
+
+    html body.FE-BT-19 .FE__guarantee>div span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+    html body.FE-BT-19 .FE__guarantee {
+        max-width: 616px;
+        margin-left: 26px;
+    }
+
+    html body.FE-BT-19 .FE__guarantee>div span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    html body.FE-BT-19 .FE-sticky-nav {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    html body.FE-BT-19 {
+        padding-top: 80px;
+    }
+
+    html body.FE-BT-19 header#HEAD {
+        height: 80px;
+    }
+
+    html body.FE-BT-19 .sticky-menu-message {
+        text-align: right;
+    }
+
+    html body.FE-BT-19 .FE__desktop-copy>br {
+        display: block;
+    }
+
+    html body.FE-BT-19 .fe-nav-alt+.FE-sticky-nav {
+        top: 20px;
+    }
+
+    html body.FE-BT-19 .FE__guarantee {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    html body.FE-BT-19 .FE-sticky-nav .FE__desktop-copy {
+        display: none;
+    }
+
+    html body.FE-BT-19 .FE-sticky-nav .FE__mobile-copy {
+        display: block;
+    }
+
+    html body.FE-BT-19 .fe-tooltip {
+        top: -8px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body.FE-BT-19 .FE__guarantee {
+        background: #FFB6B3;
+        max-width: calc(100% - 20px);
+    }
+
+    html body.FE-BT-19 .FE__guarantee>svg {
+        display: none;
+    }
+
+    html body.FE-BT-19 .FE__guarantee>div {
+        position: inherit;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    html body.FE-BT-19 .FE__guarantee>div span>br {
+        display: none;
+    }
+
+    html body.FE-BT-19 #HEAD-Snippet a {
+        transition: all 0.5s ease-in-out;
+    }
+
+    html body.FE-BT-19 #HEAD-Snippet.fe-nav-alt a {
+        margin-top: -140px;
+    }
+
+    html body.FE-BT-19 .FE-sticky-nav .fe-tooltip .fe-show-txt {
+        left: -60px;
+    }
+
+    html body.FE-BT-19 .FE-sticky-nav {
+        left: 20px;
+        right: auto;
+    }
+
+    html body.FE-BT-19 .FE__guarantee .fe-tooltip .fe-show-txt {
+        left: auto;
+        top: 18px;
+        right: 2px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    html body.FE-BT-19 .FE__guarantee>div span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 353px) {
+    html body.FE-BT-19 .FE__guarantee .fe-tooltip .fe-show-txt {
+        right: auto;
+        left: 2px;
+    }
+}

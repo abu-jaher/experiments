@@ -1,0 +1,17 @@
+html body #block-bannerblock .redirect-banner-wrapper,
+html body #header #block-megamenu,
+html body #header #block-mobiletopmenu,
+html body #header #block-rightmenu,
+html body #header #block-requestademomenu{
+    display: none;
+}
+
+html body #header.showmenu.stuck #block-stickymenumessage{
+    display: block;
+}
+
+@media screen and (max-width: 1199px){
+    html body #block-stickymenumessage{
+        display: none !important;
+    }
+}

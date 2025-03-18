@@ -1,0 +1,17 @@
+html body .fe-case-management{
+    background: #FFEAEA;
+    padding: 5px;
+    font-size: 15px;
+}
+html body #HERO-Block2-Top ul{
+    display: none;
+}
+
+@media(min-width: 1199px){
+    html body .fe-case-management{
+        font-size: 15px;
+    }
+    html body #HERO-Block2-Top h1{
+        font-size: 47px;
+    }
+}

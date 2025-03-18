@@ -1,0 +1,150 @@
+.region-hero .section-links,
+.region-hero .eyebrow,
+.region-hero .hero figure,
+.region-content,
+#block-taggingblock{
+    display: none;
+}
+
+.region-hero,
+.region-hero .hero:has(.light_periwinkle){
+    background: #F5F5FF;
+}
+
+.region-hero .hero{
+    display: flex;
+    align-items: flex-start;
+    background: #F5F5FF;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.region-hero .hero .text-content{
+    max-width: 100%;
+    margin-top: 40px;
+    max-height: max-content;
+}
+
+.region-hero .hero .text-content .section-description p{
+    color: #381360;
+}
+
+.region-hero .hero .text-content .section-description .fe_desc{
+    margin-top: 20px;
+}
+
+.fe_form {
+    position: relative;
+    top: 0;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.fe_form .form-include{
+    margin-top: 50px;
+}
+
+.fe_form .form-include .section-title{
+    font-family: "Adelle";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: inherit;
+}
+
+.fe_form .mktoFormRow.fe_full-width {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.fe_form .mktoButtonRow{
+    width: 100% !important;
+    justify-content: center !important;
+}
+
+@media screen and (min-width: 1024px){
+    .fe_form .form-include{
+        position: absolute;
+    }
+    .region-hero .hero .text-content{
+        max-width: 53%;
+    }
+
+    #block-recirculation {
+        margin-top: 400px;
+    }
+
+    .fe_new_target  #block-recirculation {
+        margin-top: 500px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .region-hero .hero .text-content{
+        max-width: 57%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .region-hero .hero{
+        flex-direction: column;
+    }
+
+    .fe_form {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 700px;
+    }
+
+    .fe_form .form-include{
+        margin-top: 0;
+    }
+
+    .region-hero .hero .text-content{
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .fe_form form.mktoForm label.mktoLabel{
+        font-size: 14px;
+    }
+
+    .fe_form form.mktoForm .mktoFormRow{
+        grid-gap: 15px;
+    }
+
+    .fe_form form.mktoForm {
+        padding: 0;
+    }
+
+    .fe_form form.mktoForm input,
+    .fe_form form.mktoForm textarea.mktoField,
+    .fe_form form.mktoForm input::placeholder,
+    .fe_form form.mktoForm textarea.mktoField::placeholder, 
+    .fe_form form.mktoForm select.mktoField{
+        font-size: 14px !important;
+        height: 48px !important;
+    }
+
+    .fe_form .form-include{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .fe_form .form-include .section-title{
+        max-width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .fe_form form.mktoForm .mktoFormRow{
+        grid-template-columns: 1fr;
+    }
+}
