@@ -1,0 +1,32 @@
+.cv-3-2 .cv-3-2__canc_copy {
+    padding: 12px 24px 0;
+    border-top: 1px solid rgb(35 35 35 / .1);
+    margin: 10px -16px 0;
+}
+
+.cv-3-2 .cv-3-2__canc_copy p {
+    color: #1D7F75;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.cv-3-2 .purchase-plan-radios__label[for="subscription"]:hover .cv-3-2__canc_copy {
+    border-top: 1px solid rgb(35 35 35 / .5);
+}
+
+.cv-3-2 .purchase-plan-radios__input#subscription:checked+[for="subscription"] .cv-3-2__canc_copy {
+    border-top: 2px solid #1D7F75;
+}
+
+.cv-3-2 .cv-3-2__canc_copy strong {
+    display: block;
+}
+
+@media only screen and (min-width: 500px){
+    .cv-3-2 .cv-3-2__canc_copy p{
+        font-size: 16px;
+        font-weight: 450;
+    }
+}
