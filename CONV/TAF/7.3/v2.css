@@ -1,0 +1,86 @@
+html body .search-results-body .search-results li.search-article-tools .previewLinks a.showFull {
+    font-size: 0;
+    margin: 0;
+    margin-right: 24px;
+}
+
+html body .search-results-body .search-results li.search-article-tools .previewLinks a.showFull i {
+    display: none;
+}
+
+html body .search-results-body .search-results li.search-article-tools .previewLinks {
+    height: 39px;
+    margin-top: 16px;
+}
+
+html body .search-results-body .search-results li.search-article-tools .previewLinks a.showFull::after {
+    content: 'Read this article';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    padding: 10px;
+    background: rgba(108, 215, 117, 1);
+    border-radius: 4px;
+}
+
+html body .search-results-body .search-results li.search-article-tools .previewLinks a.showFull:hover {
+    opacity: 1;
+}
+
+html body .search-results-body .search-results li.search-article-tools .previewLinks a.showFull:hover:after {
+    color: #fff;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    background: #006db4;
+}
+
+html body .search-results-body .search-results .author a,
+html body .search-results-body .search-results .author span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 1);
+    pointer-events: none;
+}
+
+html body .search-results-body .search-results li .publication-meta,
+html body .search-results-body .browse-results li .publication-meta {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 8px;
+    color: rgba(51, 51, 51, 1);
+}
+
+html body .search-results-body .search-results li .publication-meta a,
+html body .search-results-body .browse-results li .publication-meta a {
+    color: rgba(51, 51, 51, 1);
+    pointer-events: none;
+}
+
+html body .search-results-body .search-results li .publication-meta .article-type,
+html body .search-results-body .search-results li .publication-meta .publication-year {
+    color: rgba(115, 115, 115, 1);
+}
+
+@media screen and (max-width: 600px) {
+    html body .search-results-body .search-results li.search-article-tools .previewLinks a.showFull {
+        margin-right: 0;
+    }
+
+    html body .search-results-body .search-results li.search-article-tools .previewLinks:has(.preview[data-type="abstract"]) {
+        height: 63px;
+        position: relative;
+        align-items: baseline;
+        margin-top: 22px;
+    }
+
+    html body .search-results-body .search-results li.search-article-tools .previewLinks .preview {
+        position: absolute;
+        bottom: 1px;
+    }
+}

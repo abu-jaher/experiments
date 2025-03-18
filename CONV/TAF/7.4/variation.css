@@ -1,0 +1,37 @@
+.cv-7-4 .abstractKeywords .kwd-title {
+    display: block !important;
+    margin-bottom: 8px;
+    font-size: 13px !important;
+}
+
+.cv-7-4 .abstractKeywords .kwd-title::before {
+    content: none !important;
+}
+
+.cv-7-4 .abstractKeywords .kwd-btn {
+    color: #10147E !important;
+    background-color: rgba(16, 20, 126, 0.05) !important;
+    border-radius: 2px !important;
+    font-weight: 400 !important;
+    padding: 6px !important;
+    margin-right: 14px !important;
+    margin-bottom: 6px !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
+}
+
+.cv-7-4 .abstractKeywords .kwd-btn:hover {
+    background-color: #10147e !important;
+    color: #fff !important;
+}
+
+.cv-7-4__desktop .abstractKeywords .kwd-title {
+    margin-bottom: 12px;
+    font-size: 16px !important;
+}
+
+.cv-7-4__desktop .abstractKeywords .kwd-btn {
+    font-weight: 600 !important;
+    margin-bottom: 14px !important;
+    background-color: #E6F0F7 !important;
+}

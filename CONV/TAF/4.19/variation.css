@@ -1,0 +1,458 @@
+.cv-4-16 .first-top-navigation .topnav-browse-button:not(.cv-4-16__browse-nav) {
+    display: none;
+}
+
+.cv-4-16 .first-top-navigation .cv-4-16__browse-nav:focus-visible,
+.cv-4-16 .first-top-navigation .cv-4-16__browse-nav:focus {
+    outline: none !important;
+    background-color: #f2f3f8 !important;
+}
+
+.cv-4-16 .first-top-navigation .cv-4-16__browse-nav:focus-visible span{
+    outline: solid 2px #10147e;
+    border-radius: 3px;
+}
+
+.cv-4-16 .first-top-navigation .cv-4-16__browse-nav.active .fa-chevron-down {
+    transform: rotate(180deg);
+    transition: transform .2s linear;
+}
+
+.cv-4-16 .first-top-navigation .cv-4-16__browse-nav.active+.cv-4-16__desktopNavItem {
+    display: block;
+    left: 0;
+    width: 100%;
+    max-height: 800px;
+    height: calc(100vh - 75px);
+    overflow: auto;
+}
+
+.first-top-navigation .topnav-browse-button ~ .navigation--item__dropdown-content,
+.cv-4-16 .cv-4-16__desktopNavItem {
+    display: none;
+    height: 0;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem .cv-4-16__nav-container {
+    padding: 30px 40px;
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem .cv-4-16__nav-container .cv-4-16__close-btn {
+    position: absolute;
+    right: 24px;
+    top: 14px;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem .cv-4-16__nav-container .cv-4-16__close-btn .fa {
+    font-size: 21px;
+}
+
+.cv-4-16__browse-column.cv-4-16__left {
+    width: 343px;
+    position: relative;
+}
+
+.cv-4-16__browse-column.cv-4-16__left::after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.cv-4-16__browse-column.cv-4-16__right {
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem .cv-4-16__nav-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.24px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem ul li,
+.cv-4-16 .cv-4-16__desktopNavItem ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem ul li {
+    font-size: 14px !important;
+    font-weight: 600;
+    line-height: 19.07px !important;
+    margin-bottom: 18px !important;
+    color: rgba(16, 20, 126, 1) !important;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem ul li a {
+    color: rgba(16, 20, 126, 1) !important;
+    background-image: none;
+    font-weight: 400 !important;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem ul li a:hover {
+    background: none !important;
+}
+
+.cv-4-16 .cv-4-16__desktopNavItem .cv-4-16__browse-journals {
+    margin-bottom: 68px;
+}
+
+.cv-4-16 .cv-4-16__column-right.cv-4-16__publish {
+    display: none;
+}
+
+.cv-4-16 .cv-4-16__browse-subject .cv-4-16__nav-title {
+    margin-bottom: 20px;
+}
+
+.cv-4-16 .cv-4-16__browse-subject ul {
+    display: flex;
+    margin-bottom: 22px !important;
+    gap: 32px;
+}
+
+.cv-4-16 .cv-4-16__browse-subject ul .cv-4-16__column{
+    flex: 1;
+}
+
+.cv-4-16 .cv-4-16__browse-subject ul li {
+    position: relative;
+    margin-bottom: 16px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile {
+    background: #fff !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__nav-container .cv-4-16__close-btn {
+    display: none;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-column.cv-4-16__left::after,
+.cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list:not(:first-of-type) {
+    display: none !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list:first-child {
+    margin: 24px 16px 12px !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list .search-home {
+    padding: 0 !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list .search-home input {
+    width: calc(100% - 56px) !important;
+    height: 40px !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list .search-home .searchButtons {
+    width: 48px !important;
+    height: 40px !important;
+    margin-left: 3px;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list .search-home .quick-search-btn::after {
+    bottom: 10px !important;
+    right: 14px !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__desktopNavItem {
+    max-height: max-content;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__column-right.cv-4-16__publish {
+    display: block;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__nav-container {
+    padding: 0 16px !important;
+    flex-direction: column;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-column.cv-4-16__left {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    background: rgba(242, 243, 249, 0.5);
+    padding: 24px 20px 14px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-column.cv-4-16__left>div {
+    flex: 1;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__nav-title {
+    font-size: 16px;
+    line-height: 24.51px;
+    margin-bottom: 16px !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-subject .cv-4-16__nav-title {
+    margin-bottom: 20px;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-subject ul li {
+    border-bottom: none;
+    padding-bottom: 0 !important;
+    margin-bottom: 18px !important;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-journals {
+    margin-bottom: 34px;
+}
+
+.cv-4-16 .navigation--item__dropdown-content-mobile .cv-4-16__browse-column.cv-4-16__right {
+    margin: 24px 20px;
+}
+
+
+/* mobile nav */
+
+.cv-4-16 .cv-4-16__browse-nav__mobile {
+    position: relative;
+    padding: 20px 16px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .accordion {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .accordion h2 {
+    margin: 0;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .accordion .cv-4-16__destination {
+    display: none;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .accordion h2.active+.cv-4-16__destination {
+    display: block;
+    margin-top: 20px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__browse.accordion {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(225, 226, 234, 1);
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__browse.accordion .has-child svg {
+    position: inherit;
+    right: auto;
+    left: 14px;
+    top: 2px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__publish.accordion {
+    padding-top: 16px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile h2 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(16, 20, 126, 1);
+    margin: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .accordion svg {
+    position: absolute;
+    right: 1px;
+    top: 8px;
+    transform: rotate(180deg);
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile h2.active svg {
+    transform: none;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgba(242, 243, 249, 1);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    padding: 20px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child h2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child h2 svg {
+    transform: rotate(-90deg);
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child.active {
+    display: block;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .has-child {
+    position: relative;
+    padding-right: 32px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .has-child svg {
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__destination {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child .cv-4-16__destination {
+    position: relative;
+    padding-left: 23px;
+    padding-bottom: 20px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child .cv-4-16__destination::before {
+    content: '';
+    width: 2px;
+    height: calc(100% - 30px);
+    position: absolute;
+    background: rgba(228, 231, 252, 1);
+    left: 0;
+    top: -4px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child .cv-4-16__destination li {
+    position: relative;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child .cv-4-16__destination li::before {
+    content: '';
+    width: 13px;
+    height: 8px;
+    position: absolute;
+    left: -23px;
+    border-bottom: 2px solid rgba(228, 231, 252, 1);
+    border-left: 2px solid rgba(228, 231, 252, 1);
+    border-bottom-left-radius: 8px;
+    top: 5px;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .child .cv-4-16__destination::after {
+    position: absolute;
+    left: 0;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__destination ul,
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__destination li {
+    list-style: none;
+}
+
+.cv-4-16 .cv-4-16__browse-nav__mobile .cv-4-16__destination ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cv-4-16 .cv-4-16__destination li a,
+.cv-4-16 .cv-4-16__destination li {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: rgba(16, 20, 126, 1);
+}
+
+.cv-4-16 .cv-4-16__destination li a span {
+    font-weight: 600;
+}
+
+.cv-4-16__browse [href*="https://www.taylorfrancis"],
+.cv-4-16__browse-books [href*="https://www.taylorfrancis"] {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+}
+
+.cv-4-16__browse [href*="https://www.taylorfrancis"] svg,
+.cv-4-16__browse-books [href*="https://www.taylorfrancis"] svg {
+    position: inherit !important;
+    transform: none !important;
+}
+
+.cv-4-16 .qsw-global-nav .top-navigation,
+.cv-4-16 .qsw-global-nav> div > div,
+.cv-4-16 .qsw-global-nav> div{
+    height: 100%;
+}
+
+@media screen and (min-width: 601px) {
+    .cv-4-16 .cv-4-16__browse-nav__mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1138px) {
+    .cv-4-16 .top-navigation .cv-4-16__browse-subject ul li:has([href="/subjects/economics-finance-business-industry"]){
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cv-4-16 .cv-4-16__desktopNavItem {
+        display: none !important;
+    }
+
+    .cv-4-16 .navigation--item__dropdown-content-mobile {
+        background: rgba(242, 243, 249, 1) !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation form {
+        gap: 8px;
+    }
+
+    .cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list .search-home input {
+        width: 100% !important;
+    }
+
+    .cv-4-16 .header_burger-menu .search-home .quick-search-btn {
+        padding: 0 !important;
+    }
+
+    .cv-4-16 .navigation--item__dropdown-content-mobile .top-navigation-list .search-home .searchButtons {
+        margin: 0;
+    }
+}

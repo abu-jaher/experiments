@@ -1,0 +1,402 @@
+html body {
+    opacity: 0;
+}
+
+html body.cv-4-17 {
+    opacity: 1;
+}
+
+body.cv-4-17 .search-heading,
+body.cv-4-17 .searchPageQSearchWrapper {
+    display: none;
+}
+
+body.cv-4-17 .searchPageQSearchWrapper+div .container {
+    max-width: 1058px;
+    width: 100%;
+}
+
+body.cv-4-17 .searchPageQSearchWrapper+div .row {
+    display: flex;
+    flex-direction: column;
+}
+
+body.cv-4-17 .searchPageQSearchWrapper+div .row>div {
+    width: 100%;
+}
+
+body.cv-4-17 .sourceArticle h3.widget-header {
+    font-size: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    margin-top: 40px;
+}
+
+body.cv-4-17 .sourceArticle h3::after {
+    content: 'Recommended articles';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+}
+
+body.cv-4-17 .newSearchResults,
+body.cv-4-17 .newSearchResults .widget-body,
+body.cv-4-17 .sourceArticle .widget-body {
+    padding: 0;
+}
+
+body.cv-4-17 .sourceArticle .article-card .header {
+    min-height: max-content;
+    border: none;
+    padding: 0;
+    margin: 0;
+    flex: auto;
+}
+
+body.cv-4-17 .sourceArticle .article-card .cv-4-17__cover,
+body.cv-4-17 .sourceArticle .article-card img {
+    max-width: 61px;
+    max-height: 69px;
+    cursor: pointer;
+    width: 100%;
+}
+
+body.cv-4-17 .sourceArticle .article-card:hover,
+body.cv-4-17 .sourceArticle .article-card {
+    padding: 12px 48px;
+    border: none;
+    border-bottom: 2px solid rgba(238, 238, 238, 1);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    background: rgba(249, 249, 249, 1);
+    margin: 0;
+    border-radius: 12px;
+    width: 100%;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+body.cv-4-17 .sourceArticle .article-card .article-type {
+    font-size: 0;
+}
+
+body.cv-4-17 .sourceArticle .article-card .article-type::after {
+    content: 'Source article';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(51, 51, 51, 1);
+}
+
+body.cv-4-17 .sourceArticle .article-card .header a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    margin: 0;
+    color: rgba(16, 20, 126, 1);
+}
+
+body.cv-4-17 .sourceArticle .article-card .header a::after {
+    display: none;
+}
+
+body.cv-4-17 .article-card:hover .access-icon+.part-tooltip,
+body.cv-4-17 .sourceArticle .article-card .part-tooltip,
+body.cv-4-17 .sourceArticle .article-card .access-icon,
+body.cv-4-17 .sourceArticle .article-card .footer {
+    display: none;
+}
+
+body.cv-4-17 .newSearchResults {
+    margin-top: 33px;
+}
+
+body.cv-4-17 .newSearchResults .search-results p strong,
+body.cv-4-17 .newSearchResults .search-results p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+
+body.cv-4-17 .newSearchResults .num-results {
+    margin-bottom: 40px;
+    margin-top: 6px;
+    display: none;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body {
+    background: #fff;
+    padding: 0;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .tools-holder {
+    margin: 0;
+    padding: 10px 16px;
+    border-top: 1px solid rgba(208, 208, 208, 1);
+    border-bottom: 1px solid rgba(208, 208, 208, 1);
+    margin-bottom: 30px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-drop-downs {
+    display: none;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .tools-holder .checkbox-container {
+    width: 20px;
+    margin-right: 12px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .tools-holder .checkbox--primary:before {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    line-height: 18px;
+    font-size: 10px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .download-citations {
+    margin: 0;
+    padding-right: 31px;
+    margin-right: 31px;
+    position: relative;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .download-citations::after {
+    content: '';
+    width: 1px;
+    height: 16px;
+    background: rgba(201, 201, 201, 1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .download-citations span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .download-pdfs span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 6px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-results {
+    padding: 0;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-results li {
+    padding: 24px 24px 24px 52px;
+    box-shadow: none !important;
+    border: 1px solid rgba(208, 208, 208, 1);
+    border-radius: 2px;
+    margin-top: 24px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-results li:first-child{
+    margin-top: 0;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-results li .art_title {
+    margin-bottom: 16px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-results li .art_title .ref {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(16, 20, 126, 1);
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .search-results li .art_title .ref::after {
+    display: none;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .item-checkbox-container {
+    top: 24px;
+    margin-left: -40px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .checkbox--primary::before {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .publication-meta a,
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .author a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(16, 20, 126, 1);
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .publication-meta {
+    margin-top: 8px;
+}
+
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .publication-meta .publication-year,
+body.cv-4-17 .newSearchResults .search-results-body .publications-list .publication-meta .article-type {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(102, 102, 102, 1);
+}
+
+body.cv-4-17 .newSearchResults .paginationLinkContainer {
+    margin-top: 63px;
+    display: none;
+}
+
+.cv-4-17__show-btn-wrapper {
+    padding-top: 63px;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-4-17__show-btn-wrapper button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 10px 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    body.cv-4-17 .pageHeader .searchButtonIcon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    body.cv-4-17 [data-widget-def="pageBody"] .newSearchResults,
+    body.cv-4-17 [data-widget-def="pageBody"] [data-pb-dropzone="main"]>div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    body.cv-4-17 [data-widget-def="pageBody"] [data-pb-dropzone="main"]>div .widget-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    body.cv-4-17 .sourceArticle h3.widget-header {
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+
+    body.cv-4-17 .sourceArticle {
+        padding: 0 15px;
+    }
+
+    body.cv-4-17 .sourceArticle h3::after {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .download-pdfs span,
+    body.cv-4-17 .newSearchResults .search-results-body .download-citations span {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    body.cv-4-17 .sourceArticle .article-card .article-type::after {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    body.cv-4-17 .sourceArticle .article-card .header a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    body.cv-4-17 .sourceArticle .article-card .cv-4-17__cover,
+    body.cv-4-17 .sourceArticle .article-card img {
+        max-width: 54px;
+        max-height: 76px;
+    }
+
+    body.cv-4-17 .sourceArticle .article-card:hover,
+    body.cv-4-17 .sourceArticle .article-card {
+        padding: 10px 12px;
+        border: 1px solid rgba(228, 228, 228, 1);
+    }
+
+    body.cv-4-17 .newSearchResults .num-results {
+        margin-top: 0;
+        margin-bottom: 26px;
+        padding: 0 22px;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .search-results li {
+        border-radius: 0;
+        border: 1px solid rgba(233, 233, 233, 1);
+        padding: 20px 18px 20px 47px;
+        margin-top: 8px;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .search-results li:first-child{
+        margin-top: 0;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .publications-list .item-checkbox-container {
+        top: 20px;
+        margin-left: -34px;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .publications-list .checkbox--primary::before {
+        width: 25px;
+        height: 25px;
+        margin-right: 9px;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results p strong,
+    body.cv-4-17 .newSearchResults .search-results p {
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 300;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .tools-holder {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 22px;
+        margin-bottom: 0;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .tools-holder .checkbox--primary:before {
+        width: 22px;
+        height: 22px;
+        line-height: 20px;
+    }
+
+    body.cv-4-17 .newSearchResults .search-results-body .download-citations {
+        padding-right: 12px;
+        margin-right: 12px;
+    }
+
+    body.cv-4-17 #searchResultContainer .publications-list .search-results {
+        padding: 20px 12px;
+        background: #eee;
+    }
+
+    .cv-4-17__show-btn-wrapper {
+        padding-top: 0;
+        background: #eee;
+    }
+}

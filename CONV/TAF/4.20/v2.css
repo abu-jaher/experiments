@@ -1,0 +1,67 @@
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .ms-ctn,
+.cv-4-20 .cv-4-20__subjectFilterFound #showLessConceptID_allsubjects {
+    display: none;
+}
+
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"].cv-4-20__subjectFilterFound li.parentFacets.clear:not(.cv-4-20__visible) {
+    display: none;
+}
+
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .facet-expander.active+a {
+    font-weight: bold;
+}
+
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .facet-expander.active+a span {
+    font-weight: 400;
+}
+
+.cv-4-20 .newSearchFacets #filter .overlay-content.cv-4-20__active li.parentFacets.clear {
+    display: block;
+}
+
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"]:not(.cv-4-20__subjectFilterFound) .cv-4-20__see-all,
+.cv-4-20 .newSearchFacets #filter .overlay-content.cv-4-20__active .cv-4-20__see-all,
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .cv-4-20__hide-all {
+    display: none;
+}
+
+.cv-4-20 .newSearchFacets #filter .overlay-content.cv-4-20__active .cv-4-20__hide-all {
+    display: block;
+}
+
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .cv-4-20__hide-all,
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .cv-4-20__see-all {
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .cv-4-20__hide-all .text,
+.cv-4-20 .newSearchFacets [data-key="ConceptID_allsubjects"] .cv-4-20__see-all .text {
+    color: #10147E;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.7px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+}
+
+.cv-4-20 #showLessConceptID_allsubjects,
+.cv-4-20 #ConceptID_allsubjects-show{
+    margin-top: 8px;
+}
+
+.cv-4-20 #showLessConceptID_allsubjects .facet-link,
+.cv-4-20 #ConceptID_allsubjects-show .facet-link{
+    text-transform: initial;
+    text-decoration: underline;
+}
+
+.cv-4-20 .newSearchFacets .accessTypeWrapper {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+}
+
+.cv-4-20 .newSearchFacets:has([data-key="ConceptID_allsubjects"]  ) .facetHeader{
+    border-top: none;
+}
