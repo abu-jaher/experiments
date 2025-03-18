@@ -1,0 +1,9 @@
+html body .opc-cart__main{
+    padding-bottom: 15px;
+}
+html body .opc-cart__description{
+    margin-bottom: 10px;
+}
+html body .opc-cart__brand img{
+    width: 90px;
+}

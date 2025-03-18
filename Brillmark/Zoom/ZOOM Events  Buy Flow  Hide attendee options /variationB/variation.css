@@ -1,0 +1,46 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html body .zm-tabs__content .zoom-form .fe_link{
+    margin-bottom: 40px;
+}
+
+html body .zm-tabs__content .zoom-form .fe_link a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html body .zm-tabs__content .zoom-form .form-item-body {
+    max-height: 280px;
+    overflow: hidden;
+    -webkit-transition: max-height 1s ease-in-out;
+    -o-transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease-in-out;
+}
+
+html body .zm-tabs__content .zoom-form .option-panel-wrap{
+    display: none;
+}
+
+html body .zm-tabs__content .zoom-form .option-panel-wrap.option-panel-wrap-select{
+    display: block;
+}
+
+html body .zm-tabs__content .zoom-form .form-item-body.fe_transition_class{
+    max-height: 500rem;
+}
+
+html body .zm-tabs__content .zoom-form .form-item-body.fe_transition_class .option-panel-wrap{
+    display: block;
+}
+
+html body .zm-tabs__content .zoom-form .fe_link.fe_display_none{
+    display: none;
+}

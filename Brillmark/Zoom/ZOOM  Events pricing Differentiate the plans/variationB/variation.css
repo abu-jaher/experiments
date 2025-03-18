@@ -1,0 +1,25 @@
+html body .pricing-details .wbn-type,
+html body .pricing-details .sub-title{
+    display: none;
+}
+
+html body .pricing-details .wbn-premium-label #webinar{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #232333;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+}
+
+html body .fe_subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #222230;
+    letter-spacing: -0.02em;
+    max-width: 500px;
+}
+
+html body .fe_subtitle span{
+    font-weight: 900;
+}

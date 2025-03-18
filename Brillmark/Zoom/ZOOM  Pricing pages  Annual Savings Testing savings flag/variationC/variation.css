@@ -1,0 +1,26 @@
+html body .new-price.fe_relative {
+    position: relative;
+    padding-left: 60px;
+}
+
+html body .fe_price {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    color: rgba(82,82,128,.8);
+}
+
+html body .fe_price::before{
+    content: ' ';
+    width: 115%;
+    height: 1px;
+    background: rgba(82,82,128,.8);
+    transform: rotate(10deg);
+    position: absolute;
+    left: -4px;
+    top: 9px;
+}
+
+html body .feature-plan-card .saving{
+    display: none;
+}

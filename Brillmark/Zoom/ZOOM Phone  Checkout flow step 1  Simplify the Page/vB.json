@@ -1,0 +1,10 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"inject": "",
+	"urls": [
+		"https://zoom.us/buy?plan=pbx&period=annual&from=pbx_ZVM&addon_period=annual&usageType=business"
+	]
+}

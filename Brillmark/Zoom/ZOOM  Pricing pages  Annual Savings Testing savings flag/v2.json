@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationC/variation.css",
+		"./variationC/variation.js"
+	],
+	"urls": ["https://zoom.us/pricing"],
+	"inject": ""
+}

@@ -1,0 +1,4 @@
+html body .buy-flow-body .form-item.additional-options-form,
+html body .plan-wrapper .add-on-parts{
+    display: none;
+}

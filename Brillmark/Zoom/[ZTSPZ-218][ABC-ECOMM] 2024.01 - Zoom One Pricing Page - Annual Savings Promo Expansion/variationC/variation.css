@@ -1,0 +1,268 @@
+
+html body.fe-savings-promo [period="annual"] .fe-rate + div,
+html body.fe-savings-promo .FE-Addon-Opt__togglecontainer{
+    display: none !important;
+}
+html body .fe-hide,
+html body .fe-monthly-price,
+html body .fe-save-up-label-new,
+html body.fe-savings-promo .pricing-tabs-bk .feature-plan-card .saving,
+html body.fe-savings-promo .bill_date_choose .zm-switch,
+html body .comparison-tree-table-mobile .fe-price-num.fe-hide,
+html body.fe-savings-promo .fe-contactsales .fe-price-num,
+html body.fe-savings-promo .fe-contactsales .fe-rate,
+html body.fe-savings-promo [period="monthly"] .comparison-tree-table .fe-price-num,
+html body.fe-savings-promo [period="monthly"] .new-pricing-row .fe-price-num,
+html body.fe-savings-promo [period="monthly"] .fe-rate,
+html body.fe-savings-promo [period="annual"] .plan-wrapper .feature-plan-card .saving,
+html body.fe-savings-promo [period="annual"] .new-pricing-row .fe-tab-content+div>.new-price-wrapper,
+html body.fe-savings-promo [period="annual"] .comparison-tree-table-mobile-new .new-price,
+html body.fe-savings-promo [period="annual"] .comparison-tree-table .fe-tab-content .type-price:not(.type-price-free) {
+    display: none;
+}
+
+html body.fe-savings-promo [period="annual"] .zm-table.comparison-table-new .comparison-table-header .fe-tab-content .new-buy-btn {
+    margin-top: 10px;
+}
+
+html body.fe-savings-promo .zm-table.comparison-table-new .comparison-table-header .fe-tab-content [data-link-term="Buy Now"] {
+    padding: 7px 29px;
+}
+
+html body.fe-savings-promo .fe-new-price .fe-price-part {
+    font-size: 30px;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-top: 0;
+    color: #00053d;
+}
+
+html body .fe-new-price .fe-subtext.currency-flag {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 29px;
+    padding-right: 3px;
+    margin-top: 0;
+}
+
+html body .fe-price-num,
+html body .fe-price-num1 {
+    display: inline;
+    color: var(--day-foreground-foreground, #00053D);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+html body .comparison-tree-table .fe-price-num {
+    font-size: 20px;
+    display: inline-block;
+}
+
+html body.fe-savings-promo .zm-sticky-fixed th div, .zm-table.comparison-table-new th div{
+    overflow: hidden !important;
+}
+
+html body .comparison-tree-table .fe-pro-pricing {
+    display: inline-block;
+}
+
+html body .fe-flag-hidden {
+    color: transparent;
+    width: 0;
+    display: inline-block;
+}
+
+html body .fe-subtext {
+    color: var(--day-foreground-foreground, #00053D);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: -4px;
+    display: inline-block;
+    font-family: "Happy Display", Internacional, Helvetica, Arial;
+}
+
+html body .comparison-tree-table .fe-subtext {
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+html body .fe-subtext .subtext {
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+html body .zm-table.comparison-table-new .new-price-wrapper .new-price .price-num .subtext {
+    margin-left: 2px;
+    margin-top: 0px;
+}
+
+html body [period="monthly"] .zm-table.comparison-table-new .type-price {
+    height: 70px;
+    margin-top: 6px;
+}
+
+html body.fe-savings-promo [period="annual"] .zm-table.comparison-table-new .type-price {
+    height: 44px;
+    margin-top: 10px;
+    line-height: 1;
+}
+
+html body .fe-pro-pricing {
+    display: inline-block;
+}
+
+html body .fe-year {
+    display: inline;
+    position: relative;
+    top: -5px;
+}
+
+html body .fe-rate {
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: initial;
+    letter-spacing: 0px;
+    color: var(--day-foreground-foreground-ada, #666487);
+}
+
+html body .new-one-card-layout .feature-plan-card .title-words {
+    margin-bottom: 8px;
+}
+
+html body.fe-savings-promo .fe-sup {
+    top: -13px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    position: relative;
+    font-family: "Happy Display", Internacional, Helvetica, Arial;
+}
+
+html body.fe-savings-promo .comparison-tree-table-mobile .fe-subtext {
+    margin-left: 2px;
+}
+
+html body .comparison-tree-table .fe-year {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: lowercase;
+    color: #515079;
+    display: inline;
+    position: relative;
+    top: -7px;
+}
+
+html body.fe-savings-promo .feature-plan-card section {
+    max-height: 95px;
+    height: 100%;
+    margin-top: 11px;
+}
+
+html body.fe-savings-promo .zm-table.comparison-table-new th.comparison-table-header-cell.fe-enterprise .type-price {
+    display: block;
+    height: 77px;
+    margin: 0;
+}
+
+html body [period="monthly"] .zm-table.comparison-table-new th.comparison-table-header-cell.fe-enterprise .type-price {
+    height: 87px;
+}
+
+html body.fe-savings-promo .new-ui-style .new-one-card-layout .new-pricing-row .rate,
+html body.fe-savings-promo .zm-table.comparison-table-new th.comparison-table-header-cell .cell .rate {
+    font-size: 14px;
+    display: block;
+    color: var(--day-foreground-foreground-ada, #666487);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 120%;
+}
+
+html body.fe-savings-promo .new-ui-style .new-one-card-layout .new-pricing-row .price-part .price-num,
+html body.fe-savings-promo .zm-table.comparison-table-new .new-price-wrapper .new-price .price-num,
+html body.fe-savings-promo .comparison-tree-table-mobile .comparison-tree-table-mobile__header-price-row .price-num {
+    color: var(--day-foreground-foreground, #00053D);
+    font-size: 32px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+html body.fe-savings-promo .new-ui-style .new-one-card-layout .new-pricing-row .price-part .currency-flag,
+html body.fe-savings-promo .zm-table.comparison-table-new .new-price-wrapper .new-price .price-part .currency-flag {
+    line-height: 143%;
+    margin-top: 0px;
+}
+
+
+/* new css */
+
+html body .comparison-tree-table-mobile .comparison-tree-table-mobile__header-price-row .rate {
+    font-size: 12px;
+    height: 21px;
+    display: block;
+    margin-top: -8px;
+}
+
+html body .comparison-tree-table-mobile .comparison-tree-table-mobile__header-price-row .fe-subtext .subtext {
+    margin-top: -4px;
+}
+
+html body.fe-savings-promo .comparison-tree-table-mobile .new-price-wrapper .new-price .subtext {
+    margin-top: 9px;
+}
+
+html body.fe-savings-promo .new-one-card-layout .comparison-tree-table-mobile .new-price-wrapper .new-price .currency-flag {
+    margin-top: 5px;
+}
+
+html body.fe-savings-promo .comparison-tree-table-mobile .comparison-tree-table-mobile__header-price-row .type-price-free {
+    margin-top: 15px;
+}
+
+html body.fe-savings-promo .comparison-tree-table-mobile-new .comparison-tree-table-mobile__inside {
+    padding-top: 40.76923vw;
+}
+
+html body.fe-savings-promo .comparison-tree-table-mobile .fe-price-num {
+    margin: 21px 0 8px;
+    text-align: center;
+}
+
+html body.fe-savings-promo .tabs-new-inside .select-container_left .bill_date_choose {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    cursor: default;
+}
+
+html body.fe-savings-promo .grey-region .billed-container .left-section {
+    opacity: 0;
+    cursor: default;
+}
+
+@media screen and (max-width: 391px){ 
+    html body .comparison-tree-table-mobile .comparison-tree-table-mobile__header-price-row .rate,
+    html body.fe-savings-promo .comparison-tree-table-mobile .fe-rate,
+    html body.fe-savings-promo .comparison-tree-table-mobile .fe-save-up-label-new,
+    html body.fe-savings-promo .comparison-tree-table-mobile .fe-subtext .subtext,
+    html body.fe-savings-promo .comparison-tree-table-mobile .fe-sup{
+        font-size: 10px;
+    }
+
+    html body.fe-savings-promo .comparison-tree-table-mobile .fe-subtext{
+        font-size: 24px;
+    }   
+}

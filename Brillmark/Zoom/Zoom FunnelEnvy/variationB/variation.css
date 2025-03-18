@@ -1,0 +1,43 @@
+html body .contact_info_fields .fe_resultList{
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    list-style: none;
+    box-shadow: 0 0 2px 1px rgb(0 0 0 / 30%);
+    border-radius: 5px;
+    margin-top: 1px;
+    padding: 0;
+    display: none;
+}
+html body .contact_info_fields .fe_resultList.fe_showResults{
+    display: block;
+}
+html body .contact_info_fields .fe_resultList li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 15.17px;
+    font-size: 11px;
+    letter-spacing: 0.42px;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 5px;
+    color: rgba(4, 4, 19, 0.56);
+    cursor: pointer;
+    transition: all .1s linear;
+}
+html body .contact_info_fields .fe_resultList li svg{
+    fill: rgba(4, 4, 19, 0.56);
+    transition: all .1s linear;
+}
+html body .contact_info_fields .fe_resultList li svg:hover{
+    fill: #232333;
+    transition: all .1s linear;
+}
+html body .contact_info_fields .fe_resultList li:hover{
+    color: #232333;
+    background-color:#E0E0E0;
+    transition: all .1s linear;
+}
+html body .contact_info_fields .fe_resultList.hide{
+    display: none;
+}

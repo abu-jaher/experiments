@@ -1,0 +1,1320 @@
+.FE-not-supported [modal-id="zoom workplace"] .adp-items .adp-item[data-valueindex="1"],
+.FE-not-supported [modal-id="zoom workplace"] .adp-items .adp-item[data-valueindex="3"],
+.FE-Billing-Addon-remaining__hideWorkplace,
+.FE-Billing-Addon-remaining__hideLargeMeetings {
+  display: none !important;
+}
+
+.FE-Billing-Addon-remaining__showWorkplace{
+  display: block;
+}
+
+.FE-Billing-Addon-remaining__currentPlanPage .FE-Billing-Addon-remaining__learnmore {
+  margin-top: 12px;
+}
+
+.FE-Billing-Addon-remaining__learnmore.zoomclips + .bp-addon-card__collapse{
+  display: none;
+}
+
+.FE-Billing-Addon-remaining .FE-Billing-Addon-remaining__whiteBoardPlus .zm-dialog__wrapper,
+.FE-Billing-Addon-remaining .FE-Billing-Addon-remaining__whiteBoardPlus .v-modal {
+  display: none !important;
+}
+
+.FE-Billing-Addon-remaining .bp-addon-card.FE-Billing-Addon-remaining__addonCard {
+  grid-template-columns: 86px 1fr repeat(2, auto) 100px !important;
+}
+
+.FE-Billing-Addon-remaining__workplace{
+  opacity: 0;
+}
+
+.FE-Billing-Addon-remaining__workplace .comparison-dialog--zoom-one{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining .bp-addon-card.FE-Billing-Addon-remaining__addonCard {
+    grid-template-columns: 52px 1fr auto 48px !important;
+  }
+}
+
+.FE-Billing-Addon-remaining__happyDisplay {
+  font-family: "Happy Display", "Internacional", "Helvetica", "Arial" !important;
+}
+
+.FE-Billing-Addon-remaining__learnmore {
+  margin-left: 16px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0E72ED;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__learnmore {
+    grid-area: price;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-right: 8px;
+    font-size: 13px;
+  }
+}
+
+.FE-Billing-Addon-remaining__enableBtn {
+  margin-right: 48px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__enableBtn {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining .bp-addon-card__pricing {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+  }
+}
+
+.FE-Billing-Addon-remaining .bp-addon-card__pricing .bp-addon-card__pricing__price .bp-add-on-amount__main {
+  font-size: 18px !important;
+}
+
+.FE-Billing-Addon-remaining .bp-addon-card__pricing .bp-addon-card__pricing__duration {
+  font-size: 12px !important;
+}
+
+.FE-Billing-Addon-remaining__hide {
+  display: none !important;
+}
+
+.FE-Billing-Addon-remaining .highlight-gray {
+  color: #666487 !important;
+}
+
+.FE-Billing-Addon-remaining__addBtn {
+  padding: 10px 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  border-radius: 999px;
+  border: 0 !important;
+  background: #0B5CFF;
+}
+
+.FE-Billing-Addon-remaining__modal .btn-row.btn-container {
+  margin: 16px 0;
+}
+
+.FE-Billing-Addon-remaining__contact-sales{
+  color: #0b5cff;
+  background-color: #fff;
+  border-color: #0b5cff;
+  line-height: 44px;
+  border: 1px solid;
+  text-decoration: none;
+  border-radius: 24px;
+  font-size: 16px;
+  padding: 9px 29px;
+  min-height: 40px;
+  font-weight: 500;
+}
+
+.FE-Billing-Addon-remaining__contact-sales:hover{
+  text-decoration: none;
+}
+
+.FE-Billing-Addon-remaining__addBtn:hover{
+  background-color: #0956b5;
+}
+
+.FE-Billing-Addon-remaining__addBtn[disabled] {
+  cursor: not-allowed;
+  background-color: #f7f9fa;
+  color: #6e7680;
+  border-color: transparent !important;
+}
+
+.FE-Billing-Addon-remaining__modal {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 16px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__modal {
+    padding: 0 10px;
+    align-items: flex-start;
+    padding-top: 6%;
+    padding-bottom: 2%;
+  }
+  .FE-Billing-Addon-remaining__addBtn{
+    width: 100%;
+  }
+}
+
+.FE-Billing-Addon-remaining__saving-label {
+  background: linear-gradient(92.79deg, #268543 7.27%, #1c837e 92.73%);
+  border-radius: 4px 8px;
+  margin-left: 4px;
+  padding: 0 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.FE-Billing-Addon-remaining__tooltip {
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__tooltip {
+    display: inline-block;
+  }
+}
+
+.FE-Billing-Addon-remaining__tooltip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 32px;
+  background-color: transparent;
+}
+
+.FE-Billing-Addon-remaining__tooltip:hover>span:last-child {
+  display: block;
+  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.FE-Billing-Addon-remaining__tooltip i {
+  color: #0b5cff;
+  font-size: 16px;
+}
+
+[data-name="Zoom Phone"] .features .tooltip-text,
+[modal-id="zoom workplace"] .features .tooltip-text{
+  bottom: 35px;
+  left: -150px;
+}
+
+[data-name="Zoom Phone"] .FE-Billing-Addon-remaining__tooltip span::before,
+[modal-id="zoom workplace"] .FE-Billing-Addon-remaining__tooltip span::before{
+  bottom: -20px;
+  left: 43%;
+  top: auto;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 767px) {
+  [data-name="Zoom Phone"] .features ul{
+    max-width: 370px;
+  }
+  [data-name="Zoom Phone"] .features .tooltip-text{
+    left: -100px;
+    max-width: 150px;
+  }
+  [data-name="Zoom Phone"] .FE-Billing-Addon-remaining__tooltip span::before{
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__tooltip span.intcalling {
+    display: block;
+  }
+
+  [modal-id="zoom workplace"] .features .tooltip-text{
+    left: -100px;
+    max-width: 150px;
+  }
+
+  [modal-id="zoom workplace"] .FE-Billing-Addon-remaining__tooltip span::before{
+    left: 90px;
+  }
+}
+
+.FE-Billing-Addon-remaining__tooltip span.intcalling+span {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateY(calc(100% + 10px));
+  transform: translateY(calc(100% + 10px));
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__tooltip span.intcalling+span {
+    right: 0;
+    -webkit-transform: translate(50%, calc(100% + 10px));
+    transform: translate(50%, calc(100% + 10px));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__tooltip span.intcalling+span {
+    left: 0;
+    right: auto;
+    -webkit-transform: translate(-20px, -40%);
+    transform: translate(-20px, -40%);
+  }
+}
+
+.FE-Billing-Addon-remaining__tooltip span.intcalling+span::before {
+  right: 0;
+}
+
+.FE-Billing-Addon-remaining__tooltip span {
+  display: none;
+  position: absolute;
+  bottom: -78px;
+  right: -15px;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+  max-width: 330px;
+  height: auto;
+  padding: 12px;
+  text-align: left;
+  color: #666487;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 450;
+  border: 1px solid rgba(35, 35, 51, 0.0392156863);
+  border-radius: 12px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(35, 35, 51, 0.5);
+  box-shadow: 0 2px 12px 0 rgba(35, 35, 51, 0.5);
+  z-index: 9999;
+}
+[lang="ru-RU"] .FE-Billing-Addon-remaining__tooltip span{
+bottom: -100px;
+}
+/* 
+[data-name="Zoom Phone"] .features .FE-Billing-Addon-remaining__tooltip span{
+  bottom: 35px;
+  left: auto;
+}
+
+
+[data-name="Zoom Phone"] .features .FE-Billing-Addon-remaining__tooltip span::before{
+  bottom: -15px;
+  left: auto;
+  right: 6px;
+  top: inherit;
+  transform: rotate(180deg);
+} */
+
+
+.FE-Billing-Addon-remaining__tooltip span b {
+  font-weight: 700;
+}
+
+.FE-Billing-Addon-remaining__tooltip span.active {
+  display: block;
+}
+
+.FE-Billing-Addon-remaining__tooltip span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 32px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+  /* .FE-Billing-Addon-remaining__tooltip span::before {
+    left: 20px;
+    right: auto;
+    bottom: 0;
+    top: calc(100% - 10px);
+    -webkit-transform: scale(-1);
+    transform: scale(-1);
+  } */
+}
+
+.FE-Billing-Addon-remaining__tooltip span.tooltip-CloudStorage {
+  top: auto;
+  bottom: -6px;
+  right: -16px;
+  left: auto;
+  -webkit-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+}
+
+.FE-Billing-Addon-remaining__tooltip span.tooltip-CloudStorage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: -8px;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 18px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__tooltip span.tooltip-CloudStorage::before {
+    top: -8px;
+    right: 4px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.FE-Billing-Addon-remaining__dropdown-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 8px;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.FE-Billing-Addon-remaining__custom-adp {
+  position: relative;
+  width: 100%;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-label {
+  width: 100%;
+  white-space: nowrap;
+  max-width: 374px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-label,
+.FE-Billing-Addon-remaining__custom-adp .adp-item {
+  color: #666487;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-label .highlight,
+.FE-Billing-Addon-remaining__custom-adp .adp-item .highlight {
+  color: #0b5cff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 7px 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 1px solid #b8b8c4;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-selected .adp-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-items {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: -moz-max-content;
+  height: -webkit-max-content;
+  height: max-content;
+  padding: 4px;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(35, 35, 51, 0.5);
+  box-shadow: 0 2px 12px 0 rgba(35, 35, 51, 0.5);
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-items.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-items>div {
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-items>div:hover {
+  color: #131619;
+  background-color: #f1f4f6;
+}
+
+.FE-Billing-Addon-remaining__custom-adp .adp-items>div.same-as-selected {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #d7e6fc;
+  border-radius: 10px;
+}
+
+.FE-Billing-Addon-remaining__header {
+  margin-top: 96px;
+  padding-left: 9px;
+  scroll-margin: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__header {
+    margin-top: 40px;
+  }
+}
+
+.FE-Billing-Addon-remaining__header h2.FE-Billing-Addon-remaining__addoncard-title {
+  margin-bottom: 24px;
+  font-family: Happy Display, Internacional, Helvetica, Arial;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__header h2.FE-Billing-Addon-remaining__addoncard-title {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+}
+
+.FE-Billing-Addon-remaining__buynow.is-disabled {
+  color: #fff;
+  background-color: #0b5cff;
+  border-color: #0b5cff;
+  opacity: 0.4;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.FE-Billing-Addon-remaining__buynow.is-disabled:focus,
+.FE-Billing-Addon-remaining__buynow.is-disabled:active {
+  color: #fff;
+  background-color: #0b5cff;
+  border-color: #0b5cff;
+}
+
+.FE-Billing-Addon-remaining__addonmodal {
+  width: 100%;
+  max-width: 1300px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  grid-gap: 32px;
+  gap: 32px;
+  padding: 0 !important;
+  border-radius: 12px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 24px 0px rgba(35, 35, 51, 0.1019607843);
+  box-shadow: 0px 8px 24px 0px rgba(35, 35, 51, 0.1019607843);
+  min-height: 600px;
+  margin-top: 15vh;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal {
+    grid-gap: 20px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal {
+    max-width: -moz-max-content !important;
+    max-width: -webkit-max-content !important;
+    max-width: max-content !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .FE-Billing-Addon-remaining__addonmodal iframe#fe-player{
+    min-height: 258px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal {
+    max-width: 650px !important;
+    height: 90%;
+    padding: 0 !important;
+    margin: 0;
+    border-radius: 8px;
+  }
+
+  .FE-Billing-Addon-remaining__addonmodal iframe#fe-player{
+    min-height: 180px;
+  }
+
+  .FE-Billing-Addon-remaining__addonmodal .show-mobile.has-thumbnail {
+    padding: 33px 0;
+  }
+
+  .FE-Billing-Addon-remaining__addonmodal-image .fe-play{
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .show-desktop {
+  display: flex;
+  align-items: center;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .show-desktop iframe{
+  border-radius: 12px 0 0 12px;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .fe-thumbnail{
+  border-radius: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .show-desktop {
+    display: none;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .show-mobile {
+  display: none;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .FE-Billing-Addon-remaining__purchaselater-text {
+  margin-bottom: 16px;
+  color: #666487;
+}
+
+.FE-Billing-Addon-remaining__addonmodal-image {
+  width: 100%;
+  max-width: 800px;
+  background: #000;
+  border-radius: 12px 0 0 12px;
+  position: relative;
+}
+
+[modal-id="zoom events"] .FE-Billing-Addon-remaining__addonmodal-image,
+[modal-id="zoom sessions"] .FE-Billing-Addon-remaining__addonmodal-image{
+  background: #0c5cff;
+}
+
+.FE-Billing-Addon-remaining__addonmodal-image .fe-play {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: 10px;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .show-mobile {
+    display: block;
+    background: #000;
+    border-radius: 0;
+  }
+
+  .FE-Billing-Addon-remaining__addonmodal .show-mobile.has-thumbnail{
+    padding: 50px 0;
+  }
+
+  .FE-Billing-Addon-remaining__addonmodal-image .fe-play{
+    width: 44px;
+    height: 44px;
+    bottom: 4px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal-image.fe-paused iframe{
+  display: none;
+}
+
+.FE-Billing-Addon-remaining__addonmodal-image:not(.fe-paused) .fe-play,
+.FE-Billing-Addon-remaining__addonmodal-image:not(.fe-paused) .fe-thumbnail{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal-image {
+    margin-bottom: 16px;
+    background: none;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal-details {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  padding: 32px 32px 32px 0;
+}
+
+@media screen and (max-width: 1380px) {
+  .FE-Billing-Addon-remaining__addonmodal-details {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal-details {
+    height: auto;
+    max-height: calc(100% - 10px);
+    margin: auto 0;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .FE-Billing-Addon-remaining__addonmodal-details {
+    height: auto;
+    max-height: 650px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal-details .subtitle-text {
+  color: #666487;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal-details .subtitle-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal-details a {
+    width: 100% !important;
+  }
+
+  .FE-Billing-Addon-remaining__contact-sales{
+    display: flex;
+    justify-content: center;
+    border-radius: 999px;
+    height: 40px;
+    align-items: center;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 16px;
+  height: 16px;
+  background-image: url(https://fe-test-dev.s3.amazonaws.com/zoom/%5BAB-ECOMM%5D+2023.08+-+ZO%26ZP%26ZE+Pricing+Pages+-+Add-ons+Section+Optimisation/close-icon.png);
+  background-size: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal-close {
+    top: 16px;
+    right: 16px;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal img {
+  border-radius: 12px 0 0 12px;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .FE-Billing-Addon-remaining__addonmodal-image img:not(.fe-thumbnail):not(.fe-play){
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal img {
+    border-radius: 0;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .FE-Billing-Addon-remaining__cardheader-title {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .title-text {
+  margin-bottom: 0;
+  color: #00053D;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .title-text {
+    font-size: 20px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .title-pricetext {
+  display: none;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.FE-Billing-Addon-remaining__addonmodal[data-modal="Zoom Phone"] .price-row{
+  margin-bottom: 4px;
+}
+
+.FE-Billing-Addon-remaining__additional-text{
+  margin-bottom: 16px;
+  color: #666487;
+}
+
+.FE-Billing-Addon-remaining__additional-text a{
+  color: #0b5cff;
+}
+
+.FE-Billing-Addon-remaining__additional-text a:hover{
+  color: #033a7d;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-row {
+    margin-bottom: 12px;
+    grid-gap: 14px;
+    gap: 14px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-row.has-yearly>div:last-child {
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 1px solid #e0e0e6;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-row.has-yearly>div:last-child {
+    margin-left: 0;
+    padding-left: 8px;
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-row.has-yearly.make-wrap {
+    grid-gap: 4px;
+    gap: 4px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    /* -ms-flex-direction: column;
+    flex-direction: column; */
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-row.has-yearly.make-wrap>div:last-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-part-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-part-wrapper .price-num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 3px;
+  gap: 3px;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-part-wrapper .price-num .flag-hidden {
+  display: none !important;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-part-wrapper .price-num .subtext {
+  margin-top: 2px !important;
+  -webkit-transform: translateX(0px) !important;
+  transform: translateX(0px) !important;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-part-wrapper .price-num .subtext {
+    margin-top: 0 !important;
+    -webkit-transform: translateX(0px) !important;
+    transform: translateX(0px) !important;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 8px;
+  gap: 8px;
+  margin-top: 0 !important;
+  color: #00053D;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-part>.subtext {
+  margin-top: 4px;
+  font-weight: 600 !important;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-part>.subtext.currency-flag {
+    margin-top: 0 !important;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .rate {
+  margin-bottom: 4px;
+  -ms-flex-item-align: end;
+  align-self: end;
+  color: #666487;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__addonmodal .rate {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-num {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-num {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .price-num .subtext {
+  margin-top: 0;
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .price-num .subtext {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features {
+  margin: 16px 0;
+  margin-bottom: 0;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features-heading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  color: #00031F;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-gap: 8px;
+  gap: 8px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 4px;
+  gap: 4px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: #00053d;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .features li {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features li svg {
+  width: 100%;
+  max-width: 16px;
+  margin-top: 4px;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features li .highlight {
+  color: #0b5cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features li .highlight.intcalling {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__addonmodal .features li .highlight {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.FE-Billing-Addon-remaining__addonmodal .features li .highlight:hover {
+  text-decoration: none;
+  color: #0956b5;
+}
+
+.FE-Billing-Addon-remaining__addonmodal .extra-info {
+  padding-top: 16px;
+  margin-top: 16px;
+  color: #666487;
+  font-size: 14px;
+  line-height: 21px;
+  border-top: 1px solid #e0e0e6;
+}
+
+.FE-Billing-Addon-remaining__addonmodal [data-name="Zoom Phone"] .price-row.has-yearly>div:last-child,
+.FE-Billing-Addon-remaining__addonmodal [data-name="Audio Conferencing"] .price-row.has-yearly>div:last-child {
+  display: none;
+}
+
+.FE-Billing-Addon-remaining__addonmodal [data-name="Cloud Storage"] .price-row.has-yearly>div:last-child {
+  display: none;
+}
+
+.FE-Billing-Addon-remaining .new-ui-style .new-add-on-card2 .new-add-on-wrapper {
+  padding: 24px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining .new-ui-style .new-add-on-card2 .btn-container .buy-plan-btn {
+    line-height: inherit !important;
+  }
+}
+
+.FE-Billing-Addon-remaining__cardheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-gap: 16px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-gap: 16px;
+  gap: 16px;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .title-imgblock {
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .title-imgblock img {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-1,
+.FE-Billing-Addon-remaining__cardheader-title .row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 4px;
+  gap: 4px;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-1 {
+  grid-gap: 4px;
+  gap: 4px;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-1 h3 {
+  font-weight: 700 !important;
+  font-size: 22px !important;
+  line-height: 26px !important;
+}
+
+[modal-id="zoom workplace"] .FE-Billing-Addon-remaining__cardheader-title .row-1 h3{
+  color: #00297D;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__cardheader-title .row-1 h3 {
+    font-size: 20px !important;
+  }
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+  .FE-Billing-Addon-remaining__cardheader-title .row-2 {
+    grid-gap: 4px;
+    gap: 4px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-Billing-Addon-remaining__cardheader-title .row-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-2 span {
+  white-space: nowrap;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-2 .title-pricetext {
+  color: #00053d;
+}
+
+.FE-Billing-Addon-remaining__cardheader-title .row-2 .title-extrarequirement {
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+  padding: 0 4px;
+  color: #444b53;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  border: 1px solid #dfe3e8;
+  border-radius: 100px;
+  background-color: #f7f9fa;
+}
+
+.FE-Billing-Addon-remaining__cardfooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 0;
+  gap: 0;
+}
+
+.FE-Billing-Addon-remaining__cardfooter.stretch {
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+.FE-Billing-Addon-remaining__cardfooter .FE-Billing-Addon-remaining__purchaselater-text {
+  width: 80%;
+  color: #666487;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.FE-Billing-Addon-remaining__cardfooter .basic-user-buy-btn {
+  margin-left: 0 !important;
+}

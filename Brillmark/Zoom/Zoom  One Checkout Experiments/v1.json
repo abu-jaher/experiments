@@ -1,0 +1,9 @@
+{
+	"files": [
+		"./variation.css",
+		"./variation.js"
+	],
+	"urls": [
+		"https://zoom.us/account/billing/buy?plan=pro&subPlan=allSubPlan&type=basic2pro&from=pro&plan=pro&period=annual&from=pro&usageType=business"
+	]
+}

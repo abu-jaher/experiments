@@ -1,0 +1,24 @@
+html body .shopping-cart .bm-tax-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 0;
+}
+html body .shopping-cart .bm-today-tax {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #222230;
+}
+
+html body .shopping-cart .bm-tax-summary {
+    font-weight: 700;
+    font-size: 16px;
+    color: #222230;
+}

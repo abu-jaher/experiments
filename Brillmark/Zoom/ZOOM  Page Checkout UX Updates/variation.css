@@ -1,0 +1,669 @@
+/* UX design */
+html body .zoom-buy-flow .buy-flow-body{
+    max-width: 1440px;
+    margin: auto;
+    padding-right: 588px;
+    padding-left: 146px;
+    width: 100%;
+}
+
+html body .buy-flow-header.main-content.billing-app{
+    width: 100%;
+    max-width: 1440px;
+}
+
+html body .zoom-newcontent#content_container #content{
+    max-width: 1440px;
+    width: 100%;
+}
+
+html body .zoom-newcontent#content_container #content #buyitnow{
+    padding: 0 40px;
+    padding-left: 146px;
+}
+
+html body .zoom-buy-flow .buy-flow-body .desktop-content{
+    width: 100%;
+    padding-right: 50px;
+}
+
+html body .drawer .drawer-body{
+    margin-right: 0px;
+    right: auto !important;
+    display: block !important;
+    height: 100% !important;
+}
+
+html body .buy-flow-header .buy-flow-header-inner{
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 55px;
+    padding-right: 588px;
+    padding-bottom: 35px;
+}
+
+html body .buy-flow-header #shopping-cart, 
+html body .buy-flow-header .shopping-cart{
+    background: #F7F7F8;
+    width: 588px;
+}
+
+html body .buy-flow-header .billing-steps{
+    width: 1010px;
+    padding-right: 60px;
+}
+
+html body .upgrade-switch-to,
+html body .buy-flow-header .billing-steps .billing-step .header-border,
+html body .buy-flow-header .shopping-cart-button,
+html body .shopping-cart-bottom-buttons .start-checkout,
+html body #shopping-cart .summary-row .left-column .collapse-btn,
+html body .shopping-cart .close-btn{
+    display: none !important;
+}
+
+html body .buy-flow-header .billing-steps{
+    flex: inherit;
+    gap: 30px;
+}
+
+html body .buy-flow-header .billing-steps .billing-step:not(:last-of-type){
+    position: relative;
+    flex: inherit;
+}
+
+html body .buy-flow-header .billing-steps .billing-step:not(:last-of-type)::after{
+    content: '|';
+    position: absolute;
+    font-size: 8px;
+    right: -12px;
+    bottom: 0px;
+    transform: rotate(45deg);
+    font-weight: 600;
+    color: #A5A5B4;
+}
+
+html body .buy-flow-header .billing-steps .billing-step:not(:last-of-type)::before{
+    content: '|';
+    position: absolute;
+    font-size: 8px;
+    font-weight: 600;
+    right: -12px;
+    top: 24px;
+    transform: rotate(-45deg);
+    color: #A5A5B4;
+}
+
+html body .buy-flow-header .billing-steps .billing-step .step-info{
+    width: max-content;
+}
+
+html body .buy-flow-header .billing-steps .billing-step .step-info{
+    text-transform: capitalize;
+}
+
+html body #shopping-cart .secure-trust, 
+html body .shopping-cart .secure-trust{
+    margin: auto;
+}
+
+html body #shopping-cart .secure-trust img{
+    margin: 0;
+}
+
+/* UX design end */
+html body .additional-options__tabs .zm-tabs__item{
+    position: relative;
+}
+html body .additional-options .additional-options__tabs .zm-tabs__nav{
+    flex-direction: column;
+}
+
+html body .additional-options .additional-options__tabs .zm-tabs__nav .zm-tabs__item{
+    margin-bottom: 24px;
+    width: 596px;
+    max-width: 596px;
+    display: flex;
+    gap: 8px;
+}
+
+
+html body .additional-options .additional-options__tabs .zm-tabs__nav .zm-tabs__item.fe-success{
+    border-color: #0B5Cff;
+}
+
+html body .additional-options .additional-options__tabs .zm-tabs__nav .zm-tabs__item:last-child{
+    margin-bottom: 0;
+}
+
+html body .additional-options .additional-options__tabs .zm-tabs__nav .zm-tabs__item .plan-icon{
+    margin: 0;
+    width: 32px;
+    height: 32px;
+}
+
+html body .additional-options .additional-options__tabs .zm-tabs__nav .zm-tabs__item .plan-name{
+    margin-top: 0px;
+    text-align: left;
+}
+
+html body .additional-options .additional-options__tabs .fe_title{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+html body .additional-options .additional-options__tabs .fe_startingPrice{
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+html body .additional-options .addon-plan-container{
+    position: fixed;
+    z-index: 991;
+    top: 0;
+    left: 0;
+    width: 915px;
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+    margin-top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 12px;
+}
+
+html body .fe_overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 990;
+    display: none;
+}
+
+html body .fe_overlay.show{
+    display: block;
+}
+
+html body .additional-options .addon-plan-container .fe_close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+html body .additional-options .addon-header img{
+    width: 32px;
+    height: 32px;
+}
+
+html body .additional-options__tabs .zm-tabs__item i{
+    color: #0B5CFF !important;
+}
+
+/* cloud storage */
+html body .additional-options #pane-cmr .billing-checkbox-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+html body .additional-options #pane-cmr .billing-checkbox-group .billing-checkbox-button{
+    margin-right: 16px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+html body .additional-options #pane-cmr .form-item-body{
+    justify-content: center;
+    padding-left: 0;
+}
+
+html body .additional-options #pane-rc .fe_add,
+html body .additional-options #pane-cmr .fe_add{
+    margin-top: 19px;
+}
+
+html body .additional-options #pane-cmr .addon-header{
+    text-align: center;
+    border-bottom: none;
+    padding-top: 79px;
+}
+
+html body .additional-options #pane-cmr .addon-plan-title{
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+html body .additional-options #pane-cmr .addon-plan-tips{
+    font-weight: 600;
+    font-size: 14px;
+    color: #00053D;
+    line-height: 21px;
+}
+
+html body .additional-options #pane-cmr .form-item-title-container{
+    display: none;
+}
+
+html body .additional-options #pane-cmr .fe_cloudDisclaimer {
+    text-align: center;
+    margin-top: 35px;
+    color: #9191A4;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 92px;
+}
+
+/* large meeting */
+html body .additional-options #pane-large_meeting .form-item-title-container{
+    justify-content: center;
+    text-align: center;
+}
+
+html body .additional-options #pane-large_meeting .form-item-title-container .circle-label{
+    display: none;
+}
+
+html body .additional-options #pane-large_meeting .form-item-body{
+    justify-content: center;
+    padding-left: 0;
+}
+
+html body .additional-options #pane-large_meeting .addon-header{
+    text-align: center;
+    padding-top: 79px;
+}
+
+
+html body #pane-large_meeting .addon-plan-title{
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+html body #pane-large_meeting .title-body h3{
+    font-size: 18px;
+}
+
+html body .additional-options #pane-large_meeting.addon-plan-container{
+    padding-bottom: 83px;
+}
+
+html body #pane-large_meeting.addon-plan-container .fe_cta--sticky {
+    position: fixed;
+    width: 915px;
+    padding: 18px 46px;
+    border-top: 1px solid #e0e0e8;
+    background: #fff;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+html body #pane-large_meeting.addon-plan-container .fe_additionalCost {
+    text-align: right;
+}
+
+html body #pane-large_meeting.addon-plan-container .fe_additional_price {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+html body #pane-large_meeting.addon-plan-container .fe_additionalCost.fe_hide{
+    display: none;
+}
+
+html body #pane-large_meeting.addon-plan-container .fe_add{
+    margin: 0;
+}
+
+/* add button disable */
+html body .additional-options .fe_add{
+    width: max-content;
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 78.5px;
+    border-radius: 100px;
+    background: #0e72ed;
+    cursor: pointer;
+}
+
+html body .additional-options .fe_add.disable{
+    background: #bababa;
+    pointer-events: none;
+}
+
+html body .additional-options .fe_add:not(.disable):hover{
+    background: #0956b5;
+}
+
+/* audio conferencing */
+
+html body .additional-options #pane-tollfree .addon-header{
+    text-align: center;
+    padding-top: 79px;
+}
+html body .additional-options #pane-tollfree .addon-header .addon-plan-tips{
+    max-width: 710px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #00053D;
+    line-height: 21px;
+}
+html body #pane-tollfree .addon-plan-title{
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+html body .additional-options #pane-tollfree .form-item-title-container .circle-label{
+    display: none;
+}
+
+html body .additional-options #pane-tollfree .form-item-title-container{
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: auto;
+}
+
+html body .additional-options #pane-tollfree .form-item-body{
+    justify-content: center;
+    padding-left: 0;
+}
+
+
+html body .zm-tabs__nav  #tab-rc .plan-name .fe_disclaimer,
+html body .zm-tabs__nav  #tab-tollfree .plan-name .fe_disclaimer{
+    opacity: 0;
+}
+
+/* conference room connector */
+
+html body .additional-options #pane-rc .addon-header{
+    text-align: center;
+    padding-top: 79px;
+}
+
+html body .additional-options #pane-rc .addon-header .addon-plan-tips{
+    max-width: 710px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #00053D;
+    line-height: 21px;
+}
+html body #pane-rc .addon-plan-title{
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+html body .additional-options #pane-rc .form-item-title-container .circle-label{
+    display: none;
+}
+
+html body .additional-options #pane-rc .form-item-title-container{
+    justify-content: center;
+    text-align: center;
+    max-width: 710px;
+    margin: auto;
+}
+
+html body .additional-options #pane-rc .form-item-body{
+    justify-content: center;
+    padding-left: 0;
+}
+
+html body .additional-options .fe_tab--remove,
+html body .additional-options .fe_tab--add {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    padding: 5px 20px;
+    border: 1px solid #0B5Cff;
+    color: #0B5Cff;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+html body .additional-options .fe-success .fe_tab--add,
+html body .additional-options .fe_tab--remove{
+    display: none;
+}
+
+html body .additional-options .fe-success .fe_tab--remove{
+    display: block;
+}
+
+
+/* Business Account */
+
+html body .fe_businessAccount{
+    display: none;
+}
+
+html body .fe_businessAccount.fe_active{
+    display: block;
+}
+
+html body .fe_businessAccount .zm-form-item__header{
+    width: 230px;
+}
+
+html body .fe_businessAccount .zm-form-item__header label{
+    font-weight: 500;
+}
+
+html body .fe_businessAccount .zm-form-item__content{
+    margin-left: 230px;
+}
+
+html body .fe_businessAccount .zm-form-item__content .blockLabel{
+    width: 100%;
+}
+
+html body .fe_checkbox {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+html body .fe_checkbox label{
+    font-weight: 700;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+html body .fe_cta p.fe-disabled,
+html body .zoom-newcontent [data-link-label="Continue"].fe-disabled{
+    pointer-events: none;
+    color: #6e7680;
+    background-color: #f1f4f6;
+    border-color: rgba(0,0,0,0);
+}
+
+html body.fe_session .billto_contact_info_fields .company_name_div + div + div,
+html body.fe_session .billto_contact_info_fields .company_name_div + div,
+html body.fe_session .billto_contact_info_fields .company_name_div{
+    display: none;
+}
+
+html body form.zoom-meeting-form.zoom-form .circle-label{
+    display: none;
+}
+
+html body .zoom-buy-flow .buy-flow-body .config-product-zm-tabs__header.plan-title{
+    max-width: 610px;
+}
+
+html body .fe_cta p{
+    width: 240px;
+    background: #0d72ed;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+html body .fe_cta p:hover{
+    background: #0956b5;
+}
+
+html body .fe_cta.fe_order p{
+    width: 176px;
+    background: #9191A4;
+}
+
+html body .form-item.age-gating-box .form-item-body,
+html body .zoom-buy-flow#create_account .form-item-body,
+html body.fe_step1 .form-item .form-item-body{
+    padding-left: 0;
+}
+
+html body .billing_info_fields .step-container,
+html body .contact_info .step-container,
+html body .form-item .form-item-title-container .circle-label,
+html body #config-product .buy-flow-footer,
+html body .form-item.additional-options-form .circle-label,
+html body .fixed-usage-wrap.desktop-content .circle-label{
+    display: none;
+}
+
+
+html body .zoom-buy-flow#age_gating_question .plan-title{
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+html body .zoom-buy-flow#age_gating_question .plan-title > div{
+    display: flex;
+    align-items: center;
+}
+
+html body .zoom-buy-flow#age_gating_question .plan-title button{
+    border: none;
+    font-size: 14px;
+    color: #0B5CFF;
+    font-weight: 700 !important;
+    padding: 0;
+    margin-left: 8px;
+}
+
+
+html body.is_order_review #alert-dialog_confirm_detail{
+    width: 100%;
+    padding-right: 488px;
+}
+
+html body .recurly .contact_info, 
+html body .recurly .billing_info{
+    margin-left: 0;
+}
+
+
+html body .zoom-buy-flow .buy-flow-footer,
+html body .bottom-section.bt{
+    display: none;
+}
+
+html body #recurly_subscription{
+    padding-bottom: 100px;
+}
+
+html body .fe_recurring {
+    max-width: 600px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #515079;
+}
+
+html body .sign-in-switch-account{
+    max-width: 580px;
+}
+
+@media screen and (max-width: 1345px){
+    html body .buy-flow-header .buy-flow-header-inner,
+    html body .zoom-buy-flow .buy-flow-body{
+        padding-right: 440px;
+    }
+    html body .buy-flow-header #shopping-cart, 
+    html body .buy-flow-header .shopping-cart{
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    html body .zoom-buy-flow .buy-flow-body{
+        padding-left: 60px;
+    }
+    html body .zoom-buy-flow#create_account .form-item-body .zm-form-item{
+        width: 100%;
+    }
+
+    html body.is_order_review #alert-dialog_confirm_detail{
+        padding-right: 588px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    html body .additional-options .additional-options__tabs .zm-tabs__nav .zm-tabs__item{
+        width: 445px;
+    }
+
+    html body .sign-in-switch-account{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+
+    html body .zoom-newcontent#content_container #content #buyitnow,
+    html body .buy-flow-header .buy-flow-header-inner,
+    html body .zoom-buy-flow .buy-flow-body{
+        padding-left: 40px;
+    }
+    html body .buy-flow-header .billing-steps{
+        max-width: 670px;
+    }
+
+    html body #config-product .buy-flow-footer .desktop-content{
+        width: 100%;
+        padding-right: 100px;
+    }
+
+    html body .zoom-meeting-form .choose-your-plan .billing-checkbox-group{
+        flex-direction: column;
+    }
+
+    html body .fixed-usage-wrap .update-usage-type-option{
+        max-width: 560px;
+    }
+
+}

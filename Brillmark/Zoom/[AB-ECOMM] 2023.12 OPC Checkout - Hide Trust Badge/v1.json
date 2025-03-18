@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://lovetodream.com/au-en/home-au"],
+	"inject": ""
+}

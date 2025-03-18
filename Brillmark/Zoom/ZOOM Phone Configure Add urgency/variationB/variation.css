@@ -1,0 +1,38 @@
+html body .fe-notice-container {
+    padding: 9px;
+    box-sizing: border-box;
+    border: 1px solid #F26D21;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 471px;
+}
+
+html body .fe-notice-container .fe-heading-orange {
+    font-size: 11px;
+    text-align: center;
+    color: #F26D21;
+    font-weight: bold;
+}
+
+html body .fe-notice-container .fe-subheading {
+    font-size: 10px;
+    color: #333333;
+}
+
+html body .config-number-body .zm-tooltip,
+html body .mode-config-module.left .zm-select__input .zm-tooltip {
+    display: none;
+}
+
+html body .mode-config-module.left .zm-select__input {
+    margin: 10px auto !important;
+}
+html body .config-number-body + .fe-notice-container .fe-subheading {
+    font-size: 11px;
+}
+html body .config-number-body {
+    margin-bottom: 15px !important;
+}

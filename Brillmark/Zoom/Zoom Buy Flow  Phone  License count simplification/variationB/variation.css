@@ -1,0 +1,47 @@
+html body .fe_local {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 32px;
+    margin-top: 35px;
+}
+
+html body .fe_span {
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+html body .numbers-config .config-more-options,
+html body .numbers-config h1,
+html body .numbers-config h2 {
+    display: none;
+}
+
+.number-wrap-title .fe_local+.zm-tooltip {
+    display: none;
+}
+
+html body .fe-notice-container {
+    visibility: hidden;
+}
+
+html body .fe_break {
+    display: none;
+}
+
+@media screen and (max-width: 635px) {
+    html body .fe_span {
+        margin-left: 8px;
+    }
+    html body .fe_local {
+        font-size: 16px;
+        margin-bottom: 0px;
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html body .fe_break {
+        display: block;
+    }
+}

@@ -1,0 +1,180 @@
+.FE-Billing-Checkout-Modal body:has(.FE-Billing-Checkout-Modal__checkoutModal.FE-Billing-Checkout-Modal__open) {
+    overflow: hidden;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal {
+    padding: 32px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal .modalContainer {
+    overflow-y: hidden;
+    padding: 0;
+    position: relative;
+    width: 688px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 14px;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal-details {
+    width: 100%;
+    height: 715px;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal-details iframe {
+    opacity: 0;
+    height: 715px;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal .modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal .FE-Billing-Checkout-Modal__loader {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    border: 2px solid #0b5cff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.FE-Billing-Checkout-Modal__modalOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.FE-Billing-Checkout-Modal__checkoutModal.FE-Billing-Checkout-Modal__open {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.FE-Billing-Checkout-Modal .FE-Billing-Checkout-Modal__hide,
+.FE-Billing-Checkout-Modal .bp-plan-card__body .zm-button--plain:not(.is-disabled),
+.FE-Billing-Checkout-Modal .btn-container button.upgrade-btn:not(.FE-Billing-Checkout-Modal__upgradeToPro) {
+    display: none !important;
+}
+
+.FE-Billing-Checkout-Modal .FE-Billing-Checkout-Modal__show {
+    opacity: 1 !important;
+}
+
+.FE-Billing-Checkout-Modal .billing-free-trial-wrap .btn-container {
+    align-items: flex-end;
+}
+
+.FE-Billing-Checkout-Modal__upgradeToPro {
+    margin: 0 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    white-space: normal !important;
+    border: 1px solid #0e72ed !important;
+    border: 1px solid var(--light-mode-blue-60, #0e72ed) !important;
+    background: #0e72ed !important;
+    background: var(--light-mode-blue-60, #0e72ed) !important;
+    color: #fff !important;
+    color: var(--light-mode-gs-100, #fff) !important;
+    white-space: normal !important;
+}
+
+.FE-Billing-Checkout-Modal__upgradeOrangeButton {
+    /* padding: 8px 24px !important; */
+    height: 40px !important;
+    font-weight: 700;
+    margin: 0 !important;
+    color: #fff !important;
+    border: 8px #f26d21 !important;
+    background: #f26d21 !important;
+    border-radius: 8px !important;
+    white-space: normal !important;
+}
+
+.FE-Billing-Checkout-Modal__upgradeOrangeButton:hover {
+    background: #ff7a00 !important;
+    border: 8px #ff7a00 !important;
+}
+
+@media screen and (max-width: 450px) {
+    .FE-Billing-Checkout-Modal__checkoutModal {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .FE-Billing-Checkout-Modal__checkoutModal-details {
+        height: 615px;
+    }
+    
+    .FE-Billing-Checkout-Modal__checkoutModal-details iframe {
+        height: 615px;
+    }
+}

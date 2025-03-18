@@ -1,0 +1,4 @@
+html body .plan-wrapper .add-on-parts,
+html body.fe_hideAddons .buy-flow-body .form-item.additional-options-form{
+    display: none;
+}
