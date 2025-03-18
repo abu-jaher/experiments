@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationC/variation.js",
+		"./variationC/variation.css"
+	],
+	"urls": ["https://techhub.dice.com/hire-tech-candidates"],
+	"inject": ""
+}

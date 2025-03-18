@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.js",
+		"./variationB/variation.css"
+	],
+	"urls": ["https://www.dice.com/employers/login"],
+	"inject": ""
+}

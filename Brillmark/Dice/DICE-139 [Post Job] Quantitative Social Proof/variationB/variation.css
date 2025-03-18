@@ -1,0 +1,152 @@
+html body .leftSideStats {
+    display: none;
+}
+
+.FE-139 .stats-container {
+    text-align: center;
+    padding: 38px 0 0;
+}
+
+.FE-139 .stats-container h2 {
+    margin-bottom: 10px;
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.FE-139 .stats-container .stats {
+    display: flex;
+    gap: 52px;
+}
+
+.FE-139 .stats-container .stat-item {
+    text-align: center;
+}
+
+.FE-139 .stats-container .stat-number {
+    display: block;
+    color: #c03332;
+    font-family: 'Degular';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.FE-139 .stats-container .stat-text {
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 124px;
+    margin: 0;
+}
+
+.FE-139 .marketo-form-with-media-doc-hero {
+    position: relative;
+}
+
+.FE-139 .marketo-form-with-media-doc-hero::before {
+    content: '';
+    width: 56%;
+    height: 177px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(262deg, #d6e4e5 0%, #f5f9fa 100%);
+    z-index: 0;
+}
+
+.FE-139 .marketo-form-with-media-doc-hero .container {
+    z-index: 1;
+    position: relative;
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .FE-139 .marketo-form-with-media-doc-hero {
+        position: relative;
+        background-image: url(https://www.dice.com/binaries/large/content/gallery/dice/hiring/hero/marketo-hero-background-mobile.png) !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .FE-139 .stats-container .stat-number,
+    .FE-139 .stats-container .stat-text {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .FE-139 .marketo-form-with-media-doc-hero::before {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .FE-139 .marketo-form-with-media-doc-hero::before {
+        width: 100%;
+        bottom: 572px;
+        height: 160px;
+    }
+
+    .FE-139 .stats-container {
+        padding: 27px 0;
+    }
+
+    .FE-139 .stats-container h2 {
+        text-align: center;
+    }
+
+    .FE-139 .stats-container .stats {
+        justify-content: center;
+        gap: 29px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .FE-139 .marketo-form-with-media-doc-hero::before {
+        bottom: 568px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .FE-139 .marketo-form-with-media-doc-hero::before {
+        display: none;
+    }
+
+    .FE-139 .stats-container {
+        padding: 27px 0 16px;
+    }
+
+    .FE-139 .media-body.mobile-form {
+        position: relative;
+    }
+
+    .FE-139 .media-body.mobile-form::before {
+        content: '';
+        width: 100%;
+        height: 154px;
+        position: absolute;
+        left: 0;
+        top: -154px;
+        background: linear-gradient(262deg, #d6e4e5 0%, #f5f9fa 100%);
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .FE-139 .media-body.mobile-form::before {
+        height: 170px;
+        top: -170px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .FE-139 .stats-container .stats {
+        gap: 10px;
+        justify-content: space-between;
+    }
+}

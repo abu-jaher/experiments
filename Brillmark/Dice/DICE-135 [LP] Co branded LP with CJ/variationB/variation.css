@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+html body {
+    opacity: 0;
+}
+
+html body.FE-135-LP {
+    opacity: 1;
+}
+
+.FE-step2 .FE-135-LP-step1,
+.FE-step2 form.mktoForm#mktoForm_5456,
+.FE-135-LP-option-CJ form.mktoForm:not(#mktoForm_5456),
+.FE-step1 .FE-135-LP-form-section>div:not(.FE-135-LP-step1) {
+    display: none;
+}
+
+.FE-135-LP-option-CJ form.mktoForm#mktoForm_5456 {
+    display: block;
+}
+
+.FE-135-LP .FE-135-LP-step1 {
+    max-width: 430px;
+    margin: auto;
+}
+
+.FE-135-LP-form-section .text-container:nth-of-type(1) p {
+    text-align: center;
+}
+
+.FE-135-LP .FE-135-LP-title h3 {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 53px;
+}
+
+.FE-135-LP-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.FE-135-LP .FE-135-LP-options input {
+    display: none;
+}
+
+.FE-135-LP .FE-135-LP-options label {
+    width: 201px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #585450;
+    padding: 0 10px;
+    padding-bottom: 19px;
+    cursor: pointer;
+}
+
+.FE-135-LP .FE-135-LP-options input:checked+label {
+    border: solid #ce2229;
+}
+
+.FE-135-LP .FE-135-LP-options input:checked+label .text {
+    font-weight: 700;
+}
+
+.FE-135-LP .FE-135-LP-options label .text {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+.FE-135-LP .FE-135-LP-options label[for="radio-role1"] .text {
+    margin-top: 29px;
+    margin-bottom: 24px;
+}
+
+.FE-135-LP .FE-135-LP-options label[for="radio-role2"] .text {
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+.FE-135-LP .FE-135-LP-step1 .FE-135-LP-btn-wrapper {
+    position: relative;
+}
+
+.FE-135-LP .FE-135-LP-step1 .FE-135-LP-btn {
+    color: #ffffff;
+    background-color: #CE2129;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    max-width: 120px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.FE-135-LP .FE-135-LP-step1 #step1Error {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+.FE-135-LP .FE-135-LP-step1 #step1Error p {
+    color: #991B1B;
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.FE-135-LP .FE-135-LP-step1 #step1Error.FE-135-LP-error {
+    display: block;
+}
+
+.FE-135-LP form button.mktoButton {
+    text-transform: uppercase;
+}
+
+.FE-135-LP .backButton {
+    padding-top: 10px;
+    padding-bottom: 24px;
+    text-align: left;
+}
+
+.FE-135-LP .backButton .breadcrumb-back {
+    display: inline-flex;
+    color: #0E7490;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans';
+}
+
+.FE-135-LP .backButton .breadcrumb-back::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-color: #000;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    transform: rotate(-45deg);
+    top: 4px;
+    position: absolute;
+    left: 8px;
+}
+
+.FE-135-LP .backButton .breadcrumb-back:hover {
+    color: #164E63;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px){
+    .FE-135-LP-options{
+        height: 128px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .FE-135-LP .FE-135-LP-options {
+        flex-direction: column;
+        align-items: center;
+    }
+}

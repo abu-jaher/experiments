@@ -1,0 +1,217 @@
+html body .sales-form-wrapper .sales-form-holder{
+    width: 50%;
+    max-width: 444px;
+}
+
+.FE-Form-Validator .FE-Form-Validator__oldform .sales-form-wrapper .sales-form-holder #FE-Form-Validator__tempStep1Btn, 
+.FE-Form-Validator .FE-Form-Validator__oldform .sales-form-wrapper .sales-form-holder #FE-Form-Validator__tempStep2Btn{
+    margin-left: 0;
+    cursor: pointer;
+}
+
+/* progress bar css  */
+.StepsSection_bar {
+    display: none !important;
+}
+
+.fe-progress-bar {
+    width: 60%;
+    height: 17px;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    border: 2px solid #cc0000;
+}
+
+.fe-progress-bar .step1 {
+    left: -5px;
+    color: #fff !important;
+    background: #cc0000 !important;
+}
+
+.fe-progress-bar .step2 {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fe-progress-bar .step3 {
+    right: -2px;
+}
+
+.fe-progress-bar .step1,
+.fe-progress-bar .step2,
+.fe-progress-bar .step3 {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    margin-top: -7px;
+    position: absolute;
+    z-index: 9;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cc0000;
+    border: 2px solid #cc0000;
+    background-color: #eef1f2;
+}
+
+.fe-progress-bar.fe-step1-complete {
+    background: linear-gradient(90deg, #cc0000 50%, #eef1f2 50%);
+}
+
+.FE-Form-Validator__step2 .fe-progress-bar {
+    background: linear-gradient(90deg, #cc0000 50%, #cc0000 50%);
+}
+
+.fe-progress-bar.fe-step1-complete .step2,
+.FE-Form-Validator__step2 .fe-progress-bar .step3 {
+    color: #fff !important;
+    background: #cc0000 !important;
+}
+
+/* form css */
+
+.Dice_Master_Contact_Us_Form {
+    display: none;
+}
+
+.Dice_Master_Contact_Us_Form.active {
+    display: block;
+}
+
+.fe-multistep-form .fe-step {
+    display: none;
+}
+
+.fe-multistep-form .fe-step.active {
+    display: block;
+}
+
+button.fe-answer-btn {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0px !important;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+button.fe-answer-btn input{
+    display: none;
+}
+
+button.fe-answer-btn label {
+    cursor: pointer;
+    background: #fff;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 18px;
+    padding-right: 18px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #333;
+    border: 1px solid #e0e5e7;
+}
+
+button.fe-answer-btn.fe-active label{
+    background: #333;
+    color: #fff;
+}
+
+.fe-next-button button{
+    border: none;
+    background: #cc0000;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 16px;
+    cursor: pointer;
+    /* border-radius: 3px; */
+}
+
+html body .fe-step.step_one button.fe-answer-btn, 
+html body .fe-step.step_one button.fe-answer-btn label {
+    width: 100%;
+    display: block;
+}
+
+html body .fe-step.step_one button.fe-answer-btn {
+    padding: 0px;
+    /* border-radius: 3px; */
+}
+
+html body .sales-form-holder .mktoForm .step_one .fe-next-button{
+    margin-top: 30px;
+}
+
+#fe-form-question h3 {
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width:1199px) {
+    html body .fe-multistep-form .fe_formCta {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    html body #fe-form-question h3 br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html body .fe-multistep-form {
+        margin-right: 8px !important;
+    }
+
+    html body .sales-form-wrapper .sales-form-holder{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    html body .fe-multistep-form .fe-next-button {
+        margin-top: 25px !important;
+    }
+
+    html body .fe-multistep-form .fe-next-button,
+    html body .fe-multistep-form button.fe-answer-btn {
+        margin-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    html body .step_two .fe-answer-btn label{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    html body .step_one .fe-answer-btn label{
+        text-align: left;
+    }
+
+    html body #fe-form-question h3 {
+        margin-top: 0px;
+        font-size: 18px;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+
+    html body button.fe-answer-btn label{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    html body button.fe-answer-btn{
+        font-size: 14px;
+    }
+}

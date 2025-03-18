@@ -1,0 +1,207 @@
+/* sticky navbar for desktop view */
+@media screen and (min-width: 1200px) {
+    html body.FE-140 .fe_default_nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999;
+        overflow: hidden;
+        height: 54px;
+        background: #333;
+    }
+
+    html body.FE-140 .fe_default_nav.fe-nav-alt {
+        height: 60px;
+    }
+
+    html body.FE-140 .dice-header nav.navbar {
+        height: 60px;
+    }
+
+    html body.FE-140 .dice-base-container {
+        margin-top: 54px;
+    }
+
+    /* swap nav */
+    html body.FE-140 dhi-seds-nav-header-employer.hydrated {
+        transition: all 0.5s ease-in-out;
+    }
+
+    html body.FE-140 .fe-nav-alt dhi-seds-nav-header-employer.hydrated {
+        margin-top: -60px;
+    }
+
+    /* html body.FE-140 .fe-nav-alt .fe-nav {
+      margin-top: 0px;
+    } */
+    html body.FE-140 .fe-nav {
+        transition: all 0.5s ease-in-out;
+        z-index: 9999;
+        position: relative;
+        background: #333;
+    }
+
+    html body.FE-140 .dropdown[data-analytics-parent="Recruitment Services"] .dropdown-menu.show,
+    html body.FE-140 .dice-header:not(.fe-nav-alt) ul.menu-right div.dropdown-menu.show {
+        position: fixed;
+        top: 60px;
+        right: auto;
+        left: auto;
+    }
+
+    html body.FE-140 .dice-header.fe-nav-alt ul.menu-right div.dropdown-menu.show {
+        display: none;
+    }
+
+    html body.FE-140 .dice-header .navbar-collapse {
+        transition: all 0.5s ease-in-out;
+    }
+
+    html body.FE-140 .fe-nav-content {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #fff;
+        height: 70px;
+        padding: 0px 1.5rem;
+        max-width: 1400px;
+        margin: auto;
+
+    }
+
+    html body.FE-140 .fe-nav-content p {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    html body.FE-140 .fe-nav-content a {
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    html body.FE-140 .fe-nav {
+        display: none;
+    }
+
+    html body.FE-140 .fe_default_nav {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        top: 0px;
+        background: #333;
+    }
+
+    html body.FE-140 .fe_default_nav.navOpen {
+        position: inherit;
+        margin-bottom: -54px;
+    }
+
+    html body.FE-140 .dice-base-container {
+        padding-top: 54px;
+    }
+
+    html body.FE-140 .fe-nav-btn {
+        border: 1px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        margin: auto;
+        padding: 0.68rem 1rem !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    html body dhi-seds-nav-header-employer {
+        display: none;
+    }
+
+    html .fe_default_nav:not(.navOpen).fe-nav-alt .fe-nav {
+        display: block;
+    }
+
+    html body.FE-140 .fe_default_nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999;
+        overflow: hidden;
+        height: 54px;
+        background: #333;
+    }
+
+    html body.FE-140 .fe_default_nav.fe-nav-alt {
+        height: 60px;
+    }
+
+    html body.FE-140 .dice-base-container {
+        padding-top: 54px;
+    }
+
+    /* swap nav */
+    html body.FE-140 dhi-seds-nav-header-employer.hydrated {
+        transition: all 0.5s ease-in-out;
+    }
+
+    html body.FE-140 .fe-nav-alt dhi-seds-nav-header-employer.hydrated {
+        margin-top: -60px;
+    }
+
+    html body.FE-140 .fe-nav {
+        transition: all 0.5s ease-in-out;
+        z-index: 9999;
+        position: relative;
+        background: #333;
+    }
+
+    html body.FE-140 .dice-header .navbar-collapse {
+        transition: all 0.5s ease-in-out;
+    }
+
+    html body.FE-140 .fe-nav-content {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #fff;
+        height: 70px;
+        padding: 0px 1.5rem;
+    }
+
+    html body.FE-140 .fe-nav-content p {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    html body.FE-140 .fe-nav-content a {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        /* border: 1px solid #fff;
+        border-radius: 5px; */
+        color: #fff;
+        padding: 0.58rem 1rem !important;
+        border-radius: 50px;
+        /* background: none; */
+    }
+
+    html body.FE-140 .fe_default_nav.navOpen {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html body.FE-140 .fe-nav-content {
+        padding: 0 10px;
+    }
+
+    html body.FE-140 .fe-nav-content p {
+        margin-right: 10px;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    html body.FE-140 .fe-nav-content a{
+        font-size: 13px;
+        padding: 0.5rem 0.5rem;
+    }
+}

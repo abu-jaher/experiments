@@ -1,0 +1,223 @@
+html body .fe-popup70,
+html body .fe-popup70 .fe-popup-overlay{
+    background: #fff;
+}
+
+html body .fe-popup70 .fe-popup-cross{
+    color: #3F3F46;
+}
+
+html body .fe-popup70 .fe-popup-content,
+html body .fe-popup70 .fe-popup-inr{
+    max-width: 1440px;
+    padding: 0 24px;
+}
+
+html body .fe-popup70 .fe-popup-content{
+    padding: 40px 0px;
+    max-width: 1240px;
+    margin: auto;
+}
+
+html body .fe-popup70 .fe-popup-nav{
+    padding: 32px 0px 0;
+}
+
+html body .fe-popup70 h2.fe-heading{
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #000;
+    padding: 0px;
+    margin-bottom: 16px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+html body .fe-popup70 .fe-popup_icon{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+html body .fe-popup70 p.fe-subheading{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000;
+    padding: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+html body .fe-popup70 .fe-list{
+    background: #FAFAFA;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+html body .fe-popup70 .fe-list-text .fe-link,
+html body .fe-popup70 p.fe-list-text{
+    color: #000;
+}
+
+html body .fe-popup70 p.fe-list-text{
+    padding: 0;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+html body .fe-popup70 p.fe-list-text.fe-list-text-mobile,
+html body .fe-popup70 p.fe-list-text.fe-list-text-desktop{
+    margin-bottom: 0;
+}
+
+html body .fe-popup70 p.fe-list-text:after{
+    display: none;
+}
+
+html body .fe-popup70 p.fe-list-text b{
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+html body .fe-popup70 .fe-button-section{
+    padding-left: 0 !important;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+}
+
+html body .fe-popup70 p.fe-button-profile{
+    background: #0E7490;
+    border-radius: 50px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    padding: 12px 0;
+    max-width: 274px;
+    width: 100%;
+    margin-right: 0px;
+}
+
+html body .fe-popup70 p.fe-button-profile:hover{
+    background-color: #00334d;
+    border-color: #00334d;
+}
+
+html body .fe-popup70 p.fe-button-leter {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #0E7490;
+    text-decoration: none;
+}
+
+html body .fe-popup70 p.fe-button-leter:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1023px){
+    
+    html body .fe-popup70 .fe-popup-content{
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    html body .fe-popup70 .fe-popup-nav{
+        padding-top: 24px;
+    }
+
+    html body .fe-popup70 h2.fe-heading{
+        padding: 0 !important;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    html body .fe-popup70 p.fe-subheading{
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0 !important;
+        margin-bottom: 24px;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    html body .fe-popup70 .fe-list{
+        padding: 24px;
+    }
+
+    html body .fe-popup70 p.fe-list-text{
+        font-size: 14px !important;
+        line-height: 20px;
+        padding: 0 !important;
+    }
+
+    html body .fe-popup70 p.fe-list-text b{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 !important;
+    }
+
+    html body .fe-popup70 .fe-button-section {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    html body .fe-popup70 p.fe-button-profile{
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-height: 925px){
+    html body .fe-popup70 .fe-popup_icon{
+        margin-bottom: 8px;
+    }
+    html body .fe-popup70 .fe-popup-content{
+        padding: 0 24px 24px;
+    }
+    html body .fe-popup70 h2.fe-heading{
+        line-height: 1.2;
+    }
+    html body .fe-popup70 p.fe-subheading{
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+    html body .fe-popup70 .fe-list{
+        padding: 16px 80px;
+    }
+
+    html body .fe-popup70 p.fe-list-text{
+        margin-bottom: 16px;
+    }
+
+    html body .fe-popup70 p.fe-list-text b{
+        margin-bottom: 0;
+    }
+
+    html body .fe-popup70 .fe-button-section{
+        padding-top: 16px;
+        gap: 16px;
+    }
+}

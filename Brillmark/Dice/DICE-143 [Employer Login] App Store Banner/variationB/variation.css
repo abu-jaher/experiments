@@ -1,0 +1,52 @@
+.FE__store-banner {
+    background: rgb(14 116 144);
+    padding: 12px 15px 17px;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+.FE__store-banner p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.FE__store-banner p > span{
+    margin-right: 10px;
+}
+
+.FE__store-banner p a span {
+    margin-top: 5px;
+    background: rgba(255, 255, 255, .35);
+    padding: 0.4em 1.2em 0.5em;
+    border-radius: 500px;
+    line-height: 1em;
+    display: inline-block;
+}
+
+.FE__store-banner p a span:hover{
+    background: rgba(255, 255, 255, .15);
+}
+
+.FE__store-banner .FE__banner-close {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+@media screen and (max-width: 500px){
+    .FE__store-banner{
+        padding: 20px 15px 22px;
+    }
+
+    .FE__store-banner p > span{
+        margin-right: 5px;
+    }
+
+    .FE__store-banner .FE__banner-close{
+        right: 8px;
+        top: 6px;
+    }
+}

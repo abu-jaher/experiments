@@ -1,0 +1,50 @@
+html body .form-background > div{
+    opacity: 0;
+}
+
+html .FE-twoStep-form .form-background > div{
+    opacity: 1;
+}
+
+html .FE-twoStep-form-step-1 .progress-bar{
+    width: 50% !important;
+}
+
+html .FE-twoStep-form-step-2 .progress-bar{
+    width: 100% !important;
+}
+
+html .FE-twoStep-form .form-question .requiredAsterisk,
+html .FE-twoStep-form .mktoForm .mktoRequiredField .mktoAsterix,
+html .FE-twoStep-form #Email + .mktoError,
+html .FE-twoStep-form .nb-feedback + .mktoError,
+html .FE-twoStep-form-step-2 #tempStep2Btn{
+    display: none !important;
+}
+
+html .FE-twoStep-form-step-2 .marketo-form .disclaimer,
+html .FE-twoStep-form-step-2 #formSubmitBtn{
+    display: block !important;
+}
+
+html .FE-twoStep-form .marketo-form form .iti.iti--allow-dropdown{
+    width: 100%;
+}
+
+html .FE-twoStep-form .marketo-form form input[type=tel] {
+    padding-left: 52px !important;
+}
+
+html .FE-twoStep-form .marketo-form form .iti--allow-dropdown .iti__flag-container, 
+.iti--separate-dial-code .iti__flag-container {
+    padding-left: 10px !important;
+}
+
+html .FE-twoStep-form .marketo-form form .mktoFormRow.multi-step-step2,
+html .FE-twoStep-form .marketo-form form .mktoFormRow.multi-step-step3{
+    margin-bottom: 24px !important;
+}   
+
+html .FE-twoStep-form .mktoRequiredField{
+    position: relative;
+}

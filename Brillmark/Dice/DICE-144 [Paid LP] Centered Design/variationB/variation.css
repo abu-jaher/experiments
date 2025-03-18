@@ -1,0 +1,113 @@
+body.FE-144 #__fe-hero {
+    background-color: #093244 !important;
+}
+
+body.FE-144 #__fe-hero .mj-column-per-50 {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body.FE-144 #__fe-hero h1 {
+    text-align: center;
+}
+
+body.FE-144 #__fe-hero .form-question .requiredAsterisk,
+body.FE-144 #__fe-hero .marketo-form [id*="disclaimer"],
+body.FE-144 #__fe-hero .newProgressBar,
+body.FE-144 #__fe-hero .multi-step-marketo-intro,
+body.FE-144 .mktoForm .mktoRequiredField .mktoAsterix,
+body.FE-144 #__fe-hero ul,
+body.FE-144 #__fe-hero h1 br {
+    display: none !important;
+}
+
+body.FE-144 #__fe-hero .form-background {
+    position: relative !important;
+    margin: auto;
+    right: auto;
+}
+
+body.FE-144 .FE-hero-bottom {
+    display: flex;
+    max-width: 945px;
+    margin: auto;
+    gap: 71px;
+    padding: 65px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body.FE-144 .FE-hero-bottom .FE-hero-bottom-item {
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+body.FE-144 .FE-hero-bottom .FE-item-text {
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+body.FE-144 .FE-hero-bottom .FE-item-text span {
+    font-weight: 700;
+    display: block;
+}
+
+body.FE-144 .FE-hero-bottom .FE-hero-bottom-item img {
+    max-width: 62px;
+}
+
+body.FE-144 #__fe-hero+section .mj-column-per-55 {
+    width: 100% !important;
+    max-width: 907px;
+}
+
+body.FE-144 #__fe-hero+section p {
+    text-align: center !important;
+}
+
+body.FE-144 #__fe-hero+section .mj-column-per-55 .mj-column-per-20:nth-of-type(2) {
+    display: none !important;
+}
+
+@media only screen and (min-width: 580px) {
+
+    body.FE-144 #__fe-trust-logos-1-2>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 .mj-column-per-20:nth-of-type(4) {
+        order: 1;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 .mj-column-per-20 {
+        width: 100% !important;
+        max-width: max-content !important;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 img {
+        margin: 0 !important;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 img[alt="Robert Half"] {
+        max-width: 205px !important;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 img[alt="StateFarm"] {
+        max-width: 183px !important;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 img[alt="PNC"] {
+        max-width: 96px !important;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 img[alt="Capital One"] {
+        max-width: 142px !important;
+    }
+}

@@ -1,0 +1,172 @@
+body.FE-144 #__fe-hero {
+    background-color: #093244 !important;
+}
+
+body.FE-144 #__fe-hero .mj-column-per-50 {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body.FE-144 #__fe-hero h1 {
+    text-align: center;
+}
+
+body.FE-144 #__fe-hero .form-question .requiredAsterisk,
+body.FE-144 #__fe-hero .marketo-form [id*="disclaimer"],
+body.FE-144 #__fe-hero .newProgressBar,
+body.FE-144 #__fe-hero .multi-step-marketo-intro,
+body.FE-144 .mktoForm .mktoRequiredField .mktoAsterix,
+body.FE-144 #__fe-hero ul,
+body.FE-144 #__fe-hero h1 br {
+    display: none !important;
+}
+
+body.FE-144 #__fe-hero .sub-heading {
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    max-width: 713px;
+    margin: 5px auto 14px;
+}
+
+body.FE-144 #__fe-hero .form-background {
+    position: relative !important;
+    margin: auto;
+    right: auto;
+    margin-bottom: 35px;
+}
+
+body.FE-144 #__fe-hero+section {
+    padding-top: 150px;
+}
+
+
+body.FE-144 #__fe-hero+section .mj-column-per-55 {
+    width: 100% !important;
+    max-width: 907px;
+}
+
+body.FE-144 #__fe-hero+section p {
+    text-align: center !important;
+    font-size: 32px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+body.FE-144 .FE-hero-img {
+    max-width: 1025px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: -140px;
+    position: relative;
+}
+
+body.FE-144 .FE-hero-img img {
+    width: 100%;
+}
+
+body.FE-144 #__fe-trust-logos-1-2>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px 30px;
+    justify-content: center;
+    max-width: 624px;
+    margin: auto;
+}
+
+body.FE-144 #__fe-trust-logos-1-2>div * {
+    padding: 0 !important;
+}
+
+body.FE-144 #__fe-hero+section .mj-column-per-55 .mj-column-per-20 img {
+    width: 100%;
+    max-width: 80px !important;
+}
+
+body.FE-144 .FE-testimonial-wrapper {
+    background: #f5f9f9;
+    padding: 60px 25px;
+}
+
+body.FE-144 .FE-testimonial-wrapper .testimonial-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+body.FE-144 .FE-testimonial-wrapper .testimonialImage img {
+    max-width: 60px;
+    max-height: 32px;
+}
+
+body.FE-144 .FE-testimonial-wrapper .quote-row {
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #585450;
+    margin-top: 1.5rem;
+    font-family: 'IBM Plex Sans';
+}
+
+body.FE-144 .FE-testimonial-wrapper blockquote {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+}
+
+body.FE-144 .FE-testimonial-wrapper blockquote.testimonial-quote-style p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #585450;
+    font-family: 'IBM Plex Sans';
+}
+
+body.FE-144 .FE-testimonial-wrapper .attribution-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #585450;
+}
+
+@media only screen and (min-width: 580px) {
+    body.FE-144 #__fe-hero+section .mj-column-per-55 .mj-column-per-20 {
+        width: 100% !important;
+        max-width: max-content !important;
+    }
+
+    body.FE-144 #__fe-hero+section .mj-column-per-55 img {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body.FE-144 #__fe-hero .sub-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    body.FE-144 #__fe-hero+section {
+        padding-top: 400px;
+    }
+
+    body.FE-144 .FE-hero-img {
+        margin-bottom: -340px;
+    }
+
+    body.FE-144 .FE-testimonial-wrapper {
+        padding: 80px 25px;
+    }
+
+    body.FE-144 .FE-testimonial-wrapper .attribution-text,
+    body.FE-144 .FE-testimonial-wrapper .quote-row {
+        max-width: 950px;
+        font-size: 24px;
+    }
+}

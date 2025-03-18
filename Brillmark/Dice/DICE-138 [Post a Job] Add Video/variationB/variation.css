@@ -1,0 +1,16 @@
+.FE-138 .seds.card-grid .card-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--dhi-seds-spacing-200) !important;
+}
+
+.FE-138 .seds.card-grid .section-subhead{
+    max-width: 870px;
+    padding: 0px 15px;
+}
+
+.FE-138 .seds.card-grid .card-grid iframe {
+    max-width: 638px;
+    height: 360px;
+    margin-top: 1rem;
+}

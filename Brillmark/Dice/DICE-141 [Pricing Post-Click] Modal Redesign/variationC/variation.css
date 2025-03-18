@@ -1,0 +1,260 @@
+body.FE-141 .custom-modal{
+    z-index: 9999999999;
+}
+
+body.FE-141 .custom-modal-area {
+    max-width: 891px;
+    min-height: 580px;
+    padding: 0;
+    background: #ecfeff;
+    border-radius: 7px;
+}
+
+body.FE-141 .FE-modal-form .mktoForm #cancelLink,
+body.FE-141 .FE-modal-form .formSubHeader,
+body.FE-141 .FE-modal-form #custom-modal-close,
+body.FE-141 .FE-modal-form #decorationImage {
+    display: none;
+}
+
+body.FE-141 .FE-modal-form {
+    position: relative;
+    z-index: 1;
+    padding: 20px 81px 16px;
+    max-width: 580px;
+    min-height: 419px;
+}
+
+body.FE-141 .FE-modal-form .formHeader {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: left;
+    max-width: 490px;
+    margin: 0;
+}
+
+body.FE-141 .FE-modal-form #custom-message{
+    max-width: 400px;
+}
+
+body.FE-141 .custom-modal-area #thankYouImage{
+    margin-left: -20px;
+}
+
+body.FE-141 .FE-modal-form #formDisplay {
+    max-width: 315px;
+}
+
+body.FE-141 .FE-modal-form .mktoRequiredField,
+body.FE-141 .FE-modal-form .mktoForm {
+    padding: 0;
+}
+
+body.FE-141 .FE-modal-form .mktoForm .mktoRequiredField label.mktoLabel {
+    padding-bottom: 4px;
+}
+
+body.FE-141 .FE-modal-form .mktoForm .adjustEnd .mktoButtonWrap {
+    margin-top: 20px;
+}
+
+body.FE-141 .FE-modal-form .mktoForm .adjustEnd *,
+body.FE-141 .FE-modal-form .mktoForm .adjustEnd {
+    float: left;
+    width: 100%;
+}
+
+body.FE-141 .FE-modal-form .mktoForm .adjustEnd #tempSubmitBtn {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 8px 28px !important;
+    width: 100%;
+    background: #bd3432 !important;
+    border-color: #bd3432 !important;
+}
+
+body.FE-141 .FE-modal-form .disclaimer {
+    margin-top: 82px;
+}
+
+body.FE-141 .FE-modal-form .disclaimer p {
+    text-align: left;
+}
+
+body.FE-141 .FE-modal-form .disclaimer p a {
+    color: #bd3432;
+    display: inline-block;
+}
+
+body.FE-141 .FE-modal-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+body.FE-141 .FE-modal-img img {
+    width: 100%;
+    max-width: 498px;
+    border-bottom-right-radius: 7px;
+}
+
+body.FE-141 .FE-modal-footer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    padding-top: 39px;
+    padding-left: 83px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+body.FE-141 .FE-modal-footer .FE-modal-testimonial {
+    max-width: 278px;
+    text-align: left;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+body.FE-141 .FE-modal-footer .FE-modal-testimonial::before {
+    content: '';
+    position: absolute;
+    left: -32px;
+    top: -22px;
+    width: 38px;
+    height: 79px;
+    background-image: url('https://cdn-3.convertexperiments.com/uf/10042981/10044140/quotes_icon_674721c29f827.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body.FE-141 .FE-modal-footer .FE-testimonial-desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 9px;
+}
+
+body.FE-141 .FE-modal-footer .FE-testimonial-author {
+    font-size: 8px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+body.FE-141 .FE-modal-footer .FE-footer-details {
+    margin-bottom: 3px;
+}
+
+body.FE-141 .FE-modal-footer .FE-footer-info {
+    text-align: right;
+}
+
+body.FE-141 .FE-modal-footer .FE-info-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #bd3432;
+    font-family: 'Degular';
+}
+
+body.FE-141 .FE-modal-footer .FE-info-desc {
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+}
+
+body.FE-141 .custom-modal-area .FE-modal-closeIcon {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    z-index: 999;
+}
+
+body.FE-141 .custom-modal-area .FE-modal-closeIcon svg {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+body.FE-141 .custom-modal-area .FE-modal-closeIcon path {
+    fill: #000;
+}
+
+body.FE-141 .custom-modal-area::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    background-color: #fff;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+@media screen and (max-width: 991px) {
+    body.FE-141 .FE-modal-img {
+        display: none;
+    }
+
+    body.FE-141 .FE-modal-form{
+        max-width: 100%;
+    }
+
+    body.FE-141 .FE-modal-footer,
+    body.FE-141 .FE-modal-form {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    body.FE-141 .FE-modal-footer .FE-info-desc {
+        color: #000;
+    }
+
+    body.FE-141 .FE-modal-form .formHeader {
+        margin: auto;
+        text-align: center;
+    }
+
+    body.FE-141 .FE-modal-form #formDisplay {
+        max-width: 360px;
+        margin: auto;
+    }
+
+    body.FE-141 .FE-modal-form .disclaimer p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    body.FE-141 .FE-modal-footer {
+        justify-content: center;
+    }
+
+    body.FE-141 .FE-modal-footer .FE-modal-testimonial {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body.FE-141 .FE-modal-form .formHeader {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    body.FE-141 .FE-modal-footer {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    body.FE-141 .FE-modal-footer .FE-footer-details {
+        width: 100%;
+    }
+
+    body.FE-141 .custom-modal-area::after {
+        height: 300px;
+    }
+
+    body.FE-141 .FE-modal-footer .FE-footer-details {
+        margin-bottom: 28px;
+    }
+}
