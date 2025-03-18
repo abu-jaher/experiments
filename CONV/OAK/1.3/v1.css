@@ -1,0 +1,21 @@
+.cv-1-3 .mobile-summary-wrapper .mobile-summary h3{
+    margin-bottom: 12px;
+}
+
+.cv-1-3 .show-for-medium-only .red-text{
+    color: #302d2d !important;
+}
+
+.cv-1-3 .cv-1-3-savings td strong {
+    color: #9E3B48 !important;
+    font-weight: 700 !important;
+}
+
+.cv-1-3 p.cv-1-3-savings{
+    color: #9E3B48 !important;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 6px 0;
+}

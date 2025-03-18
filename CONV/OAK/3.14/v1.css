@@ -1,0 +1,9 @@
+.cv-3-14 .site-header-wrapper .header-top-section{
+    margin-top: 0px;
+    transition: margin-top 0.2s ease-in;
+}
+
+.cv-3-14__scrolled .site-header-wrapper .header-top-section {
+    margin-top: -40px;
+    transition: margin-top 0.2s ease-out;
+}

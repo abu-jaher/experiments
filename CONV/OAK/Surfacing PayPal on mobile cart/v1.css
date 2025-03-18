@@ -1,0 +1,8 @@
+.cv-payment-cta .payment-buttons .amazon-payments,
+.cv-payment-cta .payment-buttons .applepay-button{
+    display: none !important;
+}
+
+.cv-payment-cta .payment-buttons p{
+    margin-bottom: 1rem;
+}

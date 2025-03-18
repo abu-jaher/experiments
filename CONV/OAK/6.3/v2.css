@@ -1,0 +1,15 @@
+@media screen and (max-width: 63.9988em) {
+    html body.cv-6-3 .off-canvas-content .top-nav-wrap .menu-wrapper .top-nav-menu .DesksTable .is-submenu-item .top-nav-menu-column .top-nav-menu-item {
+        display: block;
+    }
+
+    html body.cv-6-3 .off-canvas-content .top-nav-wrap .menu-wrapper .top-nav-menu .DesksTable .is-submenu-item:not(.js-drilldown-back) {
+        font-size: .875rem;
+        font-weight: 600;
+        padding: 1.875rem 0;
+    }
+
+    html body.cv-6-3 .off-canvas-content .top-nav-wrap .menu-wrapper .top-nav-menu .DesksTable .is-submenu-item .top-nav-menu-column {
+        border: 0;
+    }
+}

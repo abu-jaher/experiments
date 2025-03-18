@@ -1,0 +1,26 @@
+html body .product-list .product-grid-item .top-block.promo {
+    display: none;
+}
+
+html body .product-list .product-grid-item .pill.delivery-message,
+html body .product-list .product-grid-item .top-block  {
+    padding: .25rem 1.75rem;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+    text-align: center;
+    border-radius: 2rem;
+    width: inherit;
+    margin: inherit;
+    min-height: 0;
+}
+
+@media screen and (max-width: 39.9988em) {
+    html body .product-list .product-grid-item .pill.delivery-message,
+    html body .product-list .product-grid-item .top-block  {
+        top: 12px;
+    }
+}

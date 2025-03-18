@@ -1,0 +1,23 @@
+html body .product-list .product-grid-item .top-block.promo {
+    display: none;
+}
+html body .product-list .product-grid-item .pill.delivery-message {
+    width: calc(100% + 32px);
+    min-height: 2.875rem;
+    border-radius: 0;
+    top: 0;
+    left: -16px;
+    transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 39.9988em) {
+    html body .product-list .product-grid-item .pill.delivery-message {
+        width: calc(100% + 10px);
+        left: -5px;
+    }
+    html body .product-list .product-grid-item .pill.delivery-message + img {
+        padding-top: 2rem;
+    }
+}

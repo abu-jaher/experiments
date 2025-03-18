@@ -1,0 +1,51 @@
+.cv-3-14 .site-header-wrapper .header-top-section {
+    margin-top: 0px;
+    transition: margin-top 0.2s ease-in;
+}
+
+.cv-3-14 .site-header .main-search .aa-Autocomplete>button::after{
+    content: '';
+    position: absolute;
+    top: -1.25rem;
+    width: calc(100% + 2.5rem);
+    height: 74px;
+    left: -0.625rem;
+    background: #fff;
+    z-index: -1;
+}
+
+.cv-3-14__scrolling-up .site-header .main-search .aa-Autocomplete>button {
+    margin-top: 1.25rem;
+    transition: margin-top 0.2s ease-in;
+}
+
+.cv-3-14__scrolled .site-header-wrapper .header-top-section {
+    margin-top: -40px;
+    transition: margin-top 0.2s ease-out;
+}
+
+.cv-3-14__scrolling-down .site-header .main-search .aa-Autocomplete>button {
+    margin-top: -50px;
+    transition: margin-top 0.2s ease-out;
+}
+
+.cv-3-14 .site-header-wrapper .site-header>div>div:not(#site-search) {
+    background: #fff;
+    z-index: 1;
+}
+
+.cv-3-14 #margin-buffer{
+    height: 185px !important; 
+}
+
+body.cv-3-14__scrolled #margin-buffer {
+    height: 100px !important;
+    transition: height 0.2s ease-out;
+}
+
+@media print,
+screen and (max-width: 39.9988em) {
+    .cv-3-14__scrolling-down .site-header-wrapper .site-header {
+        height: auto;
+    }
+}

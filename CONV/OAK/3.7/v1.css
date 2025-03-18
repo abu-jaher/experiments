@@ -1,0 +1,37 @@
+.cv-3-7 #purchase-info > div{
+    position: sticky;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    top: 200px;
+}
+
+.cv-3-7 .product-display-default-partial-accordion .spec-panel .grid-x{
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.cv-3-7 .product-display-default-partial-accordion .spec-panel .grid-x > .medium-12{
+    width: 100%;
+}
+
+.cv-3-7 #hits .grid-margin-x.large-up-3>.cell{
+    width: calc(50% - 0.625rem);
+}
+
+.cv-3-7 #ugc-product-gallery [id*="carousel"] [role="region"] > div:nth-of-type(2),
+.cv-3-7 #ugc-category-gallery [id*="carousel"] [role="region"] > div:nth-of-type(2){
+    padding: 0 !important
+}
+
+.cv-3-7 .product-display-default-partial-accordion .spec-panel .panel{
+    margin-bottom: 8px;
+}
+
+.cv-3-7 .under-purchase-info .cell.flex-middle.position span{
+    font-size: 18px;
+}
+
+.cv-3-7 .product-display-default-partial-accordion .accordion-wrapper .accordion .accordion-content .tp-graphic{
+    max-width: 100%;
+}
