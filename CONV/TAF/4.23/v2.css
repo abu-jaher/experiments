@@ -1,0 +1,120 @@
+.cv-4-23 .searchButtonIcon,
+.cv-4-23 .searchPageQSearchWrapper {
+    display: none;
+}
+
+.cv-4-23 h1,
+.cv-4-23 h1 + p{
+    opacity: 0;
+}
+
+.cv-4-23__search-field {
+    margin-left: 7px;
+    padding-left: 7px;
+    position: relative;
+    padding-right: 45px;
+    max-width: 742px;
+}
+
+.cv-4-23__search {
+    max-width: 690px;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid rgba(0,0,0,0.15);
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #555555;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+.cv-4-23__search:focus-visible {
+    outline: none;
+}
+
+.cv-4-23__search:focus-visible,
+.cv-4-23__search:focus {
+    border: solid .1em #d2d2d2;
+    -webkit-box-shadow: 0 0 2px #d2d2d2;
+    -moz-box-shadow: 0 0 2px #d2d2d2;
+    box-shadow: 0 0 2px #d2d2d2;
+    -webkit-appearance: none;
+}
+
+.cv-4-23__suggestions {
+    border: 1px solid #d2d2d2;
+    max-width: 690px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: white;
+    z-index: 100;
+    display: none;
+    overflow: hidden;
+}
+
+.cv-4-23__suggestions a {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 25px;
+    max-height: 25px;
+    overflow: hidden;
+    padding: 0 0 0 .4em;
+    width: max-content;
+    display: block;
+}
+
+.cv-4-23__suggestions li.active,
+.cv-4-23__suggestions li:hover {
+    background: #f0f0f0;
+}
+
+.cv-4-23__suggestions .single_highlight_class {
+    background: transparent;
+    font-weight: bold;
+    padding: 0;
+}
+
+.cv-4-23__search-field .quick-search-btn {
+    max-width: 41px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cv-4-23__search-field .quick-search-btn button {
+    width: 41px;
+    height: 39px;
+    background: #006db4;
+}
+
+.cv-4-23__search-field .quick-search-btn button::after {
+    font: normal normal normal 14px / 1 FontAwesome, serif;
+    content: "\f002";
+    position: absolute;
+    right: 13px;
+    bottom: 12px;
+    color: #fff;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .cv-4-23 .page-header {
+        margin-bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-4-23__search-field {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cv-4-23__search-field {
+        padding-left: 0;
+    }
+}

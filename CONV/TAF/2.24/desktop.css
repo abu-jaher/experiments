@@ -1,0 +1,225 @@
+@media screen and (min-width: 768px) {
+    html body {
+        opacity: 0;
+    }
+
+    html body.cv-2-24__desktop {
+        opacity: 1;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .sticky-nav {
+        display: none;
+    }
+
+    .publicationContentBody .scroll-content {
+        background: #fff;
+        border: 1px solid #B2B2B280;
+    }
+
+    .publicationContentBody .publication-tabs .scroll-content{
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .publicationContentBody .scroll-content.stick-top {
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px 0px;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav {
+        list-style: none;
+        display: flex;
+        padding: 11px 0 11px 32px !important;
+        background: #fff;
+        height: 60px;
+        align-items: center;
+        max-width: 1600px;
+        width: 100%;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content li {
+        position: relative;
+        display: inline;
+        font-size: inherit;
+        margin-right: 32px;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content li.active::before {
+        content: '';
+        position: absolute;
+        width: calc(100% + 20px);
+        height: 4px;
+        background: #10147E;
+        bottom: -21px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content li.active span::before {
+        content: url(https://d1mgcpums0qvsa.cloudfront.net/TAF/2.21/fa-check.svg);
+        margin-right: 2px;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li a {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17.7px;
+        color: #10147E;
+        cursor: pointer;
+        transition: text-shadow 0.3s ease, color 0.3s ease;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li:not(.pdf-tab) a:hover {
+        text-shadow: 0 0 1px rgb(16, 20, 126, 0.5);
+    }
+
+    .cv-2-24__desktop a.cv-2-24__share-social {
+        background: #016DB4 !important;
+        position: relative;
+        font-weight: 600 !important;
+        margin-right: 0 !important;
+    }
+
+    .cv-2-24__desktop a.cv-2-24__share-social i{
+        position: relative;
+        top: -1px;
+    }
+
+    .cv-2-24__desktop a.cv-2-24__share-social span {
+        color: #fff;
+    }
+
+    .cv-2-24__desktop a.cv-2-24__share-social .share-icon::before {
+        font-size: 14px;
+        margin-right: 3px;
+        vertical-align: middle;
+        font-family: FontAwesome, serif;
+        font-style: normal;
+        color: #FFF;
+    }
+
+    .cv-2-24__desktop a.cv-2-24__share-social:hover {
+        background: #b4e1ff !important;
+    }
+
+    .cv-2-24__desktop a.cv-2-24__share-social:hover .share-icon::before,
+    .cv-2-24__desktop a.cv-2-24__share-social:hover span {
+        color: #333 !important;
+    }
+
+    .cv-2-24__desktop .cv-2-24__share-social img {
+        position: absolute;
+        left: 10px;
+        top: 7px;
+    }
+
+    .cv-2-24__desktop .cv-2-24__share-social:hover img:not(.hov_icon),
+    .cv-2-24__desktop .cv-2-24__share-social img.hov_icon {
+        display: none;
+    }
+
+    .cv-2-24__desktop .cv-2-24__share-social:hover img.hov_icon {
+        display: block;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li.active a {
+        font-weight: 700;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab {
+        flex: 1;
+        text-align: end;
+        margin-bottom: 0;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li a[role="button"] {
+        font-weight: 600;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li a[role="button"],
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab a {
+        padding: 10px 22px;
+        background: #6BD774;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+
+    .cv-2-24__desktop .pdf-tab .share-button-container {
+        display: none;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li a[role="button"]:hover,
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab a:hover {
+        background: #006db4;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab .desktop-label {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #10147E;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav li a[role="button"]:hover,
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab a:hover .desktop-label {
+        color: #fff;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab a[role="button"].grant-access,
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab .mobile-label,
+    .cv-2-24__desktop .publicationContentBody .scroll-content li .fa,
+    .cv-2-24__desktop .a2a_list {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1305px) and (min-width: 768px) {
+
+    .cv-2-24__desktop .related-research,
+    .cv-2-24__desktop #mainTabPanel .article,
+    .cv-2-24__desktop .sectionsNavigation.collapsed-sticky {
+        margin-top: 60px;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .tab-nav {
+        position: relative;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab {
+        position: absolute;
+        right: 0;
+        bottom: -53px;
+        margin: 0;
+        box-shadow: 0px 4px 5.6px 0px #0000001A;
+        padding: 11px 12px 14px 12px;
+        border-radius: 0px 0px 12px 12px;
+        background: #fff;
+        z-index: 9;
+        min-height: 52px;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab.cv-2-24__custom-tab {
+        padding-top: 17px;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab.cv-2-24__custom-tab .cv-2-24__share-social {
+        margin-right: 0;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .share-button-container,
+    .cv-2-24__desktop .publicationContentBody .scroll-content a[role="button"].grant-access {
+        display: none;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .scroll-content .pdf-tab a[role="button"].grant-access {
+        display: inline;
+    }
+
+    .cv-2-24__desktop .related-research {
+        top: 150px !important;
+    }
+
+    .cv-2-24__desktop .publicationContentBody .literatumAd+.related-research {
+        margin-top: 20px;
+    }
+}

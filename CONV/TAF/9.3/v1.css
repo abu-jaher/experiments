@@ -1,0 +1,139 @@
+.cv-9-3 h2#abstracting-and-indexing {
+    margin-bottom: 16px;
+}
+
+.cv-9-3 .about-this-journal .abs-and-index {
+    max-height: none;
+    overflow: inherit;
+    background: none !important;
+    padding: 0;
+}
+
+.cv-9-3__title {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.cv-9-3__logo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    width: max-content;
+}
+
+.cv-9-3__logo {
+    width: 140px;
+    height: 113px;
+    background: #00000008;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cv-9-3__logo .name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    width: max-content;
+    bottom: 8px;
+    margin: 0;
+    text-align: center;
+    color: #333333;
+}
+
+.cv-9-3__logo img[alt="Web of Science"] {
+    max-width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 22px;
+}
+
+.cv-9-3__logo img[alt="Google Scholar"] {
+    max-width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 32px;
+}
+
+.cv-9-3__logo img[alt="Scopus"] {
+    max-width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 23px;
+}
+
+.cv-9-3__logo img[alt="Medline"] {
+    max-width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.cv-9-3__logo img[alt="Geobase"] {
+    max-width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+.cv-9-3__logo img[alt="PubMed Central"] {
+    max-width: 58px;
+    position: absolute;
+    left: 41px;
+    top: 13px;
+}
+
+.cv-9-3__logo img[alt="Directory of Open <br>Access Journals"] {
+    max-width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.cv-9-3__logo img[alt="Embase"] {
+    max-width: 130px;
+    position: absolute;
+    left: 5px;
+    top: 24px;
+}
+
+.cv-9-3__logo img[alt="El Compendex"] {
+    max-width: 120px;
+    position: absolute;
+    left: 5px;
+    top: 24px;
+}
+
+.cv-9-3__logo .cv-9-3__tooltip {
+    position: absolute;
+    width: 250px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 16px 8px;
+    border-radius: 8px;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    display: none;
+}
+
+.cv-9-3__logo:hover .cv-9-3__tooltip {
+    display: block;
+}
+
+.cv-9-3__logo .cv-9-3__tooltip::after {
+    content: url("data:image/svg+xml,%3Csvg width='12' height='10' viewBox='0 0 12 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.7735 0L11.547 10H0L5.7735 0Z' fill='black'/%3E%3C/svg%3E");
+    position: absolute;
+    top: -16px;
+    left: calc(50% - 6px);
+}

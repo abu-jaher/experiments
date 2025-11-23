@@ -1,0 +1,156 @@
+.cv-0-5 .social-links {
+    display: block !important;
+}
+
+.cv-0-5__wrapper .cv-0-5__text {
+    margin-top: 11px;
+    display: flex;
+    gap: 16px;
+}
+
+.cv-0-5__wrapper .cv-0-5__text span {
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.cv-0-5__wrapper input[type="checkbox"] {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    cursor: pointer;
+}
+
+.cv-0-5__wrapper input[type="checkbox"]:checked {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.cv-0-5__wrapper input[type="checkbox"].cv-0-5__error{
+    outline: 1px solid #ff0000;
+}
+
+.cv-0-5__email-field {
+    position: relative;
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+}
+
+.cv-0-5__email-field input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 23px;
+    outline: none;
+}
+
+.cv-0-5__email-field input[type="email"]:focus-visible,
+.cv-0-5__email-field input[type="email"]:focus {
+    border: 1px solid rgba(16, 20, 126, 1);
+}
+
+.cv-0-5 .cv-0-5__error {
+    border: 1px solid #ff0000 !important;
+}
+
+.cv-0-5__placeholder {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    pointer-events: none;
+    color: #999999;
+    max-height: 22px;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+.cv-0-5__placeholder span {
+    color: #ff0000;
+}
+
+.cv-0-5__wrapper label {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    text-align: left;
+    position: relative;
+    padding-left: 28px;
+    display: none;
+}
+
+.cv-0-5__step-2 label {
+    display: block;
+}
+
+.cv-0-5__wrapper label span {
+    color: #333333;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.cv-0-5__wrapper .cv-0-5__link-text {
+    text-decoration: underline;
+    color: rgba(16, 20, 126, 1);
+}
+
+.cv-0-5__wrapper button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 7px;
+    line-height: 24px;
+    background-color: #006DB4;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 11px;
+    font-family: "Open Sans", Sans-Serif;
+    outline: none;
+}
+
+.cv-0-5__wrapper label span span:not(.cv-0-5__link-text) {
+    color: #ff0000;
+    margin-right: 4px;
+}
+
+@media screen and (min-width: 1517px) {
+    .cv-0-5__wrapper .cv-0-5__text span br {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .cv-0-5__wrapper button:hover {
+        background-color: #b4e1ff;
+        color: #333;
+    }
+
+    .cv-0-5__wrapper button:focus{
+        background-color: #b4e1ff;
+        color: #333;
+        outline: 3px dotted #000 !important;
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .cv-0-5__wrapper .cv-0-5__text span br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-0-5 .social-links {
+        max-width: 500px;
+        margin: auto;
+    }
+}

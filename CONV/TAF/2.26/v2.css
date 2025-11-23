@@ -1,0 +1,31 @@
+.cv-2-26 .serial-action .submitAnArticle {
+    display: none;
+}
+
+.cv-2-26__journal-hp {
+    margin-bottom: 25px;
+}
+
+.cv-2-26__journal-hp a {
+    background-color: #10147e;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-size: .85em;
+}
+
+.cv-2-26__journal-hp a:hover{
+    color: #fff;
+}
+
+@media screen and (min-width: 1025px) {
+    .cv-2-26 .cv-2-26__journal-hp {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-2-26 .literatumArticleToolsWidget .linkList {
+        margin-bottom: 15px;
+    }
+}

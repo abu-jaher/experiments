@@ -1,0 +1,116 @@
+.cv-4-23 .searchButtonIcon,
+.cv-4-23 .searchPageQSearchWrapper {
+    display: none;
+}
+
+.cv-4-23 h1,
+.cv-4-23 h1 + p{
+    opacity: 0;
+}
+
+.cv-4-23__search-field {
+    margin-left: 7px;
+    padding-left: 7px;
+    position: relative;
+}
+
+.cv-4-23__search {
+    max-width: 700px;
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #555555;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #555555;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    outline: none;
+}
+
+.cv-4-23__search::placeholder {
+    text-indent: 22px;
+}
+
+.cv-4-23__search:focus-visible {
+    outline: none;
+}
+
+.cv-4-23__search:focus-visible,
+.cv-4-23__search:focus {
+    border: solid .1em #d2d2d2;
+    -webkit-box-shadow: 0 0 2px #d2d2d2;
+    -moz-box-shadow: 0 0 2px #d2d2d2;
+    box-shadow: 0 0 2px #d2d2d2;
+    -webkit-appearance: none;
+}
+
+.cv-4-23__search-field::before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    top: 20px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 17px;
+    background: url('data:image/svg+xml;utf8,<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_7698_255)"><path d="M13 7C13 8.43437 12.5344 9.75938 11.75 10.8344L15.7063 14.7937C16.0969 15.1844 16.0969 15.8188 15.7063 16.2094C15.3156 16.6 14.6812 16.6 14.2906 16.2094L10.3344 12.25C9.25938 13.0375 7.93437 13.5 6.5 13.5C2.90937 13.5 0 10.5906 0 7C0 3.40937 2.90937 0.5 6.5 0.5C10.0906 0.5 13 3.40937 13 7ZM6.5 11.5C7.09095 11.5 7.67611 11.3836 8.22208 11.1575C8.76804 10.9313 9.26412 10.5998 9.68198 10.182C10.0998 9.76412 10.4313 9.26804 10.6575 8.72208C10.8836 8.17611 11 7.59095 11 7C11 6.40905 10.8836 5.82389 10.6575 5.27792C10.4313 4.73196 10.0998 4.23588 9.68198 3.81802C9.26412 3.40016 8.76804 3.06869 8.22208 2.84254C7.67611 2.6164 7.09095 2.5 6.5 2.5C5.90905 2.5 5.32389 2.6164 4.77792 2.84254C4.23196 3.06869 3.73588 3.40016 3.31802 3.81802C2.90016 4.23588 2.56869 4.73196 2.34254 5.27792C2.1164 5.82389 2 6.40905 2 7C2 7.59095 2.1164 8.17611 2.34254 8.72208C2.56869 9.26804 2.90016 9.76412 3.31802 10.182C3.73588 10.5998 4.23196 10.9313 4.77792 11.1575C5.32389 11.3836 5.90905 11.5 6.5 11.5Z" fill="%23555555"/></g><defs><clipPath id="clip0_7698_255"><rect width="16" height="16" fill="white" transform="translate(0 0.5)"/></clipPath></defs></svg>') no-repeat center;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.cv-4-23__search-field.has-placeholder::before {
+    opacity: 1;
+}
+
+.cv-4-23__suggestions {
+    border: 1px solid #d2d2d2;
+    max-width: 700px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: white;
+    z-index: 100;
+    display: none;
+    overflow: hidden;
+}
+
+.cv-4-23__suggestions a {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 25px;
+    max-height: 25px;
+    overflow: hidden;
+    padding: 0 0 0 .4em;
+    width: max-content;
+    display: block;
+}
+
+.cv-4-23__suggestions li.active,
+.cv-4-23__suggestions li:hover {
+    background: #f0f0f0;
+}
+
+@media screen and (min-width: 1025px) {
+    .cv-4-23 .page-header {
+        margin-bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-4-23__search-field {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cv-4-23__search-field {
+        padding-left: 0;
+    }
+
+    .cv-4-23__search-field::before{
+        left: 11px;
+    }
+}

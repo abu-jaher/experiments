@@ -1,0 +1,4 @@
+.cv-0-4 .about-this-journal #editorial-board+div {
+    max-height: max-content;
+    overflow: inherit;
+}

@@ -1,0 +1,228 @@
+@media screen and (min-width: 1025px) {
+    .cv-9-2 .publicationContentHeader .col-md-2-3 {
+        width: 72.666667%;
+    }
+
+    .cv-9-2 .publicationContentHeader {
+        background: linear-gradient(180deg, #FFFFFF 10.09%, #EEEEEE 100%);
+    }
+
+    .cv-9-2 .publicationContentHeader .container {
+        padding: 20px 0;
+    }
+
+    .cv-9-2 .cv-9-2__article-heading {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .cv-9-2 .cv-9-2__article-heading>a {
+        text-decoration: underline;
+    }
+
+    .cv-9-2 .cv-9-2__speaker-section {
+        display: flex;
+        align-items: center;
+        min-height: 32px;
+        flex-wrap: wrap;
+    }
+
+    .cv-9-2 .literatumAuthors {
+        padding-top: 11px;
+        padding-bottom: 0;
+    }
+
+    .cv-9-2 .literatumAuthors .entryAuthor .author {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .literatumAuthors .contribDegrees {
+        color: #10147E;
+    }
+
+    .cv-9-2 .publicationSerialHeader{
+        padding-bottom: 0;
+    }
+
+    .cv-9-2 .publicationSerialHeader:after,
+    .cv-9-2 .publicationSerialHeader:before {
+        display: none !important;
+    }
+
+    .cv-9-2 .publicationContentHeader .literatumPublicationHeader h1 .NLM_article-title,
+    .cv-9-2 .publicationContentHeader .literatumPublicationHeader h1 .NLM_article-title i,
+    .cv-9-2 .publicationContentHeader .literatumPublicationHeader h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .cv-9-2 .publicationContentHeader .open_science_badges:empty {
+        display: none;
+    }
+
+    .cv-9-2 .cv-9-2__speaker-section .toc-heading {
+        display: inline-block !important;
+    }
+
+    .cv-9-2 .cv-9-2__speaker-section .issue-heading::after,
+    .cv-9-2 .cv-9-2__speaker-section .accessLogo:has(#logo-text):after {
+        content: '|';
+        color: #333;
+        position: absolute;
+        right: -14px;
+        top: 0;
+    }
+
+    .cv-9-2 .cv-9-2__speaker-section .toc-heading,
+    .cv-9-2 .cv-9-2__speaker-section .issue-heading {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 400;
+        color: #333;
+    }
+
+    .cv-9-2 .cv-9-2__speaker-section .issue-heading {
+        position: relative;
+        margin-right: 20px !important;
+    }
+
+    .cv-9-2 .cv-9-2__speaker-section .issue-heading .specialTitle a,
+    .cv-9-2 .cv-9-2__speaker-section .issue-heading>a {
+        text-decoration: underline;
+    }
+
+    /* .cv-9-2 .cv-9-2__speaker-section .issue-heading.cv-9-2__latest-article {
+        font-size: 16px;
+    } */
+
+    .cv-9-2 .literatumDisplayingAccessLogo .accessLogo {
+        top: 16px;
+    }
+
+    .cv-9-2 .issueSerialNavigation.journal .title-container,
+    .cv-9-2 .literatumPublicationHeader .toc-heading {
+        display: none;
+    }
+
+    .cv-9-2 .publicationContentHeader .articleMetricsContainer {
+        font-size: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    .cv-9-2 .issueSerialNavigation.journal {
+        max-width: 171px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cv-9-2 .issueSerialNavigation.journal .cover {
+        width: 100%;
+        text-align: center;
+        padding: 32px 0;
+        background: #EAEAEA;
+        border-radius: 2px;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+
+    .cv-9-2 .issueSerialNavigation.journal .cover img {
+        width: 123px;
+        height: 158px;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns .serial-action {
+        gap: 9px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns .widget-body a {
+        font-size: 13.6px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+        padding: 6px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns .widget-body a.jHomepage {
+        display: none;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns .widget-body a.submitAnArticle {
+        color: #10147E;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns .widget-body a.submitAnArticle:hover {
+        color: #fff;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns,
+    .cv-9-2 .issueSerialNavigation .info {
+        margin: 0;
+        width: 100%;
+    }
+
+    .cv-9-2 .issueSerialNavigation .serial-btns+div {
+        display: none;
+    }
+
+    .cv-9-2 .literatumArticleToolsWidget .linkList {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .cv-9-2 .literatumArticleToolsWidget .linkList li.dx-doi a {
+        cursor: pointer;
+        position: relative;
+    }
+
+    .cv-9-2 .literatumContentItemPageRangeHistory {
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+    .cv-9-2 .publicationContentAuthors .show-all-link.cv-9-2__toggle {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-decoration: underline;
+    }
+
+    .cv-9-2 .publicationContentAuthors .show-all-link.cv-9-2__toggle::first-letter {
+        text-transform: capitalize;
+    }
+
+    .cv-9-2 .publicationContentAuthors .show-all-link:not(.cv-9-2__toggle) {
+        font-size: 0;
+    }
+
+    .cv-9-2 .publicationContentAuthors .show-all-link::before {
+        display: none;
+    }
+
+    .cv-9-2 .publicationContentAuthors .show-all-link:not(.cv-9-2__toggle)::after {
+        content: 'Show more';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-decoration: underline;
+    }
+
+    .cv-9-2 .itemPageRangeHistory {
+        color: #333;
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+
+}

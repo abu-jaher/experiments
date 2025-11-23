@@ -1,0 +1,208 @@
+@media screen and (max-width: 1024px) {
+    .cv-2-25__journal-module {
+        margin-bottom: 22px;
+        margin-top: 20px;
+        order: 2;
+        margin-left: 16px;
+        margin-right: 16px;
+        flex: 1;
+    }
+
+    .cv-2-25__mostCited-page .cv-2-25__journal-module {
+        margin-bottom: 0;
+        margin-top: 12px;
+    }
+
+    .cv-2-25__mostRead-page .cv-2-25__journal-module {
+        margin: 0;
+    }
+
+    .cv-2-25__openAccess-page .cv-2-25__journal-module {
+        margin: 0;
+        margin-top: 22px;
+    }
+
+
+    .cv-2-25__collection-page .cv-2-25__journal-module,
+    .cv-2-25__xaArticles-page .cv-2-25__journal-module,
+    .cv-2-25__current-page .cv-2-25__journal-module,
+    .cv-2-25__loi-page .cv-2-25__journal-module,
+    .cv-2-25__specialIssues-page .cv-2-25__journal-module {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cv-2-25__current-page .cv-2-25__journal-module {
+        margin-top: 0;
+    }
+
+    .cv-2-25__current-page .all-issues-link {
+        border-bottom: none;
+    }
+
+    .cv-2-25__current-page .volume-container {
+        border-top: 1px solid rgba(0, 0, 0, 0.1)
+    }
+
+    .cv-2-25__xaArticles-page .cv-2-25__journal-module {
+        margin-bottom: 0;
+    }
+
+    .tocTitle+.cv-2-25__journal-module,
+    .topContentArticlesTitle+.cv-2-25__journal-module {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .cv-2-25__journal-content {
+        background: #F2F3F8;
+        padding: 16px;
+        border-radius: 4px;
+    }
+
+    .cv-2-25__journal-content h3 {
+        font-family: Open Sans;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        margin: 0;
+        line-height: 19px;
+    }
+
+    .cv-2-25__journal-content p {
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        vertical-align: middle;
+        margin: 14px 0;
+    }
+
+    .cv-2-25__journal-content a {
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 13px !important;
+        line-height: 18px !important;
+        text-align: center;
+        vertical-align: middle;
+        background: #10147E;
+        color: #FFF !important;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 4px;
+        width: max-content;
+        justify-content: center;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        cursor: pointer;
+    }
+
+    .cv-2-25__journal-content a:hover {
+        color: #FFF;
+        background: #006db4;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .cv-2-25__journal-content a {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* desktop css */
+
+@media screen and (min-width: 1025px) {
+    .cv-2-25__journal-module {
+        display: none;
+    }
+
+    .cv-2-25 .sub-nav .cv-2-25__journal-module {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .cv-2-25__journal-module {
+        margin-bottom: 22px;
+        margin-top: 20px;
+        width: 202px;
+    }
+
+    .cv-2-25__journal-content {
+        background: #F2F3F8;
+        padding: 16px;
+        border-radius: 4px;
+    }
+
+    .cv-2-25__journal-content h3 {
+        font-family: Open Sans;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        margin: 0;
+        line-height: 19px;
+    }
+
+    .cv-2-25__journal-content p {
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        vertical-align: middle;
+        margin: 14px 0;
+    }
+
+    .cv-2-25__journal-content a {
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        vertical-align: middle;
+        background: #10147E;
+        color: #FFF;
+        display: flex;
+        width: max-content;
+        gap: 10px;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 4px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        cursor: pointer;
+
+    }
+
+    .cv-2-25__journal-content a:focus,
+    .cv-2-25__journal-content a:hover {
+        color: #FFF;
+        background: #006db4;
+    }
+
+    .cv-2-25__journal-content a:focus {
+        outline: 3px dotted;
+        outline-color: #10147e;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+    .cv-2-25__journal-content {
+        padding: 16px 8px;
+        width: 172px;
+    }
+
+    .cv-2-25__journal-content a {
+        padding: 8px 10px;
+        gap: 5px;
+    }
+}
