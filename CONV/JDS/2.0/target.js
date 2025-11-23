@@ -1,0 +1,111 @@
+try {
+	const regex = new RegExp(
+		"^(" +
+		[
+			"/product/black-nike-pegasus-premium/19701415/",
+			"/product/black-nike-pegasus-premium/19703426/",
+			"/product/grey-nike-pegasus-premium-womens/19709030/",
+			"/product/black-nike-pegasus-premium-womens/19706711/",
+			"/product/grey-nike-pegasus-premium-womens/19706075/",
+			"/product/pink-nike-pegasus-premium-womens/19709381/",
+			"/product/pink-nike-pegasus-premium-womens/19699694/",
+			"/product/nike-pegasus-premium-womens/19699694/",
+			"/product/grey-nike-pegasus-premium/19699881/",
+			"/product/black-nike-pegasus-41/19648064/",
+			"/product/white-nike-pegasus-41/19650942/",
+			"/product/grey-nike-pegasus-41/19676689/",
+			"/product/black-nike-pegasus-41/19646297/",
+			"/product/nike-pegasus-41-womens/19703397/",
+			"/product/nike-pegasus-41-womens/19699397/",
+			"/product/nike-pegasus-41-womens/19699878/",
+			"/product/blue-nike-pegasus-41-womens/19688459/",
+			"/product/green-nike-vomero-plus/19717576/",
+			"/product/black-nike-vomero-plus/19703458/",
+			"/product/black-nike-vomero-plus/19698307/",
+			"/product/black-nike-vomero-plus/19711951/",
+			"/product/grey-nike-vomero-plus/19709374/",
+			"/product/off-white-nike-vomero-plus-womens/19718463/",
+			"/product/pink-nike-vomero-plus-womens/19698304/",
+			"/product/pink-nike-vomero-plus-womens/19717578/",
+			"/product/white-nike-vomero-plus-womens/19698300/",
+			"/product/white-nike-vomero-plus-womens/19717578/",
+			"/product/black-nike-vomero-plus-womens/19709379/",
+			"/product/blue-nike-vomero-18/19706788/",
+			"/product/black-nike-vomero-18-gore-tex/19717572/",
+			"/product/green-nike-vomero-18/19717574/",
+			"/product/black-nike-vomero-18/19711880/",
+			"/product/black-nike-vomero-18/19700470/",
+			"/product/pink-nike-vomero-18-womens/19720220/",
+			"/product/red-nike-vomero-18-womens/19720220/",
+			"/product/grey-nike-vomero-18-womens/19715451/",
+			"/product/white-nike-air-force-1-low-womens/1267779/",
+			"/product/black-nike-air-force-1-low-womens/156845/",
+			"/product/white-nike-air-force-1-low/19701766/",
+			"/product/pink-nike-p-6000-womens/19716281/",
+			"/product/nike-p-6000/19714596/",
+			"/product/green-nike-p-6000-womens/19706765/",
+			"/product/nike-p-6000-womens/19714359/",
+			"/product/blue-nike-p-6000/19704651/",
+			"/product/white-nike-p-6000-womens/19706121/",
+			"/product/grey-nike-p-6000/19610378/",
+			"/product/nike-p-6000-womens/19713130/",
+			"/product/nike-p-6000/19707604/",
+			"/product/nike-p-6000/19703196/",
+			"/product/grey-nike-p-6000-womens/19595014/",
+			"/product/nike-p-6000-womens/19688378/",
+			"/product/white-nike-p-6000-womens/19684519/",
+			"/product/grey-nike-p-6000/19701583/",
+			"/product/white-nike-p-6000/19683810/",
+			"/product/nike-p-6000-womens/19688287/",
+			"/product/nike-p-6000-womens/19694299/",
+			"/product/nike-p-6000/19688720/",
+			"/product/white-nike-p-6000-womens/19688377/",
+			"/product/pink-nike-p-6000/19688326/",
+			"/product/grey-nike-p-6000/19685422/",
+			"/product/black-nike-p-6000/1304251/",
+			"/product/black-nike-shox-tl/19716267/",
+			"/product/black-nike-shox-tl-womens/1310875/",
+			"/product/white-nike-shox-tl-womens/1310874/",
+			"/product/nike-shox-tl/19706761/",
+			"/product/white-nike-shox-tl-womens/19705787/",
+			"/product/grey-nike-shox-tl/19701589/",
+			"/product/black-nike-shox-tl/15968892/",
+			"/product/black-nike-shox-tl/19683665/",
+			"/product/red-nike-shox-tl/19701457/",
+			"/product/nike-shox-tl/19686821/",
+			"/product/black-nike-shox-tl/19703389/",
+			"/product/black-nike-shox-tl/19689796/",
+			"/product/pink-nike-shox-tl-womens/19706805/",
+			"/product/nike-shox-tl-womens/19684515/",
+			"/product/white-nike-shox-tl/1310872/",
+			"/product/black-nike-shox-tl/1310873/",
+			"/product/grey-nike-shox-tl/19694763/",
+			"/product/grey-nike-shox-tl-womens/19693708/",
+			"/product/brown-nike-shox-tl-womens/19688267/",
+			"/product/white-nike-shox-tl-womens/19685964/",
+			"/product/blue-nike-shox-tl-womens/19686231/",
+			"/product/brown-nike-shox-tl-womens/19677705/",
+			"/product/white-nike-shox-r4/19685972/",
+			"/product/white-nike-shox-r4/133207/",
+			"/product/black-nike-shox-r4/19672451/",
+			"/product/grey-nike-shox-r4/19683657/",
+			"/product/black-nike-shox-r4-womens/19693670/",
+			"/product/grey-nike-shox-r4/19685091/",
+		]
+			.map((p) => p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+			.join("|") +
+		")$",
+		"i"
+	);
+
+	const currentPath = window.location.pathname;
+	const isMatch = regex.test(currentPath);
+
+	if (dataObject && dataObject.pageType === "product" && dataObject.brand && dataObject.brand.toLowerCase() === "nike" && dataObject.unitPrice && dataObject.unitPrice.length > 0 && dataObject.currency && dataObject.currency.length > 0 && dataObject.currency === 'GBP' && isMatch) {
+		return true;
+	} else {
+		return false;
+	}
+} catch (e) {
+	return false;
+}

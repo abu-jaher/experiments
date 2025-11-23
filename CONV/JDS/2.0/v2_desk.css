@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+.cv-2-0 .tagg-balloons-wrapper.tagg-forever-forward.tagg-v1.tagg-product-page .tagg-balloon .tagg-txt, 
+.cv-2-0 .tagg-jdsportscouk-flame-v2.tagg-product-page .tagg-balloon .tagg-txt,
+.cv-2-0 .tagg-balloons-wrapper.tagg-forever-forward.tagg-v1.tagg-product-page .tagg-balloon .tagg-txt strong,
+.cv-2-0 .tagg-jdsportscouk-flame-v2.tagg-product-page .tagg-balloon .tagg-txt strong{
+    font-family: Gotham SSm A,Gotham SSm B,Arial,sans-serif !important;
+}
+
+.cv-2-0__badge {
+    position: absolute;
+    top: 18px;
+    left: 24px;
+    display: flex;
+    padding: 8px 0;
+    background: #FFF;
+    border-radius: 24px;
+    width: 157px;
+    justify-content: center;
+}
+
+.cv-2-0__badge path{
+    fill: rgba(17, 17, 17, 1);
+    stroke: rgba(17, 17, 17, 1);
+}
+
+.cv-2-0__text {
+    margin: 0;
+    padding-left: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+    font-family: "DM Mono", monospace;
+    color: rgba(17, 17, 17, 1);
+}

@@ -1,0 +1,64 @@
+.cv-1-0 #productPage .itemPrices:not(.cv-1-0__offered) {
+    display: flex;
+    align-items: center;
+}
+
+.cv-1-0 #productPage .itemPrices.cv-1-0__offered{
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cv-1-0__price-reframing p {
+    margin: 0;
+}
+
+.cv-1-0__price-reframing div span {
+    font-family: 'Gotham SSm A';
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 17px;
+    letter-spacing: 0;
+    display: inline-block;
+}
+
+.cv-1-0__price-reframing div span strong{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.cv-1-0__learn-more {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 0px;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
+}
+
+.cv-1-0__text {
+    font-family: 'Gotham SSm A';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0;
+    color: rgba(51, 51, 51, 1);
+}
+
+.cv-1-0__price-reframing div {
+    margin-bottom: 4px;
+    line-height: 17px;
+}
+
+.cv-1-0__price-reframing {
+    padding: 5px 0 5px 10px;
+    margin: 0 0 0 20px;
+    border-left: 1px solid rgba(232, 232, 232, 1);
+}
+
+.cv-1-0 #productPage .itemPrices.cv-1-0__offered .cv-1-0__price-reframing {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid rgba(232, 232, 232, 1);
+}
