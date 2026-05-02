@@ -26,7 +26,7 @@ I specialise in the **technical development and implementation** of A/B tests an
 | **Testing Platforms** | Monetate, VWO, Optimizely, AB Tasty, Convert |
 | **Languages** | JavaScript (ES6+), HTML5, CSS3 |
 | **Analytics** | GA4, Google Tag Manager, Segment |
-| **Workflow** | Figma (design handoff), Airtable (experiment tracking) |
+| **Workflow** | Figma (design handoff)|
 
 ---
 
