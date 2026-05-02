@@ -30,21 +30,6 @@ I specialise in the **technical development and implementation** of A/B tests an
 
 ---
 
-## 📁 Repository Structure
-
-```
-experiments/
-├── eCommerce/        # A/B experiments for eCommerce & retail clients
-│   └── ...           # Mobile PDP optimisation, carousel features, checkout flows
-│
-└── B2B-SaaS/         # A/B experiments for B2B SaaS clients
-    └── ...           # Landing page optimisation, form experiments, onboarding flows
-```
-
-> ⚠️ **Note:** All experiments are anonymised. Client and brand names have been removed to protect confidentiality. Code patterns, structure and implementation approach are entirely my own work.
-
----
-
 ## 🔑 Key Technical Patterns
 
 ### ⚡ Dynamic Multi-Page Targeting
