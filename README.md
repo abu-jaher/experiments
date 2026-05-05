@@ -1,6 +1,6 @@
 # A/B Test Experiments by Abu Zaher
 
-**CRO Developer** with 5 years of experience and **500+ experiments built** across eCommerce, B2B SaaS, and lead generation.
+**CRO Developer** with 5 years of experience and **300+ experiments built** across eCommerce, B2B SaaS, and lead generation.
 
 This repository contains a selection of real A/B test experiments I developed professionally — anonymised to protect client confidentiality.
 ---
