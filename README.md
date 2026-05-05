@@ -22,8 +22,8 @@ I specialise in the **technical development and implementation** of A/B tests an
 
 | Category | Tools |
 |----------|-------|
-| **Testing platforms** | Monetate, VWO, Optimizely, AB Tasty, Convert |
-| **Languages** | JavaScript (ES6+), HTML5, CSS3 |
+| **Testing platforms** | Monetate, Optimizely, Kameleeon, VWO, AB Tasty, Convert |
+| **Languages** | JavaScript (ES6+), HTML5, CSS/SASS |
 | **Analytics** | GA4, Google Tag Manager, Segment |
 | **Workflow** | Figma (design handoff) |
 
@@ -131,6 +131,34 @@ Why `requestAnimationFrame` over `setInterval`:
 - it has no fixed interval, so the wait is as short as it can be
 
 The default 6000ms timeout prevents a missing target from leaking a permanent recursive callback. Passing `wait = 0` disables the timeout for nodes that are legitimately allowed to take an arbitrary amount of time to appear.
+
+### Asynchronous Data Fetching (XHR)
+
+For experiments requiring dynamic data (like "Best Sellers" or live inventory), I use a Promise-wrapped XMLHttpRequest. This allows the variation to fetch data and only proceed with DOM mutations once the payload is ready.
+
+```
+const getBestSellers = () => {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://api.example.com/products", true);
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    // Logic to parse response and build HTML string
+                    resolve(resultHtml);
+                } else {
+                    reject(new Error('Request failed: ' + xhr.status));
+                }
+            }
+        };
+        xhr.send();
+    });
+};
+```
+
+Error Handling: By using Promises, I can catch network failures gracefully without breaking the rest of the script.
+Performance: The request is asynchronous, ensuring the main thread isn't blocked while waiting for the server response.
 
 ### Event delegation
 
