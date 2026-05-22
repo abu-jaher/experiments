@@ -1,0 +1,739 @@
+.cv-11-0.cv-11-0__registration-page .login-title {
+    display: block;
+}
+
+.cv-11-0.cv-11-0__registration-page .fit.container:not(.margin) {
+    display: none;
+}
+
+.cv-11-0.cv-11-0__registration-page .login-title h1 {
+    padding: 0;
+    margin-bottom: 24px;
+    margin-left: 0;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.cv-11-0.cv-11-0__registration-page .regForm .requiredField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__login p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.cv-11-0.cv-11-0__registration-page .regForm:hover,
+.cv-11-0.cv-11-0__registration-page .regForm {
+    background: #FFF;
+    box-shadow: none;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm {
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    border-top: 10px solid #11147E;
+    border-radius: 8px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left: 40px !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm tbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm tbody tr {
+    display: flex;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm tbody tr.error {
+    display: none;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm tbody tr.error.cv-11-0__moved-error{
+    display: block;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm tbody td {
+    width: 100%;
+}
+
+.cv-11-0.cv-11-0__registration-page .regForm .form-group .label-icon + .required{
+    margin-left: 36px;
+    font-size: 12.8px;
+    top: 50%;
+    transform: translateY(-70%);
+}
+
+.cv-11-0.cv-11-0__registration-page .regForm .form-group .label-icon::before{
+    margin-top: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has([for="firstName"]) {
+    width: calc(50% - 8px);
+    float: left;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has([for="lastName"]) {
+    width: 50%;
+    float: left;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group #password2,
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group #password1 {
+    width: 100% !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .regForm .form-group td:not(:has([type="checkbox"])):has(label) {
+    display: inline-table;
+    margin-top: 53px;
+    position: relative;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm label {
+    position: relative;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm label::after {
+    position: absolute;
+    top: -36px;
+    width: max-content;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm label[for="countryCode"] {
+    position: absolute;
+    bottom: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #333333 !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm label[for="countryCode"] span {
+    display: none;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="email"]::after {
+    content: 'Email Address';
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="email"] span::before {
+    margin-left: 11px !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="email2"]::after {
+    content: 'Confirm your Email';
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="firstName"]::after {
+    content: 'First name';
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="lastName"]::after {
+    content: 'Last name';
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="password1"]::after {
+    content: 'Password';
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm [for="password2"]::after {
+    content: 'Confirm your Password';
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has(label[for="email2"]),
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has(#stateOptions),
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has(label[for="organization"]) {
+    display: none;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm select,
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm input {
+    border: 1px solid #D0D5DD !important;
+    border-radius: 4px !important;
+    height: 43px !important;
+    padding-left: 52px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm input::placeholder {
+    color: #33333380;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm select {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm select[data-placeholder="true"] {
+    color: #33333380;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm input#marketable,
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm input#acceptTermsConditions {
+    height: 13px !important;
+    margin-top: 4px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#marketable) input,
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#acceptTermsConditions) input,
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#marketable) label,
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#acceptTermsConditions) label {
+    padding: 0 !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#acceptTermsConditions) label{
+    margin-bottom: 4px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm tr.error-field #acceptTermsConditions {
+    outline: 1px solid red !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#marketable),
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm td:has(input#acceptTermsConditions) {
+    display: flex;
+    gap: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm input[type=submit] {
+    max-width: 305px;
+    width: 100%;
+    height: 50px !important;
+    padding: 0;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__benefits-wrap {
+    padding: 24px;
+    margin-right: 53px;
+    margin-left: 31px;
+}
+
+.cv-11-0.cv-11-0__registration-page .reg-benefits {
+    background: #FFF;
+    padding: 0;
+    margin-top: 42px;
+    margin-bottom: 48px;
+}
+
+.cv-11-0.cv-11-0__registration-page .reg-benefits p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+
+.cv-11-0.cv-11-0__registration-page .reg-benefits p strong {
+    line-height: 24px;
+}
+
+.cv-11-0.cv-11-0__registration-page .reg-benefits i {
+    width: 32px !important;
+}
+
+.cv-11-0.cv-11-0__registration-page .reg-benefits i::before {
+    font-size: 20px;
+}
+
+.cv-11-0.cv-11-0__registration-page .reg-benefits .cv-11-0__title {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__benefits-wrap h2 {
+    font-family: 'PT Serif';
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 300px;
+    margin-top: 48px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__benefits-wrap>p {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__benefits-wrap>p:last-of-type{
+    font-size: 16px;
+}
+
+.cv-11-0.cv-11-0__registration-page .literatumRegistrationWidget{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group .progress-container{
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1025px) {
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .tooltip-container.tooltip-container-success {
+        display: inline-block !important;
+        position: relative !important;
+        margin: 10px 5px 0 0 !important;
+        float: left !important;
+        line-height: 12px !important;
+    }
+
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .tooltip-container.tooltip-container-success + #pass2-tooltip {
+        display: inline-block !important;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__regForm {
+        margin-left: 0 !important;
+        margin-top: 32px;
+        padding-top: 24px;
+        padding-bottom: 8px;
+    }
+
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__benefits-wrap {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has([for="lastName"]),
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__regForm .form-group:has([for="firstName"]) {
+        width: 100%;
+    }
+
+    .cv-11-0.cv-11-0__registration-page .cv-11-0__regForm input[type=submit]{
+        margin-top: 14px;
+    }
+
+    .cv-11-0.cv-11-0__registration-page .login-title h1 {
+        text-align: left;
+        font-size: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .cv-11-0.cv-11-0__registration-page .regForm {
+        padding-left: 8.5px;
+        padding-right: 8.5px;
+    }
+}
+
+/* Confirmation page css */
+.cv-11-0__confirmation-page .subjectInterestsWidget,
+.cv-11-0__confirmation-page .pageHeader .searchButtonIcon,
+.cv-11-0__confirmation-page .searchPageQSearchWrapper {
+    display: none !important;
+}
+
+.cv-11-0__confirmation-page [data-widget-def="pageBody"] .widget:not(.searchPageQSearchWrapper).responsive-layout .widget-body{
+    padding: 0 !important;
+}
+
+.cv-11-0__confirmation-page [data-widget-def="pageBody"] .widget:not(.searchPageQSearchWrapper).responsive-layout,
+.cv-11-0__confirmation-page [data-widget-def="pageBody"] .widget:not(.searchPageQSearchWrapper).responsive-layout .widget-body .general-html{
+    margin: 0 !important;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container h1 {
+    color: #333;
+    text-align: center;
+    font-family: 'PT serif', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 64px 0 10px;
+    padding: 0 14px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container h1 + p{
+    padding: 0 14px;
+    line-height: 24px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container h1 br {
+    display: none;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container h3 {
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0 0 8px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container p {
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-container p a {
+    color: #10147E;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 24px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__input-group {
+    margin-bottom: 20px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__input-group:last-child {
+    margin-bottom: 0;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #374151;
+    font-weight: 500;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container input[type="text"],
+.cv-11-0__confirmation-page .cv-11-0__form-container select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container input::placeholder {
+    color: #9ca3af;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container input:focus,
+.cv-11-0__confirmation-page .cv-11-0__form-container select:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__select-wrapper {
+    position: relative;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__select-wrapper select {
+    appearance: none;
+    background-color: white;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__select-wrapper::after {
+    content: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6L8 10L12 6" stroke="%23333333" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 13px;
+    right: 18px;
+    pointer-events: none;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__input-group:last-child .cv-11-0__icon-input-wrapper {
+    position: relative;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__input-group:last-child .cv-11-0__icon-input-wrapper input {
+    padding-left: 36px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__input-group:last-child .cv-11-0__icon-input-wrapper::after {
+    content: url('data:image/svg+xml;utf8,<svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C12.1548 0 12.2887 0.0565472 12.4018 0.169642C12.5149 0.282738 12.5714 0.416666 12.5714 0.571428V15.4286C12.5714 15.5833 12.5149 15.7173 12.4018 15.8304C12.2887 15.9435 12.1548 16 12 16H0.571429C0.416667 16 0.282738 15.9435 0.169643 15.8304C0.0565476 15.7173 0 15.5833 0 15.4286V0.571428C0 0.416666 0.0565476 0.282738 0.169643 0.169642C0.282738 0.0565472 0.416667 0 0.571429 0H12ZM4.57143 2.57143V3.14286C4.57143 3.22619 4.59821 3.29464 4.65179 3.34821C4.70536 3.40178 4.77381 3.42857 4.85714 3.42857H5.42857C5.51191 3.42857 5.58036 3.40178 5.63393 3.34821C5.6875 3.29464 5.71429 3.22619 5.71429 3.14286V2.57143C5.71429 2.48809 5.6875 2.41964 5.63393 2.36607C5.58036 2.3125 5.51191 2.28571 5.42857 2.28571H4.85714C4.77381 2.28571 4.70536 2.3125 4.65179 2.36607C4.59821 2.41964 4.57143 2.48809 4.57143 2.57143ZM4.57143 4.85714V5.42857C4.57143 5.5119 4.59821 5.58036 4.65179 5.63393C4.70536 5.6875 4.77381 5.71428 4.85714 5.71428H5.42857C5.51191 5.71428 5.58036 5.6875 5.63393 5.63393C5.6875 5.58036 5.71429 5.5119 5.71429 5.42857V4.85714C5.71429 4.77381 5.6875 4.70536 5.63393 4.65178C5.58036 4.59821 5.51191 4.57143 5.42857 4.57143H4.85714C4.77381 4.57143 4.70536 4.59821 4.65179 4.65178C4.59821 4.70536 4.57143 4.77381 4.57143 4.85714ZM4.57143 7.14286V7.71428C4.57143 7.79762 4.59821 7.86607 4.65179 7.91964C4.70536 7.97321 4.77381 8 4.85714 8H5.42857C5.51191 8 5.58036 7.97321 5.63393 7.91964C5.6875 7.86607 5.71429 7.79762 5.71429 7.71428V7.14286C5.71429 7.05952 5.6875 6.99107 5.63393 6.9375C5.58036 6.88393 5.51191 6.85714 5.42857 6.85714H4.85714C4.77381 6.85714 4.70536 6.88393 4.65179 6.9375C4.59821 6.99107 4.57143 7.05952 4.57143 7.14286ZM4.57143 9.42857V10C4.57143 10.0833 4.59821 10.1518 4.65179 10.2054C4.70536 10.2589 4.77381 10.2857 4.85714 10.2857H5.42857C5.51191 10.2857 5.58036 10.2589 5.63393 10.2054C5.6875 10.1518 5.71429 10.0833 5.71429 10V9.42857C5.71429 9.34524 5.6875 9.27679 5.63393 9.22321C5.58036 9.16964 5.51191 9.14286 5.42857 9.14286H4.85714C4.77381 9.14286 4.70536 9.16964 4.65179 9.22321C4.59821 9.27679 4.57143 9.34524 4.57143 9.42857ZM3.42857 12.2857V11.7143C3.42857 11.631 3.40179 11.5625 3.34821 11.5089C3.29464 11.4554 3.22619 11.4286 3.14286 11.4286H2.57143C2.4881 11.4286 2.41964 11.4554 2.36607 11.5089C2.3125 11.5625 2.28571 11.631 2.28571 11.7143V12.2857C2.28571 12.369 2.3125 12.4375 2.36607 12.4911C2.41964 12.5446 2.4881 12.5714 2.57143 12.5714H3.14286C3.22619 12.5714 3.29464 12.5446 3.34821 12.4911C3.40179 12.4375 3.42857 12.369 3.42857 12.2857ZM3.42857 10V9.42857C3.42857 9.34524 3.40179 9.27679 3.34821 9.22321C3.29464 9.16964 3.22619 9.14286 3.14286 9.14286H2.57143C2.4881 9.14286 2.41964 9.16964 2.36607 9.22321C2.3125 9.27679 2.28571 9.34524 2.28571 9.42857V10C2.28571 10.0833 2.3125 10.1518 2.36607 10.2054C2.41964 10.2589 2.4881 10.2857 2.57143 10.2857H3.14286C3.22619 10.2857 3.29464 10.2589 3.34821 10.2054C3.40179 10.1518 3.42857 10.0833 3.42857 10ZM3.42857 7.71428V7.14286C3.42857 7.05952 3.40179 6.99107 3.34821 6.9375C3.29464 6.88393 3.22619 6.85714 3.14286 6.85714H2.57143C2.4881 6.85714 2.41964 6.88393 2.36607 6.9375C2.3125 6.99107 2.28571 7.05952 2.28571 7.14286V7.71428C2.28571 7.79762 2.3125 7.86607 2.36607 7.91964C2.41964 7.97321 2.4881 8 2.57143 8H3.14286C3.22619 8 3.29464 7.97321 3.34821 7.91964C3.40179 7.86607 3.42857 7.79762 3.42857 7.71428ZM3.42857 5.42857V4.85714C3.42857 4.77381 3.40179 4.70536 3.34821 4.65178C3.29464 4.59821 3.22619 4.57143 3.14286 4.57143H2.57143C2.4881 4.57143 2.41964 4.59821 2.36607 4.65178C2.3125 4.70536 2.28571 4.77381 2.28571 4.85714V5.42857C2.28571 5.5119 2.3125 5.58036 2.36607 5.63393C2.41964 5.6875 2.4881 5.71428 2.57143 5.71428H3.14286C3.22619 5.71428 3.29464 5.6875 3.34821 5.63393C3.40179 5.58036 3.42857 5.5119 3.42857 5.42857ZM3.42857 3.14286V2.57143C3.42857 2.48809 3.40179 2.41964 3.34821 2.36607C3.29464 2.3125 3.22619 2.28571 3.14286 2.28571H2.57143C2.4881 2.28571 2.41964 2.3125 2.36607 2.36607C2.3125 2.41964 2.28571 2.48809 2.28571 2.57143V3.14286C2.28571 3.22619 2.3125 3.29464 2.36607 3.34821C2.41964 3.40178 2.4881 3.42857 2.57143 3.42857H3.14286C3.22619 3.42857 3.29464 3.40178 3.34821 3.34821C3.40179 3.29464 3.42857 3.22619 3.42857 3.14286ZM8 14.5714V12.8571C8 12.7738 7.97321 12.7054 7.91964 12.6518C7.86607 12.5982 7.79762 12.5714 7.71429 12.5714H4.85714C4.77381 12.5714 4.70536 12.5982 4.65179 12.6518C4.59821 12.7054 4.57143 12.7738 4.57143 12.8571V14.5714C4.57143 14.6548 4.59821 14.7232 4.65179 14.7768C4.70536 14.8304 4.77381 14.8571 4.85714 14.8571H7.71429C7.79762 14.8571 7.86607 14.8304 7.91964 14.7768C7.97321 14.7232 8 14.6548 8 14.5714ZM8 10V9.42857C8 9.34524 7.97321 9.27679 7.91964 9.22321C7.86607 9.16964 7.79762 9.14286 7.71429 9.14286H7.14286C7.05952 9.14286 6.99107 9.16964 6.9375 9.22321C6.88393 9.27679 6.85714 9.34524 6.85714 9.42857V10C6.85714 10.0833 6.88393 10.1518 6.9375 10.2054C6.99107 10.2589 7.05952 10.2857 7.14286 10.2857H7.71429C7.79762 10.2857 7.86607 10.2589 7.91964 10.2054C7.97321 10.1518 8 10.0833 8 10ZM8 7.71428V7.14286C8 7.05952 7.97321 6.99107 7.91964 6.9375C7.86607 6.88393 7.79762 6.85714 7.71429 6.85714H7.14286C7.05952 6.85714 6.99107 6.88393 6.9375 6.9375C6.88393 6.99107 6.85714 7.05952 6.85714 7.14286V7.71428C6.85714 7.79762 6.88393 7.86607 6.9375 7.91964C6.99107 7.97321 7.05952 8 7.14286 8H7.71429C7.79762 8 7.86607 7.97321 7.91964 7.91964C7.97321 7.86607 8 7.79762 8 7.71428ZM8 5.42857V4.85714C8 4.77381 7.97321 4.70536 7.91964 4.65178C7.86607 4.59821 7.79762 4.57143 7.71429 4.57143H7.14286C7.05952 4.57143 6.99107 4.59821 6.9375 4.65178C6.88393 4.70536 6.85714 4.77381 6.85714 4.85714V5.42857C6.85714 5.5119 6.88393 5.58036 6.9375 5.63393C6.99107 5.6875 7.05952 5.71428 7.14286 5.71428H7.71429C7.79762 5.71428 7.86607 5.6875 7.91964 5.63393C7.97321 5.58036 8 5.5119 8 5.42857ZM8 3.14286V2.57143C8 2.48809 7.97321 2.41964 7.91964 2.36607C7.86607 2.3125 7.79762 2.28571 7.71429 2.28571H7.14286C7.05952 2.28571 6.99107 2.3125 6.9375 2.36607C6.88393 2.41964 6.85714 2.48809 6.85714 2.57143V3.14286C6.85714 3.22619 6.88393 3.29464 6.9375 3.34821C6.99107 3.40178 7.05952 3.42857 7.14286 3.42857H7.71429C7.79762 3.42857 7.86607 3.40178 7.91964 3.34821C7.97321 3.29464 8 3.22619 8 3.14286ZM10.2857 12.2857V11.7143C10.2857 11.631 10.2589 11.5625 10.2054 11.5089C10.1518 11.4554 10.0833 11.4286 10 11.4286H9.42857C9.34524 11.4286 9.27679 11.4554 9.22322 11.5089C9.16964 11.5625 9.14286 11.631 9.14286 11.7143V12.2857C9.14286 12.369 9.16964 12.4375 9.22322 12.4911C9.27679 12.5446 9.34524 12.5714 9.42857 12.5714H10C10.0833 12.5714 10.1518 12.5446 10.2054 12.4911C10.2589 12.4375 10.2857 12.369 10.2857 12.2857ZM10.2857 10V9.42857C10.2857 9.34524 10.2589 9.27679 10.2054 9.22321C10.1518 9.16964 10.0833 9.14286 10 9.14286H9.42857C9.34524 9.14286 9.27679 9.16964 9.22322 9.22321C9.16964 9.27679 9.14286 9.34524 9.14286 9.42857V10C9.14286 10.0833 9.16964 10.1518 9.22322 10.2054C9.27679 10.2589 9.34524 10.2857 9.42857 10.2857H10C10.0833 10.2857 10.1518 10.2589 10.2054 10.2054C10.2589 10.1518 10.2857 10.0833 10.2857 10ZM10.2857 7.71428V7.14286C10.2857 7.05952 10.2589 6.99107 10.2054 6.9375C10.1518 6.88393 10.0833 6.85714 10 6.85714H9.42857C9.34524 6.85714 9.27679 6.88393 9.22322 6.9375C9.16964 6.99107 9.14286 7.05952 9.14286 7.14286V7.71428C9.14286 7.79762 9.16964 7.86607 9.22322 7.91964C9.27679 7.97321 9.34524 8 9.42857 8H10C10.0833 8 10.1518 7.97321 10.2054 7.91964C10.2589 7.86607 10.2857 7.79762 10.2857 7.71428ZM10.2857 5.42857V4.85714C10.2857 4.77381 10.2589 4.70536 10.2054 4.65178C10.1518 4.59821 10.0833 4.57143 10 4.57143H9.42857C9.34524 4.57143 9.27679 4.59821 9.22322 4.65178C9.16964 4.70536 9.14286 4.77381 9.14286 4.85714V5.42857C9.14286 5.5119 9.16964 5.58036 9.22322 5.63393C9.27679 5.6875 9.34524 5.71428 9.42857 5.71428H10C10.0833 5.71428 10.1518 5.6875 10.2054 5.63393C10.2589 5.58036 10.2857 5.5119 10.2857 5.42857ZM10.2857 3.14286V2.57143C10.2857 2.48809 10.2589 2.41964 10.2054 2.36607C10.1518 2.3125 10.0833 2.28571 10 2.28571H9.42857C9.34524 2.28571 9.27679 2.3125 9.22322 2.36607C9.16964 2.41964 9.14286 2.48809 9.14286 2.57143V3.14286C9.14286 3.22619 9.16964 3.29464 9.22322 3.34821C9.27679 3.40178 9.34524 3.42857 9.42857 3.42857H10C10.0833 3.42857 10.1518 3.40178 10.2054 3.34821C10.2589 3.29464 10.2857 3.22619 10.2857 3.14286Z" fill="%2310147E"/></svg>');
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 11px;
+    left: 12px;
+    pointer-events: none;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__icon-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__icon-input-wrapper .icon {
+    position: absolute;
+    left: 12px;
+    font-size: 16px;
+    color: #374151;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__form-container .cv-11-0__icon-input-wrapper input {
+    padding-left: 40px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__content-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 999px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.10);
+    border-top: 10px solid #11147E;
+    margin: 40px 0 80px;
+    padding: 32px 57px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0__content-wrap>div {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-outer-subjects {
+    position: relative;
+    margin: 32px 0;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subjects {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 884px;
+    height: 244px;
+    margin: 0;
+    padding: 24px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subjects-overlay-desktop {
+    display: block;
+    position: absolute;
+    width: calc(100% - 20px);
+    bottom: 0;
+    height: 96px;
+    background: linear-gradient(181deg, rgba(255, 255, 255, 0.00) -41.84%, #FFF 98.95%);
+    z-index: 10;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    border-radius: 8px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subjects-overlay-mobile {
+    display: none;
+    position: absolute;
+    width: 48px;
+    bottom: 75px;
+    right: 0;
+    height: 300px;
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.76) 42.09%, rgba(255, 255, 255, 0.00) 94.06%);
+    z-index: 10;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subject {
+    display: flex;
+    padding: 10px 12px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    white-space: normal;
+    margin: 6px 0 6px 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subject.cv-11-0-active {
+    border: 1px solid #266DB4;
+    color: #266DB4;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subject.cv-11-0-active::before {
+    content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20' fill='none'><path d='M7.99947 13.4752L5.1078 10.5835C4.95199 10.4277 4.74066 10.3402 4.5203 10.3402C4.29995 10.3402 4.08862 10.4277 3.9328 10.5835C3.77699 10.7393 3.68945 10.9507 3.68945 11.171C3.68945 11.2801 3.71094 11.3882 3.7527 11.489C3.79445 11.5898 3.85565 11.6814 3.9328 11.7585L7.41614 15.2419C7.74114 15.5669 8.26614 15.5669 8.59114 15.2419L17.4078 6.42519C17.5636 6.26937 17.6512 6.05804 17.6512 5.83769C17.6512 5.61733 17.5636 5.406 17.4078 5.25019C17.252 5.09437 17.0407 5.00684 16.8203 5.00684C16.5999 5.00684 16.3886 5.09437 16.2328 5.25019L7.99947 13.4752Z' fill='%23266DB4'/></svg>");
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subject-submit {
+    color: #FFF;
+    background: #10147E;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    display: flex;
+    padding: 5px 24px;
+    width: 305px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cv-11-0__confirmation-page .cv-11-0-subject-submit:hover {
+    color: #FFF;
+    background: #006db4;
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-11-0__confirmation-page .cv-11-0__content-wrap {
+        width: calc(100% - 18px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cv-11-0__confirmation-page .cv-11-0-subjects-overlay-desktop {
+        display: none;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-subjects-overlay-mobile {
+        display: block;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-container{
+        margin-top: 38px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-container h1 {
+        font-size: 18px;
+        line-height: normal;
+        max-width: 300px;
+        margin: -5px 0 15px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-container h1 br {
+        display: block;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-container h3 {
+        font-size: 14px;
+        line-height: 32px;
+        margin: 0 0 1px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-container p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0__content-wrap {
+        padding: 18px 16px 32px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-subjects,
+    .cv-11-0__confirmation-page .cv-11-0__form-container {
+        padding: 0;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-outer-subjects,
+    .cv-11-0__confirmation-page .cv-11-0__form-container {
+        border: none;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-outer-subjects {
+        margin: 32px 0 24px;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-subjects {
+        justify-content: left;
+        width: 950px;
+        overflow-x: scroll;
+        height: auto;
+        padding-bottom: 24px;
+        padding-right: 0;
+        left: -6px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-subject {
+        height: 30px;
+        font-size: 13px;
+        width: fit-content;
+        display: inline-flex;
+        margin: 6px 6px 7px 6px;
+        padding: 10px 9px;
+    }
+
+    .cv-11-0__confirmation-page .cv-11-0-subject-submit {
+        font-size: 14px;
+        padding: 2px 24px;
+        max-width: 266px;
+    }
+}
