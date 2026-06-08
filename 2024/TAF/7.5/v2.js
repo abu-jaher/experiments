@@ -285,6 +285,7 @@
 
             const widget = document.querySelector(`.${tag}__history-widget`);
             const widgetBody = document.querySelector(`.${tag}__widget-body`);
+            let lastFocusedEl = null;
 
             if (!isEmpty && utils.getCookie(`${tag}__session_notified`).length === 0) {
                 widgetBody.classList.add(`${tag}__show-notification`);
@@ -307,6 +308,8 @@
                     widgetBody.classList.remove(`${tag}__show-notification`);
                     document.cookie = `${tag}__session_notified=true; path=/`;
 
+                    lastFocusedEl = el.closest(`.${tag}__Label`);
+
                     const existingModal = document.querySelector(`.${tag}__history-modal`);
                     if (existingModal) existingModal.remove();
                     document.body.insertAdjacentHTML(`beforeend`, getModalHTML());
@@ -321,6 +324,8 @@
                         modal.classList.remove(`${tag}__active`);
                         setTimeout(() => modal.remove(), 300);
                     }
+
+                    if (lastFocusedEl && lastFocusedEl.isConnected) { lastFocusedEl.focus({ preventScroll: true }); lastFocusedEl.blur(); }
                 }
 
                 if (el.classList.contains(`${tag}__view-btn`)) {
@@ -349,6 +354,7 @@
                             modal.classList.remove(`${tag}__active`);
                             setTimeout(() => modal.remove(), 300);
                         }
+                        if (lastFocusedEl && lastFocusedEl.isConnected) { lastFocusedEl.focus({ preventScroll: true }); lastFocusedEl.blur(); }
                     }
                     if (e.target.closest(`.${tag}__tooltip-close`)) {
                         widgetBody.classList.add(`${tag}__hide-tooltip-only`);
@@ -356,6 +362,32 @@
                     }
                     if (e.target.closest(`.${tag}__Label`)) {
                         e.target.closest(`.${tag}__Label`).click();
+                    }
+                }
+
+                if (e.key === 'Tab') {
+                    const modal = document.querySelector(`.${tag}__history-modal.${tag}__active .${tag}__modal-body`);
+                    if (modal) {
+                        const focusable = Array.from(
+                            modal.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])')
+                        ).filter(el => el.getClientRects().length > 0);
+
+                        if (focusable.length) {
+                            const first = focusable[0];
+                            const last = focusable[focusable.length - 1];
+                            const active = document.activeElement;
+
+                            if (!modal.contains(active)) {
+                                e.preventDefault();
+                                first.focus();
+                            } else if (e.shiftKey && active === first) {
+                                e.preventDefault();
+                                last.focus();
+                            } else if (!e.shiftKey && active === last) {
+                                e.preventDefault();
+                                first.focus();
+                            }
+                        }
                     }
                 }
             });
