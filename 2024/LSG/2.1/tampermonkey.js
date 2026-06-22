@@ -1,18 +1,3 @@
-// ==UserScript==
-// @name         WLD #.# variation-[var-num]
-// @author       <name>
-
-// @match        https://www.wearewild.com/
-
-// @resource     cssS file:///Users/ashleynibloe/Documents/Git/experiments/WLD/#.#/shared.css
-// @resource     cssV file:///Users/ashleynibloe/Documents/Git/experiments/WLD/#.#/variation-[var-num].css
-// @resource     jsS file:///Users/ashleynibloe/Documents/Git/experiments/WLD/#.#/shared.js
-// @resource     jsV file:///Users/ashleynibloe/Documents/Git/experiments/WLD/#.#/variation-[var-num].js
-
-// @grant        GM_addStyle
-// @grant        GM_getResourceText
-// ==/UserScript==
-
 ((w) => {
 	const window = typeof unsafeWindow !== "undefined" ? unsafeWindow : w;
 
